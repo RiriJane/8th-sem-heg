@@ -1,6 +1,7 @@
 # 616-1 : Création d'entreprise - Business Plan
-#### 21.02.2022
+
 # Introduction
+#### 21.02.2022
 ## Objectifs:
 - travail de groupe de 4 personnes
 - acquérir les bases de connaissances de l'entreprenariat et au business plan
@@ -13,7 +14,7 @@
 **11 avril : plan marketing défini**
 **16 mai : tableau financier**
 
-# Chapter 1
+# Chapter 1 : De l'idée au projet
 #### Quelles techniques pour trouver la bonne idée ?
 - être curieux (média, web, la vie de tous les jours, etc.)
   - http://www.creativitypool.com/
