@@ -1,7 +1,6 @@
 # 616-1 : Création d'entreprise - Business Plan
 
-# Introduction
-#### 21.02.2022
+# Introduction - 21.02.2022
 ## Objectifs:
 - travail de groupe de 4 personnes
 - acquérir les bases de connaissances de l'entreprenariat et au business plan
@@ -37,7 +36,7 @@ une-boite-outil/
   - http://creaholic.com/
   - http://www.human-centricity.com/
 
-pour la prochaine fois : réflechir à 3 idées business
+[x] pour la prochaine fois : réflechir à 3 idées business
 - comparer
 - clients
 - application
