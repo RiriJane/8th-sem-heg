@@ -23,7 +23,8 @@
 - éxecuter l'algorithm SPF : utilise l'algorithme Dijkstra pour créer une arborescence SPF afin de trouver les meileurs chemins vers chaque réseau à la tablea de routage
 
 ## Protocole OSPF à zone unique
-![Protocole OSPF à zone unique]
+![Protocole OSPF à zone unique](https://github.com/RiriJane/8th-sem-heg/blob/master/645-31_CCNA/last_sem/img/OSPF_zone_0.jpg)
+
 - zone fédératice : zone 0
 - utile sur les petits réseaux qui ont peut de routeurs
 
@@ -111,7 +112,7 @@ debug ip ospf adj
 ```
 
 ## Protocoles OSPF à zones multiples
-![Protocoles OSPF à zones multiples]
+![Protocoles OSPF à zones multiples](https://github.com/RiriJane/8th-sem-heg/blob/master/645-31_CCNA/last_sem/img/OSPF_zones_multiples.jpg)
 - mise en place au moyen d'une hiérarchie de zones à deux couches étant donné que toutes les zones doivent se connecter à la zone 0
 - les routers interconnectés (R1 et R2) sont appelés routeurs ABR (Area Border Router)
 
@@ -125,7 +126,7 @@ debug ip ospf adj
 #### Les protocoles IGP (Interior Gateway Protocols)
 **Protocole de routage à vecteur de distance**
 
-![Protocole de routage à vecteur de distance]
+![Protocole de routage à vecteur de distance](https://github.com/RiriJane/8th-sem-heg/blob/master/645-31_CCNA/last_sem/img/routage_vecteur_distance.jpg)
 
 - la distance est définie en terme de mesures comme le nombre de sauts
 - utilise l'algorithme de Bellman-Ford pour déterminer le meilleur chemin
@@ -183,7 +184,8 @@ debug ip ospf adj
 - seules informations qu'un router dispose sont ses propres informations stockés dans la mémoire (NVRAM)
 
 #### Echange intial d'informations de routage
-![échange d'informations de routagele résumé de routes manuel]
+![échange d'informations de routage, le résumé de routes manuel](https://github.com/RiriJane/8th-sem-heg/blob/master/645-31_CCNA/last_sem/img/%C3%A9change_information_routage.jpg)
+
 - si un protocole de routage est configuré, les retours commencent l'échange des maj de routage
 - au départ les maj concernent que les réseaux directement connectés
 - maj reçue : recherche des nouvelles informations
