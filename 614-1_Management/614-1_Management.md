@@ -26,15 +26,15 @@ alexie.duarte-dasilva@hesge.ch
 
 ## Programme
 
-#### Chapitre 1: Management [Chapitre 1 - Management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#chapitre-1--management)
-- Qu'est-ce qu'un manager?
+#### [Chapitre 1 - Management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#chapitre-1--management)
+- []Qu'est-ce qu'un manager?](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#quest-ce-quun-manager-)
 - L’innovation managériale
 - Résolution de problèmes et anticipation managériale
 - Leadership & Intelligence émotionnelle
 - L’analyse transactionnelle
 - La conduite du changement
 
-#### Chapitre 2: Organisation
+#### [Chapitre 2: Organisation](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#chapitre-2--organisation)
 - Les théories et modèles de l’organisation
 - Les structures de l’entreprise
 - Les comportements et les décisions
