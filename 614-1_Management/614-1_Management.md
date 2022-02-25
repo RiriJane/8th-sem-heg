@@ -17,14 +17,16 @@ alexie.duarte-dasilva@hesge.ch
   - challenge outsourcing : 40% 
     - présentation orale et rapport - 01 & 03 juin 2022
   - présentation oral ITIL : 10%
-  ![Planning ITIL](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/info/planning_ITIL.jpg)
+  
+![Planning ITIL](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/info/planning_ITIL.jpg)
+
 - examen final : 50%
   - individuel, oral
   - ensemble de la matière du semestre
 
 ## Programme
 
-#### Chapitre 1: Management
+#### Chapitre 1: Management [Chapitre 1 - Management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#chapitre-1--management)
 - Qu'est-ce qu'un manager?
 - L’innovation managériale
 - Résolution de problèmes et anticipation managériale
@@ -92,7 +94,7 @@ Ex: 1 leader, 1 chef de projet, 1 responsable de la communication....
 # Chapitre 1 : Management
 #### mercredi 23 février 2022
 
-## Qu'est-ce qu'un manager ?**
+## Qu'est-ce qu'un manager ?
 ![Un manager](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/chap1_management/manager.jpg)
 
 # Chapitre 2 : Organisation
