@@ -27,7 +27,7 @@ alexie.duarte-dasilva@hesge.ch
 ## Programme
 
 #### [Chapitre 1 - Management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#chapitre-1--management)
-- []Qu'est-ce qu'un manager?](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#quest-ce-quun-manager-)
+- [Qu'est-ce qu'un manager?](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#quest-ce-quun-manager-)
 - L’innovation managériale
 - Résolution de problèmes et anticipation managériale
 - Leadership & Intelligence émotionnelle
