@@ -42,3 +42,6 @@ une-boite-outil/
 - application
 - avantages, inconvénients
 
+# Chapitre 2 : évaluer l'opportunité
+#### 28 février 2022
+- étudier l'opportunité : étude de marché (pas obligatoire mais nécessaire si on veut vendre qqch), étude de faisaibilité technique
