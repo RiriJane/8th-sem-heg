@@ -35,8 +35,20 @@ une-boite-outil/
   - http://www.scc-network.ch/
   - http://creaholic.com/
   - http://www.human-centricity.com/
+#### Autres liens pour trouver des idées
+- https://faclab.ch/html/
+- http://www.opengeneva.ch
+- https://www.creativitycenter.ch/
+- https://creativemornings.com/cities/ge
+- https://www.prixgenilemhes.ch/
+- https://www.republic-of-innovation.org/HealthValley/
+- https://masschallenge.org/programs-switzerland/
+- https://www.geofab-grandgeneve.org
+- https://www.pulse-hesge.ch/
+- https://www.venturekick.ch
+- https://www.grstiftung.ch/fr/
 
-[x] pour la prochaine fois : réflechir à 3 idées business
+**[x] pour la prochaine fois : réflechir à 3 idées business**
 - comparer
 - clients
 - application
