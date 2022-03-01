@@ -7,7 +7,7 @@
 - rédiger un business plan, minimum 35
 - défendre le business plan 15-20
 
-### Point de contrôle
+## Point de contrôle
 - **7 mars : groupe constitué et sujet choisi**
 - **28 mars : table des matières du dossier**
 - **11 avril : plan marketing défini**
