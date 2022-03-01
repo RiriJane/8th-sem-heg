@@ -1,5 +1,9 @@
 # 616-1 : Création d'entreprise - Business Plan
 
+# Table des matières
+1. [Chapitre 1 : De l'idée au projet](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/616-1_creation_entreprise.md#chapter-1--de-lid%C3%A9e-au-projet)
+2. [Chapitre 2 : Evaluer l'opportunité](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/616-1_creation_entreprise.md#chapitre-2--%C3%A9valuer-lopportunit%C3%A9)
+
 # Introduction - 21.02.2022
 ## Objectifs:
 - travail de groupe de 4 personnes
@@ -54,6 +58,6 @@ une-boite-outil/
 - application
 - avantages, inconvénients
 
-# Chapitre 2 : évaluer l'opportunité
+# Chapitre 2 : Evaluer l'opportunité
 #### 28 février 2022
 - étudier l'opportunité : étude de marché (pas obligatoire mais nécessaire si on veut vendre qqch), étude de faisaibilité technique
