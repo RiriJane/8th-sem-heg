@@ -2,7 +2,7 @@
 
 # Table des matières
 1. [Chapitre 1 : De l'idée au projet](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/616-1_creation_entreprise.md#chapter-1--de-lid%C3%A9e-au-projet)
-2. [Chapitre 2 : Evaluer l'opportunité](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/616-1_creation_entreprise.md#chapitre-2--%C3%A9valuer-lopportunit%C3%A9)
+2. [Chapitre 2 : Evaluer l'opportunité](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/616-1_creation_entreprise.md#chapitre-2--evaluer-lopportunit%C3%A9)
 
 # Introduction - 21.02.2022
 ## Objectifs:
