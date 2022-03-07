@@ -17,6 +17,10 @@ alexie.duarte-dasilva@hesge.ch
   - challenge outsourcing : 40% 
     - présentation orale et rapport - 01 & 03 juin 2022
   - présentation oral ITIL : 10%
+
+- Challenging Outsourcing :
+  - 1 rapport écrit (maximum 10 pages): Délai le 03.06.2022
+  - 1 présentation orale de 20 minutes par équipe: 01.06.2022 / 03.06.2022
   
 ![Planning ITIL](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/info/planning_ITIL.jpg)
 
@@ -24,64 +28,9 @@ alexie.duarte-dasilva@hesge.ch
   - individuel, oral
   - ensemble de la matière du semestre
 
-## Programme
-
-#### [Chapitre 1 - Management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#chapitre-1--management)
-- [Qu'est-ce qu'un manager?](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#quest-ce-quun-manager-)
-- L’innovation managériale
-- Résolution de problèmes et anticipation managériale
-- Leadership & Intelligence émotionnelle
-- L’analyse transactionnelle
-- La conduite du changement
-
-#### [Chapitre 2: Organisation](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#chapitre-2--organisation)
-- Les théories et modèles de l’organisation
-- Les structures de l’entreprise
-- Les comportements et les décisions
-- Le changement organisationnel (ou réorganisation)
-
-#### Externalisation
-- Challenge Outsourcing
-- Cours du 11 et 13 mai 2022
-- Les approches et domaines d'activités
-- Les modalités de l'Outsourcing
-- Les différentes formes
-- Externalisation des SI
-- Scrum Outsourcing
-
-#### Information Technology Infrastructure Library – ITIL 4
-- Qu’est-ce qu’ITIL 4 ?
-- Concepts clés
-- Les principes directeurs
-- Les quatre dimensions
-- Le système de valeur des services (SVS)
-- La chaine de valeur des services et ses activités (SVC)
-- L’amélioration continue
-- Les pratiques ITIL 4
-- Intégrer ITIL 4 avec d’autres référentiels, méthodologies et pratiques
-
-#### Challenging Outsourcing
-- 1 rapport écrit (maximum 10 pages): Délai le 03.06.2022
-- 1 présentation orale de 20 minutes par équipe: 01.06.2022 / 03.06.2022
-**Objectifs**:
--Trouver une entreprise qui fait de l’externalisation et
-comprendre:
-- Pourquoi elle externalise?
-- Ou est-ce qu’elle externalise?
-- Comment elle gère/organise son externalisation?
-- Quels sont les défis qu’elle rencontre ?
-- Utiliser des outils du cours
-- Faire une analyse
-
-**Processus** :
-- Organiser son équipe (rôles et responsabilités, tâches, planning)
-Ex: 1 leader, 1 chef de projet, 1 responsable de la communication....
-- Trouver 1 entreprise et la contacter
-- Collecter des informations et documentations (recherches sur internet, stratégie de l’entreprise..)
-- 1 visite de l’entreprise (sur site) et observer
-- Comprendre l’environnement, la culture et les besoins de l’entreprise
-- Mener des interviews des parties-prenantes: direction, employés, clients et partenaires
-- Analyser les données pour répondre aux questions
+# Table des matières
+1. [Management]
+2. [Délégation]
 
 #### Présentation ITIL 4
 - Former une équipe
@@ -91,10 +40,242 @@ Ex: 1 leader, 1 chef de projet, 1 responsable de la communication....
 - Présentation créative «out of the box»
 - Les équipes s’inscrivent pour leur présentation sur Cyberlearn
 
-# Chapitre 1 : Management
-#### mercredi 23 février 2022
+# 1. Management
+#### vendredi 25 février 2022
 
 ## Qu'est-ce qu'un manager ?
-![Un manager](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/chap1_management/manager.jpg)
+![Un manager](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/management/manager.jpg)
 
-# Chapitre 2 : Organisation
+- manager : celui qui va s'occuper des tâches, plannifier les choses, controller, coordonner
+- leadership : influencer, mentorat, guider l'équipe, apporter des idées de la créativité
+
+- on peut etre un bon manager mais un mauvais leader et inverse
+- bon manager + bon leader = jackpot car il va beaucoup apporter à son équipe. Mais il faut connaitre soi-même
+
+## Styles de management
+- on adapte selon l'environnement et de l'équipe :
+  - l'équipe : analyser la compétence et motivation. Ces deux éléments peuvent montrer à quel point l'équipe est mature.
+    - les compétences peuvent être acquérir et la motivation également
+- l'agilité (axé compétence humaine) est très compliqué d'appliquer dans les entreprises car les équipes ne sont pas prêts 
+![Style de management]
+### Management directif
+- management horizontal : aujourd'hui on a tjrs besoin d'un certain hierarchie, des ordres pour faire les choses, c'est inconscient. C'est comme ça. Car si on a pas d'ordres, on ne saurait pas quoi faire. Par exemple, si le prof donne un travail mais sans instructions, on ne saurait pas quoi faire, on cherchera des solutions. On sera perdu.
+### Management persuasif (paternaliste)
+- paternaliste : etre beaucoupa l'écoute, tjrs soutenir les collaborateur
+### Management participatif
+- favorise la collaboration entre equipe
+- peut etre un style très désorganisé; demande beaucoup de patience, temps pour mettre en place
+### Management délégatif
+- On laisse faire et on regarde ce que ca donne
+- l'équipe est assez mature
+- met beaucoup de pression avec les collaborateurs car on délégue et on fait confiance, donc si ils réussisent pas c'est de leur faute
+
+#### Les compétences
+![les compétences des styles de management]
+
+## Blake et mouton
+- on retrouve les memes styles que Likert
+- l'idéal il faut se retrouver vers "l''intermédiare" car c'est pouvoir adapter son style selon la situation
+
+## Historique du management
+
+5. ecole décisionnelle
+- management verticial et horizontal
+
+6. ecole systémique
+- se concentre sur l'interaction
+
+
+## On ne naît pas manager, on le devient
+- on acquérit les techniques et connaissances managériales
+- on se spécialise dans notre propre style de management
+- on s'intégre : avoir une certaine posture qui fait que les autres nous respectent etc.
+
+![les conseils pour devenir un manager]
+
+## Adapter son management en fonction de la situation
+- Situation politique : un manager doit être capable d'identifier les jeux et les enjeux des un et des autres, leurs systèmes d'alliance.
+- Situation de coopération qui nécessite une ouverture aux autres : être capable de dialoguer sans préjugés.
+- Situation normée : être capable de respecter et faire respecter les procédures, règles, standards qppliqués, et modes opératoires.
+- Situation de conflit : être capable de faire preuve de courage dans le non-évitement. Être confiant, avoir une forte affirmation de soi et avoir une capacité à exprimer ses exigences.
+- Situation d'évaluation : donner des vrais feedback
+- Situation de soutien : être à l'écoute, avoir une grande disponibilité
+
+**8 rôles de management** : le pilotage, l’organisation, le développement des collaborateurs, l’animation d’équipe, la négociation avec les parties prenantes, le reporting, le réseautage et la représentation externe de l’unité.
+
+# 2. Délégation
+#### Mercredi 2 mars 2022
+
+## Qu'est-ce que c'est déléguer
+- apprendre à faire faire et désapprendre de faire
+- accepter que les collaborateurs puissent faire mieux 
+- renoncer à être irremplaçable
+- être confiant, ne pas se sentir menacé par quelqu'un qui possède des compétences différentes des siennes
+- donner de l'autonomie, faire confiance
+- la capacité d'innovation : on incite aux collaborateurs de prendre l'initiative et à mettre des idées en oeuvre
+- développer des compétences techniques et organisationnelles
+- la réactivité face à l'imprévu : travailler de manière autonome apprend à se prendre en charge pour trouver des solutions par soi-même
+- répartition des tâches
+- une stratégue de gestion d'équipe pour développer les performances de l'équipe
+
+## Quelques raisons pour ne pas déléguer
+- pas le temps d'expliquer, on pense qu'on peut le faire plus rapidement
+- penser que les collaborateurs sont débordés, ne pas vouloir ajouter plus de charges de travail
+- "mon chef a toujours voulu que je le fasse moi-même"
+- on pense qu'on va reprendre le travail effectué par un collaborateur
+
+## Rôle de manager pour la délégation
+- connaisse bien ses collaborateurs (compétences, motivation, confiance, autonomie,...)
+- adapte son mode de délegation selon la mission, le délégataire, les circontances
+- défini le cadre, les règles de la délégation à travers de véritables contrats
+- contrôle ce qui a été délégué et se comporte en coach de ses délégataires
+- pas de jugement en cas d'échec de son collaborateur, le sollicite pour savoir ce qui s'est mal passé, le recarde si nécessaire, mais résiste à montrer comment il aurait dû s'y prendre
+
+## 3 sortes de délégations
+1. activités déja déléguées à ses collaborateurs ( en général, ils relèvent largement de leurs missions permanentes)
+2. activités qui ne sont pas délégables. Des décisions qui engagent le moyen et le long terme de son service, la capacité de recompenser et de sanctionner ses collaborateurs, la répartition des ressources au sein de son unité et les relations clés avec l'extérier
+3. activités potentiellement délégables qui ne sont pas encore déléguées. Déléguer peut enrichir les missions permanentes des collaborateurs du manager.
+
+## Comment confier les tâches et responsabilités à ses collaborateurs ?
+- déléguer à ses collègues fait gagner du temps
+- permet de motiver, cultiver les talents des collaborateurs
+- permet de donner plus de chances de réussites
+
+## Cas - "Perdre le contrôle"
+- déléguer siginife "perdre le contrôle" chez certain : on a peur de déranger les autres. On fait pas confiance.
+  - Attention : on peut devenir submerger par le nombre de tâches à effectuer et peut ne pas permettre d'atteindre l'objectif fixé
+- Solution : un bon chef de projet maîtrise l'art de déléguer 
+  - déléguer n'équivaut pas à un simple répartition des tâches
+  - déléguer consiste à déléger des tâches aux collaborateurs en les **responsabilisant**
+  - **responsabiliser** : laisser une marge de manoeuvre à la personne qu'on délève les tâches. Elle doit pouvoir faire ses tâches selons ces procédures. Sinon il s'agit d'un ordre.
+
+## Style de management délégatif
+- basé sur la confiance
+- s'appuie sur la responsabilité, l'autonomie, l'initiative, la prise de décision
+- les collaborateurs se sentent valorisés et investis dans le projet
+- augmente la productivité
+- permet au manager de se consacrer à ses propres tâches de son poste = gain du temps
+
+## Les freins
+- un manque de confiance en soi ou dans ses collaborateurs;
+- un manque de temps pour définir des objectifs à déléguer et à qui;
+- un manque de compétences au sein de l’équipe;
+- un manque de savoir-faire dans la délégation;
+- la peur de perdre du pouvoir;
+- la peur de créer des jalousies au sein de l’équipe.
+
+## Préparer la délégation
+1. Qui, Quoi, Comment
+- définir les tâches qui seront déléguées
+- sélectionner des tâches qu'on peut accomplir seul en focntion du charge de travail et compétences
+- trier les autres tâches, à déléguer aux autres, en fonction de :
+  - la facilité de réalisation
+  - la compétence nécessaire
+  - la faire réaliser à un intervenant externe
+- ne pas déléguer des tâches pénibles (c'est démotivant)
+2. Choisir la personne à qui déléguer
+- connaître les compétences des collaborateurs, leur charge de travail, leur motivation
+- reprendre la liste des tâches à déléguer et analyser les profils des collègues
+- matrice de compétences
+3. Fixer des objectifs
+- définir la mission et les objectifs à atteindre
+- utiliser le SMART
+
+![méthode smart]
+
+## Outil RH
+
+- **Matrice compétence**
+![matrice-compétence]
+- **Certification d'un système qualité** : par exemple, ISO 9001 - système de management de qualité
+- **cartographie des activités et savoir-faire** : permet de donner une vision stratégique
+
+## Autonomie
+
+### 2 paramètre pour mésurer l'autonomie
+1. La compétence qui s'acquiert par l'expérience
+2. La motivation : l'implication dans son travail
+
+Le niveau d’autonomie doit être cohérent avec le niveau de
+responsabilité (sinon tension)
+
+### 4 scénarios
+1. très faible niveau d’autonomie : la compétence de la personne est faible ou très faible. Il en est de même pour sa motivation.
+2. faible niveau d’autonomie : la compétence est faible mais sa motivation est importante (la personne veut bien mais elle ne sait pas encore faire)
+3. la personne est compétente mais sa motivation est faible ou conditionnelle.
+4. fort niveau de motivation : le collaborateur possède une expertise réelle ; il est motivé.
+
+## Déléguer
+1. Informer la personne délégataire
+- dire les objectifs, les moyens financiers, les moyens matériels et humains, les délais, les risques
+- expliquer les attentes en termes de résultats et assure la bonne compréhension de ce dernier
+- définir son dégré d'autonomie et le réferent à contacte si la situation dépasse son niveau de responsabilité
+2. Suivre et accompagner
+- vérifier que le collaborateur possède toutes les informations, qu'il est motivé et les moyens sont à ses dispositions
+- fixer des écheances, évaluer le parcours pour recadrer, mettre à dispositions des foramtions, des outils qui puissent l'aider accomplir sa mission
+3. Débriefer
+- sert à dresser le bilan de la délégation
+- féliciter s'il atteint son objectif
+- s'il échoue, essayer de comprendre ensemble les raisons de l'échec et ce qu'il aurait pu faire autrement
+
+## Conseils
+- inutile de tout déléguer. Déléguer seulement si le charge de travail est grosn les délais sont cours, si une personne est plus compétente
+- déléguer une partie d'un projet est un moyen efficace pour concrétiser celui-ci avec sucès
+- on peut déléguer dans tous les domaines
+- le contrôle est nécessaire dans toute délégation, à condition d'être bien dosé
+
+## Stratégie de la bienveillance
+https://www.youtube.com/watch?v=7G-a2A9faK4&t=212s
+
+#### vendredi 4 mars 2022
+
+# Innovation managériale
+«Le développement des technologies d’information et de communication progresse et influence le développement de tous les autres secteurs de l’économie. Dans un horizon proche, on peut envisager qu’il y aura plus de technologies émergentes au travail qui vont transformer les fonctions principales de l’entreprise et de la gestion.»
+
+Tout devient "CO" : co-création, co-direction, co-construction
+
+## Modèle commande/contrôle
+Le manager est celui qui décrit ce qui doit être fait, puis s’assure de la réalisation à travers différents dispositifs de contrôle.
+
+### 4 principes tayloriens
+1. Principe de prévisibilité: Le passé explique le présent et détermine l’avenir.
+2. Le principe de causalité simple de la motivation: le salarié est motivé si l’entreprise lui permet de satisfaire ses besoins (modèle de Maslow).
+3. Le principe de hiérarchisation des circuits d’information: le manager est celui qui transmet l’information à ses
+collaborateurs.
+4. Le principe de cycles économiques lents: les cycles de la production et les cycles du changement ont vu leur durée se réduire considérablement pour répondre à la demande des clients et maintenir des avantages concurrentiels
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
