@@ -29,8 +29,8 @@ alexie.duarte-dasilva@hesge.ch
   - ensemble de la matière du semestre
 
 # Table des matières
-1. [Management]
-2. [Délégation]
+1. [Management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#1-management)
+2. [Délégation](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#2-d%C3%A9l%C3%A9gation)
 
 #### Présentation ITIL 4
 - Former une équipe
