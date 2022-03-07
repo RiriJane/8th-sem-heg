@@ -2,7 +2,7 @@
 
 # Table des matières
 1. [Chapitre 1 : De l'idée au projet](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/616-1_creation_entreprise.md#chapter-1--de-lid%C3%A9e-au-projet)
-2. [Evaluer l'opportunité]
+2. [Evaluer l'opportunité](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/616-1_creation_entreprise.md#evaluer-lopportunit%C3%A9)
 
 
 # Introduction - 21.02.2022
@@ -74,8 +74,8 @@ Une étude de marché ou étude de marketing désigne la collecte, le traitement
 - Permet de mesurer les concepts, les **produits** planifiés au sein du group cible. Exemples d'études : test produit, test de concept, test de prix, analyse du potentiel
 - Permet aux **collaborateurs** de définir les points faibles et forts de l'organisation
 
-### Les différents types d'études de marché
-#### Etude de marché secondaire
+## Les différents types d'études de marché
+### Etude de marché secondaire
 - Aussi appelé **recherche documentaire**
 - Les informations secondaires sont collectées par d'autres personnes (entreprises, instituts, etc.). L'analyse de ce dernier est recommandé pour démarrer un projet d'éutde. Cela permet de :
   - économiser du temps et frais 
@@ -86,7 +86,7 @@ Une étude de marché ou étude de marketing désigne la collecte, le traitement
 - **Les sources secondaires externes** : peuvent être trouvé à l''Office Fédéral de la Statistique, Chambre de commerce, instituts d'études de marché, internet, etc.
 - L'analyse des informations secondaires sont recommandés lorsqu'on fait un projet d'étude
 
-#### Etude de marché primaire
+### Etude de marché primaire
 - Aussi appelé "étude de terrain"
 - Effectué lorsque l'étude de marché secondaire n'est pas suffisant
 - Les informations sont collectées directement auprès les cibles.
@@ -104,7 +104,7 @@ Une étude de marché ou étude de marketing désigne la collecte, le traitement
    - Analyse de petits échantillons statistiques en utilisant des techniques comme les discussions de groupes, les entretiens personnels approfondis, les sondages réalisés par des experts.
    - Peut être effectuer pour approfondir ou concrétiser les résultats quantitatifs.
 
-### Procédue de collecte des données
+## Procédure de collecte des données
 #### Sondage
 - Pour étudier l'opinion, les besoins, la motivation des consommateurs.
 - Peut être : sondages ponctuels (sondage ad hoc), sondage continus (trackings), sondage sur des panels (enquête réalisé auprès d'un panel de consommateurs, toujours les mêmes, sur une longue période de données et à intervalles réguliers).
@@ -135,12 +135,12 @@ de pression
 - **Avantages** : possibilité d'utiliser les e-mails professionnels, d’atteindre en ligne les groupes cibles et d’intégrer des éléments multimédia.
 - **Inconvénients** : représentativité au niveau de la population non assurée, impossible de savoir de façon fiable qui a vraiment rempli le questionnaire 
 
-### L'observation
+## L'observation
 - sert à étudier le comportement et les réacitions des clients sans établir de contact avec eux
 - visible ou cachée
 - Questions posées : comment le client évolue-t-il dans le magasin? Comment réagit-il aux annonces par haut-parleurs? Comment se comporte-t-il à la caisse?
 
-### Essai ou test
+## Essai ou test
 - sondage ou observation qui a lieu dans des conditions cadres prédédifinies et contrôlées
 - **essai laboratoire** : les conditions cadres sont artificielles, des tests sur les emballages, des noms, des marques et des produits. 
 - les personnes testées p. ex. doivent citer toutes les associations d’idées que leur suggère un nom inventé. 
@@ -169,19 +169,16 @@ de pression
 - mettre les questions privées à la fin (âge, profession, ...) 
 - faire des questions concises et claires
 
-#### 3 types de questionnement
+## 3 types de questionnement
 - **questions ouvertes** : pas de réponses fixes. Exemple : comment pourrait-on selon vous améliorer la qualité des raviolis en boîte? 
 - **Questions fermées** : réponses oui/non. Exemple: : aimez vous les raviolis en boîte?
 - **Question à choix multiples** 
 
-![Exemple de questionnaire]
+![Exemple de questionnaire](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/img/%C3%A9tude-de-marche/exemple-questionnaire.jpg?raw=true)
 
 #### Exemple de représentation des résultats (première question du questionnaire)
 
-![Représentation des résultats]
-- 
-
-
+![Représentation des résultats](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/img/%C3%A9tude-de-marche/exemple-representation-resultats-questionnaires.jpg?raw=true)
 
 
 
