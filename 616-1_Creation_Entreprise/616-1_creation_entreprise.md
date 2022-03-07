@@ -2,6 +2,7 @@
 
 # Table des matières
 1. [Chapitre 1 : De l'idée au projet](https://github.com/RiriJane/8th-sem-heg/blob/master/616-1_Creation_Entreprise/616-1_creation_entreprise.md#chapter-1--de-lid%C3%A9e-au-projet)
+2. [Evaluer l'opportunité]
 
 
 # Introduction - 21.02.2022
@@ -58,7 +59,7 @@ une-boite-outil/
 - application
 - avantages, inconvénients
 
-## Evaluer l'opportunité
+# Evaluer l'opportunité
 #### 28 février 2022
 **Etudier l'opportunité** : étude de marché (pas obligatoire mais nécessaire si on veut vendre qqch), étude de faisaibilité technique
 
@@ -114,6 +115,105 @@ Une étude de marché ou étude de marketing désigne la collecte, le traitement
 - Une forme d'enquête plus fiable
 - **Avantages** : grande représentatiivité des données, possibilité d'effectuer des tests (portant sur des emballages produits, des modèles, des annonces, des spots publicitaires)
 - **Inconvénients** : coûteux, durée, influence de la manière on pose les questions, de l'humeur et les opnions personnelles de l'interviewer
+
+#### Sondage téléphonique
+- peu coûteux, réalisé rapidement
+- se limite aux personnes qui se trouve dans l'annuaire téléphonique
+- **Avantages** : exécution rapide, peu coûteux, anonymat, évaluation rapide, possibilité de couvrir le territoire
+- **Disavantages** : on ne peut pas utiliser les tests, peu approprié pour les questions ouvertes et qualitatives, atteignabilité limitée des personnes sondées, faible profondeur, liste de questions limitées (l’appel étant perçu
+comme importun par les personnes interrogées
+
+#### Sondage écrit
+- via des questionnaires envoyés par la poste, souvent accompagné d'un concours pour augmenter le taux de réponse
+- **Avantages** : bonne atteignabilité du groupe cible, grande pénétration géographique, garantie d’anonymat, pas
+de pression 
+- **désavantages** : faible taux de retour, distorsion due au fait que seules les personnes très concernées par le sujet du sondage font l’effort d’y répondre, éventuelle influence de tierces personnes sur les réponses
+
+#### Sondage en ligne
+- réalisés sur internet
+- les fournisseurs Internet élaborent les questionnaires et procèdent au sondage dans des délais rapides. 
+- **Avantages** : possibilité d'utiliser les e-mails professionnels, d’atteindre en ligne les groupes cibles et d’intégrer des éléments multimédia.
+- **Inconvénients** : représentativité au niveau de la population non assurée, impossible de savoir de façon fiable qui a vraiment rempli le questionnaire 
+
+### L'observation
+- sert à étudier le comportement et les réacitions des clients sans établir de contact avec eux
+- visible ou cachée
+- Questions posées : comment le client évolue-t-il dans le magasin? Comment réagit-il aux annonces par haut-parleurs? Comment se comporte-t-il à la caisse?
+
+### Essai ou test
+- sondage ou observation qui a lieu dans des conditions cadres prédédifinies et contrôlées
+- **essai laboratoire** : les conditions cadres sont artificielles, des tests sur les emballages, des noms, des marques et des produits. 
+- les personnes testées p. ex. doivent citer toutes les associations d’idées que leur suggère un nom inventé. 
+- **test menés sur le terrain** : naturelles. Exemple de test : marché restreint, chances de succès sur le marché d'un nouveau produit ou de prestations sont testées via toutes les mesures de marketing
+
+## Exécution d'un projet d'étude de marché
+#### Les phases de déroulement d'une étude de marché
+1. Définition et clarification du problème : qu’est-ce qui doit être analysé, testé?
+2. Elaboration d'un modèle d'étude
+- Définition/sélection des personnes à interroger
+- Définition de l’échantillon/de la procédure de sélection
+- Définition des paramètres, de la forme et de la procédure de l’enquête
+- Elaboration de questionnaires/d’un récapitulatif des thèmes
+- Sélection des méthodes d’évaluation
+- Calendrier du projet
+- Autres mesures de préparation (étude qualitative préalable, informations complémentaires (données secondaires)
+- Organisation de la préparation des données/de l’assurance qualité
+3. Détermination des sources d'information : qui faut-il sonder (défi nition de l’échantillon)?
+4. Acquisition d'information: par soi-même ou par des tiers, secondaire, primaire, quantitatif, qualitatif
+5. Analyse et interprétation des données: évaluations statistiques
+6. Documentation (établissement de tableaux, graphiques et rapports), interprétation et application
+
+## Conseil pour élaborer un questionnaire
+- choisir des cibles qui représente le plus fièdlement possible l'univers (l'ensemble de vos clients)
+- éviter les questionnaires trop longs
+- mettre les questions privées à la fin (âge, profession, ...) 
+- faire des questions concises et claires
+
+#### 3 types de questionnement
+- **questions ouvertes** : pas de réponses fixes. Exemple : comment pourrait-on selon vous améliorer la qualité des raviolis en boîte? 
+- **Questions fermées** : réponses oui/non. Exemple: : aimez vous les raviolis en boîte?
+- **Question à choix multiples** 
+
+![Exemple de questionnaire]
+
+#### Exemple de représentation des résultats (première question du questionnaire)
+
+![Représentation des résultats]
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
