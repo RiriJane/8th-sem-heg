@@ -44,7 +44,7 @@ alexie.duarte-dasilva@hesge.ch
 #### vendredi 25 février 2022
 
 ## Qu'est-ce qu'un manager ?
-![Un manager](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/management/manager.jpg)
+![Un manager](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/management/manager.jpg?raw=true)
 
 - manager : celui qui va s'occuper des tâches, plannifier les choses, controller, coordonner
 - leadership : influencer, mentorat, guider l'équipe, apporter des idées de la créativité
@@ -57,7 +57,7 @@ alexie.duarte-dasilva@hesge.ch
   - l'équipe : analyser la compétence et motivation. Ces deux éléments peuvent montrer à quel point l'équipe est mature.
     - les compétences peuvent être acquérir et la motivation également
 - l'agilité (axé compétence humaine) est très compliqué d'appliquer dans les entreprises car les équipes ne sont pas prêts 
-![Style de management]
+![Style de management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/management/style_management.jpg?raw=true)
 ### Management directif
 - management horizontal : aujourd'hui on a tjrs besoin d'un certain hierarchie, des ordres pour faire les choses, c'est inconscient. C'est comme ça. Car si on a pas d'ordres, on ne saurait pas quoi faire. Par exemple, si le prof donne un travail mais sans instructions, on ne saurait pas quoi faire, on cherchera des solutions. On sera perdu.
 ### Management persuasif (paternaliste)
@@ -71,7 +71,8 @@ alexie.duarte-dasilva@hesge.ch
 - met beaucoup de pression avec les collaborateurs car on délégue et on fait confiance, donc si ils réussisent pas c'est de leur faute
 
 #### Les compétences
-![les compétences des styles de management]
+
+![blake et mouton](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/management/blake-mouton.jpg?raw=true)
 
 ## Blake et mouton
 - on retrouve les memes styles que Likert
@@ -91,7 +92,7 @@ alexie.duarte-dasilva@hesge.ch
 - on se spécialise dans notre propre style de management
 - on s'intégre : avoir une certaine posture qui fait que les autres nous respectent etc.
 
-![les conseils pour devenir un manager]
+![les conseils pour devenir un manager](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/management/conseils_devenir_manager.jpg?raw=true)
 
 ## Adapter son management en fonction de la situation
 - Situation politique : un manager doit être capable d'identifier les jeux et les enjeux des un et des autres, leurs systèmes d'alliance.
@@ -181,12 +182,13 @@ alexie.duarte-dasilva@hesge.ch
 - définir la mission et les objectifs à atteindre
 - utiliser le SMART
 
-![méthode smart]
+![méthode smart](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/delegation/m%C3%A9thode-smart.jpg?raw=true)
 
 ## Outil RH
 
 - **Matrice compétence**
-![matrice-compétence]
+![matrice-compétence](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/delegation/matrice-comp%C3%A9t%C3%A9nces.jpg?raw=true)
+
 - **Certification d'un système qualité** : par exemple, ISO 9001 - système de management de qualité
 - **cartographie des activités et savoir-faire** : permet de donner une vision stratégique
 
