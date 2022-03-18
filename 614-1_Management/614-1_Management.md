@@ -246,7 +246,7 @@ https://www.youtube.com/watch?v=7G-a2A9faK4&t=212s
 4. Une fois que vous avez obtenu toutes les idées pour résoudre le problème inverse, il suffit d’inverser ces idées en solutions
 
 ## 4 thématiques de l'innovation managériale
-![4 thématiques de l'innovation managériale]
+![4 thématiques de l'innovation managériale](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/innovation-manageriale/4-thematiques-innovation.jpg?raw=true)
 La boite à outils de l’innovation managériale, p.49, David Autissier, Jean-Marie Peretti, Emily Métais-Wiersch, Dunod, 2019.
 1. Les pratiques collaboratives : Cela peut se faire par la diffusion d’une technique et/ou par la mise en place d’organisations dites libérantes.
 2. Les lieux et l’organisation du travail : De nombreuses entreprises ont engagé des réflexions et des projets sur les espaces de travail (développement des open spaces et du flex office) et de manière concomitante sur l’organisation du travail avec des sujets sur le travail distanciel.
@@ -258,7 +258,7 @@ La boite à outils de l’innovation managériale, p.49, David Autissier, Jean-M
 L’idée est de construire très rapidement des prototypes (designer) esthétiques et pédagogiques pour les mettre en test auprès des utilisateurs. Ces prototypes sont le résultat d’observations très fines des usages des utilisateurs et de la problématisation de ces derniers.
 
 #### Etapes
-![développement du delivery et développement de l'autonomie']
+![développement du delivery et développement de l'autonomie'](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/innovation-manageriale/developpement-delivery-autonomie.jpg?raw=true)
 1. Le design thinking est un processus d’innovation basé sur l’observation des usages et le prototypage.
 2. Un réseau apprenant est un dispositif d’échanges a-hiérarchiques visant à libérer la parole.
 3. Incubateur et spin-off : La spin-off, « essaimage » en français, consiste à créer une filiale et à proposer à des salariés d’y participer dans une logique entrepreneuriale et capitalistique. L’incubateur est une structure d’accueil pour de start-up.
@@ -283,9 +283,11 @@ Une question ouverte énonçant un problème pour un utilisateur clé spécifiqu
 **Pensée convergente**: qui suit un ensemble d'étapes logiques pour parvenir à une solution qui, dans certains cas, est une solution « correcte ». 
 
 ### 3 outils
-![3 outils]
+![3 outils](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/innovation-manageriale/3-outils.jpg)
+
 1. **User journey**
-![user journey]
+![user journey](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/innovation-manageriale/user-journey.jpg?raw=true)
+
 #### Checklist
 - Dessinez visuellement un parcours par type d'utilisateur clé. 
 - Enumérer les actions détaillées de l'utilisateur clé pour atteindre son objectif.  
@@ -315,6 +317,7 @@ Parce que vous voulez comprendre l'expérience de votre utilisateur clé dans so
 - Proposer l’option d’ajouter quelque chose à la fin
 
 ## Le principe des 5 pourquoi
+![Les 5 principes de pourquoi](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/innovation-manageriale/5-principes-pourquoi.jpg?raw=true)
 Chaque réponse à un « pourquoi ? » sert pour construire la question suivante. Il peut arriver qu’une réponse débouche sur plusieurs questions, dans ce cas il est préférable de conserver ces deux questions et de mener des questionnements parallèles.
 **Les questions et les réponses qui découlent des « pourquoi ? » doivent être factuelles.**
 
@@ -350,7 +353,7 @@ Exemple : “J’ai pris du retard sur la création de mon site web.”
 - Préparer en détails l’ouverture
 
 ## La carte d''empathie pour synthétiser les données
-![carte d'empathie]
+![carte d'empathie](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/innovation-manageriale/carte-empathie.jpg?raw=true)
 
 ## Les 4 étapes 
 - Identifier un problème et comprendre son environnement (empathiser et définir)
