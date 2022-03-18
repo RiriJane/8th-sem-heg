@@ -31,6 +31,7 @@ alexie.duarte-dasilva@hesge.ch
 # Table des matières
 1. [Management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#1-management)
 2. [Délégation](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#2-d%C3%A9l%C3%A9gation)
+3. [Innovation managériale]
 
 #### Présentation ITIL 4
 - Former une équipe
@@ -229,10 +230,149 @@ responsabilité (sinon tension)
 ## Stratégie de la bienveillance
 https://www.youtube.com/watch?v=7G-a2A9faK4&t=212s
 
-#### vendredi 4 mars 2022
-
 # Innovation managériale
+
+## Brain storming inversé
+- appelé aussi brainstorming négatif; prendre un problème à l'envers pour trouver une solution
+- permet de faciliter l'identification de nouvelles solutions à des problèmes complexes car vous élargissez le champ des possibles.
+- plus collaborative, plus innovantes
+
 «Le développement des technologies d’information et de communication progresse et influence le développement de tous les autres secteurs de l’économie. Dans un horizon proche, on peut envisager qu’il y aura plus de technologies émergentes au travail qui vont transformer les fonctions principales de l’entreprise et de la gestion.»
+
+### Comment faire
+1. Identifier le problème, le défi et le noter.
+2. Inverser le problème
+3. Lancer le brainstorming sur le problème inverse pour générer des idées de solution inverse
+4. Une fois que vous avez obtenu toutes les idées pour résoudre le problème inverse, il suffit d’inverser ces idées en solutions
+
+## 4 thématiques de l'innovation managériale
+![4 thématiques de l'innovation managériale]
+La boite à outils de l’innovation managériale, p.49, David Autissier, Jean-Marie Peretti, Emily Métais-Wiersch, Dunod, 2019.
+1. Les pratiques collaboratives : Cela peut se faire par la diffusion d’une technique et/ou par la mise en place d’organisations dites libérantes.
+2. Les lieux et l’organisation du travail : De nombreuses entreprises ont engagé des réflexions et des projets sur les espaces de travail (développement des open spaces et du flex office) et de manière concomitante sur l’organisation du travail avec des sujets sur le travail distanciel.
+3. La technologie : Le digital, l’intelligence artificielle et les sciences cognitives via des outils d’analyse (eyes tracking, face reading, etc.) sont des facteurs de transformation des pratiques managériales. À titre d’exemple, des entreprises développent des programmes du type « manager avec son smartphone ».
+4. Le contrat de travail : Les modes de travail et les évolutions sociologiques tels les travailleurs indépendants interrogent les organisations sur l’évolution du contrat de travail traditionnel avec un double enjeu d’agilité et de sécurité.
+
+
+## Desgin Thinking
+L’idée est de construire très rapidement des prototypes (designer) esthétiques et pédagogiques pour les mettre en test auprès des utilisateurs. Ces prototypes sont le résultat d’observations très fines des usages des utilisateurs et de la problématisation de ces derniers.
+
+#### Etapes
+![développement du delivery et développement de l'autonomie']
+1. Le design thinking est un processus d’innovation basé sur l’observation des usages et le prototypage.
+2. Un réseau apprenant est un dispositif d’échanges a-hiérarchiques visant à libérer la parole.
+3. Incubateur et spin-off : La spin-off, « essaimage » en français, consiste à créer une filiale et à proposer à des salariés d’y participer dans une logique entrepreneuriale et capitalistique. L’incubateur est une structure d’accueil pour de start-up.
+4. Le co-design est une méthode qui propose un processus d’innovation en associant toutes les parties prenantes et plus particulièrement le client final.
+5. Un atelier participatif est un moment d’échange entre personnes avec une animation structurée par un script qui alterne des temps de production individuelle, en groupe et collective.
+6. La notion de micro-plateau : Il s’agit d’avoir des petits groupes de personnes qui s’autogèrent dans le cadre de leurs activités de production sans hiérarchie et processus de contrôle.
+7. Peer coaching ou le « coaching croisé » : Deux personnes échangent entre elles sur des situations de travail qu’elles vivent.
+8. Le co-développement est un groupe d’échange de pratiques avec un jeu de rôle (client et consultant)
+9. Focus groupe : Cette pratique est issue des travaux de Lewin. La technique consiste à ce que des personnes se retrouvent en groupes pour échanger entre elles
+(avec ou sans animateur) sur leurs pratiques
+
+#### Deux axes
+La notion de delivery, définie comme la capacité à produire et à répondre à la demande du client, constitue une capacité clé dans les organisations aujourd’hui. L’autonomie laissée aux personnes est non seulement une demande sociétale, mais aussi un facteur d’intelligence collective propice à l’innovation.
+La boite à outils de l’innovation managériale, p.54, David Autissier, Jean-Marie Peretti, Emily Métais-Wiersch, Dunod, 2019.
+
+
+### Défi du désign thinking
+Une question ouverte énonçant un problème pour un utilisateur clé spécifique pour farie quelque chose de spécifique.
+
+### Pensée divergente et convergente
+**Pensée divergente**: produire des idées créatives en envisageant de nombreuses solutions possibles de façon spontanée et non dirigée.
+**Pensée convergente**: qui suit un ensemble d'étapes logiques pour parvenir à une solution qui, dans certains cas, est une solution « correcte ». 
+
+### 3 outils
+![3 outils]
+1. **User journey**
+![user journey]
+#### Checklist
+- Dessinez visuellement un parcours par type d'utilisateur clé. 
+- Enumérer les actions détaillées de l'utilisateur clé pour atteindre son objectif.  
+- Utilisez des verbes actifs pour chaque action.
+- Votre utilisateur clé est toujours le sujet grammatical du verbe. 
+- Tenez compte de l'influence des autres parties prenantes. 
+- Pour chaque action, énumérez tous les points douloureux potentiels (hypothèses). 
+- Formulez une hypothèse concernant l'humeur de l'utilisateur clé. 
+
+#### POURQUOI DEVEZ-VOUS DESSINER UN PARCOURS UTILISATEUR ?
+Parce que vous voulez comprendre l'expérience de votre utilisateur clé dans son ensemble, et pas seulement la partie qui intéresse directement votre entreprise/projet.
+
+2. **Les observations**
+- il faut : observer les comportements, les raccouris, le langage non-verbal, les émotions, être empathique et essayer de comprendre ce qui se passe pour l’utilisateur
+- ne pas : interagir avec l’utilisateur, juger, essayer de résoudre quelque chose maintenant….
+3. Les interviews
+- Planifier du temps (60 minutes) et choisir un lieu neutre
+- Préparer un script et le pratiquer
+- Mettre un effort sur l’ouverture pour la création d’un lien de confiance
+- Demander seulement des questions ouvertes
+- Vous voulez des histoires des expériences passées ou présentes
+- Vous ne voulez pas de déclarations générales à des questions générales
+- NE PAS DEMANDER à l’utilisateur des solutions potentielles ou futures
+- Utiliser et réutiliser les 5 pourquoi
+- Aller jusqu’aux émotions
+- Préférer un papier et un crayon plutôt qu’un écran
+- Proposer l’option d’ajouter quelque chose à la fin
+
+## Le principe des 5 pourquoi
+Chaque réponse à un « pourquoi ? » sert pour construire la question suivante. Il peut arriver qu’une réponse débouche sur plusieurs questions, dans ce cas il est préférable de conserver ces deux questions et de mener des questionnements parallèles.
+**Les questions et les réponses qui découlent des « pourquoi ? » doivent être factuelles.**
+
+#### Exemples
+Exemple : “J’ai pris du retard sur la création de mon site web.” 
+
+1) Pourquoi j’ai pris du retard sur la création de mon site web ?
+
+“Parce que je suis débordé et que j’ai beaucoup de projets en cours.”  
+
+2) Pourquoi j’ai beaucoup de projets en cours ?
+
+“Parce que beaucoup de personnes sont venues me voir pour me demander de l’aide.” 
+
+3) Pourquoi beaucoup de personnes sont venues me voir pour me demander de l’aide ?
+
+“Parce que je leur dis souvent oui quand elles me demandent de l’aide.”
+
+4) Pourquoi je leur dis souvent oui ?
+
+“Parce que j’ai du mal à leur dire non.”
+
+5) Pourquoi j’ai du mal à leur dire non ?
+
+“Parce que j’ai peur de vexer les personnes qui me demandent de l’aide.”
+
+## Préparer le script pour l’interview
+- Définir qui interviewer (utilisateur clé ou périphérique)
+- Lister vos objectifs clés 
+- Sous chaque objectif, préparer 3-4 questions
+- Déterminer dans quel ordre vous voulez demander vos différentes questions
+- Préparer le clôture
+- Préparer en détails l’ouverture
+
+## La carte d''empathie pour synthétiser les données
+![carte d'empathie]
+
+## Les 4 étapes 
+- Identifier un problème et comprendre son environnement (empathiser et définir)
+- Trouver l'idée ou le concept pour résoudre ce problème (idée)
+- Concevoir la solution en créant un prototype (prototype)
+- Tester le prototype et l'adapter si nécessaire (test)
+
+## Des besoins aux POVs
+Qu'est-ce qu'un "POV" - POINT DE VUE dans le Design Thinking ?
+Un personnage composite (persona) représentant un groupe d'utilisateurs ayant :
+a) Le même besoin (généralement un besoin logistique)
+b) La même raison du besoin (généralement un besoin émotionnel)
+
+"L'utilisateur A (prénom imaginaire) a besoin de (+ verbe) parce que (raison du besoin)".
+
+#### Exemple
+Danielle est une femme au foyer de 50 ans, sans enfants. Son mari est un cadre de haut niveau qui est souvent en voyage d'affaires. Son caniche Honey, âgé de 12 ans, est son meilleur ami et son compagnon, et elle aime organiser pour lui des rendez-vous de jeu avec d'autres chiens.
+Danielle doit souscrire à une assurance maladie pour Honey parce que... 
+(indice : pensez aux besoins émotionnels)
+
+
+#### vendredi 4 mars 2022
 
 Tout devient "CO" : co-création, co-direction, co-construction
 
@@ -245,18 +385,6 @@ Le manager est celui qui décrit ce qui doit être fait, puis s’assure de la r
 3. Le principe de hiérarchisation des circuits d’information: le manager est celui qui transmet l’information à ses
 collaborateurs.
 4. Le principe de cycles économiques lents: les cycles de la production et les cycles du changement ont vu leur durée se réduire considérablement pour répondre à la demande des clients et maintenir des avantages concurrentiels
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
