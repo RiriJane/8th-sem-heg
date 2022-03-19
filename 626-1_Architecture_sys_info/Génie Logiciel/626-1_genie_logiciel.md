@@ -7,7 +7,7 @@
 - **ilities** : ce sont des NFR (Non-functional requirement) tel que "availability", "operability", "manufacturability", ""survivability".
 
 ## Designing the high level architecture
-![Designing the high level architecture]
+![Designing the high level architecture](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/designing-high-levl-architecture.jpg?raw=true)
 
 ## Designing the high level architecture : based on NFR - 2 concepts
 1. **Architectural tactic** : une décision de conception qui permet d'obtenir une réponse spécifique en terme d'attributs de qualité (Quality attribute), fait par un "quality-attribute analysis model".
@@ -36,16 +36,17 @@ La disponibilité concerne les défaillances du système et leurs conséquences.
 - Une défaillance se produit lorsque **le système ne fournit plus un service** conforme à ses spécifications.
 - Un défaut devient une défaillance lorsqu'il est observable par l'utilisateur du système. 
   - Alors, une façon d'éviter une défaillance est de détecter et de corriger une défaillance avant qu'elle ne devienne observable par l'utilisateur. 
-![Availability tactics]
+
+![Availability tactics](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/availability-tactics.jpg?raw=true)
 
 ## Pourquoi la modifiabilité est-elle un problème ? Dépendances
-![Pourquoi la modifiabilité est-elle un problème ? Dépendances]
+![Pourquoi la modifiabilité est-elle un problème ? Dépendances](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/modifiability-issue-dependencies.jpg?raw=true)
 
 ### Modifiability tactics
-![Modifiability tactics]
+![Modifiability tactics](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/modifiability-tactics.jpg?raw=true)
 
 # Design in the large
-![Design the large]
+![Design the large](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/design-large.jpg?raw=true)
 
 ## Software architecure
 - Plan de construction et d'évolution
@@ -56,15 +57,15 @@ La disponibilité concerne les défaillances du système et leurs conséquences.
   - descriptive - prescriptive - dérive - érosion
 - Pas une phase de développement
 
-![Software Architecture]
+> A software system's architecture is the set of principal design decisions made about the system
 
-![Abstraction]
+![Abstraction](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/abstraction.jpg?raw=true)
 
 ### When does software architecture start ?
-![Start of software architecture start]
+![Start of software architecture start](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/start-software-architecture.jpg?raw=true)
 
 ### When does software architecture stop ?
-![Stop of software architecture start]
+![Stop of software architecture start](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/stop-architecture-software.jpg?raw=true)
 
 ## What makes a good architecture ?
 - Il n'existe pas de conception parfaite ni une bonne/mauvaise architecture
@@ -81,21 +82,21 @@ Principes de conception - Arch. Modèles - Arch. Styles
 - DRY (Don't repeat yourself)
 
 # Architectural patterns
-![Architectural patterns]
+> An architectural pattern is a set of architectural design decisions that are applicable to a recurrring design problem, and parameterized to account for different software development contexts in which that problem appears.
 
 Problem : traitement complexe avec plusieurs niveaux d'abstraction de inputs/outputs
 
 ## Model-View-Controller
 - plus connu dans l'archecture des systèmes intéractifs
 
-![Model-View-Controller]
+![Model-View-Controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/model-view-controller.jpg?raw=true)
 
 ### Implemented tactics
 Modifiability tactics : anticipe les changements attendus, sépare les préoccupations
 
-![Exemple : servlet]
+![Exemple : servlet](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/exemple-servlet.jpg?raw=true)
 
-![Exemple - votations]
+![Exemple - votations](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/exemple-votations.jpg?raw=true)
 
 ### Problem  
 Les interfaces utilisateur sont les plus fréquemment touchées par les changements.
@@ -112,7 +113,7 @@ Le modèle Model-view-controller divise l'application en trois parties :
 - Le contrôleur s'occupe de l'entrée
 
 ### Structure
-![Structure Model-View-Controller]
+![Structure Model-View-Controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/model-view-controller.jpg?raw=true)
 
 
 #### jeudi 17 march 2022
