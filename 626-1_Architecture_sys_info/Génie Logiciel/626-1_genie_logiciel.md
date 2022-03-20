@@ -14,10 +14,14 @@
 2. **Architectural pattern (architectural style)** :  une schema d'organisation structurelle fondamentaux pour les systèmes logiciels qui fournit un ensemble de sous-systèmes prédéfinis en spécifiant leurs responsabilités, les règles et lignes directives pour organiser les relations entre eux.
 
 #### Vue d'ensemble : architecting steps
+![Overwie - architecting steps]
+
+- on utilise des tactics pour améliorer un design patterns
+- low level architecture : design plus détaillés par exemple Builder, Factory...
 
 ## QA : performance
 - Combien de temps le système met-il à réagir à un événement (latence) ?  Source de complication : le nombre de sources d'événements et leur séquence d'arrivée.
-- Source des problèmes de performance : disponibilité des ressources nécessaires.
+- Source des problèmes de performance : disponibilité des ressources nécessaires (plus de RAM,CPU)
 
 ## Performance tactics
 #### Demande de ressources
@@ -91,14 +95,14 @@ Problem : traitement complexe avec plusieurs niveaux d'abstraction de inputs/out
 
 ![Model-View-Controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/model-view-controller.jpg?raw=true)
 
-### Implemented tactics
+#### Implemented tactics
 Modifiability tactics : anticipe les changements attendus, sépare les préoccupations
 
 ![Exemple : servlet](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/exemple-servlet.jpg?raw=true)
 
 ![Exemple - votations](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/exemple-votations.jpg?raw=true)
 
-### Problem  
+#### Problem  
 Les interfaces utilisateur sont les plus fréquemment touchées par les changements.
 - Comment puis-je représenter la même information de différentes manières ?
 - Comment puis-je garantir que les modifications apportées à l'ensemble de données seront instantanément dans toutes les vues ?
@@ -106,14 +110,239 @@ Les interfaces utilisateur sont les plus fréquemment touchées par les changeme
 - Comment prendre en charge plusieurs interfaces utilisateur sans modifier le cœur de l'application ?
 de l'application ?
 
-### Solution
+#### Solution
 Le modèle Model-view-controller divise l'application en trois parties :
 - Le modèle est responsable du traitement,
 - La vue s'occupe de la sortie,
 - Le contrôleur s'occupe de l'entrée
 
-### Structure
+#### Structure
 ![Structure Model-View-Controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/model-view-controller.jpg?raw=true)
+
+![Structure 2]
+
+- Chaque model peut enregistrer plusieurs observateurs (vues et contrôleurs).
+- Dès que le modèle change, tous les observateurs enregistrés sont notifiés, et ils se mettent à jour en conséquence.
+
+#### Participants - Model
+Le modèle encapsule les données et les fonctionnalités de base ; il est indépendant de toute représentation concrète de sortie ou de tout comportement d'entrée.
+
+![Particpant - model]
+
+#### Participants - View
+La vue affiche les informations à l'utilisateur. Un modèle peut avoir plusieurs
+vues.
+
+![Participant - view]
+
+#### Participants - Controller
+Le contrôleur traite les entrées et invoque les services appropriés de la vue ou du modèle. Chaque contrôleur est assigné à une seule vue ; un modèle peut avoir plusieurs contrôleurs.
+
+![Participant - controller]
+
+#### Dynamic Behaviour
+
+![Dynamic Behaviour]
+
+#### Consequences of the Model-View-Controller Pattern
+Avantages :
+- vues multiples du même système
+- vues synchrones
+- vues et contrôleurs attachables
+Inconvénients
+- complexité accrue
+- couplage fort entre le modèle et la vue
+- couplage fort entre le modèle et les contrôleurs (peut être évité au moyen de moyen du patron de commande)
+
+Applications connues : Bibliothèques d'interface graphique, Smalltalk, Microsoft Foundation Classes
+
+## Publish-subscribe
+![Publish-subscribe]
+
+#### Implemented Tactics
+Tactiques de modifiabilité :
+- Restreindre les voies de communication
+- Utiliser un intermédiaire
+- Normaliser la collaboration
+
+#### Problem : point à point communication entre les composants
+![Problem : point à point communication entre les composants]
+
+
+#### Problem : trop de chemins de communications
+![Problem : trop de chemins de communications]
+
+## Façade
+![Facade]
+
+#### Implemented tactics
+Tactiques de modifiabilité
+- Cacher l'information
+- Restreindre les voies de communication
+- Utiliser un intermédiaire
+
+#### Nouvelle architecture : Facade et Proxy
+![Facade et Proxy]
+
+![Layered vs plug-in]
+
+#### Layers
+![Layers]
+
+Choisir les couches:
+- Définir le critère d'abstraction (préoccupation) que chaque couche fournit (cibles)
+  - Changements potentiels
+  - Opportunités de réutilisation
+  - Catégorie de responsabilités
+- Choisir le nombre de couches
+  - Niveaux d'abstraction / nombre de catégories
+  - Maintenir un nombre réduit de couches
+   - Éviter les surcharges de performance
+- Spécifier l'interface de chaque couche
+  - Chaque couche doit représenter une boîte noire pour la couche supérieure.
+
+#### Changement dans l'une des préoccupations : affichage, accès aux données
+![Changement dans l'une des préoccupations : affichage, accès aux données]
+
+#### Exemple
+![exemple changement dans l'une des préoccupations]
+
+#### Réprésentation Java
+![Représentation Java du changement dans l'une des préoccupations]
+
+## Qu'est-ce que nous modélisons ?
+- Le système à venir (modèle de conception)
+ - Architecture statique
+ - Architecture dynamique
+- Attributs de qualité et propriétés non fonctionnelles
+- Le problème (modèle de domaine)
+- L'environnement (contexte du système et parties prenantes)
+- Le processus de conception
+
+#### Software components
+![ Software components]
+
+#### Components vs objects vs modules
+Components :
+- Encapsuler l'état et la fonctionnalité
+- Grain grossier
+- Éléments d'architecture de la boîte noire
+- Structure de l'architecture
+Objects :
+- Encapsuler l'état et la fonctionnalité
+- Grain fin
+- Peuvent se "déplacer" entre les composants
+- Unité d'instanciation identifiable
+Modules
+- Existent rarement au moment de l'exécution
+- Peuvent nécessiter d'autres modules pour être compilés
+- Emballer le code
+
+#### Component Interfaces
+![Component Interfaces]
+
+Provided interfaces : Spécifier et documenter les fonctionnalités visibles de l'extérieur (ou l'API publique) offertes par le composant.
+- Types de données et modèle
+- Opérations
+- Propriétés
+- Événements et rappels
+
+Required interfaces : Spécifier les conditions dans lesquelles un composant peut être réutilisé
+- La plate-forme est compatible
+- L'environnement est correctement configuré
+
+#### Compatible interfaces
+Les interfaces des composants doivent correspondre parfaitement pour être  connectées.
+
+![Compatible Interfaces]
+
+#### Software Connectors
+![Software Connectors]
+Modéliser les aspects statiques et dynamiques de interaction entre les interfaces des composants.
+- Les connecteurs ne sont généralement pas directement visibles dans le code, ce qui n'est pas le cas des composants.
+- Les connecteurs sont le plus souvent indépendants de l'application, alors que les composants peuvent être à la fois dépendants ou non de l'application
+
+#### Connector Roles
+- Communication : fourniture de données et transfert de contrôle, prise en charge de différents mécanismes de communication, qualité de la fourniture de données et du transfert de contrôle. mécanismes de communication, qualité de la livraison
+- Coordination : contrôle de la transmission des données, séparation du contrôle et du calcul.
+- Conversion : permettre l'interaction de composants mal adaptés
+- Facilitation : médiation de l'interaction entre les composants, gestion de l'accès aux l'accès aux informations partagées, assure la synchronisation
+
+## View and Viewpoints
+How many views ?
+- 5 par Taylor et al : Logique, Physique, Déploiement, Concurrence, Comportemental
+- 3 par Bass et al : Composant et connecteur, module Vue, Comportement
+- 4+1 par Kruchten : Logique, physique, processus, Développement, et Scénario
+
+#### Historical model: Kruchten’s 4+1 views (RUP)
+![Historical model]
+
+#### Logical view
+![Logical view]
+
+#### Development view
+![Development view]
+
+#### Process view
+![ Process view]
+
+#### Physical view
+![Physical view]
+
+## Use Case Scenarios
+- Unifier et relier les éléments des 4 autres vues
+- Les scénarios permettent de s'assurer que le modèle architectural est complet par rapport aux exigences
+- L'architecture peut être décomposée en fonction des les scénarios et illustrée à l'aide des 4 autres vues
+
+## Music Player Scenarios
+- Rechercher de nouvelles chansons
+- Payer pour écouter la chanson en entier
+- Télécharger la chanson achetée sur le téléphone
+- Écouter la chanson
+
+## Logical View
+![Logical view - music player] 
+
+- Décomposer la structure du système en logiciels composants et connecteurs
+- Faire correspondre les fonctionnalités (cas d'utilisation) aux composants
+- **Concerne** : Fonctionnalité
+- **Public cible** : Développeurs et utilisateurs
+
+
+## Process view
+![use Case : Browse, Pay, Play for Songs]
+
+- Modéliser les aspects dynamiques de l'architecture et le comportement de ses parties
+  - composants actifs
+  - les threads concurrents
+- Décrire comment les processus/threads communiquent
+  - RPC
+  - Bus de messages
+- **Concerne** : Fonctionnalité, performance
+- **Public cible** : Développeurs
+
+## Development view
+![Development view last]
+- Organisation statique des artefacts du code logiciel
+  - paquets
+  - modules
+  - binaires
+- Correspondance entre les éléments de la vue logique et les artefacts de code
+- **Concerne** : Réutilisation, portabilité, construction
+- **Public cible** : Développeurs
+
+## Physical view
+![Physical view last]
+- Environnement matériel dans lequel le logiciel sera déployé
+  - hôtes
+  - réseaux
+  - stockage
+- Correspondance entre les entités logiques et physiques
+- **Concerne** : Attributs de qualité
+- **Public cible** : Opérations
+
+## Reuse and Libraries
+Est-il possible de réutiliser des classes existantes ? Il est possible que des classes d'adaptation soient nécessaires.
 
 
 #### jeudi 17 march 2022
