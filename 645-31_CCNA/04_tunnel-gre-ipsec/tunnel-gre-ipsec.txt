@@ -1,0 +1,664 @@
+#################### ISP1
+
+ISP1#sh run
+Building configuration...
+
+Current configuration : 1645 bytes
+!
+! Last configuration change at 17:57:36 UTC Tue Mar 15 2022
+!
+version 15.7
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname ISP1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+multilink bundle-name authenticated
+!
+!
+!
+license udi pid CISCO1921/K9 sn FCZ161770GS
+!
+!
+!
+redundancy
+!
+!
+controller VDSL 0/0/0
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ description vers RC
+ ip address 10.136.0.111 255.255.252.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ description vers Rogue
+ ip address 10.136.195.49 255.255.255.240
+ duplex auto
+ speed auto
+!
+interface ATM0/0/0
+ no ip address
+ shutdown
+ no atm ilmi-keepalive
+!
+interface Ethernet0/0/0
+ no ip address
+ shutdown
+!
+interface FastEthernet0/1/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+!
+router eigrp 65100
+ network 10.136.0.0 0.0.3.255
+ network 10.136.195.48 0.0.0.15
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+!
+control-plane
+!
+!
+ vstack
+!
+line con 0
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ login
+ transport input none
+!
+scheduler allocate 20000 1000
+ntp server pool.ntp.org
+ntp server 34.202.215.187
+!
+end
+
+
+#################### ROGUE 
+
+Rogue(config)#do sh run
+Building configuration...
+
+Current configuration : 1324 bytes
+!
+version 12.1
+no service pad
+service timestamps debug uptime
+service timestamps log uptime
+no service password-encryption
+!
+hostname Rogue
+!
+!
+ip subnet-zero
+!
+ip ssh time-out 120
+ip ssh authentication-retries 3
+!
+spanning-tree mode pvst
+no spanning-tree optimize bpdu transmission
+spanning-tree extend system-id
+!
+!
+!
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+!
+interface FastEthernet0/6
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+interface FastEthernet0/13
+!
+interface FastEthernet0/14
+!
+interface FastEthernet0/15
+!
+interface FastEthernet0/16
+!
+interface FastEthernet0/17
+!
+interface FastEthernet0/18
+!
+interface FastEthernet0/19
+!
+interface FastEthernet0/20
+!
+interface FastEthernet0/21
+!
+interface FastEthernet0/22
+!
+interface FastEthernet0/23
+!
+interface FastEthernet0/24
+!
+interface GigabitEthernet0/1
+!
+interface GigabitEthernet0/2
+!
+interface Vlan1
+ ip address 10.136.195.52 255.255.255.240
+ no ip route-cache
+!
+ip default-gateway 10.136.195.49
+ip http server
+!
+line con 0
+line vty 5 15
+!
+!
+!
+monitor session 1 source interface Fa0/11
+monitor session 1 destination interface Fa0/2
+end
+
+
+
+#################### ALICE
+
+Alice#sh run
+Building configuration...
+
+Current configuration : 2536 bytes
+!
+! Last configuration change at 19:07:52 UTC Tue Mar 15 2022
+!
+version 15.7
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Alice
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+license udi pid CISCO1921/K9 sn FCZ1539C5RK
+license boot module c1900 technology-package securityk9
+!
+!
+!
+redundancy
+!
+!
+!
+!
+!
+!
+!
+crypto isakmp policy 10
+ encr aes
+ authentication pre-share
+ group 16
+crypto isakmp key renie address 10.136.195.66
+!
+!
+crypto ipsec transform-set VPN-SET esp-aes esp-sha-hmac
+ mode tunnel
+!
+!
+!
+crypto map VPN-MAP 5 ipsec-isakmp
+ set peer 10.136.195.66
+ set transform-set VPN-SET
+ set pfs group16
+ match address 101
+!
+!
+!
+!
+!
+interface Tunnel1
+ ip address 10.136.195.65 255.255.255.240
+ ip nat inside
+ ip virtual-reassembly in
+ tunnel source 10.136.195.50
+ tunnel destination 10.136.195.18
+ crypto map VPN-MAP
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ description vers PC2
+ ip address 10.136.195.33 255.255.255.240
+ ip nat inside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ description vers Rogue
+ ip address 10.136.195.50 255.255.255.240
+ ip nat outside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+!
+router eigrp 123
+ network 10.136.195.32 0.0.0.15
+ network 10.136.195.64 0.0.0.15
+ redistribute static
+ passive-interface GigabitEthernet0/0
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip nat inside source list 1 interface GigabitEthernet0/1 overload
+ip route 0.0.0.0 0.0.0.0 10.136.195.49
+ip route 10.136.195.18 255.255.255.255 10.136.195.49
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+access-list 1 permit 10.136.195.32 0.0.0.15
+access-list 1 permit 10.136.195.0 0.0.0.15
+access-list 1 permit 10.136.195.64 0.0.0.15
+access-list 101 permit ip 10.136.195.32 0.0.0.15 10.136.195.0 0.0.0.15
+!
+control-plane
+!
+!
+ vstack
+!
+line con 0
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ login
+ transport input none
+!
+scheduler allocate 20000 1000
+!
+end
+
+Alice#
+
+
+
+############################## ISP2
+
+
+IPS2#SH RUN
+Building configuration...
+
+Current configuration : 1499 bytes
+!
+! Last configuration change at 18:10:06 UTC Tue Mar 15 2022
+!
+version 15.7
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname IPS2
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+multilink bundle-name authenticated
+!
+!
+!
+license udi pid CISCO1921/K9 sn FCZ183294YG
+!
+!
+!
+redundancy
+!
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ description vers Bob
+ ip address 10.136.195.17 255.255.255.240
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ description vers RC
+ ip address 10.136.0.112 255.255.252.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+!
+router eigrp 65100
+ network 10.136.0.0 0.0.3.255
+ network 10.136.195.16 0.0.0.15
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+!
+control-plane
+!
+!
+ vstack
+!
+line con 0
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ login
+ transport input none
+!
+scheduler allocate 20000 1000
+ntp server 34.208.249.133
+ntp server pool.ntp.org
+!
+end
+
+
+###################################### BOB
+
+Bob#SH RUN
+Building configuration...
+
+Current configuration : 2171 bytes
+!
+! Last configuration change at 17:49:27 UTC Tue Mar 15 2022
+!
+version 15.7
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Bob
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+memory-size iomem 10
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+license udi pid CISCO1921/K9 sn FCZ173061XC
+license boot module c1900 technology-package securityk9
+!
+!
+!
+redundancy
+!
+!
+!
+!
+!
+!
+!
+crypto isakmp policy 10
+ encr aes
+ authentication pre-share
+ group 16
+crypto isakmp key renie address 10.136.195.65
+!
+!
+crypto ipsec transform-set VPN-SET esp-aes esp-sha-hmac
+ mode tunnel
+!
+!
+!
+crypto map VPN-MAP 5 ipsec-isakmp
+ set peer 10.136.195.65
+ set transform-set VPN-SET
+ set pfs group16
+ match address 101
+!
+!
+!
+!
+!
+interface Tunnel1
+ ip address 10.136.195.66 255.255.255.240
+ tunnel source 10.136.195.18
+ tunnel destination 10.136.195.50
+ crypto map VPN-MAP
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ description vers IPS2
+ ip address 10.136.195.18 255.255.255.240
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ description vers PC3
+ ip address 10.136.195.1 255.255.255.240
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+!
+router eigrp 123
+ network 10.136.195.0 0.0.0.15
+ network 10.136.195.64 0.0.0.15
+ passive-interface GigabitEthernet0/1
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip route 10.136.195.50 255.255.255.255 10.136.195.17
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+access-list 101 permit ip 10.136.195.0 0.0.0.15 10.136.195.32 0.0.0.15
+!
+control-plane
+!
+!
+ vstack
+!
+line con 0
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ login
+ transport input none
+!
+scheduler allocate 20000 1000
+!
+end
