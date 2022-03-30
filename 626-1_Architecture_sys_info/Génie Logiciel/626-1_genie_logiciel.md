@@ -119,7 +119,7 @@ Le modèle Model-view-controller divise l'application en trois parties :
 #### Structure
 ![Structure Model-View-Controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/model-view-controller.jpg?raw=true)
 
-![Structure 2]
+![Structure 2](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/structure2-model-view-controller.jpg?raw=true)
 
 - Chaque model peut enregistrer plusieurs observateurs (vues et contrôleurs).
 - Dès que le modèle change, tous les observateurs enregistrés sont notifiés, et ils se mettent à jour en conséquence.
@@ -127,22 +127,22 @@ Le modèle Model-view-controller divise l'application en trois parties :
 #### Participants - Model
 Le modèle encapsule les données et les fonctionnalités de base ; il est indépendant de toute représentation concrète de sortie ou de tout comportement d'entrée.
 
-![Particpant - model]
+![Particpant - model](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/participant-model.jpg?raw=true)
 
 #### Participants - View
 La vue affiche les informations à l'utilisateur. Un modèle peut avoir plusieurs
 vues.
 
-![Participant - view]
+![Participant - view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/participants-view.jpg?raw=true)
 
 #### Participants - Controller
 Le contrôleur traite les entrées et invoque les services appropriés de la vue ou du modèle. Chaque contrôleur est assigné à une seule vue ; un modèle peut avoir plusieurs contrôleurs.
 
-![Participant - controller]
+![Participant - controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/participants-controller.jpg?raw=true)
 
 #### Dynamic Behaviour
 
-![Dynamic Behaviour]
+![Dynamic Behaviour](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/dynamic-behaviour.jpg?raw=true)
 
 #### Consequences of the Model-View-Controller Pattern
 Avantages :
@@ -157,7 +157,7 @@ Inconvénients
 Applications connues : Bibliothèques d'interface graphique, Smalltalk, Microsoft Foundation Classes
 
 ## Publish-subscribe
-![Publish-subscribe]
+![Publish-subscribe](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/publish-subscribe.jpg?raw=true)
 
 #### Implemented Tactics
 Tactiques de modifiabilité :
@@ -166,14 +166,14 @@ Tactiques de modifiabilité :
 - Normaliser la collaboration
 
 #### Problem : point à point communication entre les composants
-![Problem : point à point communication entre les composants]
+![Problem : point à point communication entre les composants](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/problem-pp-communication-entre-composants.jpg?raw=true)
 
 
 #### Problem : trop de chemins de communications
-![Problem : trop de chemins de communications]
+![Problem : trop de chemins de communications](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/poblem-bcp-chemin-communications.jpg?raw=true)
 
 ## Façade
-![Facade]
+![Facade](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/facade.jpg?raw=trues)
 
 #### Implemented tactics
 Tactiques de modifiabilité
@@ -182,12 +182,12 @@ Tactiques de modifiabilité
 - Utiliser un intermédiaire
 
 #### Nouvelle architecture : Facade et Proxy
-![Facade et Proxy]
+![Facade et Proxy](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/facade-proxy.jpg?raw=true)
 
-![Layered vs plug-in]
+![Layered vs plug-in](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/layered-vs-plugin.jpg?raw=true)
 
 #### Layers
-![Layers]
+![Layers](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/layers.jpg?raw=true)
 
 Choisir les couches:
 - Définir le critère d'abstraction (préoccupation) que chaque couche fournit (cibles)
@@ -202,13 +202,13 @@ Choisir les couches:
   - Chaque couche doit représenter une boîte noire pour la couche supérieure.
 
 #### Changement dans l'une des préoccupations : affichage, accès aux données
-![Changement dans l'une des préoccupations : affichage, accès aux données]
+![Changement dans l'une des préoccupations : affichage, accès aux données](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/change-concerns.jpg?raw=true)
 
 #### Exemple
-![exemple changement dans l'une des préoccupations]
+![exemple changement dans l'une des préoccupations](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/exemple-change-concerns.jpg?raw=true)
 
 #### Réprésentation Java
-![Représentation Java du changement dans l'une des préoccupations]
+![Représentation Java du changement dans l'une des préoccupations](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/java-representation-change-concerns.jpg?raw=true)
 
 ## Qu'est-ce que nous modélisons ?
 - Le système à venir (modèle de conception)
@@ -220,7 +220,7 @@ Choisir les couches:
 - Le processus de conception
 
 #### Software components
-![ Software components]
+![ Software components](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/software-components.jpg?raw=true)
 
 #### Components vs objects vs modules
 Components :
@@ -239,7 +239,7 @@ Modules
 - Emballer le code
 
 #### Component Interfaces
-![Component Interfaces]
+![Component Interfaces](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/component-interfaces.jpg?raw=true)
 
 Provided interfaces : Spécifier et documenter les fonctionnalités visibles de l'extérieur (ou l'API publique) offertes par le composant.
 - Types de données et modèle
@@ -254,10 +254,10 @@ Required interfaces : Spécifier les conditions dans lesquelles un composant peu
 #### Compatible interfaces
 Les interfaces des composants doivent correspondre parfaitement pour être  connectées.
 
-![Compatible Interfaces]
+![Compatible Interfaces](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/compatible-interfaces.jpg?raw=true)
 
 #### Software Connectors
-![Software Connectors]
+![Software Connectors](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/software-connectors.jpg?raw=true)
 Modéliser les aspects statiques et dynamiques de interaction entre les interfaces des composants.
 - Les connecteurs ne sont généralement pas directement visibles dans le code, ce qui n'est pas le cas des composants.
 - Les connecteurs sont le plus souvent indépendants de l'application, alors que les composants peuvent être à la fois dépendants ou non de l'application
@@ -275,19 +275,19 @@ How many views ?
 - 4+1 par Kruchten : Logique, physique, processus, Développement, et Scénario
 
 #### Historical model: Kruchten’s 4+1 views (RUP)
-![Historical model]
+![Historical model](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/historical-model.jpg?raw=true)
 
 #### Logical view
-![Logical view]
+![Logical view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/logical-view.jpg?raw=true)
 
 #### Development view
-![Development view]
+![Development view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/development-view.jpg?raw=true)
 
 #### Process view
-![ Process view]
+![ Process view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/process-view.jpg?raw=true)
 
 #### Physical view
-![Physical view]
+![Physical view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/physical-view-last.jpg?raw=true)
 
 ## Use Case Scenarios
 - Unifier et relier les éléments des 4 autres vues
@@ -301,7 +301,7 @@ How many views ?
 - Écouter la chanson
 
 ## Logical View
-![Logical view - music player] 
+![Logical view - music player](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/logical-view-music-player.jpg?raw=true)
 
 - Décomposer la structure du système en logiciels composants et connecteurs
 - Faire correspondre les fonctionnalités (cas d'utilisation) aux composants
@@ -343,6 +343,71 @@ How many views ?
 
 ## Reuse and Libraries
 Est-il possible de réutiliser des classes existantes ? Il est possible que des classes d'adaptation soient nécessaires.
+
+# Quality Attributes with REST
+
+Fonctionnalité pour la performance : statelessness, interface uniforme, adressabilité
+Statelessness permet la tactique suivante : "Introduire la concurrence".
+  - Puisque les demandes peuvent être traitées de manière isolée, indépendamment des demandes précédentes, elles peuvent être distribuées sur plusieurs machines sans impact sur le résultat du traitement.
+  - Permet de comprendre chaque demande de manière isolée. En effet, tout le contexte pour interpréter une demande est dans la demande.
+Interface uniforme et adressabilité : Permet la visibilité et la simplicité du protocole. Chaque demande est transparente (facilement interprétable)
+
+#### Statelessness 
+Etat : configuration interne d'un système qui spécifie la réponse à l'événement qu'il reçoit.
+
+2 types d'états :
+- **L'état de la ressource** : configuration d'une ressource sur le serveur qui est disponible pour tous les clients. Cela détermine quelle représentation on peut obtenir de la ressource.
+- **L'état du client** : la configuration du client qui détermine la prochaine requête qu'il pourrait émettre ensuite (suite à une entrée utilisateur par exemple). On l'appelle aussi **l'état de l'application**.
+
+
+
+
+
+# SESSION  5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #### jeudi 17 march 2022
