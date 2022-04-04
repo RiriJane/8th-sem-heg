@@ -8,7 +8,7 @@
 #### jeudi 24 février 2022
 
 ### Système informatique vs système d'information
-![Diagramme système d'infomatique et information]
+![Diagramme système d'infomatique et information](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/diagramme-syst%C3%A8me-informatique-information.jpg?raw=true)
 
 Le système informatique est la composante informatisée du système d'information
 
@@ -21,7 +21,7 @@ Le système informatique est la composante informatisée du système d'informati
 - Ensemble des moyens informatiques et de télécommunication (matérielsm logiciels, réseaux, bases de données, téléphonie) qui permet de gérer des données de manière électronique (voir définition de gérer au dessus)
 
 #### Donnée et information
-![donnee et information]
+![donnee et information](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/donnee-information.jpg?raw=true)
 - Une donnée est un élément brut sans interprétation
 - Une information est une donnée interprétée
 
@@ -29,7 +29,7 @@ La donnée se transforme en information lorsqu'elle est communiquée à un être
 
 #### Le contexte d'évolution des systèmes d'information
 #### Evolution technologique
-![Explosion du numérique]
+![Explosion du numérique](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/explosion-numerique.jpg?raw=true)
 
 - Les systèmes informatiques en strates de sédimentation technologiques
 - Plus il y a des technologies différentes, plus l'intégration est difficile et le coût de maintenance élévée
@@ -56,7 +56,7 @@ Le SI pour l'entreprise :
 - L'aligner sur le métier
 
 #### Urbanisation du système d'information
-![Une démarche progressive du SI]
+![Une démarche progressive du SI](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/urba-SI.jpg?raw=true)
 - Appelé aussi architecture d'entreprise.
 - Une démarche de transformation progressive et continue du SI.
 - Elle vise à simplifier le SI, optimiser sa valeur ajoutée, rendre plus adaptable et plus flexible selon l'évolution stratégique de l'entreprise, tout en prenant en compte les opportunités technologiques du marché.
@@ -91,8 +91,8 @@ Le SI pour l'entreprise :
 
 #### Exemple de la vie courante, de modèle avec sa perspective et un objectif
 
-![Exemple de la vie courante, de modèle avec sa perspective et un objectif]
-![Exemple de la vie courante, de modèle avec sa perspective et un objectif - 2]
+![Exemple de la vie courante, de modèle avec sa perspective et un objectif](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/exemple-model-perspective-objectif.jpg?raw=true)
+![Exemple de la vie courante, de modèle avec sa perspective et un objectif - 2](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/exemple-model-perspective-objectif-2.jpg?raw=true)
 
 
 #### Approche par la modélisation
@@ -123,7 +123,7 @@ Le SI pour l'entreprise :
 - Se décline sur les 4 couches de référence (métier, fonctionnelle, applicative, technologique).
 
 #### 4 couches de réference
-![4 couches de réference]
+![4 couches de réference](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/4-couches-reference.jpg?raw=true)
 **Métier** : Quels métiers ? qui fait quoi ? **Cartographie métier** selon BMPN
 **Fonctionnelle** : Quoi ? Quels outils utiles au métier ? **Cartographie fonctionnelle**  
 - Fait le lien entre le metier et l'informatique.
@@ -140,16 +140,16 @@ Le SI pour l'entreprise :
 - Ce modèle se décline aussi en plusieurs dimensions temporelles : actuel / cible
 
 #### 5ième couche : stratégie
-![5ième couche : stratégie]
+![5ième couche : stratégie](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/5ieme-couche.jpg?raw=true)
 
 Avantage :
 - Découpler processus métiers, fonctions, applications et infrastructure technique rend chaque niveau plus indépendant l'un de l'autre tout en mettant en exergue leurs interrelations
 
 #### La couche données-informations
-![La couche données-informations]
+![La couche données-informations](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/couche-donnee-information.jpg?raw=true)
 
 #### exercice quizz
-![quizz]
+![quizz](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/quizz.jpg?raw=true)
 
 Réponses :
 1. Infrastructure technique
@@ -160,7 +160,7 @@ Réponses :
 6. Infrastructure technique
 
 #### Les acteurs de l'urbanisation des SI
-![Acteurs]
+![Acteurs](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/acteurs.jpg?raw=true)
 
 Enjeu : adhésion des acteurs des SI
 Les **acteurs métiers** - responsable SI, experts métiers.
@@ -184,7 +184,7 @@ infrastructure technique : responsable informatique
 # Couche métier - part 1
 #### jeudi 3 mars 2022
 #### La cartographie de la couche métier
-![cartographie métier - organigramme d'acteur]
+![cartographie métier - organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/cartographie-couche-metier.jpg?raw=true)
 
 - ![Organigramme d'acteur]
 - Modéliser les processus métiers selon la norme BPMN
@@ -210,7 +210,7 @@ Un acteur peut être interne ou externe à l'entreprise :
 - Responsable : représente le responsable d'un service ou d'une direction (ex : Directeur de l'administration fiscale
 
 <u>Notation :</u>
-![Notation acteurs]
+![Notation acteurs](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/notation-acteurs.jpg?raw=true)
 
 #### Cartographier les acteurs - organigramme d'acteur
 Un organigramme d'acteur est une représentation graphique des liens hiérarchiques d’une entreprise.
@@ -236,13 +236,13 @@ Une unité organisationnelle est un département, ou un office, ou un service, s
 - **[RM02]** Une unité organisationnelle (feuille de l'arbre) ne peut être rattachée qu'à une -et une seule unité organisationnelle supérieure.  
 - **[RM03]** Un organigramme d'acteur ne doit mentionner que des acteurs internes. On ne s'intéresse pas à l'organisation des acteurs externes.   
 
-![Faux exemple - organigramme d'acteur]
+![Faux exemple - organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/faux-exemple-organigramme-acteurs.jpg?raw=true)
 
 - manque RM01 : directuer général -> selon le texte; soit on remplace ceci par le nom de l'entreprise soit une autre carré au dessus de ceci avec le nom de l'entreprise
 
 
 #### Processus métier
-![Processu métier]
+![Processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/processus-metier.jpg?raw=true)
 
 - Un enchaînement ordonné d'activités aboutissant à un résultat déterminé
 - Il est déclenché par un évènement qui lui est externe et il fournit des produits ou des services à un acteur externe
@@ -312,10 +312,10 @@ Diagramme de processus BPMN ->  diagramme de cas d'utilisation UML.
 - Au moins 1 participant (acteur)
 - Des flux avec des contenus correspondant aux produits et services
 
-![Processus métier]
+![Processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/processus-metier.jpg?raw=true)
 
 #### Décomposer les processus métier en sous-Processus
-![Décomposer les processus métier en sous-Processus]
+![Décomposer les processus métier en sous-Processus](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/d%C3%A9composer-processus-m%C3%A9tier-sous-processus.jpg?raw=true)
 
 #### Diagramme de processus métier
 - Est définit pour un processus
