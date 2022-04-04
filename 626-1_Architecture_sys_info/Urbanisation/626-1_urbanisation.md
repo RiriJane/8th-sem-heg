@@ -124,12 +124,15 @@ Le SI pour l'entreprise :
 
 #### 4 couches de réference
 ![4 couches de réference](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/4-couches-reference.jpg?raw=true)
+
 **Métier** : Quels métiers ? qui fait quoi ? **Cartographie métier** selon BMPN
 **Fonctionnelle** : Quoi ? Quels outils utiles au métier ? **Cartographie fonctionnelle**  
 - Fait le lien entre le metier et l'informatique.
 - Fonctions du SI permettant de supporter les processus métiers, informations métiers.
+
 **Applicative** : Comment ? Comment fonctionnenent les outils ? **Cartographie applicative**
 - applications, flux d'information, entités et données.
+
 **Technologique** : Avec quoi ? **Cartographie infrastructure technique**
 - Base de données, serveurs, réseaux.
 
@@ -168,17 +171,21 @@ Les **acteurs métiers** - responsable SI, experts métiers.
 
 
 #### Gestion de risques
-stratégie : direction générale
-métier : responsable métiers
-fonctionnelle : une équipe assistance MOA
-applicative : responsable informatique
-infrastructure technique : responsable informatique
+Stratégie : direction générale
 
-- les risques peuvent être de n'importe quel niveau
-- la responsable de risque est responsable de la gestion des risques
+Métier : responsable métiers
 
-#### démarche urbanisation outillée
-- il existe plusieurs outils d'architechture d'entreprise
+Fonctionnelle : une équipe assistance MOA
+
+Applicative : responsable informatique
+
+Infrastructure technique : responsable informatique
+
+- Les risques peuvent être de n'importe quel niveau
+- öa responsable de risque est responsable de la gestion des risques
+
+#### Démarche urbanisation outillée
+- Il existe plusieurs outils d'architechture d'entreprise
 
 
 # Couche métier - part 1
@@ -186,11 +193,11 @@ infrastructure technique : responsable informatique
 #### La cartographie de la couche métier
 ![cartographie métier - organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/cartographie-couche-metier.jpg?raw=true)
 
-- ![Organigramme d'acteur]
+- ![Organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#cartographier-les-acteurs---organigramme-dacteur)
 - Modéliser les processus métiers selon la norme BPMN
-  - ![Processus métiers]
-  - ![Introduction à BPMN]
-  - ![Diagramme de processus métier]
+  - ![Processus métiers](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#processus-m%C3%A9tier)
+  - ![Introduction à BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#business-process-model-notation---bpmn)
+  - ![Diagramme de processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-m%C3%A9tier)
   - Diagramme de processus organisationnel
   - Diagramme de processus fonctionnel
   - Diagramme de processus applicatif
@@ -203,13 +210,13 @@ Un acteur peut être interne ou externe à l'entreprise :
 - Un acteur interne représente un élément de l'organisation de l'entreprise (une direction, un service ou un poste de travail). Définit à un niveau plus au moins fin selon la précision fournit sur l'organisation.
 - Un acteur externe représente un organisme qui ne fait pas partie de l'entreprise mais qui échange des flux avec l'entreprise. Ex : client, fournisseur,…
 
-<u>Types d'acteur :</u>
+Types d'acteur :
 - Société : représente une entité juridique comme une filiale ou le siège social d'une entreprise.  
 - Structure : représente un service ou une direction de l'entreprise (ex: département des finances).
 - Fonction : représente un poste de travail (ex: responsable commercial).
 - Responsable : représente le responsable d'un service ou d'une direction (ex : Directeur de l'administration fiscale
 
-<u>Notation :</u>
+Notation :
 ![Notation acteurs](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/notation-acteurs.jpg?raw=true)
 
 #### Cartographier les acteurs - organigramme d'acteur
@@ -236,6 +243,7 @@ Une unité organisationnelle est un département, ou un office, ou un service, s
 - **[RM02]** Une unité organisationnelle (feuille de l'arbre) ne peut être rattachée qu'à une -et une seule unité organisationnelle supérieure.  
 - **[RM03]** Un organigramme d'acteur ne doit mentionner que des acteurs internes. On ne s'intéresse pas à l'organisation des acteurs externes.   
 
+#### Mauvaise exemple d'un organigramme d'acteur
 ![Faux exemple - organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/faux-exemple-organigramme-acteurs.jpg?raw=true)
 
 - manque RM01 : directuer général -> selon le texte; soit on remplace ceci par le nom de l'entreprise soit une autre carré au dessus de ceci avec le nom de l'entreprise
@@ -292,7 +300,7 @@ BPMN a été principalement développé pour soutenir la mise en œuvre techniqu
   - 2013 : version 2.0.2
 - Norme vivante grâce à une communauté très active
 
-### BPMN et UML
+#### BPMN et UML
 BPMN et UML sont élaborées par l'OMG et sont complémentaires :
 - UML permet l'analyse et la conception d'un système informatique.
 - BPMN vise l'analyse et la conception de processus métiers .
@@ -302,15 +310,15 @@ Diagramme de processus BPMN ->  diagramme de cas d'utilisation UML.
 #### Diagramme de processus métier - approche top-down
 #### Identifier les processus métier macroscopiques
 1. Identifier les acteurs externes :
-- les clients et bénéficiaires auxquels l'organisation doit répondre
-- les partenaires stratégiques qui fournissent des services ou des ressources clés  
+  - les clients et bénéficiaires auxquels l'organisation doit répondre
+  - les partenaires stratégiques qui fournissent des services ou des ressources clés  
 2. Faire l'inventaire des produits ou services fournis
-- Lister les principaux produits et services qui font l'objet d'un engagement formel envers les clients et partenaires
+  - Lister les principaux produits et services qui font l'objet d'un engagement formel envers les clients et partenaires
 3. Identifier les processus métiers
-- Ce sont les activités mises en place pour fournir les produits et services demandés
+  - Ce sont les activités mises en place pour fournir les produits et services demandés
 4. Initialiser le diagramme de processus métier
-- Au moins 1 participant (acteur)
-- Des flux avec des contenus correspondant aux produits et services
+  - Au moins 1 participant (acteur)
+  - Des flux avec des contenus correspondant aux produits et services
 
 ![Processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/processus-metier.jpg?raw=true)
 
