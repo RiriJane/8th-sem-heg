@@ -1,8 +1,8 @@
 # 626-1 Urbanisation
 
 # Table des matières
-1. [Les fondamentaux]
-2. Couche métier - part 1
+1. [Les fondamentaux](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-fondamentaux)
+2. [Couche métier - part 1](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-1)
 
 # Les fondamentaux
 #### jeudi 24 février 2022
