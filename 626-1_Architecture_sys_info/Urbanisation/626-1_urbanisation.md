@@ -7,10 +7,11 @@
 4. [Processus métiers](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#processus-m%C3%A9tier)
 5.[Introduction à BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#business-process-model-notation---bpmn)
 6. [Diagramme de processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-m%C3%A9tier)
-7. [Les principaux concepts de BPMN] -
-7. Diagramme de processus organisationnel
-8. Diagramme de processus fonctionnel
-9. Diagramme de processus applicatif
+7. [Couche métier - part 2]()
+8. [Les principaux concepts de BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-principaux-concepts-de-bpmn)
+9. [Diagramme de processus organisationnel](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-organisationnel)
+ Diagramme de processus fonctionnel
+ Diagramme de processus applicatif
 
 # Les fondamentaux
 #### jeudi 24 février 2022
@@ -337,34 +338,35 @@ Diagramme de processus BPMN ->  diagramme de cas d'utilisation UML.
 - Quelles sont les activités de mon processus ? Comment s’enchainent-t-elles quand tout se passe bien ?
 - Quelles sont les interactions de mon processus avec des acteurs externes ? Ou d’autres processus ?
 
+# Couche métier - part 2
 # Les principaux concepts de BPMN
 
 #### Les 3 catégories de concepts BPMN
 - Objectif :avoir un formalisme standard, simple et implémentable.
 
 1. Les objets étapes
-  - **Activité** action ou ensemble d'actions ![élément activité]
+  - **Activité** action ou ensemble d'actions ![élément activité](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/element-activite.jpg?raw=trues)
     - Tache
     - Sous-processus
-  - **Evénement** va déclencher, interrompre ou influencer le déroulement du processus ![élément événement]
+  - **Evénement** va déclencher, interrompre ou influencer le déroulement du processus ![élément événement](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/element-evenement.jpg?raw=true)
     - Début
     - Intermédiaire
     - Fin
-  - **Passerelle** qui influence la séquence d'activités ![élément passerelle]
+  - **Passerelle** qui influence la séquence d'activités ![élément passerelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/element-passerelle.jpg?raw=true)
 
 2. Les objets de connexion
-  - **Flux de séquence** : connectent les activités entre elles, et expriment l'ordre d'exécution ![Flux de séquence]
-  - **Flux de message** : les échanges entre processus ![Flux de message]
+  - **Flux de séquence** : connectent les activités entre elles, et expriment l'ordre d'exécution ![Flux de séquence](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/flux-sequence.jpg?raw=true)
+  - **Flux de message** : les échanges entre processus ![Flux de message](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/flux-message.jpg?raw=true)
 
 3. Les objets de collaboration
   - Les **piscines et les couloirs** : les responsabilités au sein d’un processus métier
-    ![piscines et couloirs]
-  - Les **artéfacts** : objets de données et annotations ![artefacts]
+    ![piscines et couloirs](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/piscine-couloir.jpg?raw=true)
+  - Les **artéfacts** : objets de données et annotations ![artefacts](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/artefacts.jpg?raw=true)
 
 Une bonne référence : https://docs.camunda.org/manual/7.14/reference/bpmn20/
 
 #### Les marquers d'objets BPMN
-![Les marquers d'objets BPMN]
+![Les marquers d'objets BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/marquers-bpmn.jpg?raw=true)
 
 #### Les 3 niveaux de conformité
 1. **Descriptif** : les éléments de base utiles pour la modélisation des processus macroscopiques.
@@ -379,7 +381,8 @@ Une bonne référence : https://docs.camunda.org/manual/7.14/reference/bpmn20/
 - Décrit la marche à suivre pour mettre en œuvre tout ou partie d'un processus.
 
 #### Processus métier vs Processus organisationnel
-![Exemple processus métier vs processus organisationnel]
+![Exemple processus métier vs processus organisationnel](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/processus-metier-vs-processus-organisationnel.jpg?raw=true)
+
 Un **processus métier**  : permet la description de ce que fait l'entreprise. Il décrit le Quoi ?
 
 Un **processus organisationnel** : décrit comment l'entreprise est organisée pour effectuer les opérations nécessaires à son fonctionnement. Il décrit le Qui fait quoi, Quand, Comment et Où?
@@ -391,21 +394,20 @@ Une **activité** est une action.
 
 2 cas :
 1. Soit cette activité est décomposable, BPMN parle de sous-processus et donc peut être décrit par un diagramme de processus.
-
-![sous-processus]
+![sous-processus](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/sous-processus.jpg?raw=true)
 
 2. Soit cette activité est élémentaire ou atomique et donc non décomposable et BPMN parle de tâche. Et donc ne peut pas être décrit par un diagramme.
-![Tâche]
+![Tâche](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/tache.jpg?raw=true)
 
 **Convention de nommage** : Processus, sous-processus et tâche commencent par un verbe à l'infinitif.
 
 #### Marqueurs d'activités
 Les marqueurs d'activitées indiquent le comportement des activités lors de leur exécution.
 
-![Marqueurs d'activités]
+![Marqueurs d'activités](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/marquers-activites.jpg?raw=true)
 
 #### Marqueurs de tâches
-![Type de tâches]
+![Type de tâches](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/types-taches.jpg?raw=true)
 
 #### Piscine et couloirs
 - **Piscine** : indique le responsable du déroulement des activités (acteur interne). Il assume le contrôle du processus et attribue les tâches (chef d'orchestre) c'est pourquoi ce type de processus est appelé «orchestration».
@@ -428,23 +430,23 @@ Les marqueurs d'activitées indiquent le comportement des activités lors de leu
 - Font circuler l'information
 
 #### Evénement - Niveau Descriptif
-- DÉBUT : déclenche le processus ![événement début]
+- DÉBUT : déclenche le processus ![événement début](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/evenement-debut.jpg?raw=true)
   - indique quand et comment un processus démarre
   - obligatoire et unique au sein d'un processus
 
-- FIN : est émis par le processus ![événement fin]
+- FIN : est émis par le processus ![événement fin](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/evenement-fin.jpg?raw=true)
   - indique la fin d'un processus et ne peut pas avoir de suite
   - obligatoire mais peuvent être multiples dans un processus
   - On distinguera les fins avec erreurs ou anomalies
 
-- INTERMÉDIAIRE : le processus attend l'arrivée d'un événement pour continuer ![événement intermédiaire]
+- INTERMÉDIAIRE : le processus attend l'arrivée d'un événement pour continuer ![événement intermédiaire](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/evenement-intermediaire.jpg?raw=true)
 
 
 - **[RM06]** : un processus est obligatoirement déclenché par un événement de type début unique.
 - **[RM07]** : un processus prend fin obligatoirement par au moins un événement de type fin.
 - Convention : s'il y a plusieurs événements de fin, on doit les distinguer par un libellé explicite de la cause de la fin.
 
-![3 principaux types d'événements]
+![3 principaux types d'événements](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/3-principaux-types-evenements.jpg?raw=true)
 
 #### Evénement temporel
-![événement temporel]
+![événement temporel](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/evenements-temporels.jpg?raw=true)
