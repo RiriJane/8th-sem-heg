@@ -3,6 +3,14 @@
 # Table des matières
 1. [Les fondamentaux](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-fondamentaux)
 2. [Couche métier - part 1](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-1)
+3. [Organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#cartographier-les-acteurs---organigramme-dacteur)
+4. [Processus métiers](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#processus-m%C3%A9tier)
+5.[Introduction à BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#business-process-model-notation---bpmn)
+6. [Diagramme de processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-m%C3%A9tier)
+7. [Les principaux concepts de BPMN] -
+7. Diagramme de processus organisationnel
+8. Diagramme de processus fonctionnel
+9. Diagramme de processus applicatif
 
 # Les fondamentaux
 #### jeudi 24 février 2022
@@ -193,15 +201,6 @@ Infrastructure technique : responsable informatique
 #### La cartographie de la couche métier
 ![cartographie métier - organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/cartographie-couche-metier.jpg?raw=true)
 
-- ![Organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#cartographier-les-acteurs---organigramme-dacteur)
-- Modéliser les processus métiers selon la norme BPMN
-  - ![Processus métiers](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#processus-m%C3%A9tier)
-  - ![Introduction à BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#business-process-model-notation---bpmn)
-  - ![Diagramme de processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-m%C3%A9tier)
-  - Diagramme de processus organisationnel
-  - Diagramme de processus fonctionnel
-  - Diagramme de processus applicatif
-
 #### Le concept d'acteur
 Un acteur représente une personne, un groupe de personnes ou une unité organisationnelle qui intervient dans les processus de l'entreprise.
 
@@ -337,3 +336,115 @@ Diagramme de processus BPMN ->  diagramme de cas d'utilisation UML.
 - Quels sont les résultats attendus ? Quelles sont les différentes fins possibles ?
 - Quelles sont les activités de mon processus ? Comment s’enchainent-t-elles quand tout se passe bien ?
 - Quelles sont les interactions de mon processus avec des acteurs externes ? Ou d’autres processus ?
+
+# Les principaux concepts de BPMN
+
+#### Les 3 catégories de concepts BPMN
+- Objectif :avoir un formalisme standard, simple et implémentable.
+
+1. Les objets étapes
+  - **Activité** action ou ensemble d'actions ![élément activité]
+    - Tache
+    - Sous-processus
+  - **Evénement** va déclencher, interrompre ou influencer le déroulement du processus ![élément événement]
+    - Début
+    - Intermédiaire
+    - Fin
+  - **Passerelle** qui influence la séquence d'activités ![élément passerelle]
+
+2. Les objets de connexion
+  - **Flux de séquence** : connectent les activités entre elles, et expriment l'ordre d'exécution ![Flux de séquence]
+  - **Flux de message** : les échanges entre processus ![Flux de message]
+
+3. Les objets de collaboration
+  - Les **piscines et les couloirs** : les responsabilités au sein d’un processus métier
+    ![piscines et couloirs]
+  - Les **artéfacts** : objets de données et annotations ![artefacts]
+
+Une bonne référence : https://docs.camunda.org/manual/7.14/reference/bpmn20/
+
+#### Les marquers d'objets BPMN
+![Les marquers d'objets BPMN]
+
+#### Les 3 niveaux de conformité
+1. **Descriptif** : les éléments de base utiles pour la modélisation des processus macroscopiques.
+  -Mmodélisation à partager entre humains. On décrit essentiellement le chemin idéal et on omet les cas d'exception. Dans ce cas, on désactive le règlement BPMN.
+2. **Analytique** : tous les éléments de niveau descriptif + des éléments utilisés pour décrire le comportement des processus.
+  - On décrit formellement tout ce que l'on peut décrire : le chemin idéal mais aussi les exceptions. Le règlement BPMN doit être respecté.
+3. Exécutable : contient tous les attributs nécessaires pour que les processus puissent être exécutés par un moteur de workflow. **Pas pour ce cours.**
+
+# Diagramme de processus organisationnel
+- Nn ensemble d'activités (opérations) réalisées par des acteurs de l'entreprise en vue de produire un résultat.
+- Décrit par une succession d'opérations déclenchée par la réception d'un événement et produit au moins un résultat.
+- Décrit la marche à suivre pour mettre en œuvre tout ou partie d'un processus.
+
+#### Processus métier vs Processus organisationnel
+![Exemple processus métier vs processus organisationnel]
+Un **processus métier**  : permet la description de ce que fait l'entreprise. Il décrit le Quoi ?
+
+Un **processus organisationnel** : décrit comment l'entreprise est organisée pour effectuer les opérations nécessaires à son fonctionnement. Il décrit le Qui fait quoi, Quand, Comment et Où?
+
+Donc, un processus métier peut être mis en œuvre par **plusieurs** processus organisationnels.
+
+#### Les activités dans la norme BPMN
+Une **activité** est une action.
+
+2 cas :
+1. Soit cette activité est décomposable, BPMN parle de sous-processus et donc peut être décrit par un diagramme de processus.
+
+![sous-processus]
+
+2. Soit cette activité est élémentaire ou atomique et donc non décomposable et BPMN parle de tâche. Et donc ne peut pas être décrit par un diagramme.
+![Tâche]
+
+**Convention de nommage** : Processus, sous-processus et tâche commencent par un verbe à l'infinitif.
+
+#### Marqueurs d'activités
+Les marqueurs d'activitées indiquent le comportement des activités lors de leur exécution.
+
+![Marqueurs d'activités]
+
+#### Marqueurs de tâches
+![Type de tâches]
+
+#### Piscine et couloirs
+- **Piscine** : indique le responsable du déroulement des activités (acteur interne). Il assume le contrôle du processus et attribue les tâches (chef d'orchestre) c'est pourquoi ce type de processus est appelé «orchestration».
+
+- **Couloir** : indique qui réalise les activités. Subdivision optionnelle de la piscine. Un acteur interne aussi.
+
+- **Piscine collapsée** : permet de modéliser un participant externe (acteur ou processus) qui échange des flux avec le processus décrit mais dont on ne connait pas la séquence d'activités.   
+
+#### Flux de séquence
+- C'est un lien entre 2 activités d'un processus ou entre un événement et une activité dans un processus. Il indique un lien de séquence.
+- Deux activités successives doivent être reliées entre elles par un enchainement.
+- **[RM04]** : Un flux de séquence ne doit pas sortir des frontières du processus (la -piscine) , il est obligatoirement interne au processus.
+- Les interactions avec l'extérieur du processus sont modélisées par des flux de message.
+- Donnent une vue séquentielle du déroulement des activités.
+
+#### Flux de messages
+ - Permet de modéliser la circulation d'information entre le processus et son environnement c’est-à-dire avec les participants externes au processus, ou avec d'autres processus.
+- **[RM05]** : Un flux (de message) sort des frontières du processus (la piscine).
+- Recommandé de décrire le contenu du flux.
+- Font circuler l'information
+
+#### Evénement - Niveau Descriptif
+- DÉBUT : déclenche le processus ![événement début]
+  - indique quand et comment un processus démarre
+  - obligatoire et unique au sein d'un processus
+
+- FIN : est émis par le processus ![événement fin]
+  - indique la fin d'un processus et ne peut pas avoir de suite
+  - obligatoire mais peuvent être multiples dans un processus
+  - On distinguera les fins avec erreurs ou anomalies
+
+- INTERMÉDIAIRE : le processus attend l'arrivée d'un événement pour continuer ![événement intermédiaire]
+
+
+- **[RM06]** : un processus est obligatoirement déclenché par un événement de type début unique.
+- **[RM07]** : un processus prend fin obligatoirement par au moins un événement de type fin.
+- Convention : s'il y a plusieurs événements de fin, on doit les distinguer par un libellé explicite de la cause de la fin.
+
+![3 principaux types d'événements]
+
+#### Evénement temporel
+![événement temporel]
