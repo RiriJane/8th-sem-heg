@@ -394,9 +394,11 @@ Une **activité** est une action.
 
 2 cas :
 1. Soit cette activité est décomposable, BPMN parle de sous-processus et donc peut être décrit par un diagramme de processus.
+
 ![sous-processus](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/sous-processus.jpg?raw=true)
 
 2. Soit cette activité est élémentaire ou atomique et donc non décomposable et BPMN parle de tâche. Et donc ne peut pas être décrit par un diagramme.
+
 ![Tâche](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/tache.jpg?raw=true)
 
 **Convention de nommage** : Processus, sous-processus et tâche commencent par un verbe à l'infinitif.
