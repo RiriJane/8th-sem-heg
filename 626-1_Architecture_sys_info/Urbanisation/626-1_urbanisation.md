@@ -11,6 +11,9 @@
 8. [Les principaux concepts de BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-principaux-concepts-de-bpmn)
 9. [Diagramme de processus organisationnel](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-organisationnel)
 10. [Couche métier - part 3](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-3)
+11. [Couche métier - part 4](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-4)
+
+
  Diagramme de processus fonctionnel
  Diagramme de processus applicatif
 
@@ -523,18 +526,20 @@ Exemple :
 # Couche métier - part 4
 
 #### Objet de données
-![elements base de données]
+![elements base de données](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/elements-bdd.jpg?raw=true)
+
 - Représente des **informations circulant** tout au long des processus tels que des documents.
 - Une base de données est un endroit où le processus peut lire et écrire des données. Elle **persiste au-delà de la durée de vie du processus**.
 
-![exemple objet de données]
+![exemple objet de données](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-bdd.jpg?raw=true)
 
 #### Artefact
-![artefacts]
+![artefacts](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/artefacts.jpg?raw=true)
+
 - Une précision, une information supplémentaire graphique ou textuelle apportée à un diagramme, une **annotation**.
 - un **regroupement** : rassemble graphiquement un ensemble d'éléments ayant une relation sémantique,  pour le visuel uniquement.
 
-![exemple regroupement]
+![exemple regroupement](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-regroupement.jpg?raw=true)
 
 #### Les 2 catégories de diagrammes
 1. **Diagramme de collaboration** : permet de représenter les interactions entre un processus et son environnement en spécifiant les messages échangés.
@@ -558,13 +563,13 @@ Exemple :
 
 
 #### Exemple - Diagramme de collaboration : 1er niveau le macro-Processus
-![Exemple Diagramme de processus 1er niveau]
+![Exemple Diagramme de processus 1er niveau](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-diagramme-de-processus-macro-1er-niveau.jpg?raw=true)
 
 #### Exemple - Diagramme de collaboration : 2ème niveau on décompose le processus en sous-processus. Pas de séquence entre processus mais des échanges de message
-![Exemple Diagramme de collaboration : 2ème niveau]
+![Exemple Diagramme de collaboration : 2ème niveau](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-diagramme-collaboration-2eme-niveau.jpg?raw=true)
 
 #### Diagramme d'orchestration : décrit la séquence des activités du début jusqu'à la fin
-![Exemple Diagramme d'orchestration]
+![Exemple Diagramme d'orchestration](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-diagramme-orchestration.jpg?raw=true)
 
 #### Démarche de cartographie des processus métiers  du plus général au plus détaillé  
 1. Organigramme d'acteur
