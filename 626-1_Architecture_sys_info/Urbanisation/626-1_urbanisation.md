@@ -543,22 +543,22 @@ Exemple :
 
 #### Les 2 catégories de diagrammes
 1. **Diagramme de collaboration** : permet de représenter les interactions entre un processus et son environnement en spécifiant les messages échangés.
-  - Processus métier
-  - Processus organisationnel
-  - Sous-processus
-  - Participant (avec acteur externe)
-  - Flux de message
-  - Flux de séquence
+    - Processus métier
+    - Processus organisationnel
+    - Sous-processus
+    - Participant (avec acteur externe)
+    - Flux de message
+    - Flux de séquence
 
 2. **Diagramme d'orchestration (ou diagramme de flux de séquence)** : décrit la séquence du processus du début à la fin avec les concepts de :
-  - Processus organisationnel
-  - Participant (acteur interne)
-  - Opération (ou tâche)
-  - Flux de message
-  - Flux de séquence
-  - Événement
-  - Passerelle
-  - Piscine et couloir   
+    - Processus organisationnel
+    - Participant (acteur interne)
+    - Opération (ou tâche)
+    - Flux de message
+    - Flux de séquence
+    - Événement
+    - Passerelle
+    - Piscine et couloir   
 - **[RM10]** : Dans un diagramme de processus organisationnel, le flux de séquence ne doit pas s'interrompre, c’est-à-dire on doit pouvoir aller du début jusqu'à la fin, sans interruption dans la description de la séquence.
 
 
@@ -573,29 +573,29 @@ Exemple :
 
 #### Démarche de cartographie des processus métiers  du plus général au plus détaillé  
 1. Organigramme d'acteur
-  - Identifier les acteurs internes à l'organisation étudiée
+    - Identifier les acteurs internes à l'organisation étudiée
 2. Diagramme de collaboration niveau 1 macro
-  - Identifier les acteurs externes et les interactions (flux de messages)
+    - Identifier les acteurs externes et les interactions (flux de messages)
 3. Diagramme de collaboration niveau 2 sous-processus
-  - Décomposer le macro processus en sous-processus
+    - Décomposer le macro processus en sous-processus
 4. Diagramme d'orchestration processus organisationnels
-  - Décomposer chaque sous-processus en une séquence de processus organisationnels (boites roses)
+    - Décomposer chaque sous-processus en une séquence de processus organisationnels (boites roses)
 5. Diagramme d'orchestration pour chaque processus organisationnel
-  - Pour chaque processus organisationnel, décrire la séquence de tâches
+    - Pour chaque processus organisationnel, décrire la séquence de tâches
 
 #### Comment savoir si un diagramme est réussi ?
 2 qualités :
 1. Conformité :
-  - Respect de toutes les règles de modélisation [RMxx]
-  - Respect des conventions de nommage
-  - Respect des usages (couleurs, sens de modélisation, expliciter les événements de fin, et les informations portés par les flux d'information )
+    - Respect de toutes les règles de modélisation [RMxx]
+    - Respect des conventions de nommage
+    - Respect des usages (couleurs, sens de modélisation, expliciter les événements de fin, et les informations portés par les flux d'information )
 
 Pour la norme BPMN, l'utilisation d'un outil de modélisation aide à respecter la norme :
 - Camunda est conçu pour modéliser des diagrammes de processus organisationnels et ne permet pas de déroger à la norme BPMN
 - MEGA Hopex, permet de modéliser l'ensemble des 4 couches de référence et offre la possibilité d'utiliser le "règlement BPMN" qui signale les erreurs de modélisation sur un diagramme de processus organisationnel.
 
 2. Lisibilité :
-  - La modélisation est aussi un acte de communication. Une cartographie doit être le plus lisible possible tant sur le fond que sur la forme :
-    - De gauche à droite, de haut en bas
-    - Éviter les croisements de flux ou de messages
-    - Indiquer systématiquement le titre du diagramme
+    - La modélisation est aussi un acte de communication. Une cartographie doit être le plus lisible possible tant sur le fond que sur la forme :
+      - De gauche à droite, de haut en bas
+      - Éviter les croisements de flux ou de messages
+      - Indiquer systématiquement le titre du diagramme
