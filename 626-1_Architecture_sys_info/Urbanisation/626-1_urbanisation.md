@@ -519,3 +519,78 @@ Exemple :
 - Affecter les activités aux acteurs participants qui sont en charge de leur exécution
 - Identifier les événements qui peuvent changer le déroulement du processus
 - Décrire les passerelles et les conditions.
+
+# Couche métier - part 4
+
+#### Objet de données
+![elements base de données]
+- Représente des **informations circulant** tout au long des processus tels que des documents.
+- Une base de données est un endroit où le processus peut lire et écrire des données. Elle **persiste au-delà de la durée de vie du processus**.
+
+![exemple objet de données]
+
+#### Artefact
+![artefacts]
+- Une précision, une information supplémentaire graphique ou textuelle apportée à un diagramme, une **annotation**.
+- un **regroupement** : rassemble graphiquement un ensemble d'éléments ayant une relation sémantique,  pour le visuel uniquement.
+
+![exemple regroupement]
+
+#### Les 2 catégories de diagrammes
+1. **Diagramme de collaboration** : permet de représenter les interactions entre un processus et son environnement en spécifiant les messages échangés.
+  - Processus métier
+  - Processus organisationnel
+  - Sous-processus
+  - Participant (avec acteur externe)
+  - Flux de message
+  - Flux de séquence
+
+2. **Diagramme d'orchestration (ou diagramme de flux de séquence)** : décrit la séquence du processus du début à la fin avec les concepts de :
+  - Processus organisationnel
+  - Participant (acteur interne)
+  - Opération (ou tâche)
+  - Flux de message
+  - Flux de séquence
+  - Événement
+  - Passerelle
+  - Piscine et couloir   
+- **[RM10]** : Dans un diagramme de processus organisationnel, le flux de séquence ne doit pas s'interrompre, c’est-à-dire on doit pouvoir aller du début jusqu'à la fin, sans interruption dans la description de la séquence.
+
+
+#### Exemple - Diagramme de collaboration : 1er niveau le macro-Processus
+![Exemple Diagramme de processus 1er niveau]
+
+#### Exemple - Diagramme de collaboration : 2ème niveau on décompose le processus en sous-processus. Pas de séquence entre processus mais des échanges de message
+![Exemple Diagramme de collaboration : 2ème niveau]
+
+#### Diagramme d'orchestration : décrit la séquence des activités du début jusqu'à la fin
+![Exemple Diagramme d'orchestration]
+
+#### Démarche de cartographie des processus métiers  du plus général au plus détaillé  
+1. Organigramme d'acteur
+  - Identifier les acteurs internes à l'organisation étudiée
+2. Diagramme de collaboration niveau 1 macro
+  - Identifier les acteurs externes et les interactions (flux de messages)
+3. Diagramme de collaboration niveau 2 sous-processus
+  - Décomposer le macro processus en sous-processus
+4. Diagramme d'orchestration processus organisationnels
+  - Décomposer chaque sous-processus en une séquence de processus organisationnels (boites roses)
+5. Diagramme d'orchestration pour chaque processus organisationnel
+  - Pour chaque processus organisationnel, décrire la séquence de tâches
+
+#### Comment savoir si un diagramme est réussi ?
+2 qualités :
+1. Conformité :
+  - Respect de toutes les règles de modélisation [RMxx]
+  - Respect des conventions de nommage
+  - Respect des usages (couleurs, sens de modélisation, expliciter les événements de fin, et les informations portés par les flux d'information )
+
+Pour la norme BPMN, l'utilisation d'un outil de modélisation aide à respecter la norme :
+- Camunda est conçu pour modéliser des diagrammes de processus organisationnels et ne permet pas de déroger à la norme BPMN
+- MEGA Hopex, permet de modéliser l'ensemble des 4 couches de référence et offre la possibilité d'utiliser le "règlement BPMN" qui signale les erreurs de modélisation sur un diagramme de processus organisationnel.
+
+2. Lisibilité :
+  - La modélisation est aussi un acte de communication. Une cartographie doit être le plus lisible possible tant sur le fond que sur la forme :
+    - De gauche à droite, de haut en bas
+    - Éviter les croisements de flux ou de messages
+    - Indiquer systématiquement le titre du diagramme
