@@ -460,10 +460,10 @@ Les marqueurs d'activitées indiquent le comportement des activités lors de leu
 - message : est toujours adressé à un destinataire spécifique et porte une information.
 - signal : non dirigé, et c'est souvent un stimuli sensoriel, visuel ou auditif. Il ne porte pas une information à proprement dit mais c'est son interprétation qui donne une information. Par exemple, le client arrive, le réveil sonne, le client lève la main pour appeler le serveur.
 
-![evenement synthèse]
+![evenement synthèse](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/evenements-synthese.jpg?raw=true)
 
 #### Passerelle (branchement)
-![passerelle]
+![passerelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/passerelle.jpg?raw=true)
 
 - Sert à contrôler des flux de séquence qui convergent ou qui divergent à l'intérieur d'un processus.
 - Effectue aucune tâche, c’est juste un lieu où une décision est prise en fonction du flux d’entrée.
@@ -474,14 +474,13 @@ Les marqueurs d'activitées indiquent le comportement des activités lors de leu
 - Avant une tâche, une passerelle permet de rassembler plusieurs chemins en 1 seul pour déclencher la tâche.
 - **[RM09]** : une passerelle ne doit pas servir à la fois à réunir et à diviser le flux. Dans ce cas, on modélise 2 passerelles à la suite
 
-![RM09]
-
+![RM09](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/RM09.jpg?raw=true)
 
 #### Mauvais exemple passerelle
-![Mauvais exemple passerelle]
+![Mauvais exemple passerelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/mauvais-exemple-passerelle.jpg?raw=true)
 
 #### 5 types de Passerelle
-![5 types de Passerelle]
+![5 types de Passerelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/5-types-passerelles.jpg?raw=true)
 
 #### Passerelle OU EXCLUSIF
 - 1 seul des trajets qui suivent est exécutée en fonction de la valeur de la condition.
@@ -490,14 +489,14 @@ Les marqueurs d'activitées indiquent le comportement des activités lors de leu
 
 #### Passerelle OU INCLUSIF
 
-![passerelle inclusive]
+![passerelle inclusive](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/passerelle-inclusive.jpg?raw=true)
 
 - 1 ou plusieurs : En fonction de la condition, la séquence continue sur 1, plusieurs ou toutes les branches.
 - La condition doit être explicite.
 
 #### Passerelle ET
 
-![passerelle et]
+![passerelle et](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/passerelle-et.jpg?raw=true)
 
 - le processus suit simultanément tous les trajets parallèles.
 - Placé après une tâche, la passerelle parallèle sépare le flux de séquence en plusieurs flux de séquence qui tournent en même temps.
@@ -511,7 +510,7 @@ Passerelle **OU exclusif + attente d'un événement**
 - L'arrivée d'un évènement intermédiaire déclenchera un des chemins du processus.
 
 Exemple :
-![exemple Passerelle basée sur les événements]
+![exemple Passerelle basée sur les événements](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/exemple-passerelle-basee-evenements.jpg?raw=true)
 
 #### Décrire le processus organisationnel
 - Décrire le processus organisationnel
