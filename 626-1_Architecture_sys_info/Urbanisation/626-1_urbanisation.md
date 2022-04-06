@@ -452,3 +452,72 @@ Les marqueurs d'activitées indiquent le comportement des activités lors de leu
 
 #### Evénement temporel
 ![événement temporel](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-2/evenements-temporels.jpg?raw=true)
+
+# Couche métier - part 3
+
+#### Evénement de type signal
+#### Différence entre message et signal
+- message : est toujours adressé à un destinataire spécifique et porte une information.
+- signal : non dirigé, et c'est souvent un stimuli sensoriel, visuel ou auditif. Il ne porte pas une information à proprement dit mais c'est son interprétation qui donne une information. Par exemple, le client arrive, le réveil sonne, le client lève la main pour appeler le serveur.
+
+![evenement synthèse]
+
+#### Passerelle (branchement)
+![passerelle]
+
+- Sert à contrôler des flux de séquence qui convergent ou qui divergent à l'intérieur d'un processus.
+- Effectue aucune tâche, c’est juste un lieu où une décision est prise en fonction du flux d’entrée.
+- Le symbole à l’intérieur du losange sert à identifier le comportement de la passerelle.
+- Ne laisse aucune ambiguïté sur la séquence du flux.
+- **[RM08]** : l’arrivée ou le départ de plus qu’un flux doit passer obligatoirement par une passerelle et ne pas être directement relié à une tâche.
+- Après une tâche, une passerelle permet de diviser un flux en 2 ou plusieurs chemins (autres flux de séquence).
+- Avant une tâche, une passerelle permet de rassembler plusieurs chemins en 1 seul pour déclencher la tâche.
+- **[RM09]** : une passerelle ne doit pas servir à la fois à réunir et à diviser le flux. Dans ce cas, on modélise 2 passerelles à la suite
+
+![RM09]
+
+
+#### Mauvais exemple passerelle
+![Mauvais exemple passerelle]
+
+#### 5 types de Passerelle
+![5 types de Passerelle]
+
+#### Passerelle OU EXCLUSIF
+- 1 seul des trajets qui suivent est exécutée en fonction de la valeur de la condition.
+- La condition doit être explicite et sans ambiguïté.
+- On note sur les flux de séquence les critères des différents chemins possibles.
+
+#### Passerelle OU INCLUSIF
+
+![passerelle inclusive]
+
+- 1 ou plusieurs : En fonction de la condition, la séquence continue sur 1, plusieurs ou toutes les branches.
+- La condition doit être explicite.
+
+#### Passerelle ET
+
+![passerelle et]
+
+- le processus suit simultanément tous les trajets parallèles.
+- Placé après une tâche, la passerelle parallèle sépare le flux de séquence en plusieurs flux de séquence qui tournent en même temps.
+- Placé avant une tâche, la passerelle parallèle permet la réunion de plusieurs flux de séquence et attend que toutes les séquences d’arrivée soient terminées avant de toutes les associer en un seul flux de sortie.
+
+#### Passerelle basée sur les événements
+Passerelle **OU exclusif + attente d'un événement**
+- Ppermet de prendre une décision en fonction des événements.
+- Chaque flux de séquence sortant de la passerelle doit être connecté à un événement intermédiaire.
+- Lorsque l'exécution du processus atteint une passerelle basée sur les événements, la passerelle agit comme un état d'attente: l'exécution est suspendue, et attend qu'un des événements intermédiaires se produit.
+- L'arrivée d'un évènement intermédiaire déclenchera un des chemins du processus.
+
+Exemple :
+![exemple Passerelle basée sur les événements]
+
+#### Décrire le processus organisationnel
+- Décrire le processus organisationnel
+- Identifier les participants au processus
+- Décrire les activités menées du début à la fin du processus
+- Agencer les activités dans leur ordre chronologique
+- Affecter les activités aux acteurs participants qui sont en charge de leur exécution
+- Identifier les événements qui peuvent changer le déroulement du processus
+- Décrire les passerelles et les conditions.
