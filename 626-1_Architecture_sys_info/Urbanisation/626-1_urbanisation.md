@@ -10,6 +10,7 @@
 7. [Couche métier - part 2]()
 8. [Les principaux concepts de BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-principaux-concepts-de-bpmn)
 9. [Diagramme de processus organisationnel](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-organisationnel)
+10. [Couche métier - part 3](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-3)
  Diagramme de processus fonctionnel
  Diagramme de processus applicatif
 
@@ -463,8 +464,6 @@ Les marqueurs d'activitées indiquent le comportement des activités lors de leu
 ![evenement synthèse](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/evenements-synthese.jpg?raw=true)
 
 #### Passerelle (branchement)
-![passerelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-3/passerelle.jpg?raw=true)
-
 - Sert à contrôler des flux de séquence qui convergent ou qui divergent à l'intérieur d'un processus.
 - Effectue aucune tâche, c’est juste un lieu où une décision est prise en fonction du flux d’entrée.
 - Le symbole à l’intérieur du losange sert à identifier le comportement de la passerelle.
