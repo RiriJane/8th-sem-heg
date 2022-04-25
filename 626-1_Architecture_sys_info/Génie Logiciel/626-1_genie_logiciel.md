@@ -41,10 +41,10 @@ La disponibilité concerne les défaillances du système et leurs conséquences.
 - Un défaut devient une défaillance lorsqu'il est observable par l'utilisateur du système.
   - Alors, une façon d'éviter une défaillance est de détecter et de corriger une défaillance avant qu'elle ne devienne observable par l'utilisateur.
 
-![Availability tactics](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/availability-tactics.jpg?raw=true)
+![Availability tactics](img/lecture1/availability-tactics.jpg?raw=true)
 
 ## Pourquoi la modifiabilité est-elle un problème ? Dépendances
-![Pourquoi la modifiabilité est-elle un problème ? Dépendances](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/modifiability-issue-dependencies.jpg?raw=true)
+![Pourquoi la modifiabilité est-elle un problème ? Dépendances](img/lecture1/modifiability-issue-dependencies.jpg?raw=true)
 
 ### Modifiability tactics
 ![Modifiability tactics](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/modifiability-tactics.jpg?raw=true)
