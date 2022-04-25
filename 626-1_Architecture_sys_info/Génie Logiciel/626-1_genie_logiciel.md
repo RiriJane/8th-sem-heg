@@ -47,10 +47,10 @@ La disponibilité concerne les défaillances du système et leurs conséquences.
 ![Pourquoi la modifiabilité est-elle un problème ? Dépendances](img/lecture1/modifiability-issue-dependencies.jpg?raw=true)
 
 ### Modifiability tactics
-![Modifiability tactics](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/modifiability-tactics.jpg?raw=true)
+![Modifiability tactics](img/lecture1/modifiability-tactics.jpg?raw=true)
 
 # Design in the large
-![Design the large](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/design-large.jpg?raw=true)
+![Design the large](img/lecture1/design-large.jpg?raw=true)
 
 ## Software architecure
 - Plan de construction et d'évolution
@@ -63,13 +63,13 @@ La disponibilité concerne les défaillances du système et leurs conséquences.
 
 > A software system's architecture is the set of principal design decisions made about the system
 
-![Abstraction](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/abstraction.jpg?raw=true)
+![Abstraction](img/lecture1/abstraction.jpg?raw=true)
 
 ### When does software architecture start ?
-![Start of software architecture start](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/start-software-architecture.jpg?raw=true)
+![Start of software architecture start](img/lecture1/start-software-architecture.jpg?raw=true)
 
 ### When does software architecture stop ?
-![Stop of software architecture start](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/stop-architecture-software.jpg?raw=true)
+![Stop of software architecture start](img/lecture1/stop-architecture-software.jpg?raw=true)
 
 ## What makes a good architecture ?
 - Il n'existe pas de conception parfaite ni une bonne/mauvaise architecture
@@ -93,14 +93,14 @@ Problem : traitement complexe avec plusieurs niveaux d'abstraction de inputs/out
 ## Model-View-Controller
 - plus connu dans l'archecture des systèmes intéractifs
 
-![Model-View-Controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/model-view-controller.jpg?raw=true)
+![Model-View-Controller](img/lecture1/model-view-controller.jpg?raw=true)
 
 #### Implemented tactics
 Modifiability tactics : anticipe les changements attendus, sépare les préoccupations
 
-![Exemple : servlet](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/exemple-servlet.jpg?raw=true)
+![Exemple : servlet](img/lecture1/exemple-servlet.jpg?raw=true)
 
-![Exemple - votations](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/exemple-votations.jpg?raw=true)
+![Exemple - votations](img/lecture1/exemple-votations.jpg?raw=true)
 
 #### Problem  
 Les interfaces utilisateur sont les plus fréquemment touchées par les changements.
@@ -117,9 +117,9 @@ Le modèle Model-view-controller divise l'application en trois parties :
 - Le contrôleur s'occupe de l'entrée
 
 #### Structure
-![Structure Model-View-Controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/model-view-controller.jpg?raw=true)
+![Structure Model-View-Controller](img/lecture1/model-view-controller.jpg?raw=true)
 
-![Structure 2](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/structure2-model-view-controller.jpg?raw=true)
+![Structure 2](img/lecture1/structure2-model-view-controller.jpg?raw=true)
 
 - Chaque model peut enregistrer plusieurs observateurs (vues et contrôleurs).
 - Dès que le modèle change, tous les observateurs enregistrés sont notifiés, et ils se mettent à jour en conséquence.
@@ -127,22 +127,22 @@ Le modèle Model-view-controller divise l'application en trois parties :
 #### Participants - Model
 Le modèle encapsule les données et les fonctionnalités de base ; il est indépendant de toute représentation concrète de sortie ou de tout comportement d'entrée.
 
-![Particpant - model](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/participant-model.jpg?raw=true)
+![Particpant - model](img/lecture1/participant-model.jpg?raw=true)
 
 #### Participants - View
 La vue affiche les informations à l'utilisateur. Un modèle peut avoir plusieurs
 vues.
 
-![Participant - view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/participants-view.jpg?raw=true)
+![Participant - view](img/lecture1/participants-view.jpg?raw=true)
 
 #### Participants - Controller
 Le contrôleur traite les entrées et invoque les services appropriés de la vue ou du modèle. Chaque contrôleur est assigné à une seule vue ; un modèle peut avoir plusieurs contrôleurs.
 
-![Participant - controller](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/participants-controller.jpg?raw=true)
+![Participant - controller](img/lecture1/participants-controller.jpg?raw=true)
 
 #### Dynamic Behaviour
 
-![Dynamic Behaviour](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/dynamic-behaviour.jpg?raw=true)
+![Dynamic Behaviour](img/lecture1/dynamic-behaviour.jpg?raw=true)
 
 #### Consequences of the Model-View-Controller Pattern
 Avantages :
@@ -157,7 +157,7 @@ Inconvénients
 Applications connues : Bibliothèques d'interface graphique, Smalltalk, Microsoft Foundation Classes
 
 ## Publish-subscribe
-![Publish-subscribe](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/publish-subscribe.jpg?raw=true)
+![Publish-subscribe](img/lecture1/publish-subscribe.jpg?raw=true)
 
 #### Implemented Tactics
 Tactiques de modifiabilité :
@@ -166,14 +166,14 @@ Tactiques de modifiabilité :
 - Normaliser la collaboration
 
 #### Problem : point à point communication entre les composants
-![Problem : point à point communication entre les composants](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/problem-pp-communication-entre-composants.jpg?raw=true)
+![Problem : point à point communication entre les composants](img/lecture1/problem-pp-communication-entre-composants.jpg?raw=true)
 
 
 #### Problem : trop de chemins de communications
-![Problem : trop de chemins de communications](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/poblem-bcp-chemin-communications.jpg?raw=true)
+![Problem : trop de chemins de communications](img/lecture1/poblem-bcp-chemin-communications.jpg?raw=true)
 
 ## Façade
-![Facade](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/facade.jpg?raw=trues)
+![Facade](img/lecture1/facade.jpg?raw=trues)
 
 #### Implemented tactics
 Tactiques de modifiabilité
@@ -182,12 +182,12 @@ Tactiques de modifiabilité
 - Utiliser un intermédiaire
 
 #### Nouvelle architecture : Facade et Proxy
-![Facade et Proxy](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/facade-proxy.jpg?raw=true)
+![Facade et Proxy](img/lecture1/facade-proxy.jpg?raw=true)
 
-![Layered vs plug-in](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/layered-vs-plugin.jpg?raw=true)
+![Layered vs plug-in](img/lecture1/layered-vs-plugin.jpg?raw=true)
 
 #### Layers
-![Layers](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/layers.jpg?raw=true)
+![Layers](img/lecture1/layers.jpg?raw=true)
 
 Choisir les couches:
 - Définir le critère d'abstraction (préoccupation) que chaque couche fournit (cibles)
@@ -202,13 +202,13 @@ Choisir les couches:
   - Chaque couche doit représenter une boîte noire pour la couche supérieure.
 
 #### Changement dans l'une des préoccupations : affichage, accès aux données
-![Changement dans l'une des préoccupations : affichage, accès aux données](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/change-concerns.jpg?raw=true)
+![Changement dans l'une des préoccupations : affichage, accès aux données](img/lecture1/change-concerns.jpg?raw=true)
 
 #### Exemple
-![exemple changement dans l'une des préoccupations](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/exemple-change-concerns.jpg?raw=true)
+![exemple changement dans l'une des préoccupations](img/lecture1/exemple-change-concerns.jpg?raw=true)
 
 #### Réprésentation Java
-![Représentation Java du changement dans l'une des préoccupations](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/java-representation-change-concerns.jpg?raw=true)
+![Représentation Java du changement dans l'une des préoccupations](img/lecture1/java-representation-change-concerns.jpg?raw=true)
 
 ## Qu'est-ce que nous modélisons ?
 - Le système à venir (modèle de conception)
@@ -220,7 +220,7 @@ Choisir les couches:
 - Le processus de conception
 
 #### Software components
-![ Software components](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/software-components.jpg?raw=true)
+![ Software components](img/lecture1/software-components.jpg?raw=true)
 
 #### Components vs objects vs modules
 Components :
@@ -239,7 +239,7 @@ Modules
 - Emballer le code
 
 #### Component Interfaces
-![Component Interfaces](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/component-interfaces.jpg?raw=true)
+![Component Interfaces](img/lecture1/component-interfaces.jpg?raw=true)
 
 Provided interfaces : Spécifier et documenter les fonctionnalités visibles de l'extérieur (ou l'API publique) offertes par le composant.
 - Types de données et modèle
@@ -254,10 +254,10 @@ Required interfaces : Spécifier les conditions dans lesquelles un composant peu
 #### Compatible interfaces
 Les interfaces des composants doivent correspondre parfaitement pour être  connectées.
 
-![Compatible Interfaces](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/compatible-interfaces.jpg?raw=true)
+![Compatible Interfaces](img/lecture1/compatible-interfaces.jpg?raw=true)
 
 #### Software Connectors
-![Software Connectors](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/software-connectors.jpg?raw=true)
+![Software Connectors](img/lecture1/software-connectors.jpg?raw=true)
 Modéliser les aspects statiques et dynamiques de interaction entre les interfaces des composants.
 - Les connecteurs ne sont généralement pas directement visibles dans le code, ce qui n'est pas le cas des composants.
 - Les connecteurs sont le plus souvent indépendants de l'application, alors que les composants peuvent être à la fois dépendants ou non de l'application
@@ -275,19 +275,19 @@ How many views ?
 - 4+1 par Kruchten : Logique, physique, processus, Développement, et Scénario
 
 #### Historical model: Kruchten’s 4+1 views (RUP)
-![Historical model](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/historical-model.jpg?raw=true)
+![Historical model](img/lecture1/historical-model.jpg?raw=true)
 
 #### Logical view
-![Logical view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/logical-view.jpg?raw=true)
+![Logical view](img/lecture1/logical-view.jpg?raw=true)
 
 #### Development view
-![Development view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/development-view.jpg?raw=true)
+![Development view](img/lecture1/development-view.jpg?raw=true)
 
 #### Process view
-![ Process view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/process-view.jpg?raw=true)
+![ Process view](img/lecture1/process-view.jpg?raw=true)
 
 #### Physical view
-![Physical view](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/physical-view-last.jpg?raw=true)
+![Physical view](img/lecture1/physical-view-last.jpg?raw=true)
 
 ## Use Case Scenarios
 - Unifier et relier les éléments des 4 autres vues
@@ -301,7 +301,7 @@ How many views ?
 - Écouter la chanson
 
 ## Logical View
-![Logical view - music player](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/logical-view-music-player.jpg?raw=true)
+![Logical view - music player](img/lecture1/logical-view-music-player.jpg?raw=true)
 
 - Décomposer la structure du système en logiciels composants et connecteurs
 - Faire correspondre les fonctionnalités (cas d'utilisation) aux composants
