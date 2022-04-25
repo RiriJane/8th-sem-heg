@@ -373,10 +373,10 @@ Patterns basique pour intéragir avec les ressources.
 External sources : http://servicedesignpatterns.com/clientserviceinteractions/requestacknowledge
 
 #### REQUEST/ACKNOWLEDGE/POLL
-![02 - Request/acknowledge/poll](img/lecture2/request-acknowledge-poll.jpg?raw=true)
+![02 - Request/acknowledge/poll](img/lecture2/02-request-acknowledge-poll.jpg?raw=true)
 
 **Interactions**
-![03 - Interactions](img/lecture2/interactions-request-acknowledge-poll.jpg?raw=true)
+![03 - Interactions](img/lecture2/03-interactions-request-acknowledge-poll.jpg?raw=true)
 
 #### REQUEST/ACKNOWLEDGE/CALLACK
 ![04 - Request/acknowledge/callback](img/lecture2/04-request-acknowledge-callback.jpg?raw=true)
@@ -386,6 +386,7 @@ External sources : http://servicedesignpatterns.com/clientserviceinteractions/re
 
 ## COLLECTION PATTERN
 **Problem** : comment sélectionner des objets dans une collection afin de les transmettre à une autre service ? A cause de la bande passante, on ne peut pas transmettre tous les objets au client afin qu'il puisse en sélectionner un.
+
 **Solution** : créer une représentation d'une collection d'un ensemble des objets. Contenu :
 - Description significative pour la sélection
 - Identifiant unique
@@ -393,16 +394,18 @@ External sources : http://servicedesignpatterns.com/clientserviceinteractions/re
 ![06 - Collection](img/lecture2/06-collections.jpg?raw=true)
 
 #### FEED
+Une collection d'entry ou des objects. Balise HTML :
 ```
 <feed></feed>
 ```
 - éléments réquis : id (URI unique), title, updated (dernière fois que le feed a été modifié)
 - éléments recommandés : author, link (identifie une page Web associée)
-- un Feed doit contenir un lien de retour à lui-même (rel="SELF")
+- un Feed doit contenir un lien de retour à lui-même, c'est une adresse de la réprésentation de la source (rel="SELF")
 
 ![07 - Feed](img/lecture2/07-feed.jpg?raw=true)
 
 #### ENTRY
+Entry est une collection dans la collection feed. Balise HTML :
 ```
 <entry></entry>
 ```
@@ -416,7 +419,7 @@ External sources : http://servicedesignpatterns.com/clientserviceinteractions/re
 
 ## PATTERN : DATA TRANSFER OBJECTS
 **Problem** : pour minimiser le trafic réseau, on ne veut pas envoyer/recevoir toutes les informations de l'objet de domaine, mais seulement la partie significative pour le service.
-- Comment extraire et sélection un ê partie de l'objet de domaine pour le transfert réseau ? Contrainte : on ne veut pas implémenter du code transfer spécifique dans les objets du domaine.
+- Comment extraire et sélection une partie de l'objet de domaine pour le transfert réseau ? Contrainte : on ne veut pas implémenter du code transfer spécifique dans les objets du domaine.
 - Lors de la traduction en XML à l'aide d'une bibliothèque standard
 (JAXB), comment inclure/exclure des informations ? Contrainte : on ne veut pas ajouter d'annotations dans les objets du domaine
 
@@ -647,7 +650,8 @@ Tried DemoPostServer in class. View exercice in folder *Demos".
 1. Payload format
 - Lors de la communication entre le client et le server :
   - Les objets métier doivent être transportés avec des objets de transport annotés (Objets Atom).
-  . Les objets métiers ne seront pas annotés.
+    - On veut séparer la couche de transport et la couche de business car on a pas nécessairement besoin de passer des informations de la couche de business
+  - Les objets métiers ne seront pas annotés. C'est dans la couche de transport que l'on fera des annotations.
 2. Couches de communication applicatives
 - Lors de la conception des couches applicatives client et serveur, dupliquer les couches communes : objet métier et transport à la fois dans le client et le code source du serveur pour vous assurer qu'ils seront identiques.
 
@@ -691,78 +695,6 @@ Tried DemoPostServer in class. View exercice in folder *Demos".
 
 
 
-
-
-
-
-
-
-# SESSION  5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### jeudi 17 march 2022
-#### Collection pattern
-problem : comment traiter l'ensemble d'objets et de passer à une autre service
-
-
-
-#### Architecture
-- on veut séparer la couche de transport et la couche de business car on a pas nécessairement besoin de passer des informations de la couche de business
-- on évite de faire des annotations dans la couche de business, ca sera dans la couche de transport
-
-#### FEED
-- une collection d'entry ou des objects
-- entry est une collection dans la collection feed
-- on utilise un lien qui se réfère à un autre entry et non pas directement sur les données
-    - lien self : adresse de la réprésentation de la source
-    - lien alternative
-
-#### Reminder ATOM : minimal UML model
-- fullEntry : si true, il faut toutes les données sinon on ajoute encore un lien
 
 #### jeudi 4 avril 2022
 s3
