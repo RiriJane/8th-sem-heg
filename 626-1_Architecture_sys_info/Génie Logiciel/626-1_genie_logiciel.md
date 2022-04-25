@@ -7,7 +7,7 @@
 - **ilities** : ce sont des NFR (Non-functional requirement) tel que "availability", "operability", "manufacturability", ""survivability".
 
 ## Designing the high level architecture
-![Designing the high level architecture](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/designing-high-levl-architecture.jpg?raw=true)
+![Designing the high level architecture](https://raw.github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/designing-high-levl-architecture.jpg)
 
 ## Designing the high level architecture : based on NFR - 2 concepts
 1. **Architectural tactic** : une décision de conception qui permet d'obtenir une réponse spécifique en terme d'attributs de qualité (Quality attribute), fait par un "quality-attribute analysis model".
@@ -38,8 +38,8 @@
 ## Availability tactics
 La disponibilité concerne les défaillances du système et leurs conséquences.
 - Une défaillance se produit lorsque **le système ne fournit plus un service** conforme à ses spécifications.
-- Un défaut devient une défaillance lorsqu'il est observable par l'utilisateur du système. 
-  - Alors, une façon d'éviter une défaillance est de détecter et de corriger une défaillance avant qu'elle ne devienne observable par l'utilisateur. 
+- Un défaut devient une défaillance lorsqu'il est observable par l'utilisateur du système.
+  - Alors, une façon d'éviter une défaillance est de détecter et de corriger une défaillance avant qu'elle ne devienne observable par l'utilisateur.
 
 ![Availability tactics](https://github.com/RiriJane/8th-sem-heg/blob/master/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/availability-tactics.jpg?raw=true)
 
@@ -352,7 +352,7 @@ Statelessness permet la tactique suivante : "Introduire la concurrence".
   - Permet de comprendre chaque demande de manière isolée. En effet, tout le contexte pour interpréter une demande est dans la demande.
 Interface uniforme et adressabilité : Permet la visibilité et la simplicité du protocole. Chaque demande est transparente (facilement interprétable)
 
-#### Statelessness 
+#### Statelessness
 Etat : configuration interne d'un système qui spécifie la réponse à l'événement qu'il reçoit.
 
 2 types d'états :
@@ -429,3 +429,23 @@ problem : comment traiter l'ensemble d'objets et de passer à une autre service
 
 #### Reminder ATOM : minimal UML model
 - fullEntry : si true, il faut toutes les données sinon on ajoute encore un lien
+
+#### jeudi 4 avril 2022
+s3
+soa : service oriented Architecture
+
+s7
+monolithic : utilisation d'un seul services, pas adapbtable et escalable
+soa : niveau entreprise, on crée une application basée sur plusieurs services
+microservices : on crée un seul service, une seule Application basée sur les services
+
+s21
+- on doit encapsuler la bdd pour chaque service car si on veut changer les données pour le service1 ca pourrait impacter le service 2 si on utilises la meme bdd
+
+##### representation
+- avantages,
+- qa
+- system design : haut niveau
+
+
+#### jeudi 14 avril 2022 - lecture note 7
