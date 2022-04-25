@@ -7,7 +7,7 @@
 - **ilities** : ce sont des NFR (Non-functional requirement) tel que "availability", "operability", "manufacturability", ""survivability".
 
 ## Designing the high level architecture
-![Designing the high level architecture](https://raw.github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/img/lecture1/designing-high-levl-architecture.jpg)
+![Designing the high level architecture](img/lecture1/designing-high-levl-architecture.jpg)
 
 ## Designing the high level architecture : based on NFR - 2 concepts
 1. **Architectural tactic** : une décision de conception qui permet d'obtenir une réponse spécifique en terme d'attributs de qualité (Quality attribute), fait par un "quality-attribute analysis model".
