@@ -379,7 +379,7 @@ External sources : http://servicedesignpatterns.com/clientserviceinteractions/re
 ![03 - Interactions](img/lecture2/interactions-request-acknowledge-poll.jpg?raw=true)
 
 #### REQUEST/ACKNOWLEDGE/CALLACK
-![04 - Request/acknowledge/callback]
+![04 - Request/acknowledge/callback](img/lecture2/04-request-acknowledge-callback.jpg?raw=true)
 
 **Interactions**
 ![05 - Interactions](img/lecture2/05-interactions.jpg?raw=true)
