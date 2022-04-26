@@ -3,16 +3,19 @@
 # Table des matières
 1. [Les fondamentaux](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-fondamentaux)
 2. [Couche métier - part 1](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-1)
-3. [Organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#cartographier-les-acteurs---organigramme-dacteur)
-4. [Processus métiers](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#processus-m%C3%A9tier)
-5.[Introduction à BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#business-process-model-notation---bpmn)
-6. [Diagramme de processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-m%C3%A9tier)
-7. [Couche métier - part 2]()
-8. [Les principaux concepts de BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-principaux-concepts-de-bpmn)
-9. [Diagramme de processus organisationnel](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-organisationnel)
-10. [Couche métier - part 3](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-3)
-11. [Couche métier - part 4](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-4)
-
+- [Organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#cartographier-les-acteurs---organigramme-dacteur)
+- [Processus métiers](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#processus-m%C3%A9tier)
+- [Introduction à BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#business-process-model-notation---bpmn)
+- [Diagramme de processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-m%C3%A9tier)
+3. [Couche métier - part 2]()
+- [Les principaux concepts de BPMN](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-principaux-concepts-de-bpmn)
+- [Diagramme de processus organisationnel](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-de-processus-organisationnel)
+4. [Couche métier - part 3](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-3)
+5. [Couche métier - part 4](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-4)
+- [Objet de données]
+- [Artefacts]
+- [Les 2 catégories de diagrammes]
+- [Diagramme d'orchestration]
 
  Diagramme de processus fonctionnel
  Diagramme de processus applicatif
@@ -20,7 +23,7 @@
 # Les fondamentaux
 #### jeudi 24 février 2022
 
-### Système informatique vs système d'information
+## Système informatique vs système d'information
 ![Diagramme système d'infomatique et information](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/diagramme-syst%C3%A8me-informatique-information.jpg?raw=true)
 
 Le système informatique est la composante informatisée du système d'information
@@ -40,7 +43,7 @@ Le système informatique est la composante informatisée du système d'informati
 
 La donnée se transforme en information lorsqu'elle est communiquée à un être humain capable de l'interpréter.
 
-#### Le contexte d'évolution des systèmes d'information
+## Le contexte d'évolution des systèmes d'information
 #### Evolution technologique
 ![Explosion du numérique](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/explosion-numerique.jpg?raw=true)
 
@@ -53,22 +56,22 @@ Le SI pour l'entreprise :
 - Une composante importante de la création de valeur de l'entreprise
 - Agile, performant, optimal (coûts), sécurisé, auditable, fiable et constant
 
-#### Le rôle de la direction des systèmes d'information (DSI)
+## Le rôle de la direction des systèmes d'information (DSI)
 - Intégrer les nouvelles opportunités technologiques
 - Gérer l'évolution du SI
 
-#### Principaux problèmes
+## Principaux problèmes
 - Le coûts de maintenance, couvre une grande partie du budget de l'entreprise
 - Peu évolutif
 
-#### Besoins
+## Besoins
 - Maîtriser le SI existant
 - Rendre cohérent
 - Le simplifier
 - Le rendre agile pour faciliter l'évolution
 - L'aligner sur le métier
 
-#### Urbanisation du système d'information
+## Urbanisation du système d'information
 ![Une démarche progressive du SI](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/urba-SI.jpg?raw=true)
 - Appelé aussi architecture d'entreprise.
 - Une démarche de transformation progressive et continue du SI.
@@ -87,7 +90,7 @@ Le SI pour l'entreprise :
 - Urbanisation est une des activtiés de l'architecture d'entreprise : l'AE va jusqu'à la planification de la transformation du SI et la gestion du changement
 -
 
-#### Approche par les modèles
+## Approche par les modèles
 - Avant de prendre une décision, il faut comprendre le contexte.
   - Adapter le SI aux besoins des métiers, aux contraintes réglementaires
   - Améliorer la satisfaction client
@@ -108,7 +111,7 @@ Le SI pour l'entreprise :
 ![Exemple de la vie courante, de modèle avec sa perspective et un objectif - 2](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/exemple-model-perspective-objectif-2.jpg?raw=true)
 
 
-#### Approche par la modélisation
+## Approche par la modélisation
 - La modélisation est une science de l'ingénieur
 - Un modèle fait appel à :
   - **Concepts** : catégories d'information. Par exemple : processus, application, flux
@@ -117,14 +120,14 @@ Le SI pour l'entreprise :
 - Un modèle est représenté graphiquement par un diagramme (ou carte)
 - Pas qu'un dessin illustratif
 
-#### Résumé
+## Résumé
 - Nous créons des modèles : selon une perspective précise, avec des objectifs précis, pour comprendre et améliorer des systèmes complexes
 - Pour s'assurer que nos modèles sont cohérents entre eux, nous devons utiliser des concepts bien définis et des techniques de modélisation
 - Pour communiquer facilement, nous devons utiliser une notation commune
 - Pour y arriver, nous avons besoin à la fois d'un outil de modélisation et d'une méthodologie
 - La modélisation est une science de l'ingénieur
 
-#### La cartographie des SI au service de l'urbanisation
+## La cartographie des SI au service de l'urbanisation
 - Ensemble de modèles qui représentent les différents objets du SI (processus métier, fonctions métiers, données métiers, applications, serveurs, ...), leurs comportements et leurs interrelations.
 - Cartographier le SI existant pour :
   - Comprendre et de capitaliser les connaissance. Elle permet une meilleure compréhension de l'organisation.
@@ -135,7 +138,7 @@ Le SI pour l'entreprise :
 - Identifier le chemin pour y parvenir.
 - Se décline sur les 4 couches de référence (métier, fonctionnelle, applicative, technologique).
 
-#### 4 couches de réference
+## 4 couches de réference
 ![4 couches de réference](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/fondamentaux/4-couches-reference.jpg?raw=true)
 
 **Métier** : Quels métiers ? qui fait quoi ? **Cartographie métier** selon BMPN
@@ -203,7 +206,7 @@ Infrastructure technique : responsable informatique
 
 # Couche métier - part 1
 #### jeudi 3 mars 2022
-#### La cartographie de la couche métier
+## La cartographie de la couche métier
 ![cartographie métier - organigramme d'acteur](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/cartographie-couche-metier.jpg?raw=true)
 
 #### Le concept d'acteur
@@ -253,14 +256,14 @@ Une unité organisationnelle est un département, ou un office, ou un service, s
 - manque RM01 : directuer général -> selon le texte; soit on remplace ceci par le nom de l'entreprise soit une autre carré au dessus de ceci avec le nom de l'entreprise
 
 
-#### Processus métier
+## Processus métier
 ![Processus métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-1/processus-metier.jpg?raw=true)
 
 - Un enchaînement ordonné d'activités aboutissant à un résultat déterminé
 - Il est déclenché par un évènement qui lui est externe et il fournit des produits ou des services à un acteur externe
 - Se caractérise par : un **événement déclencheur** en entrée, une **suite d'activités** constituant la chaîne des valeurs ajoutées (construction du résultat), une fin qui se matérialise par un **résulat** pour le **client**, le **bénéficiaire** du processus.
 
-#### La norme vision
+## La norme vision
 La norme ISO (9000 : 2000) classe les processus en 3 familles :
 - processus opérationnels : ils contribuent directement à la réalisation des  produits ou services depuis la détection des besoins du client à sa satisfaction.
 
@@ -268,7 +271,7 @@ La norme ISO (9000 : 2000) classe les processus en 3 familles :
 
 - processus de pilotage (ou de management) : ils contribuent à la détermination de la politique de l'entreprise et au déploiement des objectifs. Ils assurent la cohérence des processus opérationnels et de soutien. Ils sont sous la responsabilité totale de l'équipe dirigeante.
 
-#### Business Process Model Notation - BPMN
+## Business Process Model Notation - BPMN
 - Norme de notation pour la modélisation des processus.
 - Norme internationale gérée depuis 2008 par l'OMG.
 - Gestion des processus métiers.
@@ -297,21 +300,21 @@ Si nécessaire, vous pouvez décrire précisément le fonctionnement d'un proces
 Implémentation en informatique
 BPMN a été principalement développé pour soutenir la mise en œuvre technique des processus («Process Automation»). Plus l'informatique est importante dans une entreprise, plus l'utilisation du BPMN devient utile.
 
-#### Object Management Group
+## Object Management Group
 - Association américaine à but non lucratif créée en 1989
 - Objectif : standardiser et promouvoir le modèle objet sous toutes ses formes (UML, CORBA , ..)
   - 2011 : version 2.0
   - 2013 : version 2.0.2
 - Norme vivante grâce à une communauté très active
 
-#### BPMN et UML
+## BPMN et UML
 BPMN et UML sont élaborées par l'OMG et sont complémentaires :
 - UML permet l'analyse et la conception d'un système informatique.
 - BPMN vise l'analyse et la conception de processus métiers .
 
 Diagramme de processus BPMN ->  diagramme de cas d'utilisation UML.
 
-#### Diagramme de processus métier - approche top-down
+## Diagramme de processus métier - approche top-down
 #### Identifier les processus métier macroscopiques
 1. Identifier les acteurs externes :
   - les clients et bénéficiaires auxquels l'organisation doit répondre
@@ -345,7 +348,7 @@ Diagramme de processus BPMN ->  diagramme de cas d'utilisation UML.
 # Couche métier - part 2
 # Les principaux concepts de BPMN
 
-#### Les 3 catégories de concepts BPMN
+## Les 3 catégories de concepts BPMN
 - Objectif :avoir un formalisme standard, simple et implémentable.
 
 1. Les objets étapes
@@ -379,7 +382,7 @@ Une bonne référence : https://docs.camunda.org/manual/7.14/reference/bpmn20/
   - On décrit formellement tout ce que l'on peut décrire : le chemin idéal mais aussi les exceptions. Le règlement BPMN doit être respecté.
 3. Exécutable : contient tous les attributs nécessaires pour que les processus puissent être exécutés par un moteur de workflow. **Pas pour ce cours.**
 
-# Diagramme de processus organisationnel
+## Diagramme de processus organisationnel
 - Nn ensemble d'activités (opérations) réalisées par des acteurs de l'entreprise en vue de produire un résultat.
 - Décrit par une succession d'opérations déclenchée par la réception d'un événement et produit au moins un résultat.
 - Décrit la marche à suivre pour mettre en œuvre tout ou partie d'un processus.
@@ -459,7 +462,7 @@ Les marqueurs d'activitées indiquent le comportement des activités lors de leu
 
 # Couche métier - part 3
 
-#### Evénement de type signal
+## Evénement de type signal
 #### Différence entre message et signal
 - message : est toujours adressé à un destinataire spécifique et porte une information.
 - signal : non dirigé, et c'est souvent un stimuli sensoriel, visuel ou auditif. Il ne porte pas une information à proprement dit mais c'est son interprétation qui donne une information. Par exemple, le client arrive, le réveil sonne, le client lève la main pour appeler le serveur.
@@ -525,7 +528,7 @@ Exemple :
 
 # Couche métier - part 4
 
-#### Objet de données
+## Objet de données
 ![elements base de données](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/elements-bdd.jpg?raw=true)
 
 - Représente des **informations circulant** tout au long des processus tels que des documents.
@@ -533,7 +536,7 @@ Exemple :
 
 ![exemple objet de données](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-bdd.jpg?raw=true)
 
-#### Artefact
+## Artefact
 ![artefacts](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/artefacts.jpg?raw=true)
 
 - Une précision, une information supplémentaire graphique ou textuelle apportée à un diagramme, une **annotation**.
@@ -541,7 +544,7 @@ Exemple :
 
 ![exemple regroupement](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-regroupement.jpg?raw=true)
 
-#### Les 2 catégories de diagrammes
+## Les 2 catégories de diagrammes
 1. **Diagramme de collaboration** : permet de représenter les interactions entre un processus et son environnement en spécifiant les messages échangés.
     - Processus métier
     - Processus organisationnel
@@ -568,7 +571,7 @@ Exemple :
 #### Exemple - Diagramme de collaboration : 2ème niveau on décompose le processus en sous-processus. Pas de séquence entre processus mais des échanges de message
 ![Exemple Diagramme de collaboration : 2ème niveau](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-diagramme-collaboration-2eme-niveau.jpg?raw=true)
 
-#### Diagramme d'orchestration : décrit la séquence des activités du début jusqu'à la fin
+## Diagramme d'orchestration : décrit la séquence des activités du début jusqu'à la fin
 ![Exemple Diagramme d'orchestration](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/img/couche-metier-part-4/exemple-diagramme-orchestration.jpg?raw=true)
 
 #### Démarche de cartographie des processus métiers  du plus général au plus détaillé  
@@ -599,3 +602,37 @@ Pour la norme BPMN, l'utilisation d'un outil de modélisation aide à respecter 
       - De gauche à droite, de haut en bas
       - Éviter les croisements de flux ou de messages
       - Indiquer systématiquement le titre du diagramme
+
+# Couche métier - part 5
+
+## Pourquoi modéliser les processus ?
+- **Comprendre** comment l'entreprise est organisée pour délivrer ses prestations
+- S'inscrire dans une **démarche qualité** en vue d'une certification
+- Identifier des **améliorations** possibles :
+  - Temps de traitement
+  - Qui fait quoi (RACI)
+  - Rationalisation
+- **Réorganiser** – mesure de l'impact, accompagnement au changement
+- Identifier les **besoins métiers** vis-à-vis du système informatique    
+
+## Identifier les besoins métiers vis-à-vis du système informatique    
+- Les besoins métiers doivent être définis par ceux qui réalisent le processus.
+- Les besoins métiers doivent être définis indépendamment de la solution informatique à fournir.
+  - Les outils et les technologies sont du ressort de l'informatique et pas des métiers.
+  - Les outils et technologies changent, les métiers sont plus stables.
+- Pour enregistrer les besoins métiers, nous utilisons le concept de fonctionnalité.
+
+## Fonctionnalité
+![Fonctionnalité](img/couche-metier-part-5/fonctionnalite.jpg?raw=true)
+- Une fonction élémentaire attendue par un acteur pour effectuer son travail.
+- Une fonction informatisée ou à informatiser permettant à un acteur d’exécuter tout ou partie d’une tâche.
+- Une fonctionnalité est définie indépendamment de la façon dont elle est fournie. Par exemple : Enregistrer une commande, Saisir une commande dans SAP.
+- Plusieurs fonctionnalités peuvent être nécessaires à la réalisation d'une tâche.
+
+## Identifier les besoins métiers vis-à-vis du système informatique
+**Objectif** :
+- Identifier les éléments du système informatique nécessaires pour supporter les utilisateurs à produire le résultat d'un processus organisationnel.
+
+**Comment faire** :  
+- En partant de la description du processus organisationnel, identifier, avec les métiers, les fonctionnalités du système informatique dont ils ont besoin pour réaliser le processus et donc produire le résultat.
+- Déterminer si les fonctionnalités requises sont couvertes par une application informatique existant.
