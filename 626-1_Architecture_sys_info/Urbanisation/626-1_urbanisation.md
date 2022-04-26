@@ -18,7 +18,7 @@
     - [Diagramme d'orchestration](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#diagramme-dorchestration--d%C3%A9crit-la-s%C3%A9quence-des-activit%C3%A9s-du-d%C3%A9but-jusqu%C3%A0-la-fin)
 6. [Couche métier - part 5](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-m%C3%A9tier---part-5)
     - [Pourquoi modéliser les processus ?](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#pourquoi-mod%C3%A9liser-les-processus-)
-    - [Identifier les besoins métiers vis-à-vis du système informatique](Identifier les besoins métiers vis-à-vis du système informatique)
+    - [Identifier les besoins métiers vis-à-vis du système informatique](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#identifier-les-besoins-m%C3%A9tiers-vis-%C3%A0-vis-du-syst%C3%A8me-informatique)
     - [Fonctionnalité](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#fonctionnalit%C3%A9)
     - [Identifier les besoins métiers vis-à-vis du système informatique](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#identifier-les-besoins-m%C3%A9tiers-vis-%C3%A0-vis-du-syst%C3%A8me-informatique-1)
 
