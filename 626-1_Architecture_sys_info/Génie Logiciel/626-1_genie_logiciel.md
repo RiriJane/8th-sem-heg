@@ -1,5 +1,10 @@
 # 626-1 GENIE LOGICIEL
 
+# CONTENTS
+1. [Lecture note 1]()
+2. [Lecture note 2]()
+
+
 # LECTURE NOTE 1 - ARCHITECTING SYSTEMS
 #### jeudi 24 février 2022
 
@@ -236,7 +241,7 @@ Modules
 - Peuvent nécessiter d'autres modules pour être compilés
 - Emballer le code
 
-#### COMPPONENT INTERFACES
+#### COMPONENT INTERFACES
 ![Component Interfaces](img/lecture1/component-interfaces.jpg?raw=true)
 
 Provided interfaces : Spécifier et documenter les fonctionnalités visibles de l'extérieur (ou l'API publique) offertes par le composant.
@@ -657,18 +662,404 @@ Tried DemoPostServer in class. View exercice in folder *Demos".
 
 ![16 - layers](img/lecture2/16-layers.jpg?raw=true)
 
+# LECTURE NOTE 5
+
+## LES ERREURS (FALLACIES) DE L'INFORMATIQUE DISTRIBUEES
+- Le réseau est fiable,
+- Zéro latence,
+- Bande passante à l'infinie,
+- Le réseau est sécurisé,
+- La topologie ne change pas,
+- Le coût du transport est zéro (temps et argent).
+[Wikipedia, based on a Peter Deutsch’s paper in 1997]
+
+Conséquence - se préparer aux échecs :
+- Timeout
+- Circuit breaker
+- Use references
+- Tolerant reader
+
+## TIMEOUT PATTERNS
+
+![01 Timeout](img/lecture5/01-timeout.jpg?raw=true)
+
+**Problem** : éviter d'attendre longtemps si le service ne répond pas à la demande car la connexion n'est pas disponible ou le serveur est occupé
+
+**Solution** : définissez le temps maximum que votre client attendra avant d'abandonner. Si le délai d'attente a expiré, effectuez une procédure de tolérance aux pannes
+
+#### REQUESTCONFIG
+Le HttpClient est configuré pour ne pas attendre plus que la période de temporisation.
+
+**Implementation** : objet RequestConfig à transmettre à la fabrique ClientBuilder pour
+configurer les paramètres de connexion au HttpClient.
 
 
+```
+// t1, t2, t3 : temps en millisecondes
+RequestConfig requestConfig = RequestConfig.custom()
+                                  .setConnectionRequestTimeout(t1)
+                                  .setConnectTimeout(t2)
+                                  .setSocketTimeout(t3)
+                                  .build();
+HttpClient client = HttpClientBuilder.create().setDefaultRequestConfig(requestConfig).build();
+```
+**Que se passe-t-il si un certain délai expire ?**
+- Des exceptions sont levées : SocketTimeoutException, ConnectTimeoutException
+- Intercepter l'exception pour exécuter la tolérance aux pannes
+procédure
+
+```
+public static void main(String[]args) throws Exception {
+
+  RequestConfig requestConfig = RequestConfig.custom()
+              .setConnectionRequestTimeout(1)
+              .setConnectTimeout(1)
+              .setSocketTimeout(100).build();
+  HttpClient client = HttpClientBuilder.create()
+              .setDefaultRequestConfig(requestConfig).build(); // <--------------
+
+  HttpRequest req1 = new HttpGet("http://localhost:8080/HelloWorld/helloworld");
+
+  try{
+    HttpResponse resp = client.execute(req1);
+    print(resp);
+  }catch (Exception e){
+    System.out.println("Timeout"); // Fault tolérance procedure
+  }
+
+}
+
+public static void print(HttpResponse resp) throws Exception{
+
+  System.out.println(resp.getStatusLine().getStatusCode());
+
+  if(resp.getStatusLine().getStatusCode() < 300){
+      BUfferedReader rd = new BUfferedReader(new InputStreamReader(response.getEntity().getContent()));
+      StringBuffer result = new StringBuffer();
+      String line = "";
+      while ((line = rd.readLine()) != null ){
+          result.append(line);
+      }
+      System.out.println(result);
+
+  }
+
+}
+```
+
+#### EXEMPLE D'UNE SERVICE LENTE
+
+**Service**
+
+![02 exemple d'une service lente](img/lecture5/02-exemple-service-lente.jpg?raw=true)
+
+**Client**
+![03 client](img/lecture5/03-client.jpg?raw=true)
+
+**Test1 : Limit 1'000'000**
+![04 Test1](img/lecture5/04-test1.jpg?raw=true)
+
+**Test2 : Limit 10'000'000**
+![05 Test1](img/lecture5/05-test2.jpg?raw=true)
+
+#### DEMO
+On a testé le DemoTimeoutClient et DemoTimeOutServer
+
+## CLIENT CIRCUIT BREAKER
+![06 circuit breaker](img/lecture5/06-circuit-breaker.jpg?raw=true)
+
+**Problème** : évitez d'appeler un service, lorsque nous savons qu'il n'est pas disponible.
+
+**Solution** : utilisez un circuit breaker object qui filtre les requêtes vers des
+service indisponible.
+
+- Lorsqu'une panne est détectée plusieurs fois (doit être loggé dans un certains services de health log), le breaker s'ouvre.
+- La prochaine fois que l'appel revient immédiatement (il doit également être loggé), sans appeler le servicer et le client doivent effectuer des travaux alternatifs.
+- Après un certain temps, le circuit breaker laissera passer l'appel au service pour vérifier la disponibilité. Si OK, le circuit breaker se ferme et transmettra les prochaines requêtes au serveur.
+
+**State graph**
+
+![07 state graph](img/lecture5/07-state-graph.jpg?raw=true)
 
 
+#### REMINDER : MAIN HTTP CLIENT CLASSES
+![08 reminder http client](img/lecture5/08-reminder-http-client.jpg?raw=true)
+
+#### EXAMPLE : UNE VERSION SIMPLE D'UN CIRCUIT BREAKER, DEUX ETATS : OUVERT ET FERME
+![09 - exemple circuit breaker simple](img/lecture5/09-exemple-circuit-breaker.jpg?raw=true)
+
+![10 - client](img/lecture5/10-client.jpg?raw=true)
+
+![11 - simple circuit breaker](img/lecture5/11-simple-circuit-breaker.jpg?raw=true)
+
+![12 - simple circuit breaker 2](img/lecture5/12-simple-circuit-breaker-2.jpg?raw=true)
+
+## DEMO
+On a testé le DemoCircuitBreakerClient et DemoTimeOutServer
+
+## SERVICES COMPOSITION
+
+## SOA : SERVICE ORIENTED ARCHITECTURE
+Un modèle d'interaction applicative qui met en œuvre des services (composants logiciels)
+
+![13 SOA](img/lecture5/13-soa.jpg?raw=true)
+
+- Les composants de service peuvent varier en taille, des petits services d'application aux très grands services d'entreprise.
+- Il est courant d'avoir un composant de service au sein de la SOA représenté par un gros produit ou même un sous-système.
+
+#### QUALITY ATTRIBUTES
+**Adaptabilité** : cette architecture est destinée à être adaptable aux évolutions du processus métier d'une entreprise.
+**But** : Les performances, l'évolutivité et la déployabilité ne sont pas les principaux QA.
+
+## MICROSERVICES
+Source : https://martinfowler.com/articles/microservices.html#CharacteristicsOfAMicroserviceArchitecture
+
+- Une spécialisation d'une approche d'implementation pour les SOA utilisées pour construire des systèmes logiciels déployables indépendamment.
+- Le style architectural de microservice est une approche de développement d'une application unique sous la forme d'une suite de petits services, chacun s'exécutant dans son propre processus et communiquant avec des mécanismes légers, souvent une API de ressource HTTP.
 
 
+- Chaque microservice est indépendamment appelé à travers le réseau.
 
+#### CONSTRAINT : LARGE systems
+![14 - constraint](img/lecture5/14-constraint.jpg?raw=true)
 
+- Les services sont utilisés en isolément ou en groupe pour effectuer une tâche plus importante (composition).
+- Mais les transactions du mainframe ne sont pas adaptées pour construire de grandes fonctions métier (non composables).
 
+#### QUALITY ATTRIBUTES
+Same QA as mainframe’s transactions
+• Performance
+• Isolation (beware of ACID constraints)
+• Changeability (but constraints on the data model)
 
+New QA’s for a new world
+• Scalability
+• Independance
+• Deployability
+• Changeability
 
+**Scalability** : Si l'une des fonctionnalités du programme est fortement utilisée, il faut pouvoir augmenter les ressources.
 
+**Independance** : Les services ne doivent pas interagir les uns avec les autres. Un changement dans un service ne doit pas avoir d'impact sur les autres services.
+
+**Déploiement** : Les services doivent pouvoir être déployés indépendamment sur différentes VM.
+
+**Changeabilité** : Les services doivent être facilement modifiables sans impact sur le reste du système
+
+#### DISTRIBUTED APPLICATION
+![01 - distributed application - lecture note 6]
+
+#### ARCHITECTING LARGE SYSTEMS
+Nous devons construire de grands services (fonctions métier) à partir de services plus simples.
+
+![15 architecting large systems](img/lecture5/15-architecting-large-system.jpg?raw=true)
+
+#### CALLING ARCHITECTURE : ORCHESTRATION AND CHOREOGRAPHY
+**Orchestration** :
+- Un manager orchestre le travail des autres services pour mettre en œuvre la fonction/processus métier.
+- Chaque service est explicitement appelé par le gestionnaire.
+
+**Chorégraphie** :
+- Architecture de type publish/subscribe : la planification est implicite dans la séquence d'événements générés par chaque service.
+- Chaque service s'inscrit à l'événement qu'il doit traiter.
+
+#### EXEMPLE - INSCRIPTION DES ETUDIANTS
+![16 - Inscripition des étudiants](img/lecture5/16-inscription-etudiants.jpg?raw=true)
+
+**Orchestration**
+
+![17 - orchestration exemple](img/lecture5/17-orchestration-exemple.jpg?raw=true)
+
+**Choreography**
+
+![18 - Choreography exemple](img/lecture5/18-choreography-exemple.jpg?raw=true)
+
+## L'APPROCHE TRADITIONNELLE DE SYSTEM DESIGN
+- Conception du modèle de données.
+- Créer les services qui gèrent chaque partie du modèle.
+- Mais cela ne sera pas conforme aux QA d'indépendance et de déployabilité.
+  - Les services seront liés via le modèle de données.
+  - Le service ne peut pas être déployé indépendamment.
+
+#### EXEMPLE D'INCONVENIENTS
+![19 - Exemple d'inconvénients exemple](img/lecture5/19-exemple-inconvenient.jpg?raw=true)
+
+**Consequences**
+
+- ~~Independence~~
+  - Si la partie du modèle de données requise par le service 1 est modifiée (classe jaune foncé), il y aura un impact sur les autres services.
+- ~~Deployability~~
+  - Les services sont fortement liés à la couche de données. Comment pourraient-ils être déployés indépendamment sur plusieurs VM ?
+
+**Solutions**
+
+- Éviter le partage de données entre les services pour les grands
+systèmes basés sur des microservices.
+- Cela conduit à une nouvelle façon de concevoir les systèmes :
+  - Commencez à concevoir des systèmes basés sur des capacités, des fonctionnalités, des services, et non sur des données.
+
+#### CONSTATIONS SUR LA GESTION DISTRIBUEES DES DONNEES
+- De nombreux clients interrogent les données tandis que quelques-uns les mettent à jour.
+  - La mise à l'échelle (scaling) se produit principalement sur le service de lecture (read service).
+  - Mais plusieurs mises à jour peuvent se produire simultanément.
+- Les données que les gens regardent ne sont pas garanties d'être à jour
+  - Lorsque quelqu'un récupère des données, quelqu'un d'autre peut les avoir mises à jour simultanément. Ainsi, les données lues peuvent être partiellement obsolètes. C'est
+  un fait dans les grands systèmes distribués.
+  - Ne surconcevez pas une solution pour éviter que des données obsolètes ne soient affichées. L'impact sur le QA sera trop lourd.
+
+#### CONCLUSION
+1. Tous les services n'ont pas besoin du même accès aux données (lecture / écriture).
+2. Les services de lecture peuvent avoir besoin d'afficher plusieurs parties du modèle de données alors que les services d'écriture se concentrent généralement sur une seule.
+3. La contrainte « Cohérence permanente des données » * doit être libérée pour les grands systèmes distribués.
+
+* (Permanent Data Consistency) Toutes les données sont cohérentes pour tous les clients à tout moment.
+
+# LECTURE NOTE 6
+
+## CAP THEOREM
+Source : https://dzone.com/articles/better-explaining-cap-theorem
+Il est impossible sur un système informatique de calcul distribué de garantir en même
+temps:
+- La Consistance des données) (Consistency)
+- La Disponibilité (Availability)
+- La tolérance aux Partitionnement (Partition Tolerance) : le système doit fonctionner
+même s’il est partitionné sur plusieurs nœuds.
+
+![02 - cap theorem]
+
+**Les variables statiques ou globales sont INTERDITES en programmation distribuée (viol du stalessness)**
+
+#### EVITER LA DEPENDANCE DES DONNEES ENTRE LES SERVICES
+
+![03 - éviter la dépendance]
+
+**Mais comment les synchroniser ?**
+
+## COMMAND QUERY RESPONSIBILITY SEGREGRATION (CQRS) PATTERNS
+Source: http://fr.slideshare.net/myfear/cqrs-and-event-sourcing-for-java-developers
+**Problème** : comment éviter le couplage de données entre les services qui mettent à jour le modèle de données et les services qui lisent les données ?
+
+**Solution** : créer des services distincts, chacun ayant sa propre représentation des données.
+- Le service de mise à jour possède le modèle de référence et fonctionnera comme modèle maître (MASTER).
+- Le service de requête maintiendra un modèle de données esclave (SLAVE). Il sera informé de tout changement de modèle de référence.
+
+![04 - CQRS Pattern]
+
+#### RETHINKING THE DATA MODEL
+Historiquement, le modèle de données accueillait à la fois les requêtes de lecture et d'écriture.
+- Mais la structure requise pour répondre aux requêtes de lecture peut très bien être différente de celle des requêtes d'écriture.
+  - Les requêtes d'écriture nécessitent des sous-modèles complets pour garantir les propriétés ACID.
+  - Les requêtes de lecture peuvent accéder à plusieurs sous-modèles partiels.
+  - Les requêtes de lecture peuvent nécessiter des informations historiques sur les modifications du modèle. Cela peut ne pas être le cas pour les requêtes en écriture.
+
+#### THE READ (SLAVE) MODEL
+- Le service de requête n'a pas besoin du modèle complet.
+  - Il ne conserve que les données nécessaires pour répondre à la requête
+  - Le modèle est proche d'une vue au sens RDB.
+- Le service de requête n'a pas besoin d'un SGBDR.
+  - Une technique plus simple ferait l'affaire puisqu'aucune contrainte d'intégrité ne doit être appliquée.
+- Le modèle de requête sera cohérent à terme.
+  - Quand il aura traité tous les événements de mise à jour.
+
+#### IMPLEMENTATION DE CQRS
+- On peut utiliser le "Event Sourcing" pattern
+
+## EVENT SOURCING PATTERN
+**Problème** : comment enregistrer efficacement l'état et les changements d'état d'un modèle de données ?
+**Solution** : conserver la séquence des changements d'état des entités comme source principale de données.
+  - L'état actuel des entités peut être reconstruit en naviguant dans la chaîne  d'événements dans l'ordre inverse.
+  - Nous pouvons récupérer les valeurs que certains attributs avaient au fil du temps.
+  - La chaîne d'événements est immuable.
+  Remarque : ce modèle ne doit pas être la seule représentation des données dans un système complexe. Utilisez-le avec précaution.
+
+#### EXEMPLE : RECORDING BOOK SALES
+![05 - book sales]
+
+#### AVANTAGES DU MODELE EVENT SOURCING POUR IMPLEMENTER LE READ DATA MODEL
+Si le modèle de données est représenté comme une chaîne d'événements immuables, alors :
+- Aucune mise à jour des tables, juste un stockage d'événements idempotent. (si une requête identique peut être faite une ou plusieurs fois de suite avec le même effet tout en laissant le serveur dans le même état.)
+- Opérations très rapides : ajouter le nouvel événement à la fin de la chaîne.
+  - Aucune API sophistiquée pour effectuer des opérations CRUD sur la base de donnée.
+- Bien adapté au modèle de données distribué : il suffit d'envoyer des événements aux clients.
+- Bien adapté pour interroger les changements d'état historiques.
+
+Pour lire la valeur réelle d'un attribut, lisez la chaîne dans l'ordre inverse.
+![06 - lire dans l'ordre inverse]
+
+#### STRUCTURE FOR UPDATE EVENT
+- Les événements doivent vraiment représenter ce qui est arrivé sur quel élément de données.
+  - Ceux-ci peuvent être modélisés comme des objets avec une action, des données et du temps.
+  - La modélisation de domaine est donc un bon début pour modéliser ces événements.
+- Quelles sont les données qui seront lues ensemble ?
+  - Cela représente l'équivalent d'une « vue » sur le modèle global.
+  - Il s'agit des données à transporter vers le service de lecture.
+  - Ensuite, concevez un objet DTO pour transporter uniquement ces informations vers le service de lecture.
+
+#### EXEMPLE - FAST READ SERVICE
+- Stockage du format XML brut de l'objet DTO sous forme de lignes de fichier unique.
+- Format de récupération : même format XML.
+- Aucune conversion lors du stockage/récupération.
+
+**ARCHITECTURE**
+![07 - exemple xml]
+
+![08 - exemple 2]
+
+#### DEMO CQRS
+![09 - Demo cqrs]
+
+#### DEMO CQRSReaderII
+![10 - Demo cqrs reader]
+
+#### UTILITY CLASS: FileStorage
+![11 - Utility Class : File Storage]
+
+#### DTO OBJECT TO RECORD THE SALES
+![12 - DTO Object]
+
+#### DEMO : RECORDING THE SALES ON TWO SERVERS
+- Un ensemble de ventes de livres est envoyé à 2 services différents qui enregistreront les ventes séparément.
+  - Tout d'abord, il faut définir les paramètres (nom du fichier sur lequel stocker les ventes).
+  - Ensuite, nous mettons à jour les ventes sur les deux services.
+
+#### INITIALIZING THE READERS
+![13 - init readers]
+
+#### RECORDING SALES
+![14 - recording sales]
+
+#### CONTENTES OF SALES.TXT FILE
+![15 - Contents text file]
+
+Il est maintenant possible de lire les sales de 2 serveurs. L'un sera interrogé sur une vente et l'autre sur une autre vente.
+
+#### TESTING THE ARHITECTURE
+1. Initialiser les services reader (file name for storage)
+2. Mettre à jour le book sales
+3. Lire le book sales avec le service reader
+
+![16 testing architecture
+
+#### FAST READING SALES
+![17 fast reading sales]
+
+#### DEMO
+DemoCQRSReader, DemoCQRSReader2, DemoCQRSSalesReaderClient
+
+#### DISCUSSION
+- The reading service does not know the structure of the stored object.
+  - It just stores plain XML.
+  - The only constraint: there must be an <id> tag in the recoded information.
+- The client marshalls some DTO object to XML and send the result to the storage service.
+- When querying some record, the client gets the plain XML format and unmarshalls it to the original DTO object.
+Rather than FileStorage, a better alternative would be to store the data in some NoSQL database such as MongoDB or Cassandra
+
+#### APPLYING THE EVENT SOURCING PATTERN TO CQRS
+- Les modèles de données Master sont conservés dans le service de mise à jour.
+- Le modèle de données Slave construit la vue requise par le service de requête.
+- La communication entre le master et le slave est basée sur les événements.
+
+![18 - applying event sourcing to cqrs]
 
 
 
