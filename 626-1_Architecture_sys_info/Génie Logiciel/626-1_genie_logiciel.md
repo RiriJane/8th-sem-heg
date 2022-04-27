@@ -3,6 +3,7 @@
 # CONTENTS
 1. [Lecture note 1]()
 2. [Lecture note 2]()
+3. [Lecture note 3]()
 
 
 # LECTURE NOTE 1 - ARCHITECTING SYSTEMS
@@ -797,8 +798,6 @@ service indisponible.
 ## DEMO
 On a testé le DemoCircuitBreakerClient et DemoTimeOutServer
 
-## SERVICES COMPOSITION
-
 ## SOA : SERVICE ORIENTED ARCHITECTURE
 Un modèle d'interaction applicative qui met en œuvre des services (composants logiciels)
 
@@ -809,6 +808,7 @@ Un modèle d'interaction applicative qui met en œuvre des services (composants 
 
 #### QUALITY ATTRIBUTES
 **Adaptabilité** : cette architecture est destinée à être adaptable aux évolutions du processus métier d'une entreprise.
+
 **But** : Les performances, l'évolutivité et la déployabilité ne sont pas les principaux QA.
 
 ## MICROSERVICES
@@ -852,7 +852,7 @@ New QA’s for a new world
 #### ARCHITECTING LARGE SYSTEMS
 Nous devons construire de grands services (fonctions métier) à partir de services plus simples.
 
-![15 architecting large systems](img/lecture5/15-architecting-large-system.jpg?raw=true)
+![15 architecting large systems](img/lecture5/15-architecting-large-systems.jpg?raw=true)
 
 #### CALLING ARCHITECTURE : ORCHESTRATION AND CHOREOGRAPHY
 **Orchestration** :
@@ -912,7 +912,7 @@ systèmes basés sur des microservices.
 2. Les services de lecture peuvent avoir besoin d'afficher plusieurs parties du modèle de données alors que les services d'écriture se concentrent généralement sur une seule.
 3. La contrainte « Cohérence permanente des données » * doit être libérée pour les grands systèmes distribués.
 
-* (Permanent Data Consistency) Toutes les données sont cohérentes pour tous les clients à tout moment.
+*(Permanent Data Consistency) Toutes les données sont cohérentes pour tous les clients à tout moment.
 
 # LECTURE NOTE 6
 
