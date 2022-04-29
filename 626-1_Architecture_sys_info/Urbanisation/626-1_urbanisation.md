@@ -22,11 +22,11 @@
     - [Fonctionnalité](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#fonctionnalit%C3%A9)
     - [Identifier les besoins métiers vis-à-vis du système informatique](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#identifier-les-besoins-m%C3%A9tiers-vis-%C3%A0-vis-du-syst%C3%A8me-informatique-1)
 7. [Couche fonctionnelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-fonctionnelle)
-    - [Objectifs][https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#objectifs-1]
+    - [Objectifs](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#objectifs-1)
     - [Capacité métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#capacite-metier)
       - [Carte des capacités métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#carte-des-capacites-metier)
     - [Les concepts](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-concepts)
-    - [Plan capacitaire]https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#plan-capacitaire)
+    - [Plan capacitaire](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#plan-capacitaire)
     - [Fonctionnalité](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#fonctionnalite)
     - [Application](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#application)
     - [Cartographier la couche fonctionnelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#cartographier-la-couche-fonctionnelle)
