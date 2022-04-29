@@ -21,6 +21,18 @@
     - [Identifier les besoins métiers vis-à-vis du système informatique](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#identifier-les-besoins-m%C3%A9tiers-vis-%C3%A0-vis-du-syst%C3%A8me-informatique)
     - [Fonctionnalité](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#fonctionnalit%C3%A9)
     - [Identifier les besoins métiers vis-à-vis du système informatique](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#identifier-les-besoins-m%C3%A9tiers-vis-%C3%A0-vis-du-syst%C3%A8me-informatique-1)
+7. [Couche fonctionnelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#couche-fonctionnelle)
+    - [Objectifs][https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#objectifs-1]
+    - [Capacité métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#capacite-metier)
+      - [Carte des capacités métier](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#carte-des-capacites-metier)
+    - [Les concepts](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#les-concepts)
+    - [Plan capacitaire]https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#plan-capacitaire)
+    - [Fonctionnalité](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#fonctionnalite)
+    - [Application](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#application)
+    - [Cartographier la couche fonctionnelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#cartographier-la-couche-fonctionnelle)
+    - [Règles de modélisation](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#regles-de-modelisation)
+    - [Principe d'urbanisation](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#principes-durbanisation)
+    - [Valeur ajoutée d'urbanisaton](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#valeur-ajoute-durbanisation)
 
 # Les fondamentaux
 #### jeudi 24 février 2022
@@ -789,7 +801,7 @@ Un des objectifs de l'urbanisation sur la couche fonctionnelle sera de **réutil
     - D'où la nécessité d'avoir le même fond de carte !
 - Les fonctionnalités identifiées sont invariantes, au contraire des applications informatiques qui évoluent.
 
-## VALEUR AJOUTE D'URBANISATION
+## VALEUR AJOUTEE D'URBANISATION
 Urbaniser le SI permet de :  
 - construire un SI cible qui soit agile
 - intégrer des SI ou partie de SI d'origines diverses (fusion de 2 SI comme chez Air France - KLM)
