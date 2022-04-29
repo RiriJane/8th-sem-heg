@@ -638,3 +638,161 @@ Pour la norme BPMN, l'utilisation d'un outil de modélisation aide à respecter 
 **Comment faire** :  
 - En partant de la description du processus organisationnel, identifier, avec les métiers, les fonctionnalités du système informatique dont ils ont besoin pour réaliser le processus et donc produire le résultat.
 - Déterminer si les fonctionnalités requises sont couvertes par une application informatique existant.
+
+# COUCHE FONCTIONNELLE
+
+## OBJECTIFS
+- Répond à la question "Quoi ?" sans tenir compte des acteurs et de l'organisation.
+- A pour objectif de proposer un découpage du SI stable, basé sur les invariants métiers, indépendant de l'organisation structurelle de l'entreprise et de l'architecture technique de l'informatique.
+- Permet d'établir le lien entre le métier et l'informatique.
+- Permet de vérifier ou d'apprécier l'adéquation des outils informatiques aux métiers (notion d'alignement).
+
+En phase d'analyse du **SI existant** :
+- Identifier les fonctionnalités utiles et nécessaires aux métiers
+- Découvrir les outils informatiques utilisés par le métier
+- Vérifier que les fonctionnalités informatisées sont utilisées dans les opérations métiers
+- Identifier les redondances fonctionnelles, applicatives, de données de référence.
+
+En phase de conception du **SI cible** :
+- Identifier les fonctionnalités à informatiser.
+
+## CAPACITE METIER
+- Les capacités métier expriment les fonctions élémentaires nécessaires à l’entreprise pour réaliser son activité.
+- Les capacités sont présentées dans une carte des capacités métier avec les applications qui les soutiennent et les fonctionnalités qui sont utiles.
+- La modélisation des capacités métier est une technique qui permet de représenter les fonctions métier d’une organisation, indépendamment de sa structure, de ses processus, de son personnel ou de ses services.
+
+> « Une capacité métier est une capacité particulière qu’une entreprise peut posséder ou échanger pour atteindre un objectif spécifique. »
+
+*Définition des capacités métier de TOGAF® V9.2*
+
+> « Une capacité métier, ou simplement une « capacité », définit ce que fait une entreprise. »
+
+*Définition des capacités métier du Guide BIZBOK® V9.0 de la Business Architecture Guild*
+
+## CARTE DES CAPACITES METIER
+- Ce sont des outils destinés aux **architectes d’entreprise**, permettant de discuter avec la Direction générale, des investissements ou des désinvestissements stratégiques.
+- Servent d’élément structurant pour découvrir les **redondances** dans les ressources informatiques ou des **lacunes opérationnelles**.
+- Lier les ressources informatiques à l’entreprise à l’aide des capacités métier permet de :
+  - Comprendre clairement comment les ressources informatiques soutiennent les capacités métier.
+  - Identifier les redondances, les manques pour proposer une optimisation.
+  - Concevoir une évolution ou une transformation du SI existant.
+
+## LES CONCEPTS
+1. **Plan capacitaire** - Fait en découpant le SI en unités autonomes appelées zones d’urbanisme.
+2. **Zone d'urbanisme** - d'urbanisme regroupe des éléments (fonctionnalités ou applications) caractérisés par :
+    - une cohérence forte entre éléments
+    - un couplage faible : la dépendance entre 2 zones doit être minimale, idéalement inexistante.
+    - (ceci repose sur le principe de **modularité de la décomposition systémique**)
+    - peut se décomposer en n sous-zones appelées blocs.
+3. Bloc fonctionnel
+    - peut se décomposer en plusieurs autres blocs. (décomposition hiérarchique).
+4. Fonctionnalité
+5. Application
+
+#### NOTATION PLAN CAPACITAIRE, ZONE D'URBANISME ET BLOC FONCTIONNEL
+![01 notation](img/couche-fonctionnelle/01-notation.jpg?raw=true)
+
+## PLAN CAPACITAIRE
+A partir d'un SI découpé, il permet de conjuguer 2 vues différentes mais complémentaires :
+- la vue des fonctionnalités (**carte des capacités fonctionnelles**)
+- la vue des applications (**carte des capacités applicatives**)
+
+Les vues permettent de comprendre la structuration du SI existant, de prévoir et maitriser son évolution et de dessiner la cible idéale à atteindre.
+
+#### REGLES DE DECOUPAGE DU SI EN ZONE D'URBANISME
+Le plan capacitaire du SI doit contenir :  
+- une zone **opérationnelle** : regroupement des fonctions cœur de métier portées par un SI.
+- une zone **pilotage** : regroupement des fonctions de management.
+- une zone **support** : regroupement des fonctions support.
+- une zone **données référentielles** : regroupement des données de référence.
+- une zone **échanges** : regroupement des fonctions nécessaires pour acquérir de l'information en provenance de l'extérieur ou pour permettre aux autres SI de récupérer de l'information détenue.
+
+L'ensemble de ces zones constitue le **fond de carte** du SI.
+
+![02 fond de carte](img/couche-fonctionnelle/02-fond-carte.jpg?raw=true)
+
+## FONCTIONNALITE
+- Une fonctionnalité est une fonction élémentaire attendue par un acteur pour effectuer son travail.
+  - C’est une fonction **informatisée ou à informatiser** permettant à un acteur d’exécuter tout ou partie d’une opération ou d'un ensemble d'opérations.
+  - Une fonctionnalité est définie **indépendamment** de la façon dont elle est fournie
+  - Généralement, plusieurs fonctionnalités sont nécessaires à la réalisation d'une opération.
+
+Un des objectifs de l'urbanisation sur la couche fonctionnelle sera de **réutiliser** les fonctionnalités et non pas de les dupliquer.   
+
+![03 notation fonctionnalite](img/couche-fonctionnelle/03-notation-fonctionnalite.jpg?raw=true)
+
+## APPLICATION
+- Un ensemble de composants logiciels qui constituent un tout cohérent au regard de leur déploiement, de leurs fonctionnalités et des techniques informatiques utilisées.
+
+![04 notation application](img/couche-fonctionnelle/04-notation-application.jpg?raw=true)
+
+## CARTOGRAPHIER LA COUCHE FONCTIONNELLE
+- La carte de capacités applicatives
+- La carte de capacités fonctionnelles
+
+#### LES ETAPES
+1. Identifier les fonctionnalités et les applications utilisées
+    - Identifier les éléments du système informatique nécessaires pour supporter les utilisateurs à produire le résultat d'un processus organisationnel.
+      - En partant de la description du processus organisationnel, identifier, avec les experts métiers, les fonctionnalités du système informatique qu'ils utilisent pour réaliser le processus et donc produire le résultat.
+      - Déterminer si les fonctionnalités requises sont couvertes par une application informatique existante.
+
+![05 étape 1](img/couche-fonctionnelle/05-etape1.jpg?raw=true)
+
+2. Elaborer la carte de capacités fonctionnelles (CCF)
+    Dans Draw.io :
+    - Créer une carte de capacités fonctionnelles avec le fond de carte
+    - Reprendre toutes les fonctionnalités identifiées dans les processus organisationnels et les regrouper par bloc fonctionnel (cohérence forte et couplage faible).
+
+![06 cff](img/couche-fonctionnelle/06-ccf.jpg?raw=true)
+
+![07 cff 2](img/couche-fonctionnelle/07-ccf2.jpg?raw=true)
+
+3. Elaborer la carte de capacités applicatives (CCA)
+    Dans Draw.io :
+     - Reprendre le découpage hiérarchique zones d'urbanisme > blocs fonctionnels de la carte de capacités fonctionnelles.  
+     - Relier directement les applications aux blocs fonctionnels suivant l'usage fait par les experts métiers.   
+
+![08 cca](img/couche-fonctionnelle/08-cca.jpg?raw=true)
+
+![09 cca 2](img/couche-fonctionnelle/09-cca2.jpg?raw=true)
+
+## REGLES DE MODELISATION
+**[RM07]** : une fonctionnalité doit être rattachée à une ou plusieurs opérations.
+
+**[RM08]** : une fonctionnalité peut être rattachée à une ou plusieurs applications.
+
+**[RM09]** : une fonctionnalité doit être rattachée à un ou plusieurs blocs.
+
+**[RM10]** : une application doit être rattachée à un ou plusieurs blocs.
+
+## PRINCIPES D'URBANISATION
+**[PU1]** Unicité des blocs : un bloc ne doit pas être dupliqué.
+
+**[PU2]** : Une fonctionnalité doit appartenir à un et un seul bloc.
+- Si ce n'est pas le cas :
+  - Soit elle est trop générique et mérite d'être précisée (ex : impression document),
+  - Soit la fonctionnalité est transversale et mériterait d'avoir un bloc spécifique.
+
+**[PU3]** : Une application doit appartenir à un et un seul bloc.
+  - si une application est dans plusieurs blocs fonctionnels, c'est qu'elle implémente des fonctionnalités bien différentes, et par conséquent, il faut envisager son découpage.
+
+**[PU4]** : Idéalement, chaque bloc doit contenir une seule application.
+  - Si ce n'est pas le cas, il faut analyser leurs fonctionnalités et
+  - Soit découper le bloc plus finement
+  - Soit envisager la refonte des applications du bloc en une seule application.
+
+#### MISE EN OEUVRE
+ - Vérifier le respect des principes d'urbanisation est de la responsabilité de l'urbaniste, de l'architecte d'entreprise ou celle de la Direction des Systèmes d'Information.
+ - Il s'agit d'analyser les 2 diagrammes d'urbanisme élaborés sur la couche fonctionnelle, à savoir :  
+    - la carte de capacités fonctionnelles
+    - la carte de capacités applicatives
+    - D'où la nécessité d'avoir le même fond de carte !
+- Les fonctionnalités identifiées sont invariantes, au contraire des applications informatiques qui évoluent.
+
+## VALEUR AJOUTE D'URBANISATION
+Urbaniser le SI permet de :  
+- construire un SI cible qui soit agile
+- intégrer des SI ou partie de SI d'origines diverses (fusion de 2 SI comme chez Air France - KLM)
+- intégrer des solutions hétérogènes (progiciels, des éléments de différentes plates-formes, etc.).
+- faire interagir le SI et avec d’autres SI (interopérabilité)
+- pouvoir remplacer certaines parties du SI (interchangeabilité) sans mettre en péril ni perturber l'ensemble du SI.
