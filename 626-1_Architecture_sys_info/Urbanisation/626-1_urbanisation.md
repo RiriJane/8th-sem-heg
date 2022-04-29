@@ -32,7 +32,7 @@
     - [Cartographier la couche fonctionnelle](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#cartographier-la-couche-fonctionnelle)
     - [Règles de modélisation](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#regles-de-modelisation)
     - [Principe d'urbanisation](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#principes-durbanisation)
-    - [Valeur ajoutée d'urbanisaton](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#valeur-ajoute-durbanisation)
+    - [Valeur ajoutée d'urbanisaton](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/Urbanisation/626-1_urbanisation.md#valeur-ajoutee-durbanisation)
 
 # Les fondamentaux
 #### jeudi 24 février 2022
