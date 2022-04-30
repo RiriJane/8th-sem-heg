@@ -258,7 +258,7 @@ Choisir les couches:
 - L'environnement (contexte du système et parties prenantes)
 - Le processus de conception
 
-#### SOFTWARE COMPPONENTS
+#### SOFTWARE COMPONENTS
 ![ Software components](img/lecture1/software-components.jpg?raw=true)
 
 #### COMPPONENTS VS OBJECTS VS MODULES
@@ -297,6 +297,7 @@ Les interfaces des composants doivent correspondre parfaitement pour être  conn
 
 #### SOFTWARE CONNECTORS
 ![Software Connectors](img/lecture1/software-connectors.jpg?raw=true)
+
 Modéliser les aspects statiques et dynamiques de interaction entre les interfaces des composants.
 - Les connecteurs ne sont généralement pas directement visibles dans le code, ce qui n'est pas le cas des composants.
 - Les connecteurs sont le plus souvent indépendants de l'application, alors que les composants peuvent être à la fois dépendants ou non de l'application
@@ -326,7 +327,7 @@ How many views ?
 ![ Process view](img/lecture1/process-view.jpg?raw=true)
 
 #### PHYSICAL VIEW
-![Physical view](img/lecture1/physical-view-last.jpg?raw=true)
+![Physical view](img/lecture1/physical-view.jpg?raw=true)
 
 ## USE CASE SCENARIOS
 - Unifier et relier les éléments des 4 autres vues
@@ -360,7 +361,7 @@ How many views ?
 - **Public cible** : Développeurs
 
 #### DEVELOPMENT VIEW
-![Development view last]
+![Development view last](img/lecture1/development-view-last.jpg?raw=true)
 - Organisation statique des artefacts du code logiciel
   - paquets
   - modules
@@ -370,7 +371,7 @@ How many views ?
 - **Public cible** : Développeurs
 
 #### PHYSICAL VIEW
-![Physical view last]
+![Physical view last](img/lecture1/physical-view-last.jpg?raw=true)
 - Environnement matériel dans lequel le logiciel sera déployé
   - hôtes
   - réseaux
