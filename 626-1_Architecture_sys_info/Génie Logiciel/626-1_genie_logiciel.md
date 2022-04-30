@@ -918,6 +918,7 @@ systèmes basés sur des microservices.
 
 ## CAP THEOREM
 Source : https://dzone.com/articles/better-explaining-cap-theorem
+
 Il est impossible sur un système informatique de calcul distribué de garantir en même
 temps:
 - La Consistance des données) (Consistency)
@@ -925,25 +926,30 @@ temps:
 - La tolérance aux Partitionnement (Partition Tolerance) : le système doit fonctionner
 même s’il est partitionné sur plusieurs nœuds.
 
-![02 - cap theorem]
+![02 - cap theorem](img/lecture6/02-cap-theorem.jpg?raw=true)
 
 **Les variables statiques ou globales sont INTERDITES en programmation distribuée (viol du stalessness)**
 
 #### EVITER LA DEPENDANCE DES DONNEES ENTRE LES SERVICES
 
-![03 - éviter la dépendance]
+![03 - éviter la dépendance](img/lecture6/03-eviter-dependance.jpg?raw=true)
 
 **Mais comment les synchroniser ?**
 
 ## COMMAND QUERY RESPONSIBILITY SEGREGRATION (CQRS) PATTERNS
 Source: http://fr.slideshare.net/myfear/cqrs-and-event-sourcing-for-java-developers
+
 **Problème** : comment éviter le couplage de données entre les services qui mettent à jour le modèle de données et les services qui lisent les données ?
 
 **Solution** : créer des services distincts, chacun ayant sa propre représentation des données.
 - Le service de mise à jour possède le modèle de référence et fonctionnera comme modèle maître (MASTER).
 - Le service de requête maintiendra un modèle de données esclave (SLAVE). Il sera informé de tout changement de modèle de référence.
 
-![04 - CQRS Pattern]
+![04 - CQRS Pattern](img/lecture6/04-CQRS-pattern.jpg?raw=true)
+
+- Les permissions sont différents que pour les slaves et masters
+- Les maj dans bdd de write va effectuer les changements dans la bdd de read.
+
 
 #### RETHINKING THE DATA MODEL
 Historiquement, le modèle de données accueillait à la fois les requêtes de lecture et d'écriture.
@@ -963,6 +969,7 @@ Historiquement, le modèle de données accueillait à la fois les requêtes de l
 
 #### IMPLEMENTATION DE CQRS
 - On peut utiliser le "Event Sourcing" pattern
+  - Exemple acheter un billet au ciné en même temps, on enregistre la sequence des événements
 
 ## EVENT SOURCING PATTERN
 **Problème** : comment enregistrer efficacement l'état et les changements d'état d'un modèle de données ?
@@ -973,7 +980,7 @@ Historiquement, le modèle de données accueillait à la fois les requêtes de l
   Remarque : ce modèle ne doit pas être la seule représentation des données dans un système complexe. Utilisez-le avec précaution.
 
 #### EXEMPLE : RECORDING BOOK SALES
-![05 - book sales]
+![05 - book sales](img/lecture6/05-exemple-book-sales.jpg?raw=true)
 
 #### AVANTAGES DU MODELE EVENT SOURCING POUR IMPLEMENTER LE READ DATA MODEL
 Si le modèle de données est représenté comme une chaîne d'événements immuables, alors :
@@ -984,7 +991,8 @@ Si le modèle de données est représenté comme une chaîne d'événements immu
 - Bien adapté pour interroger les changements d'état historiques.
 
 Pour lire la valeur réelle d'un attribut, lisez la chaîne dans l'ordre inverse.
-![06 - lire dans l'ordre inverse]
+
+![06 - lire dans l'ordre inverse](img/lecture6/06-lire-ordre-inverse.jpg?raw=true)
 
 #### STRUCTURE FOR UPDATE EVENT
 - Les événements doivent vraiment représenter ce qui est arrivé sur quel élément de données.
@@ -1001,21 +1009,24 @@ Pour lire la valeur réelle d'un attribut, lisez la chaîne dans l'ordre inverse
 - Aucune conversion lors du stockage/récupération.
 
 **ARCHITECTURE**
-![07 - exemple xml]
 
-![08 - exemple 2]
+![07 - exemple xml](img/lecture6/07-exemple-xml.jpg?raw=true)
+
+![08 - exemple 2](img/lecture6/08-exemple-2.jpg?raw=true)
 
 #### DEMO CQRS
-![09 - Demo cqrs]
+![09 - Demo cqrs](img/lecture6/09-demo-cqrs.jpg?raw=true)
 
 #### DEMO CQRSReaderII
-![10 - Demo cqrs reader]
+![10 - Demo cqrs reader](img/lecture6/10-demo-cqrs-reader.jpg?raw=true)
 
 #### UTILITY CLASS: FileStorage
-![11 - Utility Class : File Storage]
+![11 - Utility Class : File Storage](img/lecture6/11-utility-class-filestorage.jpg?raw=true)
 
 #### DTO OBJECT TO RECORD THE SALES
-![12 - DTO Object]
+![12 - DTO Object](img/lecture6/12-dto-object.jpg?raw=true)
+
+- On a besoin d'un objet DTO (couche de transport) pour éviter les annotations dans la couche métier et on a pas besoin de transporter tous éléments de la couche métier au client. On utilise un marshaller et unmarshaller. (Voir section discussion)
 
 #### DEMO : RECORDING THE SALES ON TWO SERVERS
 - Un ensemble de ventes de livres est envoyé à 2 services différents qui enregistreront les ventes séparément.
@@ -1023,13 +1034,13 @@ Pour lire la valeur réelle d'un attribut, lisez la chaîne dans l'ordre inverse
   - Ensuite, nous mettons à jour les ventes sur les deux services.
 
 #### INITIALIZING THE READERS
-![13 - init readers]
+![13 - init readers](img/lecture6/13-init-readers.jpg?raw=true)
 
 #### RECORDING SALES
-![14 - recording sales]
+![14 - recording sales](img/lecture6/14-recording-sales.jpg?raw=true)
 
 #### CONTENTES OF SALES.TXT FILE
-![15 - Contents text file]
+![15 - Contents text file](img/lecture6/15-context-text-file.jpg?raw=true)
 
 Il est maintenant possible de lire les sales de 2 serveurs. L'un sera interrogé sur une vente et l'autre sur une autre vente.
 
@@ -1038,10 +1049,10 @@ Il est maintenant possible de lire les sales de 2 serveurs. L'un sera interrogé
 2. Mettre à jour le book sales
 3. Lire le book sales avec le service reader
 
-![16 testing architecture
+![16 testing architecture](img/lecture6/16-testing-architecture.jpg?raw=true)
 
 #### FAST READING SALES
-![17 fast reading sales]
+![17 fast reading sales](img/lecture6/17-fast-reading-sales.jpg?raw=true)
 
 #### DEMO
 DemoCQRSReader, DemoCQRSReader2, DemoCQRSSalesReaderClient
@@ -1059,50 +1070,125 @@ Rather than FileStorage, a better alternative would be to store the data in some
 - Le modèle de données Slave construit la vue requise par le service de requête.
 - La communication entre le master et le slave est basée sur les événements.
 
-![18 - applying event sourcing to cqrs]
+![18 - applying event sourcing to cqrs](img/lecture6/18-applying-event-ourcing-cqrs.jpg?raw=true)
+
+# LECTURE NOTE 7
+
+## ANOTHER VIEW ON CQRS AND EVENTS SOURCING ARCHITECTURE
+![01 another view architecture](img/lecture7/01-another-view-architecture.jpg?raw=true)
+
+- même chose que [l'image csqr pattern]()
+
+## IMPLEMENTING CQRS
+**Problème** : mettre à jour le writer sans être impacté par la propagation aux modèles reader
+
+**Solution** : PubSubHub patterns
+
+## PUBSUBHUB PATTERN
+
+**Problem** : comment propager des événements aux services sans impacter les performances du service émetteur
+
+**Solution** : PubSubHub pattern qui repose sur l'approche de pub-sub pattern.
+  - dévéloppé de base pour diffuser des informations
+
+![02 pubsubhub pattern](img/lecture7/02-pubsubhub-pattern.jpg?raw=true)
+
+- on peut avoir 2-3 reader ou plus
+- quand on utilise le reader, le writer est bloqué et vice versa. Pour éviter ce problème on utiliese le service hub
+  - pub(write), sub(read)
+- tous les services fonctionnent de manière asynchrone
+- tous les services read sont abonnés sur le hub
+
+![03 pubsubhub 2](img/lecture7/03-pubsubhub2.jpg?raw=true)
+
+- on a 3 patterns dans une architecture :
+  - cqrs -> pour le reader
+  - event sourcing -> on enregistre tous les evenements
+  - pubsubhub -> pour faire fonctionner les services de manière asynchrone
 
 
+![11 - pubsubhub 3](img/lecture7/11-pubsubhub3.jpg?raw=true)
+1. Le service Write publie le sujet mis à jour via l'API du service Hub.
+2. Le service Read s'abonne au sujet via l'API du service Hub et déclare l'URL sur laquelle il souhaite recevoir la mise à jour.
+3. Lorsque le writer met à jour le modèle de données, il envoie au hub l'événement mis à jour.
+    - Alternativement, le service write informe le hub du changement et le hub récupère l'événement.
+4. Le hub multidiffuse l'événement mis à jour à tous les abonnés enregistrés.
 
+ - chaque appel de service va être executé dans différents threads
 
+#### IMPLEMENTATION DU HUB
+Pour que l'éditeur soit indépendant du traitement par les abonnés, le Hub doit dispatcher l'événement de manière asynchrone.
+- Si ce n'est pas le cas, l'éditeur sera verrouillé jusqu'à ce que tous les abonnés aient traité l'événement.
 
+## JAVA THREAD
+Source : : https://dzone.com/articles/java-thread-tutorial-creating-threads-and-multithr.
 
+- Un thread est un processus léger.
+- Un programme multithread contient deux parties ou plus qui peuvent s'exécuter simultanément.
+- Chaque partie d'un tel programme est appelée un thread et chaque thread définit un chemin d'exécution séparé. Ainsi, le multithreading est une forme spécialisée de multitâche.
+- Les classes qui peuvent exécuter leur code dans leur propre thread doivent hériter de la classe Thread
+  - Le processus à exécuter doit être implémenté dans la méthode run()
+  - Pour lancer le thread, appelez la méthode start()
+    - La méthode run() de l'instance sera alors exécutée dans son propre thread
 
+![04 Thread states](img/lecture7/04-thread-states.jpg?raw=true)
 
+![05 Key thread methods](img/lecture7/05-key-thread-methods.jpg?raw=true)
 
+#### EXEMPLE : SLOW RUNNING SERVICE
+![06 slow running service](img/lecture7/06-slow-running-service.jpg?raw=true)
 
+#### SYNCHRONOUS CLIENT
+![07 synchronous client](img/lecture7/07-synchronous-client.jpg?raw=true)
 
+#### MULTITHREADED-CLIENT VERSION
+![08 multithreaded client version](img/lecture7/08-multithread-client-version.jpg?raw=true)
 
+#### INDEPENDENT EXECUTION : CLIENTTHREAD
 
+![09 Independent execution : ClientThread](img/lecture7/09-independent-execution-client-thread.jpg?raw=true)
 
+#### LAUNCHING ONE CLIENTTHREAD INSTANCE PER CALL
+![10 Launching one ClientThread isntance per call](img/lecture7/10-launching-one-client-thread.jpg?raw=true)
 
+## CQRS IN ACTION
 
+![12 CQRS in action](img/lecture7/12-cqrs-action.jpg?raw=true)
 
+#### APIS
+![13 APIs](img/lecture7/13-api.jpg?raw=true)
 
+#### SUBSCRIBERDTO
+![14 SubscriberDTO](img/lecture7/14-subscriberDTO.jpg?raw=true)
 
+#### ASYNCHRONOUS HUB SERVICE
+![15 Asynchronous Hub Service](img/lecture7/15-aysnc-hub-service.jpg?raw=true)
 
+#### ENTRYPOINT
+![16 EntryPoint](img/lecture7/16-entrypoint.jpg?raw=true)
 
+#### THREADEDDISPATCHER
+![17 ThreadedDispatcher](img/lecture7/17-threaded-dispatcher.jpg?raw=true)
 
+#### HUB : PARAMETERS
+![18 Hub : Parameters](img/lecture7/18-hub-parameters.jpg?raw=true)
 
+#### SUBSCRIBERFILESTORAGE
+![19 SubscriberFileStorage](img/lecture7/19-subscriber-file-storage.jpg?raw=true)
 
+#### CLIENT : REGISTERING THE SUBSCRIBERS
+![20 Client : registering the subscribers](img/lecture7/20-client-registering-subscriebrs.jpg?raw=true)
 
+#### CLIENT : BROADCASTING THE SALES EVENTS
+![21 Client : Broadcasting the sales events](img/lecture7/21-client-broadcasting-sales-events.jpg?raw=true)
 
+#### READING THE SALES FROM THE BOTH READERS
+![22 Reading the sales from both readers](img/lecture7/22-reading-from-readers.jpg?raw=true)
 
-#### jeudi 4 avril 2022
-s3
-soa : service oriented Architecture
+#### TESTING THE BROADCAST ARCHITECTURE
+1. Initialiser les services (nom du fichier pour le stockage)
+2. Enregistrez les abonnés au service PubSubHub
+3. Mettre à jour les ventes de livres
+4. Lire les ventes de livres des deux reader
 
-s7
-monolithic : utilisation d'un seul services, pas adapbtable et escalable
-soa : niveau entreprise, on crée une application basée sur plusieurs services
-microservices : on crée un seul service, une seule Application basée sur les services
-
-s21
-- on doit encapsuler la bdd pour chaque service car si on veut changer les données pour le service1 ca pourrait impacter le service 2 si on utilises la meme bdd
-
-##### representation
-- avantages,
-- qa
-- system design : haut niveau
-
-
-#### jeudi 14 avril 2022 - lecture note 7
+![23 testing broadcast architecture](img/lecture7/23-testing-broadcast-architecture.jpg?raw=true)
