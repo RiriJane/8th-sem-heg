@@ -1,5 +1,9 @@
 # 626-1 GENIE LOGICIEL
 
+# INFORMATION
+CC : tous ce qu'on a vu depuis le début et les 3 premiers tps. Il peut nous demander des concepts. On a le droit à tout.
+Examen final : on peut nous demander d'expliquer une architecture, les patterns, pourquoi on utilise CQRS, pourquoi ...
+
 # CONTENTS
 1. [Lecture note 1](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#lecture-note-1---architecting-systems)
     - [Designing the high level architecture](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#designing-the-high-level-architecture)
@@ -58,7 +62,13 @@
 ![Overview - architecting steps](img/lecture1/vue-ensemble-architecting-steps.jpg)
 
 - on utilise des tactics pour améliorer un design patterns
-- low level architecture : design plus détaillés par exemple Builder, Factory...
+- low level architecture : design plus détaillés par exemple Builder, Factory
+
+Note Cyril :
+- L'architectural tactic Une stratégie de design
+  - Engendre une architecture de haut niveau et rajouter le design pattern fait passer en bas niveau
+  - POurraît être une amélioration de l'efficacité du programme. Par exemple, en utilisant un meilleur algorithme. Aussi pour la cadence des évènements (besoin computation), l'utilisation du cache, etc.
+- Un architectural pattern est un style.
 
 ## QA : TACTICS
 - Combien de temps le système met-il à réagir à un événement (latence) ?  Source de complication : le nombre de sources d'événements et leur séquence d'arrivée.
@@ -87,6 +97,9 @@ La disponibilité concerne les défaillances du système et leurs conséquences.
 ## POURQUOI LA MODIFIABILITE EST-ELLE UN PROBLEME ? DEPENDANCES
 ![Pourquoi la modifiabilité est-elle un problème ? Dépendances](img/lecture1/modifiability-issue-dependencies.jpg?raw=true)
 
+Note Cyril :
+La modificabilité est un gros problème. Il faut s'assurer que les composants et leurs dépendances soient au point. Il faut augmenter la cohésion dans un composant et diminuer le couplage. Un changement dans le programme ne doit pas affecter l'intégrité du programme.
+
 #### MODIFIABILITY TACTICS
 ![Modifiability tactics](img/lecture1/modifiability-tactics.jpg?raw=true)
 
@@ -103,6 +116,9 @@ La disponibilité concerne les défaillances du système et leurs conséquences.
 - Pas une phase de développement
 
 > A software system's architecture is the set of principal design decisions made about the system
+
+Note Cyril :
+Ce qu'on appelle l'architecture, ce sont les décisions de design du système. À la base du système, il y a un architecte et le concept du logiciel. L'architecture n'est pas une phase de développement, il y a besoin d'un architecte pendant toute la vie du projet. Quand on crée une architecture, on commence par les NFR, on utilise les tactiques pour créer une architecture de haut-niveau puis les design pattern pour le bas-niveau.
 
 ![Abstraction](img/lecture1/abstraction.jpg?raw=true)
 
@@ -126,8 +142,12 @@ Principes de conception - Arch. Modèles - Arch. Styles
 - KISS (keep it simple, stupid)
 - DRY (Don't repeat yourself)
 
+Les principes de design sont notamment l'abstraction (rassemblement du QUOI (NFR), du COMMENT (design) et du POURQUOI), l'encapsulation et la modularisation.
+
 ## ARCHITECTURAL PATTTERN
 > An architectural pattern is a set of architectural design decisions that are applicable to a recurrring design problem, and parameterized to account for different software development contexts in which that problem appears.
+
+
 
 Problem : traitement complexe avec plusieurs niveaux d'abstraction de inputs/outputs
 
@@ -135,6 +155,15 @@ Problem : traitement complexe avec plusieurs niveaux d'abstraction de inputs/out
 - plus connu dans l'archecture des systèmes intéractifs
 
 ![Model-View-Controller](img/lecture1/model-view-controller.jpg?raw=true)
+
+Note Cyril :
+Il permet de résoudre plusieurs problèmes de conception et difficulté (vues multiples/synchrones par exemple) mais a comme répercussions la complexité et le couplage  -> voir diagrammes sur les slides. Le modèle est responsable du processing des données, la vue de l’output pour l’utilisateur, et le contrôleur de l’input et des appels associés à ces inputs.
+
+Autres notes Cyril :
+Si on est développeur de backend et qu'on doit créer la documentation des API (par exemple pour ceux du frontend pour savoir comment connecter), on peut utiliser l'API console documentation.
+
+Une API, c'est un connecteur. Si on crée une nouvelle plateforme, on doit créer une API pour connecter les sources externes à la plateforme. En Python, on utilise Django pour créer une API pour les services web.
+
 
 **Implemented tactics**
 Modifiability tactics : anticipe les changements attendus, sépare les préoccupations
@@ -214,6 +243,26 @@ Tactiques de modifiabilité :
 ## FACADE
 ![Facade](img/lecture1/facade.jpg?raw=trues)
 
+Note Cyril :  Le problème des systèmes, c'est qu'ils sont très complexes. On crée donc une interface (appelée facade), alors laquelle les clients peuvent se connecter. C'est aussi utile pour cacher l'information ou pour améliorer la lisibilité par exemple. Parfois ce pattern est combiné à un proxy.
+
+On monte parfois son architecture en couches. Cela donne une meilleure structure. Si on a beaucoup de choses à montrer, on a besoin d'une couche de présentation. Dans chaque couche, on a des sous-couches. Choisir le nombre de couches est important, c'est un équilibre à trouver mais généralement on n'en veut pas beaucoup. L'interface fonctionne comme une façade pour chaque couche, et chacune d'elles utilise des technologies différentes.
+
+On a des composants, des objets et des modules dans un logiciel. Quand on crée une architecture, on doit d'abord créer le composants (classe, interface, …). Il y a de l'input et de l'output.
+
+Exemple de technologies :
+Présentation : Tableaux, SSRS, powerBJ  ??
+
+Business :
+  - ETL : SSIS, Pentahom Scala, Php, Shell, Python, Java, Jupyter, ...
+  - BI/ML : R, Python, Juliam Azure ML,...
+  - Automation : Jenkins, Nifi, data Factory
+
+Data : MySQL, SqlServer, Postgre, MongoDB, Cassandra, HBase, ...
+
+Monsieur Behfar a créé une architecture qui propose les meilleurs prix de plusieurs entreprises de vêtements tels que H&M et Zara. Le problème c'est que les API ne sont pas les mêmes, il doit d'abord créer un connecteur qui se connecte à toutes les API. Il a donc créé une facade, ainsi que des composants de types adapter, ainsi que wrapper (qui donne la possibilité de connecter plusieurs API en même temps.
+On doit aussi, pour créer une architecture, des vues. Il y a trois possibilités, mais celle qui importe c'est le modèle Kruchten 4+1 : une vue logique (décompose le système en composants et connecteurs et mappe les fonctionnalités), une vue de développement (on mappe le code et les éléments de la vue logique ?), une vue de process (on explique la communication entre les processus) et la vue physique (réseau, stockage, etc.).
+
+
 #### IMPLEMENTED TACTICS
 Tactiques de modifiabilité
 - Cacher l'information
@@ -239,6 +288,9 @@ Choisir les couches:
    - Éviter les surcharges de performance
 - Spécifier l'interface de chaque couche
   - Chaque couche doit représenter une boîte noire pour la couche supérieure.
+
+
+
 
 #### CHANGEMENT DANS L'UNE DES PREOCCUPATIONS : AFFICHAGE, ACCES AUX DONNES
 ![Changement dans l'une des préoccupations : affichage, accès aux données](img/lecture1/change-concerns.jpg?raw=true)
@@ -395,6 +447,9 @@ Interface uniforme et adressabilité : Permet la visibilité et la simplicité d
 **Statelessness** : pas de sessions utilisateur dans le server. Le serveur ne doit pas enregistrer les états d'un utilisateur. Il n'enregistre que les états ressources. Par exemple, l'achat en ligne. Le serveur doit savoir ce que le client va acheter, c'est donc un état de ressource. Mais, si le client navigue seulement, ce sont des états de clients.
 Etat : configuration interne d'un système qui spécifie la réponse à l'événement qu'il reçoit.
 
+Notes Cyril :
+Le concept de statelessness signifie que les requêtes doivent être indépendantes les unes des autres du point de vue du serveur. C'est important car cela permet de partager les requêtes entre différents serveurs et, ainsi, la tactique de "concurrence" des serveurs. Il est interdit d’utiliser des variables statiques ou globales dans une architecture « stateless ».
+
 2 types d'états :
 - **L'état de la ressource** : configuration d'une ressource sur le serveur qui est disponible pour tous les clients. Cela détermine quelle représentation on peut obtenir de la ressource. Côté serveur. Accessible à tous les clients.
 - **L'état du client** : la configuration du client qui détermine la prochaine requête qu'il pourrait émettre ensuite (suite à une entrée utilisateur par exemple). On l'appelle aussi **l'état de l'application**. Côté client. Spécifique au client.
@@ -409,19 +464,40 @@ Toutes requêtes doivent être indépendant de chacune entres elles de point de 
 ## RESOURCE PATTERN
 Patterns basique pour intéragir avec les ressources.
 
+Note Cyril :
+
+Sur le serveur, on peut avoir des fichiers (par exemple XML), qui sont des ressources. Généralement, on partage la représentation d'une ressource (par exemple une URL). On utilise les hypermédias (lien) pour connecter la représentation des ressources qui définit l'adresse des ressources sur le serveur.
+
+Lorsqu'en tant que client, on navigue sur Amazon, les données nous concernant sont stockées localement dans les cookies (état client). Lorsqu'on ajoute un article dans le panier, en revanche, c'est stocké sur le serveur (état ressource) dans un header avec un token permettant d'identifier un utilisateur.
+
+Ajouter une query dans la représentation de ressource (url) est une possibilité, mais le serveur peut également retourner une deuxième url dans le header.
+
+
 #### REQUEST ACKNOWLEDGE
 **Problem** : Comment gérer des services durables, c'est-à-dire, services qui ne peuvent pas répondre immédiatement.
 **Solutions** : Request/acknowledge/poll, Request/acknowledge/callback
 External sources : http://servicedesignpatterns.com/clientserviceinteractions/requestacknowledge
 
+NOte Cyril :
+L'un des problèmes importants est la gestion de longs services où les serveurs ne répondent pas immédiatement : request/acknowledge/poll & request/acknowledge/callback :
+
 #### REQUEST/ACKNOWLEDGE/POLL
 ![02 - Request/acknowledge/poll](img/lecture2/02-request-acknowledge-poll.jpg?raw=true)
+
+Note Cyril :
+
+Poll : une réponse 303 ((see other) url : parce qu'il ne peut pas immédiatement prendre le résultat : ce n'est pas prêt) est retournée immédiatement et le client doit envoyer une autre requête. Puis une réponse 202 (accepté mais pas prêt), puis 200 (lorsque c'est prêt). Pour faire ça, on calcule l'URL de base, on la trim et on rajoute la deuxième url pour retourner au client. Le service est préparé dans la deuxième url. La fonction getBaseUri() est celle qui permet de trim.
 
 **Interactions**
 ![03 - Interactions](img/lecture2/03-interactions-request-acknowledge-poll.jpg?raw=true)
 
 #### REQUEST/ACKNOWLEDGE/CALLACK
 ![04 - Request/acknowledge/callback](img/lecture2/04-request-acknowledge-callback.jpg?raw=true)
+
+Note Cyril :
+Callback : la requête GET contient l'URL où la réponse doit être envoyée, et le serveur envoie directement une réponse 201 (créée) lorsqu'elle est prête avec une requête POST.
+
+Avec le poll, c'est le client qui envoyait beaucoup de requêtes, mais avec le callback, le client n'en a pas besoin.
 
 **Interactions**
 ![05 - Interactions](img/lecture2/05-interactions.jpg?raw=true)
@@ -459,6 +535,21 @@ Entry est une collection dans la collection feed. Balise HTML :
 
 ![09 - Architecture](img/lecture2/09-architecture.jpg?raw=true)
 
+Note Cyril :
+
+Dans l'architecture ATOM (formatage de XML), la couche de business et de domaine, c'est la même chose : pour les objets métier. On a une couche de transport (sur le client et le serveur) puis les API et/ou les entrypoints dans la couche de services. La couche de business permet de tout encapsuler, mais on sépare ce qui existe dans cette couche en les annotant dans la couche de transport qui sert à diviser ces couches : on peut avoir un set dans la couche business mais un subset/un feed qui contient une collection d'objets/quelques entries dans la couche transport.
+
+Créer une collection de représentations permet de réduire le trafic. La collection, c'est un feed, avec un link "self", et l'entry est un id dans la collection avec un link "alternative". Les représentations sont des des liens, des adresses qui représentent les ressources.
+
+Jaxb est utilisé pour le marshalling/unmarshalling (sérialiser/désérialiser) qui est utilisé pour les transports entre le client et le serveur : changement en XML, en JSON, etc… @XmlRootElement permet de changer les objets Java en XML et vice-versa. @XmlAccessType permet de définir quels éléments doivent être transportés, comme les FIELD par exemple avec .FIELD.
+
+DTO (data transport object) ne contient que les éléments que l'on souhaite transporter : l'auteur et le titre d'un livre mais pas tout le livre. Cela sert aussi à mimiser le trafis sur le réseau. Ce n’est pas un objet métier et ne peut donc pas être annoté.
+
+Dans l'entrypoint, on a un POST et un GET. On définit le path en tête de classe, en tête de méthode, et dans le fichier web.xml de Tomcat (pour le servlet). Dans cette balise <servlet-mapping>, on trouvera une autre <url-pattern> qui contiendra un élément de path qui viendra après l'application pour différencier des autres chemins.
+
+
+
+
 ## PATTERN : DATA TRANSFER OBJECTS
 **Problem** : pour minimiser le trafic réseau, on ne veut pas envoyer/recevoir toutes les informations de l'objet de domaine, mais seulement la partie significative pour le service.
 - Comment extraire et sélection une partie de l'objet de domaine pour le transfert réseau ? Contrainte : on ne veut pas implémenter du code transfer spécifique dans les objets du domaine.
@@ -470,6 +561,8 @@ seulement la partie de l'objet de domaine que nous devons transférer
 (ou parties de plusieurs objets).
 
 ![10 - exemple DTO](img/lecture2/10-exemple-DTO.jpg?raw=true)
+
+
 
 #### EXEMPLE : POST
 Lors de la publication de représentations pour créer des objets sur le serveur, la représentation peut être envoyée à l'aide d'un DTO.
@@ -558,6 +651,10 @@ public class BookGetClient{
 
 }
 ```
+
+Note Cyril :
+
+Les classes BookGetClient et BookPostClient de l'exemple servent à envoyer la requête.
 
 #### REST INTERFACE : POST
 ```
@@ -724,6 +821,12 @@ Conséquence - se préparer aux échecs :
 
 **Solution** : définissez le temps maximum que votre client attendra avant d'abandonner. Si le délai d'attente a expiré, effectuez une procédure de tolérance aux pannes
 
+Note Cyril :
+
+Timeout : s'il y a un problème avec le réseau, on envoie une requête à partir du client mais ne recevons aucune réponse
+
+On peut nous demander les trois timeouts à l'examen : connection timeout (lorsque le client demande une connexion), connect timeout (jusqu’à ce que la connexion en question soit établie) et socket timeout (attente de données post-connexion). Pour les deux derniers, il y a des exceptions qui sont levées. Le concept est très simple: si la réponse (response time) est moins que le timeout, on continue, sinon, on fait une autre procédure (principe de fault tolerance). RequestConfig est un objet utilisé pour setter les timeouts.
+
 #### REQUESTCONFIG
 Le HttpClient est configuré pour ne pas attendre plus que la période de temporisation.
 
@@ -818,6 +921,15 @@ service indisponible.
 
 ![07 state graph](img/lecture5/07-state-graph.jpg?raw=true)
 
+Note Cyril :
+
+Circuit breaker est utilisé dans les mêmes cas de figure : on envoie une requête mais la ressource est indisponible ou il y a une erreur sur le réseau.  Le principe du timeout, c'est qu'on utilise une URL2 (fault tolerance) à la place de l’URL1, mais avec le pattern Circuit Breaker, c'est différent : on arrête complètement d'envoyer la requête sur le serveur. C'est le même concept que dans les circuits électroniques : si la ressource est indisponible : on ouvre le circuit. Sinon, on le ferme.
+
+En termes de code, c'est le même principe que pour le timeout, mais au lieu d'un try/catch, on fait une boucle où on essaie 3 fois d'atteindre la ressource et on ouvre/arrête le breaker si ça ne marche pas.
+
+Cela clôt les resource patterns. Ils interagissent avec la ressource. En fonction du pattern implémenté, la réponse/le comportement est différent.
+
+
 
 #### REMINDER : MAIN HTTP CLIENT CLASSES
 ![08 reminder http client](img/lecture5/08-reminder-http-client.jpg?raw=true)
@@ -842,6 +954,17 @@ Un modèle d'interaction applicative qui met en œuvre des services (composants 
 - Les composants de service peuvent varier en taille, des petits services d'application aux très grands services d'entreprise.
 - Il est courant d'avoir un composant de service au sein de la SOA représenté par un gros produit ou même un sous-système.
 
+Note Cyril :
+On passe donc au chapitre "service composition" : SoA (service-oriented architecture). Supposons que dans une entreprise on ait des applications qui contiennent tous des business services (service scheduling, order processing, etc.) qui interagissent tous avec des BDD différentes. C'est une architecture dite monolithique qui n'est que très peu scalable. La différence que SoA apporte est une couche supplémentaire pour y encapsuler les business services. Les applications peuvent ainsi être développées indépendamment les unes des autres et sont donc évolutives. La SoA est donc basée sur les microservices, mais le niveau de granularité est moins fin que dans une architecture pure de microservices. Elle ajoute un nouveau critère de qualité (QA) extrêmement important : l'adaptabilité. Cela signifie que si on a un changement dans l'architecture, elle doit être adaptable/scalable : si l'architecture est monolithique et un développeur part, le projet est très fortement compromis, c'est pourquoi il faut une architecture suivant SoA, notamment quand plusieurs personnes travaillent dessus.
+
+![01 Before SOA After SOA](img/cyril(01-before-after-soa.jpg?raw=true)
+
+Attention : ces différences (mono/SA/microservices) ont de forte chance de constituer une question d'examen.
+Supposons le processus d'immatriculation d'étudiants. On crée une app qui contient quelques services de métier. On a besoin d'un orchestrateur pour appeler tous les services. On pourrait faire ça avec une classe manager (orchestration), mais on peut aussi le faire avec un bus de service (comme pour publish/subscribe : choreography) où les services sont strictement indépendants (losely coupled) et doivent "s'inscrire" aux events adéquats en communiquant avec le bus.
+
+
+
+
 #### QUALITY ATTRIBUTES
 **Adaptabilité** : cette architecture est destinée à être adaptable aux évolutions du processus métier d'une entreprise.
 
@@ -852,8 +975,6 @@ Source : https://martinfowler.com/articles/microservices.html#CharacteristicsOfA
 
 - Une spécialisation d'une approche d'implementation pour les SOA utilisées pour construire des systèmes logiciels déployables indépendamment.
 - Le style architectural de microservice est une approche de développement d'une application unique sous la forme d'une suite de petits services, chacun s'exécutant dans son propre processus et communiquant avec des mécanismes légers, souvent une API de ressource HTTP.
-
-
 - Chaque microservice est indépendamment appelé à travers le réseau.
 
 #### CONSTRAINT : LARGE systems
@@ -898,6 +1019,8 @@ Nous devons construire de grands services (fonctions métier) à partir de servi
 **Chorégraphie** :
 - Architecture de type publish/subscribe : la planification est implicite dans la séquence d'événements générés par chaque service.
 - Chaque service s'inscrit à l'événement qu'il doit traiter.
+
+
 
 #### EXEMPLE - INSCRIPTION DES ETUDIANTS
 ![16 - Inscripition des étudiants](img/lecture5/16-inscription-etudiants.jpg?raw=true)
@@ -1228,3 +1351,19 @@ Source : : https://dzone.com/articles/java-thread-tutorial-creating-threads-and-
 4. Lire les ventes de livres des deux reader
 
 ![23 testing broadcast architecture](img/lecture7/23-testing-broadcast-architecture.jpg?raw=true)
+
+
+Notes Cyril :
+
+Notes Cyril :
+Dans l'architecture de microservices, on sépare le modèle de la base de données. Cela est nécessaire pour avoir une architecture déployable, scalable. Ce n'est toutefois pas toujours possible.
+
+Supposons que la BDD d'une banque soit actualisée (write) 2-3 fois par jour mais que des requêtes de clients y accèdent (read), toute la journée. Ce sont des configurations très différentes, et read est un service et write également, qui peuvent tous deux demander des microservices complètement différents. CQRS est un pattern de microservice, qui divise ces deux services write/read et leur donne des accès et représentations différents. Plus globalement, il vise à éviter du couplage non désiré entre des services. On y trouve une base de données sur laquelle on effectue la mise à jour (master), et ces changements vont être utilisés pour une base de données en lecture (slave). Les permissions pour les personnes qui lisent les données sont différentes que celles de ceux qui les mettent à jour.
+
+Si deux personnes achètent en même temps (plusieurs services de read) un billet de cinéma pour la même place, il y a un fichier de texte qui prend et garde la séquence d'évènements et où on peut la lire, ceci pour éviter les conflits. C'est le concept d'event sourcing.
+
+Dans la démo CQRS, on a un write service qui vient écrire les livres dans un fichier texte. Une fois que l'on peut lire, on rajoute un DTO (data transfer object). Rappelons que nous ajoutons une couche de transport pour y mettre toutes les annotations Jaxb ((un)marshalling : formatage acceptable pour le transfert tel que xml, json, csv) au lieu de dans la couche business. De plus, si par exemple on a 100 attributs et qu'on veut en transférer 10. C'est dans le DTO qu'on décide ce qu'on marshall/unmarshall.
+
+PubSubHub : lorsqu'on utilise le reader précédemment mentionné, le writer est bloqué est vice-versa. On ajoute donc un service hub par lequel tout passe/où tous les services sont enregistrés, et tout fonctionne de façon asynchrone.
+
+On peut avoir, par exemple en Java, plusieurs processus qui tournent en même temps, soit sur une machine, soit plusieurs. On utilise dans tous les cas le multithreading, et on associe chaque service/tâche à un thread. On peut implémenter une classe de thread, soit on étend l'interface Thread/Runnable. Supposons qu'on ait deux URLs. On peut appeler deux threads différents pour effectuer les requêtes qui sont alors synchrones. Pour ce faire, on implémenterait un thread spécifique aux clients (clientThread).
