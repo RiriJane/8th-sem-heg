@@ -2,6 +2,7 @@
 
 # INFORMATION
 CC : tous ce qu'on a vu depuis le début et les 3 premiers tps. Il peut nous demander des concepts. On a le droit à tout.
+
 Examen final : on peut nous demander d'expliquer une architecture, les patterns, pourquoi on utilise CQRS, pourquoi ...
 
 # CONTENTS
@@ -46,7 +47,6 @@ Examen final : on peut nous demander d'expliquer une architecture, les patterns,
     - [CQRS in action](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#cqrs-in-action)
 
 # LECTURE NOTE 1 - ARCHITECTING SYSTEMS
-#### jeudi 24 février 2022
 
 **Architecting systems** : determine les performances, coûts, risques, tendances economique, mouvement concurrents, "ilities"...
 - **ilities** : ce sont des NFR (Non-functional requirement) tel que "availability", "operability", "manufacturability", ""survivability".
@@ -61,27 +61,29 @@ Examen final : on peut nous demander d'expliquer une architecture, les patterns,
 #### VUE D'ENSEMBLE : ARCHITECTING STEPS
 ![Overview - architecting steps](img/lecture1/vue-ensemble-architecting-steps.jpg)
 
-- on utilise des tactics pour améliorer un design patterns
-- low level architecture : design plus détaillés par exemple Builder, Factory
+- On utilise des tactics pour améliorer un design patterns.
+- Low level architecture : design plus détaillés par exemple Builder, Factory.
 
-Note Cyril :
-- L'architectural tactic Une stratégie de design
-  - Engendre une architecture de haut niveau et rajouter le design pattern fait passer en bas niveau
-  - POurraît être une amélioration de l'efficacité du programme. Par exemple, en utilisant un meilleur algorithme. Aussi pour la cadence des évènements (besoin computation), l'utilisation du cache, etc.
-- Un architectural pattern est un style.
+Notes Cyril : L'architectural tactic est une stratégie de design, alors que l'architectural pattern c'est un style. Ce sont deux concepts très importants. Les "tactics" engendrent une architecture de haut niveau, et rajouter le design pattern fait passer en bas niveau (beaucoup plus détaillé).
+
+Une tactique pourrait être une amélioration de l'efficacité du programme (en utilisant un meilleur algorithme), la cadence des évènements (pour les besoins de computation), l'utilisation du cache, etc. On devra traiter les tactiques de l'application choisie dans la présentation.
 
 ## QA : TACTICS
-- Combien de temps le système met-il à réagir à un événement (latence) ?  Source de complication : le nombre de sources d'événements et leur séquence d'arrivée.
+- Combien de temps le système met-il à réagir à un événement (latence) ?  
+- Source de complication : le nombre de sources d'événements et leur séquence d'arrivée.
 - Source des problèmes de performance : disponibilité des ressources nécessaires (plus de RAM,CPU)
 
 ## PERFORMANCE TACTICS
+
 #### DEMANDE DES RESSOURCES
 - Augmenter l'efficacité des calculs (meilleurs algorithmes)
 - Réduire la charge de calcul (ne pas gaspiller le temps du processeur)
 - Gérer le taux d'événements (limiter les besoins de calcul)
+
 #### GESTION DES RESSOURCES
 - Introduire la concurrence (threads)
 - Maintien de plusieurs copies de données ou de calcul (cache)
+
 #### ARBITRAGE DES RESSOURCES
 - First in, first out
 - Ordonnancement à priorité fixe
@@ -97,7 +99,7 @@ La disponibilité concerne les défaillances du système et leurs conséquences.
 ## POURQUOI LA MODIFIABILITE EST-ELLE UN PROBLEME ? DEPENDANCES
 ![Pourquoi la modifiabilité est-elle un problème ? Dépendances](img/lecture1/modifiability-issue-dependencies.jpg?raw=true)
 
-Note Cyril :
+Notes Cyril :
 La modificabilité est un gros problème. Il faut s'assurer que les composants et leurs dépendances soient au point. Il faut augmenter la cohésion dans un composant et diminuer le couplage. Un changement dans le programme ne doit pas affecter l'intégrité du programme.
 
 #### MODIFIABILITY TACTICS
@@ -136,36 +138,36 @@ Ce qu'on appelle l'architecture, ce sont les décisions de design du système. �
 Principes de conception - Arch. Modèles - Arch. Styles
 
 ## DESIGN PRINCIPLES
-- abstraction
-- encapsulation - séparation des préoccupations
-- modularisation
+- Abstraction
+- Encapsulation - séparation des préoccupations
+- Modularisation
 - KISS (keep it simple, stupid)
 - DRY (Don't repeat yourself)
 
+Notes Cyril :
 Les principes de design sont notamment l'abstraction (rassemblement du QUOI (NFR), du COMMENT (design) et du POURQUOI), l'encapsulation et la modularisation.
 
 ## ARCHITECTURAL PATTTERN
 > An architectural pattern is a set of architectural design decisions that are applicable to a recurrring design problem, and parameterized to account for different software development contexts in which that problem appears.
 
 
-
 Problem : traitement complexe avec plusieurs niveaux d'abstraction de inputs/outputs
 
 ## MODEL-VIEW-CONTROLLER
-- plus connu dans l'archecture des systèmes intéractifs
+- Plus connu dans l'archecture des systèmes intéractifs.
 
 ![Model-View-Controller](img/lecture1/model-view-controller.jpg?raw=true)
 
 Note Cyril :
 Il permet de résoudre plusieurs problèmes de conception et difficulté (vues multiples/synchrones par exemple) mais a comme répercussions la complexité et le couplage  -> voir diagrammes sur les slides. Le modèle est responsable du processing des données, la vue de l’output pour l’utilisateur, et le contrôleur de l’input et des appels associés à ces inputs.
 
-Autres notes Cyril :
 Si on est développeur de backend et qu'on doit créer la documentation des API (par exemple pour ceux du frontend pour savoir comment connecter), on peut utiliser l'API console documentation.
 
 Une API, c'est un connecteur. Si on crée une nouvelle plateforme, on doit créer une API pour connecter les sources externes à la plateforme. En Python, on utilise Django pour créer une API pour les services web.
 
 
 **Implemented tactics**
+
 Modifiability tactics : anticipe les changements attendus, sépare les préoccupations
 
 ![Exemple : servlet](img/lecture1/exemple-servlet.jpg?raw=true)
@@ -182,7 +184,7 @@ de l'application ?
 **Solution** : Le modèle Model-view-controller divise l'application en trois parties :
 - Le modèle est responsable du traitement,
 - La vue s'occupe de la sortie,
-- Le contrôleur s'occupe de l'entrée
+- Le contrôleur s'occupe de l'entrée.
 
 #### STRUCTURE
 ![Structure Model-View-Controller](img/lecture1/model-view-controller.jpg?raw=true)
@@ -214,13 +216,14 @@ Le contrôleur traite les entrées et invoque les services appropriés de la vue
 
 #### CONSEQUENCES OF THE MODEL-VIEW-CONTROLLER PATTERN
 Avantages :
-- vues multiples du même système
-- vues synchrones
-- vues et contrôleurs attachables
-Inconvénients
+- Vues multiples du même système
+- Vues synchrones
+- Vues et contrôleurs attachables
+
+Inconvénients :
 - complexité accrue
 - couplage fort entre le modèle et la vue
-- couplage fort entre le modèle et les contrôleurs (peut être évité au moyen de moyen du patron de commande)
+- couplage fort entre le modèle et les contrôleurs (peut être évité au moyen du patron de commande)
 
 Applications connues : Bibliothèques d'interface graphique, Smalltalk, Microsoft Foundation Classes
 
@@ -250,6 +253,7 @@ On monte parfois son architecture en couches. Cela donne une meilleure structure
 On a des composants, des objets et des modules dans un logiciel. Quand on crée une architecture, on doit d'abord créer le composants (classe, interface, …). Il y a de l'input et de l'output.
 
 Exemple de technologies :
+
 Présentation : Tableaux, SSRS, powerBJ  ??
 
 Business :
@@ -313,12 +317,13 @@ Choisir les couches:
 #### SOFTWARE COMPONENTS
 ![ Software components](img/lecture1/software-components.jpg?raw=true)
 
-#### COMPPONENTS VS OBJECTS VS MODULES
+#### COMPONENTS VS OBJECTS VS MODULES
 Components :
 - Encapsuler l'état et la fonctionnalité
 - Grain grossier
 - Éléments d'architecture de la boîte noire
 - Structure de l'architecture
+
 Objects :
 - Encapsuler l'état et la fonctionnalité
 - Grain fin
@@ -338,7 +343,7 @@ Provided interfaces : Spécifier et documenter les fonctionnalités visibles de 
 - Propriétés
 - Événements et rappels
 
-Required interfaces : Spécifier les conditions dans lesquelles un composant peut être réutilisé
+Required interfaces : spécifier les conditions dans lesquelles un composant peut être réutilisé
 - La plate-forme est compatible
 - L'environnement est correctement configuré
 
@@ -350,15 +355,15 @@ Les interfaces des composants doivent correspondre parfaitement pour être  conn
 #### SOFTWARE CONNECTORS
 ![Software Connectors](img/lecture1/software-connectors.jpg?raw=true)
 
-Modéliser les aspects statiques et dynamiques de interaction entre les interfaces des composants.
+Modéliser les aspects statiques et dynamiques d'interaction entre les interfaces des composants.
 - Les connecteurs ne sont généralement pas directement visibles dans le code, ce qui n'est pas le cas des composants.
 - Les connecteurs sont le plus souvent indépendants de l'application, alors que les composants peuvent être à la fois dépendants ou non de l'application
 
 #### CONNECTOR ROLES
-- Communication : fourniture de données et transfert de contrôle, prise en charge de différents mécanismes de communication, qualité de la fourniture de données et du transfert de contrôle. mécanismes de communication, qualité de la livraison
+- Communication : fourniture de données et transfert de contrôle, prise en charge de différents mécanismes de communication, qualité de la fourniture de données et du transfert de contrôle, mécanismes de communication, qualité de la livraison.
 - Coordination : contrôle de la transmission des données, séparation du contrôle et du calcul.
-- Conversion : permettre l'interaction de composants mal adaptés
-- Facilitation : médiation de l'interaction entre les composants, gestion de l'accès aux l'accès aux informations partagées, assure la synchronisation
+- Conversion : permettre l'interaction de composants mal adaptés.
+- Facilitation : médiation de l'interaction entre les composants, gestion de l'accès aux informations partagées, assure la synchronisation.
 
 ## VIEW AND VIEWPOINTS
 How many views ?
@@ -382,21 +387,21 @@ How many views ?
 ![Physical view](img/lecture1/physical-view.jpg?raw=true)
 
 ## USE CASE SCENARIOS
-- Unifier et relier les éléments des 4 autres vues
-- Les scénarios permettent de s'assurer que le modèle architectural est complet par rapport aux exigences
-- L'architecture peut être décomposée en fonction des les scénarios et illustrée à l'aide des 4 autres vues
+- Unifier et relier les éléments des 4 autres vues.
+- Les scénarios permettent de s'assurer que le modèle architectural est complet par rapport aux exigences.
+- L'architecture peut être décomposée en fonction des scénarios et illustrée à l'aide des 4 autres vues.
 
 #### MUSIC PLAYER SCENARIOS
-- Rechercher de nouvelles chansons
-- Payer pour écouter la chanson en entier
-- Télécharger la chanson achetée sur le téléphone
-- Écouter la chanson
+- Rechercher de nouvelles chansons.
+- Payer pour écouter la chanson en entier.
+- Télécharger la chanson achetée sur le téléphone.
+- Écouter la chanson.
 
 #### LOGICAL VIEW
 ![Logical view - music player](img/lecture1/logical-view-music-player.jpg?raw=true)
 
-- Décomposer la structure du système en logiciels composants et connecteurs
-- Faire correspondre les fonctionnalités (cas d'utilisation) aux composants
+- Décomposer la structure du système en logiciels composants et connecteurs.
+- Faire correspondre les fonctionnalités (cas d'utilisation) aux composants.
 - **Concerne** : Fonctionnalité
 - **Public cible** : Développeurs et utilisateurs
 
@@ -415,20 +420,20 @@ How many views ?
 #### DEVELOPMENT VIEW
 ![Development view last](img/lecture1/development-view-last.jpg?raw=true)
 - Organisation statique des artefacts du code logiciel
-  - paquets
-  - modules
-  - binaires
-- Correspondance entre les éléments de la vue logique et les artefacts de code
+  - Paquets
+  - Modules
+  - Binaires
+- Correspondance entre les éléments de la vue logique et les artefacts de code.
 - **Concerne** : Réutilisation, portabilité, construction
 - **Public cible** : Développeurs
 
 #### PHYSICAL VIEW
 ![Physical view last](img/lecture1/physical-view-last.jpg?raw=true)
-- Environnement matériel dans lequel le logiciel sera déployé
-  - hôtes
-  - réseaux
-  - stockage
-- Correspondance entre les entités logiques et physiques
+- Environnement matériel dans lequel le logiciel sera déployé.
+  - Hôtes
+  - Réseaux
+  - Stockage
+- Correspondance entre les entités logiques et physiques.
 - **Concerne** : Attributs de qualité
 - **Public cible** : Opérations
 
@@ -438,9 +443,11 @@ Est-il possible de réutiliser des classes existantes ? Il est possible que des 
 # LECTURE NOTE 2
 #### QUALITY ATTRIBUTE WITH REST
 Fonctionnalité pour la performance : statelessness, interface uniforme, adressabilité
+
 Statelessness permet la tactique suivante : "Introduire la concurrence".
   - Puisque les demandes peuvent être traitées de manière isolée, indépendamment des demandes précédentes, elles peuvent être distribuées sur plusieurs machines sans impact sur le résultat du traitement.
   - Permet de comprendre chaque demande de manière isolée. En effet, tout le contexte pour interpréter une demande est dans la demande.
+
 Interface uniforme et adressabilité : Permet la visibilité et la simplicité du protocole. Chaque demande est transparente (facilement interprétable)
 
 #### STATELESSNESS
@@ -464,7 +471,7 @@ Toutes requêtes doivent être indépendant de chacune entres elles de point de 
 ## RESOURCE PATTERN
 Patterns basique pour intéragir avec les ressources.
 
-Note Cyril :
+Notes Cyril :
 
 Sur le serveur, on peut avoir des fichiers (par exemple XML), qui sont des ressources. Généralement, on partage la représentation d'une ressource (par exemple une URL). On utilise les hypermédias (lien) pour connecter la représentation des ressources qui définit l'adresse des ressources sur le serveur.
 
@@ -478,20 +485,20 @@ Ajouter une query dans la représentation de ressource (url) est une possibilit�
 **Solutions** : Request/acknowledge/poll, Request/acknowledge/callback
 External sources : http://servicedesignpatterns.com/clientserviceinteractions/requestacknowledge
 
-NOte Cyril :
+Notes Cyril :
 L'un des problèmes importants est la gestion de longs services où les serveurs ne répondent pas immédiatement : request/acknowledge/poll & request/acknowledge/callback :
 
 #### REQUEST/ACKNOWLEDGE/POLL
 ![02 - Request/acknowledge/poll](img/lecture2/02-request-acknowledge-poll.jpg?raw=true)
 
-Note Cyril :
+Notes Cyril :
 
 Poll : une réponse 303 ((see other) url : parce qu'il ne peut pas immédiatement prendre le résultat : ce n'est pas prêt) est retournée immédiatement et le client doit envoyer une autre requête. Puis une réponse 202 (accepté mais pas prêt), puis 200 (lorsque c'est prêt). Pour faire ça, on calcule l'URL de base, on la trim et on rajoute la deuxième url pour retourner au client. Le service est préparé dans la deuxième url. La fonction getBaseUri() est celle qui permet de trim.
 
 **Interactions**
 ![03 - Interactions](img/lecture2/03-interactions-request-acknowledge-poll.jpg?raw=true)
 
-#### REQUEST/ACKNOWLEDGE/CALLACK
+#### REQUEST/ACKNOWLEDGE/CALLBACK
 ![04 - Request/acknowledge/callback](img/lecture2/04-request-acknowledge-callback.jpg?raw=true)
 
 Note Cyril :
@@ -543,7 +550,7 @@ Créer une collection de représentations permet de réduire le trafic. La colle
 
 Jaxb est utilisé pour le marshalling/unmarshalling (sérialiser/désérialiser) qui est utilisé pour les transports entre le client et le serveur : changement en XML, en JSON, etc… @XmlRootElement permet de changer les objets Java en XML et vice-versa. @XmlAccessType permet de définir quels éléments doivent être transportés, comme les FIELD par exemple avec .FIELD.
 
-DTO (data transport object) ne contient que les éléments que l'on souhaite transporter : l'auteur et le titre d'un livre mais pas tout le livre. Cela sert aussi à mimiser le trafis sur le réseau. Ce n’est pas un objet métier et ne peut donc pas être annoté.
+DTO (data transport object) ne contient que les éléments que l'on souhaite transporter : l'auteur et le titre d'un livre mais pas tout le livre. Cela sert aussi à mimiser le trafic sur le réseau. Ce n’est pas un objet métier et ne peut donc pas être annoté.
 
 Dans l'entrypoint, on a un POST et un GET. On définit le path en tête de classe, en tête de méthode, et dans le fichier web.xml de Tomcat (pour le servlet). Dans cette balise <servlet-mapping>, on trouvera une autre <url-pattern> qui contiendra un élément de path qui viendra après l'application pour différencier des autres chemins.
 
@@ -552,7 +559,7 @@ Dans l'entrypoint, on a un POST et un GET. On définit le path en tête de class
 
 ## PATTERN : DATA TRANSFER OBJECTS
 **Problem** : pour minimiser le trafic réseau, on ne veut pas envoyer/recevoir toutes les informations de l'objet de domaine, mais seulement la partie significative pour le service.
-- Comment extraire et sélection une partie de l'objet de domaine pour le transfert réseau ? Contrainte : on ne veut pas implémenter du code transfer spécifique dans les objets du domaine.
+- Comment extraire et sélectionner une partie de l'objet de domaine pour le transfert réseau ? Contrainte : on ne veut pas implémenter du code transfer spécifique dans les objets du domaine.
 - Lors de la traduction en XML à l'aide d'une bibliothèque standard
 (JAXB), comment inclure/exclure des informations ? Contrainte : on ne veut pas ajouter d'annotations dans les objets du domaine
 
@@ -787,12 +794,12 @@ Tried DemoPostServer in class. View exercice in folder *Demos".
 
 ## COMMUNICATION "META PATTERNS"
 1. Payload format
-- Lors de la communication entre le client et le server :
-  - Les objets métier doivent être transportés avec des objets de transport annotés (Objets Atom).
-    - On veut séparer la couche de transport et la couche de business car on a pas nécessairement besoin de passer des informations de la couche de business
-  - Les objets métiers ne seront pas annotés. C'est dans la couche de transport que l'on fera des annotations.
+    - Lors de la communication entre le client et le server :
+      - Les objets métier doivent être transportés avec des objets de transport annotés (Objets Atom).
+        - On veut séparer la couche de transport et la couche de business car on a pas nécessairement besoin de passer des informations de la couche de business.
+      - Les objets métiers ne seront pas annotés. C'est dans la couche de transport que l'on fera des annotations.
 2. Couches de communication applicatives
-- Lors de la conception des couches applicatives client et serveur, dupliquer les couches communes : objet métier et transport à la fois dans le client et le code source du serveur pour vous assurer qu'ils seront identiques.
+    - Lors de la conception des couches applicatives client et serveur, dupliquer les couches communes : objet métier et transport à la fois dans le client et le code source du serveur pour vous assurer qu'ils seront identiques.
 
 ![16 - layers](img/lecture2/16-layers.jpg?raw=true)
 
@@ -805,6 +812,7 @@ Tried DemoPostServer in class. View exercice in folder *Demos".
 - Le réseau est sécurisé,
 - La topologie ne change pas,
 - Le coût du transport est zéro (temps et argent).
+
 [Wikipedia, based on a Peter Deutsch’s paper in 1997]
 
 Conséquence - se préparer aux échecs :
@@ -817,11 +825,11 @@ Conséquence - se préparer aux échecs :
 
 ![01 Timeout](img/lecture5/01-timeout.jpg?raw=true)
 
-**Problem** : éviter d'attendre longtemps si le service ne répond pas à la demande car la connexion n'est pas disponible ou le serveur est occupé
+**Problem** : éviter d'attendre longtemps si le service ne répond pas à la demande car la connexion n'est pas disponible ou le serveur est occupé.
 
-**Solution** : définissez le temps maximum que votre client attendra avant d'abandonner. Si le délai d'attente a expiré, effectuez une procédure de tolérance aux pannes
+**Solution** : définissez le temps maximum que votre client attendra avant d'abandonner. Si le délai d'attente a expiré, effectuez une procédure de tolérance aux pannes.
 
-Note Cyril :
+Notes Cyril :
 
 Timeout : s'il y a un problème avec le réseau, on envoie une requête à partir du client mais ne recevons aucune réponse
 
@@ -947,7 +955,7 @@ Cela clôt les resource patterns. Ils interagissent avec la ressource. En foncti
 On a testé le DemoCircuitBreakerClient et DemoTimeOutServer
 
 ## SOA : SERVICE ORIENTED ARCHITECTURE
-Un modèle d'interaction applicative qui met en œuvre des services (composants logiciels)
+Un modèle d'interaction applicative qui met en œuvre des services (composants logiciels).
 
 ![13 SOA](img/lecture5/13-soa.jpg?raw=true)
 
@@ -985,15 +993,15 @@ Source : https://martinfowler.com/articles/microservices.html#CharacteristicsOfA
 
 #### QUALITY ATTRIBUTES
 Same QA as mainframe’s transactions
-• Performance
-• Isolation (beware of ACID constraints)
-• Changeability (but constraints on the data model)
+- Performance
+- Isolation (beware of ACID constraints)
+- Changeability (but constraints on the data model)
 
 New QA’s for a new world
-• Scalability
-• Independance
-• Deployability
-• Changeability
+- Scalability
+- Independance
+- Deployability
+- Changeability
 
 **Scalability** : Si l'une des fonctionnalités du programme est fortement utilisée, il faut pouvoir augmenter les ressources.
 
@@ -1004,7 +1012,7 @@ New QA’s for a new world
 **Changeabilité** : Les services doivent être facilement modifiables sans impact sur le reste du système
 
 #### DISTRIBUTED APPLICATION
-![01 - distributed application - lecture note 6]
+![01 - distributed application - lecture note 6](img/lecture6/01-distributed-application.jpg?raw=true)
 
 #### ARCHITECTING LARGE SYSTEMS
 Nous devons construire de grands services (fonctions métier) à partir de services plus simples.
@@ -1061,7 +1069,7 @@ systèmes basés sur des microservices.
 - De nombreux clients interrogent les données tandis que quelques-uns les mettent à jour.
   - La mise à l'échelle (scaling) se produit principalement sur le service de lecture (read service).
   - Mais plusieurs mises à jour peuvent se produire simultanément.
-- Les données que les gens regardent ne sont pas garanties d'être à jour
+- Les données que les gens regardent ne sont pas garanties d'être à jour.
   - Lorsque quelqu'un récupère des données, quelqu'un d'autre peut les avoir mises à jour simultanément. Ainsi, les données lues peuvent être partiellement obsolètes. C'est
   un fait dans les grands systèmes distribués.
   - Ne surconcevez pas une solution pour éviter que des données obsolètes ne soient affichées. L'impact sur le QA sera trop lourd.
@@ -1080,7 +1088,7 @@ Source : https://dzone.com/articles/better-explaining-cap-theorem
 
 Il est impossible sur un système informatique de calcul distribué de garantir en même
 temps:
-- La Consistance des données) (Consistency)
+- La Consistance des données (Consistency)
 - La Disponibilité (Availability)
 - La tolérance aux Partitionnement (Partition Tolerance) : le système doit fonctionner
 même s’il est partitionné sur plusieurs nœuds.
@@ -1106,8 +1114,8 @@ Source: http://fr.slideshare.net/myfear/cqrs-and-event-sourcing-for-java-develop
 
 ![04 - CQRS Pattern](img/lecture6/04-CQRS-pattern.jpg?raw=true)
 
-- Les permissions sont différents que pour les slaves et masters
-- Les maj dans bdd de write va effectuer les changements dans la bdd de read.
+- Les permissions sont différents que pour les slaves et masters.
+- Les mis à jours dans la bdd de write va effectuer les changements dans la bdd de read.
 
 
 #### RETHINKING THE DATA MODEL
@@ -1127,11 +1135,12 @@ Historiquement, le modèle de données accueillait à la fois les requêtes de l
   - Quand il aura traité tous les événements de mise à jour.
 
 #### IMPLEMENTATION DE CQRS
-- On peut utiliser le "Event Sourcing" pattern
-  - Exemple acheter un billet au ciné en même temps, on enregistre la sequence des événements
+- On peut utiliser le "Event Sourcing" pattern.
+  - Exemple acheter un billet au ciné en même temps, on enregistre la sequence des événements.
 
 ## EVENT SOURCING PATTERN
 **Problème** : comment enregistrer efficacement l'état et les changements d'état d'un modèle de données ?
+
 **Solution** : conserver la séquence des changements d'état des entités comme source principale de données.
   - L'état actuel des entités peut être reconstruit en naviguant dans la chaîne  d'événements dans l'ordre inverse.
   - Nous pouvons récupérer les valeurs que certains attributs avaient au fil du temps.
@@ -1143,7 +1152,7 @@ Historiquement, le modèle de données accueillait à la fois les requêtes de l
 
 #### AVANTAGES DU MODELE EVENT SOURCING POUR IMPLEMENTER LE READ DATA MODEL
 Si le modèle de données est représenté comme une chaîne d'événements immuables, alors :
-- Aucune mise à jour des tables, juste un stockage d'événements idempotent. (si une requête identique peut être faite une ou plusieurs fois de suite avec le même effet tout en laissant le serveur dans le même état.)
+- Aucune mise à jour des tables, juste un stockage d'événements idempotent. (si une requête identique peut être faite une ou plusieurs fois de suite avec le même effet tout en laissant le serveur dans le même état).
 - Opérations très rapides : ajouter le nouvel événement à la fin de la chaîne.
   - Aucune API sophistiquée pour effectuer des opérations CRUD sur la base de donnée.
 - Bien adapté au modèle de données distribué : il suffit d'envoyer des événements aux clients.
@@ -1185,7 +1194,7 @@ Pour lire la valeur réelle d'un attribut, lisez la chaîne dans l'ordre inverse
 #### DTO OBJECT TO RECORD THE SALES
 ![12 - DTO Object](img/lecture6/12-dto-object.jpg?raw=true)
 
-- On a besoin d'un objet DTO (couche de transport) pour éviter les annotations dans la couche métier et on a pas besoin de transporter tous éléments de la couche métier au client. On utilise un marshaller et unmarshaller. (Voir section discussion)
+- On a besoin d'un objet DTO (couche de transport) pour éviter les annotations dans la couche métier et on n'a pas besoin de transporter tous les éléments de la couche métier au client. On utilise un marshaller et unmarshaller. (Voir section discussion)
 
 #### DEMO : RECORDING THE SALES ON TWO SERVERS
 - Un ensemble de ventes de livres est envoyé à 2 services différents qui enregistreront les ventes séparément.
@@ -1222,7 +1231,7 @@ DemoCQRSReader, DemoCQRSReader2, DemoCQRSSalesReaderClient
   - The only constraint: there must be an <id> tag in the recoded information.
 - The client marshalls some DTO object to XML and send the result to the storage service.
 - When querying some record, the client gets the plain XML format and unmarshalls it to the original DTO object.
-Rather than FileStorage, a better alternative would be to store the data in some NoSQL database such as MongoDB or Cassandra
+Rather than FileStorage, a better alternative would be to store the data in some NoSQL database such as MongoDB or Cassandra.
 
 #### APPLYING THE EVENT SOURCING PATTERN TO CQRS
 - Les modèles de données Master sont conservés dans le service de mise à jour.
@@ -1245,25 +1254,25 @@ Rather than FileStorage, a better alternative would be to store the data in some
 
 ## PUBSUBHUB PATTERN
 
-**Problem** : comment propager des événements aux services sans impacter les performances du service émetteur
+**Problem** : comment propager des événements aux services sans impacter les performances du service émetteur.
 
 **Solution** : PubSubHub pattern qui repose sur l'approche de pub-sub pattern.
-  - dévéloppé de base pour diffuser des informations
+  - Dévéloppé de base pour diffuser des informations.
 
 ![02 pubsubhub pattern](img/lecture7/02-pubsubhub-pattern.jpg?raw=true)
 
-- on peut avoir 2-3 reader ou plus
-- quand on utilise le reader, le writer est bloqué et vice versa. Pour éviter ce problème on utiliese le service hub
-  - pub(write), sub(read)
-- tous les services fonctionnent de manière asynchrone
-- tous les services read sont abonnés sur le hub
+- On peut avoir 2-3 reader ou plus.
+- Quand on utilise le reader, le writer est bloqué et vice versa. Pour éviter ce problème on utiliese le service hub.
+  - Pub(write), sub(read).
+- Tous les services fonctionnent de manière asynchrone.
+- Tous les services read sont abonnés sur le hub.
 
 ![03 pubsubhub 2](img/lecture7/03-pubsubhub2.jpg?raw=true)
 
-- on a 3 patterns dans une architecture :
-  - cqrs -> pour le reader
-  - event sourcing -> on enregistre tous les evenements
-  - pubsubhub -> pour faire fonctionner les services de manière asynchrone
+- On a 3 patterns dans une architecture :
+  - CQRS -> pour le reader
+  - Event Sourcing -> on enregistre tous les evenements
+  - PubSubHub -> pour faire fonctionner les services de manière asynchrone
 
 
 ![11 - pubsubhub 3](img/lecture7/11-pubsubhub3.jpg?raw=true)
@@ -1273,7 +1282,7 @@ Rather than FileStorage, a better alternative would be to store the data in some
     - Alternativement, le service write informe le hub du changement et le hub récupère l'événement.
 4. Le hub multidiffuse l'événement mis à jour à tous les abonnés enregistrés.
 
- - chaque appel de service va être executé dans différents threads
+ - Chaque appel de service va être executé dans différents threads.
 
 #### IMPLEMENTATION DU HUB
 Pour que l'éditeur soit indépendant du traitement par les abonnés, le Hub doit dispatcher l'événement de manière asynchrone.
@@ -1286,9 +1295,9 @@ Source : : https://dzone.com/articles/java-thread-tutorial-creating-threads-and-
 - Un programme multithread contient deux parties ou plus qui peuvent s'exécuter simultanément.
 - Chaque partie d'un tel programme est appelée un thread et chaque thread définit un chemin d'exécution séparé. Ainsi, le multithreading est une forme spécialisée de multitâche.
 - Les classes qui peuvent exécuter leur code dans leur propre thread doivent hériter de la classe Thread
-  - Le processus à exécuter doit être implémenté dans la méthode run()
-  - Pour lancer le thread, appelez la méthode start()
-    - La méthode run() de l'instance sera alors exécutée dans son propre thread
+  - Le processus à exécuter doit être implémenté dans la méthode run().
+  - Pour lancer le thread, appelez la méthode start().
+    - La méthode run() de l'instance sera alors exécutée dans son propre thread.
 
 ![04 Thread states](img/lecture7/04-thread-states.jpg?raw=true)
 
