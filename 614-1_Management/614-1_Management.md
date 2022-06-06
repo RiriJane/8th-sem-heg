@@ -480,7 +480,7 @@ Et à la fin, on fait une analyse des résultats des tests.
 #### Archétypes de Dator
 ![Archétypes de Dator](img/gestion-risques/archetype-dator.jpg?raw=true)
 
-![courbe Archétypes de Dator](img/gestion-risques/courbe-archetype-t.jpg?raw=true)
+![courbe Archétypes de Dator](img/gestion-risques/courbe-archetype-tdator.jpg?raw=true)
 
 #### LE SCENARIO
 - Composé d'une base (situation actuelle)
@@ -498,17 +498,11 @@ On doit pouvoir réponde à ces questions :
 
 # RESOLUTION DES PROBLEMES
 
-## RESOUDRE UN PROBLEMES
+## RESOUDRE UN PROBLEME
 - Phase importante du processus.
 - La mise en place d’une solution provisoire est optionnelle.
 - L’analyse des causes et la recherche de solutions sont 2 étapes distinctes.
 - La mise en œuvre et le suivi des résultats peuvent être itératifs pour ajuster la solution.
-
-Résoudre un problème :
-- définir le problème
-- peut mettre en place une solution provisoire
-- analyse des causes et la recherche de solutions
-- mise en oeuvre et suivi des résultats
 
 #### PRINCIPAUX TYPES DE PROBLEMES RENCONTRES
 - Les problèmes liés au budget  
@@ -518,15 +512,14 @@ Résoudre un problème :
 - Les problèmes relationnels au travail
 
 #### DEFINITION DU PROBLEME
-**La méthode CATWOE** : une checklist qui permet d'organiser et d'optimiser la pensée afin de résoudre des problèmes
+**La méthode CATWOE** : une checklist qui permet d'organiser et d'optimiser la pensée afin de résoudre des problèmes.
+>CATWOE  est dérivée des travaux de Peter Checkland. Ce dernier a mis au point dans les années 60 une méthodologie de résolution de problèmes : Soft System Methodology (appelée SSM). Il apporta plus tard des précisions en définissant une méthode pour explorer les éléments du système. Le CATWOE était né.
   - Customers : Les clients du processus étudié. Comment sont-ils impactés par la problématique ?
   - Actors: Les acteurs impliquées dans la situation/processus.
   - Transformation : Les systèmes et processus concernés. Comprendre quelle est la transformation qui se trouve au coeur du processus.
   - World view : vision du monde, impact du problème ou décision à prendre
   - Owners : propriétaire, responsable de la situation/processus. Quel est leur rôle dans le choix et la mise en place de la situation ?
   - Environmental constraints : constrainte extérieurs (législation, budget, moeurs). Quel sera l'impact sur la solution ?
-
->CATWOE  est dérivée des travaux de Peter Checkland. Ce dernier a mis au point dans les années 60 une méthodologie de résolution de problèmes : Soft System Methodology (appelée SSM). Il apporta plus tard des précisions en définissant une méthode pour explorer les éléments du système. Le CATWOE était né.
 
 La démarche consiste à passer en revue chaque élément du CATWOE en travaillant en groupe pour déterminer Qui ? et Quoi ? sont impactés ainsi que leur rôle dans la problématique en utilisant la technique du brainstorming.
 
@@ -536,7 +529,7 @@ La démarche consiste à passer en revue chaque élément du CATWOE en travailla
 - Faire des objectifs SMART : ce qu'on veut obtenir, échéance,
 - Connaître les ressources, compétences pour résoudre l'équation.
 
-#### ENDIGUER LE PROBLEME à COURT TERME
+#### ENDIGUER LE PROBLEME A COURT TERME
 - Mettez en place une solution provisoire pour assurer l’activité, même en mode dégradé.
 - Empêchez la contagion du problème.
 
@@ -664,17 +657,207 @@ En cas d'urgence :
 5. Mettre en oeuvre les actions
 6. Suivre et capitaliser
 
+# THEORIES DE LEADERSHIP
+
+#### QU'EST-CE QU'UN BON LEADER ?
+- Un bon Leader se connaît (forces/Potentiels), maîtrise son impact (Pouvoir) et fourni ainsi la Performance voulue (LP3) – David Fiorucci.
+- Si l’on regarde certaines statistiques mettant en relation les dimensions « orientation performance » et « orientation émotion », les leaders maîtrisant les deux et ayant des résultats élevés dans les deux axes ont du succès et sont considérés comme des « leaders inspirants ».
+https://www.bilan.ch/opinions
+
+#### LES THEORIES
+- Au World Economic Forum (WEF) de 2020, l’intelligence émotionnelle est entrée dans le top 10 des compétences clés nécessaires pour gérer notre futur.
+- L'intelligence émotionnelle (IE) est un concept proposé en 1990 par les psychologues Peter Salovey et John Mayer, qui réfère à la capacité de reconnaître, comprendre et maîtriser ses propres émotions et à composer avec les émotions des autres personnes.
+- Daniel Goleman, psychologue et journaliste scientifique, a popularisé ce concept en 1995.
+- Le leadership peut être défini comme un processus d’orientation et d’influence décisif d’une personne sur l’action d’un groupe et se manifeste à travers la capacité de mobilisation ou de fédération d’individus/groupes autour d’une action collective. (Jean-Michel Plane, Les Théories du Leadership, Dunod, 2015.)
+- Le leadership s’incarne au travers du leader dont la capacité de vision et d’animation dynamise ce processus. (Jean-Michel Plane, Les Théories du Leadership, Dunod, 2015.)
+
+#### DEUX CONCEPTS OPPOSEES
+- Celle des psychologues: le leader émergent, la personne la plus aimée, la plus reconnue ou influente. On se réfère ici à l’influence sociale (ex: Daniel Goleman).
+- Celle des gestionnaires: statut hiérarchique, le pouvoir ou l’autorité.  On se réfère ici au cadre formel et procédurale pour obtenir l’obéissance (ex: Henri Fayol - le fayolisme - a marqué les théories du management et du leadership).
+
+#### 10 FACTEURS POUR LE LEADER
+1. a une vision évolutive
+2. accepte l’erreur
+3. encourage le retour d’information critique
+4. stimule la contradiction
+5. possède le facteur Nobel (optimisme, foi et espoir)
+6. comprend l’effet pygmalion (s’adapte à ce qu’on attend de lui)
+7. a le facteur Gretzky (sens de l’évolution)
+8. a une vision à long terme (patience)
+9. connait la symétrie des enjeux des parties prenantes
+10. créé des partenariats et alliances stratégiques
+
+#### MAX WEBER - SOCIOLOGUE
+Imposer son autorité et faire reconnaitre sa légitimité par tous.
+
+**3 formes de leadership:**
+1. l’autorité rationnelle (administration moderne), ce sont les textes qui donnent à une personne la position de leadership.
+2. l’autorité traditionnelle, la tradition et l’histoire d’un groupe humain qui donnent à une personne la position de leadership.
+3. l’autorité charismatique, la personnalité qui donne à une personne la position de leadership.
+
+Pour Weber c’est l’autorité rationnelle qui constitue le pilier d’une direction efficace. Le leadership moderne repose sur l’entreprise rationnelle qui produit et fait du profit.
+
+#### MARY PARKER FOLLET - 1920
+Mary Parker Follett est une conseillère en management et pionnière de la théorie des organisations du point de vue des ressources humaines.
+
+- Le leadership dans les organisations: coordonner (rassembler), finaliser (tenir la cap) et anticiper (avoir une vision).
+Le pouvoir n’est pas absolu. Il peut être partagé.
+- Le leader influence le groupe mais peut être aussi influencé par le groupe.
+- Le leader doit être capable d’identifier, de fédérer et de mettre en cohérence l’ensemble des capacités des membres d’un groupe.
+- Le leader unifie et dépasse les objectifs individuels.
+
+#### KURT LEWIN - 1930
+Kurt Lewin (Kurt Zadek Lewin) (1890-1947) est un psychologue américain d'origine allemande spécialisé dans la psychologie sociale et le comportementalisme, acteur majeur de l'école des relations humaines.
+
+**3 formes de leadership**
+1. Autoritaire: rendement du groupe plus élevé mais manque de confiance et parfois rébellion.
+2. Démocratique: prend du temps mais stimule la participation et l’autonomie du groupe.
+3. Laxisme: le laissez-faire ne fonctionne pas, créé de la dépendance, le besoin de consignes.
+
+Le leadership démocratique est le plus efficace même s’il implique un dialogue social, la confiance et la responsabilisation d’un groupe.
+
+#### DOUGLAS MCGREGOR ET LES THEORIES XY - 1960
+Douglas McGregor professeur au MIT à Harvard.
+
+Théorie X: le leadership autoritaire : L’homme n’aime pas travailler…
+
+Théorie Y: autre leadership possible (participatif). La théorie Y est la plus adaptée à la nature humaine et permet d’intégrer les buts de l’individu et de l’organisation à travers le mode de management.
+
+X: Naturellement, l'être humain moyen n'aime pas le travail et l'évitera s'il le peut.
+Du fait de leur aversion à l'égard du travail, la plupart des gens doivent être contrôlés, voire menacés, afin qu'ils travaillent suffisamment dur.
+Ainsi, les travailleurs ne fournissent l’effort attendu que sous la contrainte ou contre récompense (le salaire).
+Y: Faire des efforts physiques et mentaux au travail est aussi naturel que s'amuser et se reposer.
+Le contrôle et la punition ne sont pas les seules façons de faire travailler les gens. L'individu sera capable de se réaliser si on l'associe aux buts de l'organisation.
+Si un travail apporte des satisfactions, alors l'engagement envers l'organisation s'améliore.
+
+#### WARREN G. BENNIS - 1989 ON BECOMING A LEADER
+Warren Bennis (1925-2014) est un universitaire Caroline du Sud et auteur américain expert en leadership.
+
+> «On ne naît pas leader, on le devient»
+
+**4 compétences du leader:**
+1. La capacité de vision
+2. La qualité des communications
+3. La confiance
+4. Le rapport à soi
+
+L’idée que le leadership est un processus qui repose sur la capacité d’un individu à avoir une vision globale, de la traduire en action concrète en maitrisant la durée.
+
+#### BENNIS - 1991
+Introduit également la distinction manager/leader: le manager administre et le leader innove.
+
+> « le manager fait ce qu’il doit faire, le leader fait ce qu’il faut faire »
+
+Le manager imite, copie, le leader créé, défie et est lui-même.
+
+#### KIRKPATRICK ET LOCKE - 1991
+6 caractéristiques du leader (personnalité):
+1. Honnêteté et intégrité
+2. Assurance
+3. Dynamisme
+4. Le désir de diriger
+5. Intelligence
+6. Compétence professionnelle
+
+#### STEVEN B. SAMPLE - 2005 DEVENEZ UN GRAND LEADER
+- Les leaders doivent cultiver leur indépendance intellectuelle et privilégier leurs expériences personnelles.
+- Le leadership est un art.
+
+#### COMPETENCES MANAGERIALES SELON MINTZBERG - 2011
+- Compétences liées au rapport à soi: conscience de soi, capable d’être maître de soi, de gérer son stress.
+- Compétences liées au rapport aux autres: gestion des relations humaines.
+- Compétences liées à l’action: capacité à entreprendre, prendre des décisions et agir.
+- Compétences liées au grandissement de soi: capacité d’apprentissage et de remise en cause personnelle.
+- Compétences liées au pouvoir: capacité à entrainer et influencer les autres.
 
 
+#### DANIEL GOLEMAN 1998
+- L’intelligence émotionnelle comme caractéristique majeur du leadership.
+- L’ensemble des facultés, des aptitudes, et des compétences d’une personne à comprendre les émotions et à les gérer.
+
+# L'ART DU LEADERSHIP
+
+#### LES NIVEAUX LOGIQUES
+![01 - Les niveaux logiques](img/art_leadership/01_niveaux_logiques.jpg?raw=true)
+
+- Hiérarchies naturelles dans la structure de notre cerveau, de notre
+langage et de nos perceptions.
+- Niveaux imbriqués et structurés.
+- Chaque niveau organise et contrôle l’information du niveau inférieur.
+- Si un décalage existe entre un ou plusieurs niveaux c’est qu’il y a une «incohérence».
+- L’alignement des niveaux logiques permet de clarifier un objectif, renforcer sa motivation, prendre un décision, résoudre un problème ou une situation conflictuelle.
+- Chaque problème se résout à son niveau logique supérieur.
+
+**L'ENVIRONNEMENT :** opportunités ou contraintes extérieures auxquelles une personne doit réagir; il s’agit du ou, quand, avec qui? C’est la ou vit une personne, tout ce qui est extérieur et qui l’entoure, des meubles aux personnes. Si l’on a un problème avec son Environnement il faut cibler la solution au cran en dessus – le Comportement. Si le décor ne convient pas, il faut bouger, changer quelque chose.
+
+**LES COMPORTEMENTS :** c’est la façon de réagir de la personne face à son environnement. C’est le quoi? Un problème de Comportement se résout par le niveau supérieur, c’est-à-dire par un apprentissage – Capacités.
+
+**LES CAPACITES :** ce sont toutes les ressources de la personne. Ce sont les capacités qui décident ce que quelqu’un peut faire ou non (Comportement). C’est le comment? En cas de blocage, c’est au niveau des croyances qu’il faut rechercher la solution.
+
+**LES CROYANCES :** déterminent ce qui nous paraît faisable dans la vie et ce que nous cherchons à atteindre et à réussir. C’est le pourquoi? Ce qui est important pour moi? Etre capable de choisir ses croyances, cela veut dire être capable de savoir que l’on en a. Les bonnes croyances sont très importantes. «Je n’y arriverai jamais» est une croyance limitante. La solution se trouve dans l’Identité: Est-ce que cela correspond à l’homme/femme que j’ai toujours rêvé de devenir?
+
+**L'IDENTITE :** c’est la somme de nos croyances, ce qui se cache derrière le «moi». C’est le qui suis-je? Un problème d’identité est traité au niveau supérieur, celui de l’appartenance, la vision et l’intention d’une personne – le Spirituel.
+
+**Le Spirituel :** c’est la raison d’être de l’homme sur terre, sa mission de vie (≠ réligion).
+
+#### QI ET QE
+- La définition du quotient intellectuel est « la mesure des habiletés intellectuelles, analytiques, logiques et rationnelles chez les individus »
+- Le quotient émotionnel «est cette capacité non seulement à comprendre et à gérer ses propres émotions, mais aussi à reconnaître et à influencer les émotions de ceux qui nous entourent. Or, les dirigeants doivent justement capitaliser sur le rôle de l’émotion pour motiver les employés à atteindre leurs objectifs. Car le leadership consiste à inspirer les autres à transformer la vision en réalité».
+- À l’opposé de votre QI, votre QE peut évoluer constamment dans le temps en développant les compétences émotionnelles.  
+
+#### INTELLIGENCE EMOTIONNELLE (QE) - DANIEL GOLEMAN
+1. **La conscience de soi**
+> «Connais-toi toi-même»
 
 
-#### mercredi 06 avril - leadership - ITIL
+ - Etre conscient de ses propres sentiments au fur et à mesure de leur apparition.
+- Capacité d’autoréflexion même dans la tempête des émotions.
+- Etre conscient à la fois de notre humeur du moment et de nos pensées et comportements relatifs à cette humeur.
+- La capacité à reconnaître et à comprendre ses humeurs, ses émotions et ses pulsions, ainsi que leurs effets sur les autres.
 
-#### vendredi 08 avril - intelligence personnalle
+Signes distinctifs : Confiance en soi, Évaluation réaliste de soi, Sens de l'humour auto-dépréciatif
 
-#### Mercredi 27 avril - leadership
+2. **La maîtrise de soi** : La capacité de contrôler ou de réorienter les impulsions et les humeurs perturbatrices. La propension à suspendre son
+jugement - à réfléchir avant d'agir.
 
-## UN BON LEADER
+- Le but est un équilibre émotionnel.
+- Contenir ses émotions négatives est la clé du bien-être affectif.
+- L’art de s’apaiser.
+- Désamorcer sa colère.
+
+Signes distinctifs : Digne de confiance et intègre, Aisance dans l'ambiguïté, Ouverture au changement
+
+3. **La motivation** : Une passion pour le travail pour des raisons qui vont au-delà de l'argent ou du statut. Une propension à poursuivre ses objectifs avec énergie et persévérance.
+
+- Une motivation positive, savoir se motiver soi-même.
+- Etre optimiste
+- Il est possible d’apprendre à être optimiste et confiant dans l’avenir.
+
+4. **L’empathie** : La capacité à comprendre la composition émotionnelle des autres personnes. Capacité à traiter les gens en fonction de leurs réactions émotionnelles.
+
+- Capacité de comprendre ce que ressentent les autres
+- Les émotions se traduisent rarement en paroles
+- Connaître les émotions des autres, c’est avant tout déchiffrer les signes non-verbaux.
+
+Signes distinctifs : Expertise dans le développement et le maintien des talents, Sensibilité interculturelle, Service au client et aux consommateurs
+
+5. **La maîtrise des relations humaines** : Aptitude à gérer les relations et à créer des réseaux capacité à trouver un terrain d'entente et à établir des rapports
+- Les compétences sociales
+- Savoir exprimer ses émotions
+- Habilité à minimiser, exagérer, substituer
+- Les émotions se transmettent d’un individu à un autre
+- Les indicateurs des compétences sociales comprennent l'efficacité dans la conduite du changement, le pouvoir de persuasion, la création d'expertise et le leadership des équipes.
+
+Signes distinctifs : Efficacité dans la conduite du changement, Capacité de persuasion, Expertise dans la constitution et la direction d'équipes
+
+#### LES STRATEGIES
+1. **La conscienc de soi** : Tenir un journal, Sachez qui et ce qui vous pousse à bout, Cherchez à obtenir des feedback, Apprenez à vous connaître sous l'effet du stress, Consultez vos valeurs
+2. **La maîtrise de soi** : Acceptez que le changement fasse partie de votre vie, Parlez à quelqu'un qui n'est pas émotionnellement investi dans votre problème, Comptez jusqu'à 10, respirez, Dormez sur votre problème, Souriez et riez davantage, Rechargez-vous (sport, hobby...), Visualisez votre succès
+3. **Les compétences sociales** : Saluer les gens par leur nom, Observer le langage corporel, Posez des questions (avoir quelques questions dans sa poche), Prévoir les rencontres sociales à l'avance, Soyez ouvert et curieux, Cherchez quelqu'un qui a de bonnes aptitudes sociales et apprenez
+4. **Gestion des relations** : N'évitez pas l'inévitable, Travaillez sur votre style de communication, Sensibilisation culturelle, Expliquez vos décisions, ne vous contentez pas de les prendre, Montrez que vous vous souciez des autres, Faites en sorte que vos commentaires soient directs et constructifs, Respectez
+5. **Motivation** : Rédigez votre déclaration de mission personnelle, Regardez des vidéos inspirantes, S'inspirer de personnes, Écouter de la musique, Visualisation - imaginez votre succès, Entourez-vous de personnes motivées, Échec - apprenez de vos erreurs
+
+# UN BON LEADER
 - Ensemble de qualités personnelles et de compétences relationnelles.
 - Il porte la vision, définit le cap et suscite l’engagement de tout-e-s.
 - Le «leader résonnant»
@@ -689,7 +872,8 @@ En cas d'urgence :
 - Le deuxième trait de la résonance est l’espoir. Celui qui nous permet d’avancer vers notre vision. Celui qui nous convint que le futur est à portée de mains et que nos objectifs seront réalisés.
 - Enfin la compassion est le troisième aspect. Elle nous permet de comprendre les besoins et les difficultés des autres. Par la compassion nous sommes en phase avec les autres.
 
-## STYLES DE LEADERSHIP
+#### STYLES DE LEADERSHIP
+![02 - les 6 styles de leadership](img/art_leadership/02_6_styles_de_leadership.jpg?raw=true)
 #### LEADER DIRECTIF
 > "Faites ce que je vous dis"
 
@@ -702,7 +886,7 @@ En cas d'urgence :
 **Optimal en cas de crise** : permet de garder le contrôle.
 
 **Qualité intélligence émotionnelle**:
-- ne pas toujours utiliser ce style de leadership, il faut toujours garder une garde de fou.
+- ne pas toujours utiliser ce style de leadership, il faut toujours garder une garde de fou (conscience de soi, empathie).
 - influence, performance, initiative
 
 #### LEADER CHEF DE FILE
@@ -711,12 +895,13 @@ En cas d'urgence :
 - Moins Autoritaire
 - Montre ce qu'il faut faire et impose l'action
 - Exigeant et attend un haut niveau de performance qu'il s'impose à lui-même
+- Recherche de l'excellence
 
 **Effets sur les équipes** : assez négatifs. Seuls ceux qui peuvent suivre le chef restent motivés. Découragement, ne pas être à la hauteur.
 
 **Optimal pour obtenir des résultats rapides** : une équipe très motivée et très compétente.
 
-**Qualité IE** : perforamnce, initiative. Le garder avec d'autres styles comme visionnaire et affiliatif.
+**Qualité IE** : perforamnce, initiative. Garde fou : le garder avec d'autres styles comme visionnaire et affiliatif.
 
 #### LEADER VISIONNAIRE
 > "Venez avec moi!"
@@ -772,11 +957,186 @@ En cas d'urgence :
 
 #### BOOSTER VOTRE LEADERSHIP
 - C'est important de communiquer. Notre vision n'est pas comme les autres.
+  - Faire une priorité de communiquer
+  - Etre ouvert et disponibles aux autres
+  - Créer un environnement favorable aux échanges
 - Motivier les autres. Notre vision n'est pas comme les autres. Comprendre la vision des autres.
-- Etre ouvert et disponibles aux autres
-- Avoir un environnement favorable aux exchanges
-- Fixer des objectifs
-- Amélioration continue
-- Maintenir une équilibre
-- Gérer le stress
-- Manifestez l'enthousiasme.
+  - Prendre le temps d’inclure les autres dans vos pensées, votre vision
+  - Faites-les adhérer
+  - N’imposez pas, motivez! Suscitez le désir de le faire.
+  - Mettez les autres en valeur
+-Exprimez l’intérêt que vous portez aux autres
+  - Montrez sincèrement l’intérêt que vous portez aux autres
+  - Souriez aux autres
+  - Retenez des détails
+- Sachez voir les choses du point de vue de l’autre
+  - Mettez-vous dans les baskets de l’autre
+  - Posez des questions pour comprendre
+- Apprenez à écouter
+  - Ecouter c’est manifester du respect pour les autres
+  - C’est un outil puissant pour ramener les autres à son propre point de vue
+- Faites équipe
+  - Faites que les objectifs soient des objectifs d’équipe
+  - Occupez-vous de vos membres individuellement pour garder leurs aptitudes personnelles
+  - Rendez chaque équipier responsable des résultats de l’équipe
+  - Partagez les honneurs, acceptez les blâmes
+  - Bâtissez la confiance de l’équipe à chaque occasion
+  - Soyez impliqué, restez impliqué
+  - Soyez un mentor
+- Traitez les erreurs, les réclamations, les critiques
+  - Créez une ambiance pour des critiques constructives
+  - Montrez l’exemple
+  - Admettre ses torts
+- Fixez vos propres objectifs
+  - Les objectifs nous donnent une cible à viser, à garder en perspective
+  - Fixez vous des objectifs SMART à court et long terme
+  - Fixez vous des priorités; tout ne peut pas être fait en même temps
+  - Chercher toujours l’amélioration de ce que vous faites
+- Concentrez-vous sur une ligne directrice
+  - Bien se focaliser sur un objectif fondamental
+  - Persévérance
+  - Soyez sur de vous
+  - Concentrez-vous sur une cible
+- Maintenez votre équilibre
+  - Equilibre dans la vie
+  - Famille et entourage
+  - S’investir dans des activités extérieures
+  - Favorise les performances
+- Créez une attitude mentale positive
+  - La puissance de votre esprit
+  - Visualiser les choses de façon positive (la pensée positive)
+  - Vous êtes ce que vous pensez
+- Apprenez à dominer le stress
+  - Vivez un jour à la fois
+  - Appuyez-vous sur le calcul des probabilités
+  - Coopérez avec l’inévitable
+  - Evaluez votre niveau maximum d’inquiétude pour une situation
+  - Sachez relativiser
+  - Occupez-vous constamment
+- Manifestez votre enthousiasme
+  - Fixez-vous des objectifs stimulants
+  - Entourez-vous de personnes heureuses
+  - Trouvez votre intérêt
+  - L’enthousiasme est contagieux
+
+
+
+
+
+
+
+
+# COMMUNICATION
+
+## COMMUNICATION EFFICACE
+- Développer un vocabulaire positif. Si on commence par des phrases négatives, on va faire braquer l'autre personne. Il faut tjrs commencer avec des remarques positifs et ensuite dire ce qu'il faut améliorer etc.
+- La communication passe par la confiance.
+- Adapter le contexte à la communication. Il faut choisir le bon moment pour communiquer.
+- Ce qu'on dit n'est pas forcement ce que le récepteur comprend.
+
+processus de perception:
+- omission : on memorise que 2% sinon l
+- géénralisation : on associe à une expérience
+- distorsions : on receoit une information et on fait une distorions (créativité)
+
+contenu du message :
+contenu 7% (ce qu'on dit)
+manière 38% (comment on dit)
+attitude 55% (posture, geste, respiration)
+
+- Quand on a des points en communs, la communication est plus facile. Il y a tjrs qqch qui nous reli.
+- Dans tout comportement, il y a une intention positive même si l'autre personne ne le voit pas positivement.
+
+3 types écoute active:
+- écoute silencieuse (humm, hochement de tête)
+- relance (forme interrogative, répéter le dernier mot)
+- résumé : résumé de la conversation avec validation
+- tri sur l'autre/soi : ce qui est important pour l'autre est important pour moi. Laisser parler l'autre, pas trop pas de ses expériences.
+- présenter notre point de vue à la fin de conversation
+
+rapport:
+- créer un rapport de confiance avec la personne
+- si on copie l'autre, on crée un zone de comfort, on a souvent tendance de copier l'autre et ca donne plus de confiance
+- zone de proximité : une fois on respecte pas ces zones, on fait braquer la personne. Les cultures jouent un rôle aussi. Au brésil on fait des câlins même si on connait pas la personne pour dire bonjour.
+- prédicats (visuel, auditif, kinésto ???) : se mettre sur le même canal de la même personne
+- flexibilité : savoir s'adapter aux autres
+
+Recadrage : changer le point de vue, perspective
+- recadrage de sens : reconsidérer une situation. Par exemple : être renvoyé. Au lieu de dire qu'on revoye, on dit qu'on aimerait donner d'autres opportunités
+- reacadrage de contexte :
+
+ANALYSE TRANSACTIONNELLE
+
+3 etats de moi :
+- parent : si on arrive en retard le prof nous gronde, le parent en elle qui parle
+- adulte : conversation idéale
+- enfant : par exemple si on arrive en retard en cours on a peur de se faire gronder. c'est l'enfant en nous qui parle
+
+- on a qqch en nous de nos parents
+
+
+# 25 mai 2022
+
+organisation
+p.6 conception
+- on besoin de structure, on va créer des règles (formel ou informel)
+- Les éléments peuvent changer
+
+
+p. 7
+6. penser à l'avance par exemple, fixer une grille salariale
+7. comment mener l'équipe ?
+
+p.9
+
+
+
+p.29
+la structure des entreprises ne sont pas figées. La structure peut changer mais en générale, on garde une certaine philosophie.
+la structure depend de plusieurs facteurs
+
+p.30
+- structure entrepreneuriale : 3 types formels de types organigrammes
+
+p.31 : structure fonctionnelle
+- fonctions operationnelle
+- c'est la direction qui va assumer la coordination ?
+notes :presque en mode horizontal
+
+p.32
+limities :
+- coord difficile -> silos
+
+p. 33 structure divergente
+on découpe selon les domaines d'activités, spécialisation d'activités
+
+p.34
+avantage:
+- flexible (adaptable
+
+p.35
+- double/triple hierarchie
+
+p.37
+décloisoinement : moins dans silos
+absence d'unité commandement : prise de décision plus complexe et la communication quand c'est décentralisé
+
+p.38
+-des entreprises qui essaient de repondre aux changements
+-
+
+p.41 - pas besoin de les apprendre
+1, supervision directement
+
+2. classique management, on fait reference au management modern
+
+
+3. - organisation divisonnée
+
+4. sauté
+
+p.46
+on fait des cercles par exemple organisation et ensuite d'autres cercles pour les rôles etc.
+
+p.
+ideologie qui definir le fonctionnement de l'organisations
