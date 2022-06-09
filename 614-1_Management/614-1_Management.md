@@ -1019,60 +1019,300 @@ Signes distinctifs : Efficacité dans la conduite du changement, Capacité de pe
   - Trouvez votre intérêt
   - L’enthousiasme est contagieux
 
-
-
-
-
-
-
-
 # COMMUNICATION
 
 ## COMMUNICATION EFFICACE
 - Développer un vocabulaire positif. Si on commence par des phrases négatives, on va faire braquer l'autre personne. Il faut tjrs commencer avec des remarques positifs et ensuite dire ce qu'il faut améliorer etc.
 - La communication passe par la confiance.
 - Adapter le contexte à la communication. Il faut choisir le bon moment pour communiquer.
-- Ce qu'on dit n'est pas forcement ce que le récepteur comprend.
+- Ce qu'on dit n'est pas forcement ce que le récepteur comprend. Il y a une différence entre ce qu'on pense, dit, croit, veut dire, ce que l'autre veut entendre, ce qu'il croit comprendre, ce qu'il comprend.
+- Les marques d’attention (signes de reconnaissance verbale et non-verbale que vous envoyer aux autres); spécifiques, personnalisées, appropriées et sincères.
+ - Chacun de nous s’exprime plus de manière négative que positive (on rale souvent, on se plaint, on critique, on remarque que les aspects négatifs). Pour fonctionner au meilleur de soi-même on a besoin de 10x plus de signes positifs que négatifs. Une marque positive est
+   - Spécifique (avec des détails),
+   - Personnalisée; retenez par exemple les prénoms de vos interlocuteurs
+   - Appropriée; (choisissez le moment opportun pour faire passer votre message)
+   - et sincère: croire ce qu’on dit. Et j’irais même jusqu’à citer Don Miguel Ruiz (Mexique, médecin et fils de chamans) et les 4 accords toltèques 1999, à appliquer au quotidien; avec le 1er accord qui «Que ta parole soit impeccable».
+- La communication c’est se rencontrer dans la différence
+- Dans tout comportement il y a une intention positive
+- Influencer avec intégrité = gagnant/gagnant
+- La qualité de la communication se mesure au Feedback
+- La qualité d’une communication est plus en fonction de la forme (processus) que du fond (contenu)
+- Adapter le mode de communication en fonction du contexte
 
-processus de perception:
-- omission : on memorise que 2% sinon l
-- géénralisation : on associe à une expérience
-- distorsions : on receoit une information et on fait une distorions (créativité)
+> « Parlez avec intégrité. Ne dites que ce que vous pensez. Évitez d’utiliser des mots qui vont à l’encontre de vous-même ou de commérer sur les autres. Utilisez le pouvoir de vos mots avec vérité et amour. ».
+Don Miguel Ruiz
 
-contenu du message :
-contenu 7% (ce qu'on dit)
-manière 38% (comment on dit)
-attitude 55% (posture, geste, respiration)
+## PROCESSUS DE PERCEPTION
 
-- Quand on a des points en communs, la communication est plus facile. Il y a tjrs qqch qui nous reli.
-- Dans tout comportement, il y a une intention positive même si l'autre personne ne le voit pas positivement.
+Chacun à sa vision du monde; Nous traitons les informations aux travers de nos cinq sens, de processus et de filtres. A partir de cette perception nous élaborons notre représentation, notre carte. Ce qu’une personne dit, pense et ressent la caractérise elle et pas quelqu’un d’autre. Son comportement et son langage en disent long sur cette réalité perçue et ce qui est important pour elle.
+- Les filtres :
+ - sensoriels (visuel, auditif, kinesthésique, olfactif, gustatif) VAKOG,
+ - physiologiques: état interne, humeur, handicap
+ - D’expérience: éducation, sociaux, culturels, religieux, vécu…
+- Lesprocessus de perception:
+ - omission : l’information que notre cerveau perçoit est mémorisée à environ 2%.  Notre cerveau conscient trie l’information et garde ce qui est nécessaire à un moment donné. Il omet donc une partie des informations.
+ - généralisation : on associe à une expérience, processus d’apprentissage qui consiste à généraliser une expérience vécue. L’expérience passée est une référence dans une situation présente.
+ - distorsions : processus qui nous permet de distordre certains aspects de notre expérience pour qu’ils s’adaptent à nos croyances. C’est également le processus de créativité; il nous permet d’imaginer ce qui n’existe pas.
 
-3 types écoute active:
-- écoute silencieuse (humm, hochement de tête)
-- relance (forme interrogative, répéter le dernier mot)
-- résumé : résumé de la conversation avec validation
-- tri sur l'autre/soi : ce qui est important pour l'autre est important pour moi. Laisser parler l'autre, pas trop pas de ses expériences.
-- présenter notre point de vue à la fin de conversation
+## LE CONTENU DU MESSAGE
+- Contenu 7%: ce que je dis (mots); sms ou emails.
+- Manière 38%: comment je le dis (tonalité);téléphone.
+- Attitude 55%: ce que je montre physiquement (posture, geste, respiration); face à face.
 
-rapport:
+Règle des 3 V (verbal, vocal, visuel) Albert Mehrabian 1967. Ces 3 formes de communication doivent correspondre entre elles (on parle de « congruence»). Dans le cas contraire, la personne qui nous écoute peut être troublée par deux messages venant de deux façons différentes et se contredisant.
+
+La congruence: une personne est congruente lorsqu’il y a un accord entre ce qu’elle pense et ressent d’une part et ce qu’elle dit et montre d’autre part.
+
+## 3 TYPES D'ECOUTE ACTIVE
+ - écoute silencieuse (humm, hochement de tête)
+ - relance (forme interrogative, répéter le dernier mot)
+ - résumé : résumé de la conversation avec validation
+ - tri sur l'autre/soi : ce qui est important pour l'autre est important pour moi. Laisser parler l'autre, pas trop pas de ses expériences.
+  - Le tri sur l’autre c’est d’être dans l’écoute active, avoir envie de comprendre le monde de l’autre, ouvert d’esprit.
+  - Le tri sur soi, c’est projeter soi sur l’autre, avoir une attitude de comparaison, jugement et conseil.
+ - présenter notre point de vue à la fin de conversation
+
+## LE RAPPORT
+Lorsqu’une personne se sent en confiance, écoutée et comprise elle est beaucoup plus réceptive.
+
 - créer un rapport de confiance avec la personne
+- méthode A.M.I.S
 - si on copie l'autre, on crée un zone de comfort, on a souvent tendance de copier l'autre et ca donne plus de confiance
 - zone de proximité : une fois on respecte pas ces zones, on fait braquer la personne. Les cultures jouent un rôle aussi. Au brésil on fait des câlins même si on connait pas la personne pour dire bonjour.
-- prédicats (visuel, auditif, kinésto ???) : se mettre sur le même canal de la même personne
-- flexibilité : savoir s'adapter aux autres
+- prédicats (visuel, auditif, kinésto ???) : se mettre sur le même canal de la même personne. Le langage d’une personne nous donne des informations sur les systèmes sensoriels qu’elle utilise: visuel (voir, regarder, montrer), auditif (entendre, parler, dire), kinesthésique (sentir, toucher, en contact, relaxé). Utiliser le bon vocabulaire pour pouvoir ouvrir un canal.
+- Calibration : c’est observer, reconnaitre, et vérifier les paramètres sensoriels d’une personne; langage non-verbal, posture du corps, gestuelle, ton et débit de la voix, respiration.
+- flexibilité : savoir s'adapter aux moyens de communication de l'autre (flexibilité relationnelle)
+- Authenticité: être soi-même, simple, direct, cohérent, congruent.
+Marques d’attention: signes de reconnaissance: accueil, écoute, intérêt, amour.
+- Synchronisation (ressemblances): on est pareil, mettre en avant les points communs. Savoir s’adapter aux styles de communication de l’interlocuteur, parler et bouger en mimétisme.
+- Impression: nombre d’expériences positives vécues ensemble.
 
+![01 - tableau communication efficace](img/communicaiton/01-tableau-communication.jpg?raw=true)
+
+## RECADRAGE
 Recadrage : changer le point de vue, perspective
-- recadrage de sens : reconsidérer une situation. Par exemple : être renvoyé. Au lieu de dire qu'on revoye, on dit qu'on aimerait donner d'autres opportunités
-- reacadrage de contexte :
 
-ANALYSE TRANSACTIONNELLE
+En plaçant une expérience dans un autre cadre plus approprié, elle prend une autre signification.
 
-3 etats de moi :
+1) Ex: Igor passe beaucoup de temps à sortir, il va rater ses examens. Recadrage: Sortir avec ses amis lui permet de se changer les idées et de retrouver sa concentration.
+
+
+**3 TYPES**
+- recadrage de sens : reconsidérer une situation. Par exemple : être renvoyé. Au lieu de dire qu'on revoye, on dit qu'on aimerait donner d'autres opportunités. Résolution d’une problématique en donnant un sens différent
+- recadrage de contexte : changer de contexte pour montrer la positivité
+- recadrage de processus: changer de comportement pour arriver à un résultat différent
+
+# ANALYSE TRANSACTIONNELLE
+
+L’analyse transactionnelle est à la fois une théorie de la communication et un outil de compréhension du psychisme humain.
+Cette méthode fait partie de ces «nouvelles thérapies» qui, tout en s’appuyant sur les théories de Freud, cherchaient à transformer la pratique de la psychanalyse. C’est sans doute la raison pour laquelle le fondateur de cette méthode, Eric Berne, a choisi de conserver le terme «analyse» qui marque cette filiation et met l’accent sur l’objectif commun avec la psychanalyse qui est de comprendre le fonctionnement du psychisme humain.
+
+Eric Berne, ou Leonard Bernstein, est né en 1910 Canada. Il obtient son doctorat en chirurgie puis se passionne pour la psychanalyse.
+
+
+#### PRINCIPE FONDATEURS
+- chaque être humain a de la valeur ;
+- chacun d’entre nous a la capacité de penser ;
+- chacun est responsable de lui-même ;
+- chacun a besoin de reconnaissance.
+
+### 3 ETAT DE MOI
+
+![02 - etat de moi](img/communicaiton/02-etats-de-moi.jpg?raw=true)
+
+![03 - etat de moi 2](img/communicaiton/03-etats-de-moi-2.jpg?raw=true)
+
 - parent : si on arrive en retard le prof nous gronde, le parent en elle qui parle
 - adulte : conversation idéale
 - enfant : par exemple si on arrive en retard en cours on a peur de se faire gronder. c'est l'enfant en nous qui parle
 
-- on a qqch en nous de nos parents
+Le terme Enfant a été choisi car il renvoie à la capacité des enfants d’être en contact avec leurs ressentis, en tout cas lorsqu’ils vont suffisamment bien. Le terme Parent évoque les premières personnes dont on observe les réactions et qui nous impactent précocement, donc en général nos parents. Le terme Adulte fait écho à la réputation des adultes d’être raisonnables, réﬂéchis et d’avoir du recul.
+
+Exemple : lorsque l’on entend plusieurs voix en contraction dans notre tête ce sont nos Etats du moi. Si je dois prendre la parole en public, à l’intérieur de moi s’exprimeront peut-être:
+- l’Enfant: «J’ai peur ! Je n’y arriverai jamais !»
+  -  Le système Enfant est à la fois ce qui nous permet de ressentir des émotions, d’avoir des sensations, mais aussi de les mémoriser et de les ordonner pour pouvoir nous en servir. Il est porteur de tous les vécus accumulés en nous depuis que nous existons, joies, peines, espoirs, peurs, colères, envie, dégoût, douceur... Il englobe les dimensions corporelles, sensitives, l’imaginaire, nos besoins, notre intuition, notre créativité, nos désirs et nos rêves.
+- un Parent positif: «Ça va bien se passer, concentre-toi sur ce que tu as à dire.»
+  - Le système Parent mémorise, organise et se sert de tout ce qu’il perçoit dans les réactions des personnes qui nous entourent et en particulier celles qui tiennent une place essentielle dans notre construction et notre vie. C’est grâce au Parent que nous saisissons la manière dont nous pouvons fonctionner avec les proches, mais aussi dans le monde extérieur et que nous intégrons les règles de vie en société.
+- l’Adulte: «Je vois les gens assis dans la salle. Ils ont l’air attentif et bienveillant.»
+  - Le système Adulte s’intéresse à l’aspect «objectif» d’une situation. Il permet à la fois de mémoriser et d’organiser une autre dimension de nos expériences, celle qui sait prendre de la hauteur, qui a connaissance de notre vécu subjectif et des réactions d’autrui, mais qui s’en démarque. Il agit comme un médiateur entre nous et le monde et grâce à lui, nous avons une vision plus lucide de la réalité.Il est parfois troublé dans cette tâche par des éléments qui ont l’apparence de l’objectivité, mais sont en fait issus soit du Parent, soit de l’Enfant. Dans ce cas, notre Adulte est «contaminé».
+- Parfois, un Parent négatif et persécuteur: «Comment oses-tu prendre la parole ? Tu n’as rien d’intéressant à dire !»
+
+
+Nous sommes parfois victimes de discours qui semblent venir de l’Adulte, mais qui ne sont que des idées toutes faites, souvent des généralisations héritées du Parent, et qui nous empêchent d’utiliser toutes nos ressources (préjugés). Par exemple: «Les jeunes ne s’intéressent à rien !» ou «Les hommes sont incapables de s’engager» ou bien encore «Les femmes ont moins de désir que les hommes»...
+
+Il nous arrive de nous laisser guider par des pensées qui semblent émaner de l’Adulte alors que ce sont des illusions ou des rêves venus de l’Enfant: «Un jour, je rencontrerai un homme ou une femme qui comblera tous mes désirs.»
+
+#### LES APPORTS DE CHAQUE ETATS
+Pour être équilibré, nous avons donc tous besoin de ces trois états. L’Adulte nous sert pour réagir de manière adéquate à une situation immédiate ; l’Enfant nous donne notre grain de folie, notre spontanéité; le Parent nous dicte les règles de vie en société. Chaque état nous fournit plusieurs ressources.
+
+Un malaise intérieur vient parfois d’un déséquilibre qui nous empêche de faire fonctionner souplement nos trois systèmes d’états du moi et donc de tenir compte à la fois de nos ressentis, des réactions de l’environnement et de la synthèse que nous en faisons.
+
+- Le Parent apporte les valeurs, les croyances, les règles et les opinions;
+- L’Adulte apporte la logique, l’information et l’analyse objective;
+- L’Enfant apporte les émotions, l’intuition et la curiosité.
+
+#### DIAGRAMME FONCTIONNEL
+![04 - diagramme fonctionnel](img/communicaiton/04-diagramme-fonctionnel.jpg?raw=true)
+
+À côté du diagramme structural des états du moi, il existe un diagramme fonctionnel qui divise les états du moi pour montrer la manière dont on les utilise. Il s’intéresse donc au processus.
+
+- Le Parent normatif qui juge, guide et établit les règles. Il peut être persécuteur et critique ou, à l’inverse, structurant et protecteur;
+- Le Parent nourricier qui prend soin et répond aux besoins. Il peut être permissif et encourageant ou, à l’inverse, surprotecteur et sauveur dans le mauvais sens du terme;
+- L’Adulte est toujours «neutre». Il observe quel état du moi est pertinent pour un type de situation. Il investigue, raisonne, émet des hypothèses, informe, négocie, décide…
+
+- L’Enfant libre qui est spontané. Il dégage une grande énergie vitale, a des réactions variées et il émet des demandes directes. Il peut en revanche se montrer égoïste;
+- L’Enfant adapté qui peut être soit rebelle (opposition légitime) soit soumis (dans un moule, il a des réactions stéréotypées et apprises).
+
+#### LES TRANSACIONS
+Les échanges d'un message et réponse à celui-ci.
+
+![05 - transactions](img/communicaiton/05-transactions.jpg?raw=true)
+
+Nous l’avons compris, ces états du moi influencent nos relations. Les transactions entre deux personnes (échange d’un message et réponse à celui-ci) sont simples lorsque celles-ci sont toutes deux dans l’Adulte, mais cela n’est pas toujours le cas dans la vie quotidienne. Voici les trois types de transactions qui nous permettront de mieux comprendre la manière dont nous communiquons:
+1. Les transactions peuvent être complémentaires ou parallèles quand la réponse est appropriée. Elle n’implique que deux états du moi, un par personne. Exemple: vous prenez l’attitude de l’Enfant face à votre partenaire, et ce dernier vous répond en Parent. La communication fonctionne;
+2. Les transactions peuvent être croisées. Exemple: votre partenaire vous parle en Adulte et vous réagissez en Enfant. La communication est rompue car la réaction est inadaptée;
+3. Les transactions peuvent se faire à double niveau et se jouer au niveau psychologique. En plus de délivrer un message verbal, on transmet un message non verbal qui est caché. Exemple : votre ami vous demande l’heure qu’il est, alors que vous aviez rendez-vous il y a un quart d’heure. Vous le prenez comme un reproche et vous répondez verbalement en Adulte, mais intérieurement vous vous sentez mal, vos gestes et le ton de votre voix répondent en Enfant.
+
+1 - La communication dure aussi longtemps que les transactions demeurent parallèles.
+2 – La communication est interrompue quand les transactions sont croisées.
+3 – La communication se joue au niveau de la transaction cachée
+
+#### EXERCICE
+Imaginons que vous vous êtes octroyé un moment de pause en rentrant du travail : différentes parties de vous s’expriment en interne, retrouvez de quel état du moi il s’agit :
+- Il faut que j’aille préparer le repas.
+- Comme je suis bien dans mon bain !
+- J’en profite encore un peu et puis j’y vais et je demanderai de l’aide.
+- Je rêve de faire la planche sur une mer baignée de soleil.
+- Je serai plus efficace après un peu de repos.
+- Tu as bien raison de t’être arrêté, tu en avais vraiment besoin.
+
+**REPONSES:**
+- Cette partie vous rappelle une obligation ou un engagement vis-à-vis de vous-même ou des autres, c’est le Parent.
+- Une sensation de bien-être s’exprime en vous et vous en profitez, grâce à l’Enfant
+- Cette partie trouve un compromis entre les besoins de l’Enfant et les contraintes extérieures, il s’agit de l’Adulte.
+- Grâce à l’Enfant, un désir qui vous permet de savoir que vous avez besoin de changer d’air apparaît en vous
+- L’Adulte tire profit de l’expérience et fait une synthèse des influences parfois divergentes de l’Enfant et du Parent.
+- Cette partie prend soin de vous, peut-être de la même façon que le faisait une figure parentale pendant votre enfance, c’est un Parent positif qui s’exprime.
+
+#### 3 BESOINS FONDAMENTAUX
+1. Le besoin de structure; cadre, règles, limites.
+2. Le besoin de stimulation; stimuli, échanges.
+3. Le besoin de reconnaissance.
+
+Selon Eric Berne, notre équilibre psychique dépend de trois besoins fondamentaux qui font de nous des êtres de relation:
+1. Le besoin de structure : Notre «soif de structure» se fait sentir dans le besoin de cadre, de règles de fonctionnement qui posent des limites. Selon notre histoire, ce besoin d’être rassuré par rapport à une trop grande imprévisibilité dans laquelle nous ne serions pas en sécurité est plus ou moins fort. Pour certains d’entre nous qui avons souffert d’une éducation où l’on cherchait à les contrôler, ce rapport aux règles est ambivalent. Le besoin de limites est bien là, mais tout cadre imposé de l’extérieur est difficile à supporter et la préférence va aux règles que l’on se donne à soi-même. La recherche de structure et de cohérence va être également le moteur qui nous amènera à notre insu  à élaborer un scénario de vie et inﬂuencera notre rapport au temps.
+2. Le besoin de stimulation: recevoir une quantité suffisante de stimulations, auditives, visuelles, sensorielles grâce à des échanges variés avec notre entourage.
+3. Le besoin de reconnaissance: pour se sentir exister, tout individu depuis sa naissance a besoin de se voir dans les yeux d’un autre qui compte pour lui et qui reconnaît ce qu’il est et ce qu’il accomplit. Une des raisons de la souffrance au travail est l’absence de cette source de reconnaissance et la perte de l’estime  de soi.
+
+#### SIGNES DE RECONNAISSANCE OU STROKES
+- non verbaux: un sourire, un visage fermé, des gestes accueillants ou brusques en disent aussi long que de grands discours ;
+- verbaux: le message transmis est mis en mots:  «Bonjour ! Je suis contente de te voir !»
+Leurs contenus peuvent être positifs ou négatifs, mais aussi:
+- conditionnels: ils concernent ce que nous faisons
+-  inconditionnels: ils portent sur ce que nous somme
+
+Eric Berne s’est intéressé aux unités d’échanges sociaux permettant de se sentir reconnu. Apprendre à distinguer les différentes sortes de signes de reconnaissance, en anglais «strokes », nous aide à être plus conscients de l’impact que nous avons sur les autres et inversement, mais aussi de l’estime que nous avons de nous-même et de notre rapport à nos congénères.
+- Les Signes de Reconnaissance obéissent à une règle humaine fondamentale : mieux vaut un Signe de Reconnaissance négatif que pas de Signe de Reconnaissance du tout. Autrement dit : tout mais pas l'indifférence.
+- La Soif de Reconnaissance est un besoin vital ; un enfant n'hésitera pas à faire une bêtise même s'il doit se faire réprimander par ses parents s'il a le sentiment qu'ils ne font pas assez attention à lui. Tout comme un adulte qui se sent mis à l'écart d'une réunion de travail peut mettre en place des stratégies plus ou moins conscientes pour se faire remarquer en tapotant son stylo contre la table, ou en renversant son verre.
+- Un Signe de Reconnaissance peut être "filtré " par son destinataire : "C'est génial ce que tu as réalisé", "Oh, c'est trois fois rien", ou "Cette fois je pense que ta plaquette ne répond pas à leurs attentes", "De toute façon, tu n'es jamais d'accord".
+- Il n'y a pas de bons ou de mauvais Signes de Reconnaissance. Il est aussi important de féliciter quelqu'un qui vient de réussir un examen que de marquer son désaccord sur une initiative ou de critiquer une réalisation : c'est un excellent moyen d'apprentissage.
+
+Ainsi, nous parlons des signes de reconnaissance:
+- non verbaux positifs conditionnels ou inconditionnels : un geste de tendresse, un sourire complice, un petit mouvement de la main accompagné d’un hochement de tête pour acquiescer à un argument, le fait d’accueillir un enfant qui court vers nous et de le serrer dans nos bras ;
+- non verbaux négatifs conditionnels ou inconditionnels: un froncement de sourcil à un enfant qui approche sa main d’un objet qu’il n’a pas le droit de toucher, une attitude froide et distante, le fait de repousser violemment un proche et de lui adresser un regard plein de colère. 
+
+- verbaux positifs conditionnels: «Votre travail est excellent !»
+- verbaux négatifs conditionnels: «Je ne suis pas satisfaite de votre devoir.»
+- verbaux positifs inconditionnels: «J’ai conﬁance en vous.»
+- verbaux négatifs inconditionnels: «Vous êtes incompétent !»
+
+Pour faire conﬁance à nos interlocuteurs, savoir comment nous situer et parfois comment progresser, nous avons besoin de recevoir des retours sincères, mais également justes. Savoir entendre des strokes négatifs conditionnels est donc tout à fait constructif. En revanche, une trop grande surévaluation de nos talents peut rendre un stroke inutile, voire contre-productif: «Tu es le meilleur !»
+ 
+Notre manière de laisser entrer les signes de reconnaissance et d’être inﬂuencé par eux est très variable selon notre scénario. C’est ce que nous appelons le ﬁltre à strokes. Il peut être comparé à une sorte de passoire qui ne laisserait passer qu’un type donné de signes de reconnaissance. Ex : ne laissez entrer que les strokes négatifs.
+
+Mais heureusement cette façon de gérer les signes de reconnaissance évolue dans une vie.
+
+#### LES 6 MODES DE STRUCTURATION DU TEMPS
+1. Le retrait : C’est la position dans laquelle nous sommes quand nous nous isolons pour être seul, nous prenons du temps pour nous. Nous n’échangeons qu’avec nous-même et les seuls signes de reconnaissance que nous recevons sont ceux que nous nous donnons à nous-même.
+2. Les rituels : échanges sociaux stéréotypés
+3. Les passe-temps : Il s’agit des conversations anodines que nous partageons en allant chercher le pain ou entre collègues à la pause-café, et qui portent sur la pluie et le beau temps.
+
+Notes : Eric Berne a déﬁni six modes de structuration du temps dans lesquels la quantité de signes de reconnaissance échangés est croissante: le retrait, les rituels, le passe-temps, l’activité, les jeux psychologiques et l’intimité. Ils satisfont également notre besoin de structure et sont à des degrés divers des sources de stimulation.
+1. Selon notre personnalité, nous avons plus ou moins besoin de retrait. Les personnes introverties le recherchent particulièrement, c’est là qu’elles se ressourcent, rechargent leurs batteries, tandis que les extravertis vont avoir besoin d’échanges pour retrouver de l’énergie.
+2. «Bonjour, comment allez-vous ?»
+3. Même si elle n’est pas aussi «nourrissante» que les suivantes, cette manière d’occuper le temps apporte un peu de reconnaissance.
+
+
+4. L’activité : Ce sont les échanges que nous avons à l’occasion d’un travail commun ou lorsque nous agissons à plusieurs dans le but de mener un projet collectif.
+5. Les jeux-psychologiques : Ce sont des séquences répétitives dans lesquelles nous sommes émotionnellement fortement impliqués et qui apportent une grande quantité de signes de reconnaissance, même si ces derniers sont majoritairement négatifs.
+6. L’intimité: l’échange qui permet de recevoir et de donner le plus de reconnaissance, car dans l’intimité nous nous donnons le droit d’être nous-même et nous acceptons l’autre tel qu’il est.
+
+Notes : Tous ces modes de structuration du temps contribuent à la satisfaction de nos besoins de structure, de reconnaissance et de stimulation et à leur juste dosage. Selon notre degré de sécurité intérieure, ou notre vécu antérieur, nous avons plus ou moins besoin que notre temps soit organisé et planiﬁé. S’il est utile de savoir aller puiser reconnaissance et stimulation dans l’activité et l’intimité, il est également important de ne pas négliger les rituels et les passe-temps lorsque nous devons différer le moment d’obtenir des strokes plus nourrissants et il est sage de savoir se mettre en retrait lorsque nous sentons que nous en avons besoin.
+
+Aujourd’hui, je vais me rendre au bureau à la HEG, où je serai seule (retrait). Ensuite je prendrai un café avec mes collègues (rituel) et on parlera probablement de tout et de rien (passe-temps). Ce soir, je retrouve mes amis pour organiser notre prochaine randonnée (activité). Ensuite, je reste seule avec une connaissance avec qui j’ai des rapports étranges, je me sens mal à l’aise en sa compagnie sans bien comprendre pourquoi elle arrive toujours à me mettre dans cet état-là (jeux). Je rentre chez moi la boule au ventre et je m’écroule en expliquant mon ressenti à mon mari (intimité).
+
+#### LE SCENARIO DE VIE
+- chacun d’entre nous a conçu sa propre histoire depuis l’enfance. La plus grande partie de celle-ci serait déjà écrite à l’âge de  7 ans,  puis  révisée  pendant  l’adolescence.
+- 3 scénarios: gagnant, perdant et non-gagnant.
+- Les drivers ou lignes de conduite
+
+Le  scénario construit est celui qui, selon l’enfant, représente la meilleure option pour survivre dans le monde dans lequel il évolue. En tant qu’adulte, nous ne sommes plus conscient de ce cheminement, nous vivons notre scénario de manière totalement inconsciente. Il est la source de tout ce qui nous freine à l’âge adulte. Nos soucis et nos blocages proviennent en effet souvent du fait que, pour rester cohérent avec ce scénario de vie, nous répétons des comportements induits par le passé qui ne sont plus appropriés dans l’environnement dans lequel nous évoluons aujourd’hui. Analyser ce scénario de vie permet donc de comprendre nos croyances limitantes, nos freins et leur provenance. Et on ne le répétera jamais assez: la prise de conscience est le début de tout changement!
+
+Les drivers sont les lignes de conduite induites par nos parents et notre éducation qui ont participé à l’élaboration de notre scénario de vie. En réaction à ceux-ci, nous adoptons un comportement inconscient. Sois parfait, sois fort, dépêche-toi, fais plaisir, fais des efforts. Afin de bousculer vos habitudes et d’augmenter votre bienêtre, transformez votre driver dominant en une permission que vous vous accordez. Essayez de la garder en tête et de la mettre en évidence au quotidien. Fais-toi plaisir, Fais-le, Sois-comme tu es, sois ouvert et exprime tes besoins, Prends ton temps.
+
+![06 - tableau divers et permissions](img/communicaiton/06-tableau-divers-permissions.jpg?raw=true)
+
+#### 4 POSITIONS DE BASES
+1. je suis OK (+/+);
+2. je ne suis pas OK;
+3. vous êtes OK;
+4. vous n’êtes pas OK.
+
+Si nous combinons ces certitudes, nous obtenons quatre affirmations, quatre positions de vie.
+
+1. Je suis OK, vous êtes OK (+/+).
+Il s’agit là d’une façon de voir le monde de manière très positive même lorsque les difficultés apparaissent. Les personnes qui suivent cette position de vie sont bien dans leur peau et trouvent toujours des solutions («Je n’ai pas eu ce boulot, c’est qu’une meilleure opportunité m’attend ailleurs.»). Elles sont en adéquation avec elles-mêmes et ce qui les entoure.
+
+2. Je ne suis pas OK, vous êtes OK (-/+).
+Il s’agit ici de personnes qui se positionnent en victimes, qui se sentent inadaptées. Elles cherchent la reconnaissance à tout prix et peuvent pour y parvenir se laisser humilier. C’est typique des gens qui s’excusent avant même de parler («Pardon mon amour, c’est de ma faute si tu t’es énervé sur moi comme ça. Je suis insupportable et je mérite tes insultes.»).
+
+3. Je suis OK, vous n’êtes pas OK (+/-)
+Il s’agit ici de personnes qui ont une haute estime d’elles-mêmes qui n’est pas toujours justifiée («J’ai toujours raison et les autres ont tort. Je ne suis pas responsable de mes problèmes, ce sont les autres ou les circonstances extérieures qui en sont la cause. D’ailleurs, je n’ai pas de problème.»). Ce sont généralement des persécuteurs et/ou des dominateurs.
+
+4. Je ne suis pas OK, vous n’êtes pas OK (-/-)
+Il s’agit de personnes qui sont souvent désespérées. Elles ont une vision très pessimiste de la vie. Plus la personne avance, plus elle a l’impression de s’enfoncer. Elle est incapable de demander de l’aide. Elle a baissé les bras et n’exprime  plus ses besoins («J’abandonne, le monde est trop dur.»)
+
+![07 - positions de vie](img/communicaiton/07-positions-de-vie.jpg?raw=true)
+
+La position efficace: Je me fais une représentation exacte de ce que je peux faire de positifavec l’autre et donc j’agis efficacement.
+Je suis OK avec moi-même et les autres (position OK-OK).
+
+Les 3 positions inefficaces : Je me fais une représentation inexacte de ce que je peux faire avec lesautres et donc j’agis de façon inefficace :
+- soit je me crois supérieur aux autres : je me crois OK et je crois que les autres ne sont pas OK;
+- soit je me crois Non Ok et je crois que les autres sont OK;
+- soit je me crois Non Ok et les autres aussi.
+
+![08 - emotions parasites](img/communicaiton/08-emotions-parasites.jpg?raw=true)
+
+L’émotion parasite : savoir reconnaître des émotions parasites (par rapport à une émotion authentique qui est cohérente)
+
+Le  «racket» consiste à exprimer une émotion sous la forme d’une autre, la « carte de fidélité » repose sur la mémorisation d’émotions légères et désagréables accumulées et non exprimées et l’«élastique» correspond à une réaction émotionnelle automatique faisant remonter une émotion reliée à une situation non résolue du passé.
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 # 25 mai 2022
