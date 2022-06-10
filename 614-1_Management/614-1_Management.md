@@ -1298,85 +1298,357 @@ L’émotion parasite : savoir reconnaître des émotions parasites (par rapport
 
 Le  «racket» consiste à exprimer une émotion sous la forme d’une autre, la « carte de fidélité » repose sur la mémorisation d’émotions légères et désagréables accumulées et non exprimées et l’«élastique» correspond à une réaction émotionnelle automatique faisant remonter une émotion reliée à une situation non résolue du passé.
 
+# ORGANISATION
 
+#### LES THEORIES
+**Début du 20ième siècle: Taylor et Fayol**
+- L’organisation – entité:
+- Elle correspond au constat que la vie des sociétés modernes s’articule autour de vastes ensembles au sein desquels les individus passent l’essentiel de leur vie (de l’organisation-école à l’organisation-entreprise, en passant par l’organisation-hôpital). La concentration industrielle et l’accroissement du salariat, l’affaiblissement de l’artisanat et du petit commerce, le développement des administrations publiques créent des entités de plus en plus importantes. Il devient donc impératif d’analyser leur fonctionnement et de tenter de l’améliorer
+- Elle correspond également au postulat que toutes ces entités administratives pourraient bien avoir des caractéristiques communes quels que soient leurs objectifs spécifiques.
+**L’organisation moderne vue comme une bureaucratie - M. Weber – aspect sociologique**
+Le fonctionnement de ce type d’organisation repose sur quatre éléments :
+1. J’obéis à un chef, non pas par allégeance personnelle parce qu’il a un rôle officiel régi par des règles qui ne dépendent pas de lui
+2. Une définition précise des tâches et des compétences de chacun
+3. Un accès aux fonctions lui aussi soumis à des règles et lié à une compétence
+4. Une formalisation suffisante, les règles devant être écrites et connues de tous
+**A. Marshall (aspect économique) appelle «organisation» un système social où l’activité économique se déroule de manière autonome**
+- Marshall économiste britannique (1924).
+- O. Williamson: L’unité de base de l’analyse économique doit être la transaction, qu’elle soit externe (l’entreprise sur son marché) ou interne (au sein de la firme).
+- Il parle de «business organisation» pour désigner le niveau de décision élémentaire dans une économie, c’est-à-dire la firme.
+- Quelles formes d’organisation sont les plus efficaces ?
+- Le théorie des coûts de transaction: l’entreprise apparaît parce qu’elle permet de réduire certains coûts de transaction. 
+- Il était préférable de produire soi-même que de passer des contrats sur un marché jusqu’à ce que le coût de fonctionnement marginal de la dernière transaction égale le coût impliqué par le marché.
 
+#### CONCEPT - 7 ELEMENTS CLEFS DE L'ORGANISATION
+1. Un espace où existe une certaine division du travail, des activités sont menées, des rôles attribués.
+2. Un espace de coordination collective. Il y a organisation parce qu’il faut aller au-delà de l’effort individuel.
+3. Division du travail et coordination sont nécessaires pour mener une certaine action.
+4. Cette action est volontaire et comporte des choix, des possibilités de décision, de négociation ou d’arrangements variés.
+5. Cette action suppose la création de règles (de natures diverses) et le contrôle (formel ou non) de leur application.
+6. Ces éléments existent pendant une certaine durée. Répartition des tâches et coordination stabilisent l’action finalisée à un moment donné.
+7. Une vision plus récente insiste sur le fait que l’organisation, pour être un lieu d’action, est aussi porteuse d’un ensemble de représentations, de connaissances accumulées.
 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-# 25 mai 2022
-
-organisation
-p.6 conception
-- on besoin de structure, on va créer des règles (formel ou informel)
+Notes :
+- On besoin de structure, on va créer des règles (formel ou informel)
 - Les éléments peuvent changer
 
+#### 7 IMPERATIFS DE TOUTE ORGANISATION
+1. Articuler missions, buts, stratégies et fonctions
+2. Mettre en ordre les fonctions
+3. Identifier les mécanismes de coordination et de contrôle
+4. Faire qu’il y ait des rôles attribués et des comptes à rendre
+5. Planifier et communiquer
+6. Articuler performance et récompenses
+7. Réaliser un «leadership» efficace
 
-p. 7
-6. penser à l'avance par exemple, fixer une grille salariale
-7. comment mener l'équipe ?
+#### TROIS CONCEPTS DE BASE QUI SE RECOUPENT
+![01 - 3 concepts de bases](img/ORGANISATION/01-3-concepts-de-bases.jpg?raw=true)
 
-p.9
-
-
-
-p.29
-la structure des entreprises ne sont pas figées. La structure peut changer mais en générale, on garde une certaine philosophie.
-la structure depend de plusieurs facteurs
-
-p.30
-- structure entrepreneuriale : 3 types formels de types organigrammes
-
-p.31 : structure fonctionnelle
-- fonctions operationnelle
-- c'est la direction qui va assumer la coordination ?
-notes :presque en mode horizontal
-
-p.32
-limities :
-- coord difficile -> silos
-
-p. 33 structure divergente
-on découpe selon les domaines d'activités, spécialisation d'activités
-
-p.34
-avantage:
-- flexible (adaptable
-
-p.35
-- double/triple hierarchie
-
-p.37
-décloisoinement : moins dans silos
-absence d'unité commandement : prise de décision plus complexe et la communication quand c'est décentralisé
-
-p.38
--des entreprises qui essaient de repondre aux changements
--
-
-p.41 - pas besoin de les apprendre
-1, supervision directement
-
-2. classique management, on fait reference au management modern
+#### BUREAUCRATIES MODERNES - 4 CARACTERISTIQUES
+- L’étendue extrême des règles impersonnelles : accession aux fonctions et promotions sont le résultat de l’application de règles détaillées où, ni les caractéristiques individuelles, ni les résultats obtenus, ni les capacités d’innovation ne sont prises en compte. Il en résulte une indépendance et une sécurité élevées de la part de l’agent et aussi un risque d’inefficacité de l’organisation
+- La centralisation des décisions : si l’on veut préserver des relations impersonnelles, il faut que les décisions soient prises à un niveau situé à l’abri des pressions ; les dirigeants peuvent dès lors statuer en toute sécurité… mais souvent en l’absence des informations pertinentes issues du «terrain»
+- Chaque catégorie de personnel ayant ses règles statutaires, l’organisation est composée de strates superposées qui communiquent difficilement entre elles. Au sein de chaque strate existe une forte pression des pairs («l’esprit de corps»)
+- Comme malgré tout il est impossible d’éliminer toute source d’incertitude, les agents qui ont quelque information ou possibilité d’action sur ces situations disposent d’un pouvoir informel très important. L’organisation bureaucratique ne peut fonctionner sans pouvoirs parallèles
 
 
-3. - organisation divisonnée
+#### EFFICACITE ORGANISATIONNELLE
+**La pluralité des buts :** Toute organisation peut être vue comme poursuivant diverses natures de buts, liés certes à sa «production», mais aussi à sa volonté de survie ou aux effets indirects qu’elle peut obtenir.
+- Une distinction est celle séparant les buts «officiels» des buts «opératoires».
+ - Les buts officiels sont en général vagues et généraux. Ce sont ceux qui figurent dans les déclarations officielles, les chartes, les rapports annuels.
+ - Les buts opératoires sont ceux qui apparaissent en relation avec le fonctionnement concret de l’organisation. Ils sont spécifiques et reliés à une action quotidienne. Ils font l’objet d’une mesure précise.
 
-4. sauté
+ **Les buts :**
+ - Buts de production : fournir des produits et des services adaptés à ses clients ou marchés.
+ - Buts de société : répondre à un besoin public, à un intérêt général.
+ - Buts «systémiques» : faire fonctionner l’organisation de manière à ce qu’elle puisse atteindre ses buts principaux (recherche de stabilité, de contrôle…).
+ - Buts «dérivés» : viser d’autres buts que l’atteinte des buts de production permet d’obtenir de surcroît (buts culturels dérivés, ou politiques, ou sociaux).
 
-p.46
-on fait des cercles par exemple organisation et ensuite d'autres cercles pour les rôles etc.
+**La pluralité des acteurs :** Cette pluralité des buts renvoie à la pluralité des parties prenantes de l’organisation. Chaque partie prenante va avoir un type de jugement spécifique sur l’efficacité de l’organisation, en fonction des critères qui sont les siens : l’actionnaire verra la rentabilité des capitaux investis, le personnel le niveau des salaires et des conditions de travail, le client la qualité du produit, etc.
 
-p.
-ideologie qui definir le fonctionnement de l'organisations
+L’efficacité organisationnelle peut être décrite à l’aide de quatre composantes : l’efficience économique (dimension économique), la valeur des ressources humaines (dimension psychosociale), la légitimité de l’organisation auprès des groupes externes (dimension politique) et la pérennité de l’organisation (dimension systémique).
+
+Chacune de ces dimensions peut faire l’objet d’indicateurs, permettant ainsi de disposer d’une grille d’analyse complète.
+
+**Les parties prenantes**
+Toute organisation a donc à résoudre la question de sa relation avec les différents partenaires, en choisissant ceux des objectifs qu’elle cherche à satisfaire, en distribuant des «résultats» aux différents groupes de partenaires, et en assurant un certain équilibre entre ces «demandes» à travers le temps.
+
+![02 - tableau efficacité organisationnelle](img/organisation/02-tableau-efficacite-orga.jpg?raw=true)
+
+![03 - 7 images - complexité organisationnel](img/organisation/03-7-images-complexite-orga.jpg?raw=true)
+
+#### LES COMPOSANTES
+![04 - composantes organisationnelles](img/organisation/04-composantes-orga.jpg?raw=true)
+
+- «L’organisationnel» comporte une certaine configuration plus ou moins stabilisée des différents éléments qui constituent l’entité que l’on envisage. Il s’agit de ce qu’on appellera la structure d’une organisation.
+- La composante humaine est essentielle : compétences disponibles, attitudes au travail manifestes, appartenances revendiquée
+- La composante physique:
+ - ce qui ressort de la distribution dans l’espace (localisation, flux de matières et d’énergie…)
+ - ce qui ressort du matériel (équipements techniques, bâtiments)
+- L’appareil gestionnaire contribue au fonctionnement de l’organisation, non seulement comme outillage au service d’objectifs, mais aussi comme influençant (de manière volontaire ou non) les comportements de ceux qui s’y trouvent.
+
+#### LA STRUCTURE
+- Plusieurs définitions de ce qu’est une structure.
+- « La structure d’une organisation peut être déﬁnie simplement comme la somme totale des moyens employés pour diviser le travail entre tâches distinctes et pour ensuite assurer la coordination entre ces tâches ». La déﬁnition de la structure de Mintzberg.
+- La structure organisationnelle est le résultat d’un certain nombre de choix fondamentaux en matière de spécialisation, de coordination et de formalisation.
+- Henry Mintzberg (né le 2 septembre 1939 à Montréal) est un universitaire canadien en sciences de gestion, auteur prolifique d'ouvrages de management sur l'emploi du temps des cadres dirigeants, l'efficacité managériale, la structure des organisations, le pouvoir, la planification stratégique, etc.
+
+![05 - structure organisation](img/organisation/05-structure-orga.jpg?raw=true)
+
+1. La spécialisation
+- Quand une entreprise grandit et réunit plusieurs salariés, se pose la question de la répartition des tâches à accomplir et donc de la division du travail.
+- La division du travail est horizontale ou verticale
+  - La division horizontale du travail correspond à la spécialisation des tâches des salariés de niveau hiérarchique équivalent. Elle est utilisée pour augmenter la productivité du travail.
+  - La division verticale du travail correspond à la spécialisation des tâches entre des salariés de niveaux hiérarchiques différents. Elle résulte d’une séparation entre la réalisation du travail et son administration. Elle introduit donc des relations d’autorité au sein de l’entreprise.
+- La spécialisation concerne également les choix de découpage des activités de l’entreprise qui conduisent à l’adoption de structures-types différentes. Certaines entreprises s’organisent autour de fonctions et donc leurs différents services sont spécialisés dans la production, le commercial...
+- D’autres critères de spécialisation peuvent être choisis par les entreprises, comme des critères géographiques.
+- La spécialisation s’explique par la volonté d’augmenter l’expertise des services et par des choix relatifs à la taille des unités. Le degré de différenciation d’une entreprise est d’autant plus élevé que le nombre de services spéciﬁques augmente.
+
+2. La coordination
+- Parallèlement à la spécialisation des salariés et des services, l’entreprise doit rechercher la cohérence de l’ensemble de ses éléments, c’est-à-dire une bonne coordination.
+- Il s’agit de mécanismes formels permettant l’intégration de l’entreprise. La hiérarchie est le principal mode de coordination.
+- Néanmoins, les entreprises mettent aussi en place des dispositifs de coordination, ou mécanismes de liaison, comme les réunions, les comités ou encore le recours à des agents intégrateurs de type chef de projet.
+
+![06 - trois modes de coordination principaux](img/organisation/06-3-modes-coor-princip.jpg?raw=true)
+
+3. La formalisation
+- La formalisation permet la standardisation des processus de travail. Les structures des entreprises sont plus ou moins formalisées; les structures mécanistes, rigides, s’opposent ainsi aux structures organiques plus souples et peu formalisées.
+- Il existe trois principaux moyens de formalisation en entreprise :
+ - La formalisation des postes concerne la spéciﬁcation précise d’un poste de travail (description précise des phases du travail du titulaire du poste, de leur ordre et de leur durée)
+ - La formalisation des ﬂux de travail porte sur le travail à effectuer et la façon de le faire (par exemple les partitions des musiciens)
+ - La formalisation par le règlement consiste à créer des règles valables pour toutes les actions  précisant ce qu’il faut faire, quand, où, par qui et ce, quel que soit le poste occupé ou le ﬂux de travail (les entreprises peuvent rassembler ces règles dans un manuel de procédures)
+
+Les structures des entreprises ne sont pas ﬁgées. Elles résultent de l’histoire et de la croissance de l’entreprise. Plusieurs facteurs influencent les structures organisationnelles:
+
+![07 - les facteurs influencent les structures organisationnelles](img/organisation/07-facteurs-influ-structure-orga.jpg?raw=true)
+
+- Une approche formelle ou traditionnelle de l’organisation qui s’appuie sur l’organigramme.
+- Si l’on enlève la structure entrepreneuriale, dite « en soleil », car les services rayonnent autour du chef d’entreprise, 3 principaux types de structures sont généralement distingués.
+- Ils servent de références aux dirigeants qui les aménagent en fonction des spéciﬁcités de leur entreprise.
+- La structure fonctionnelle repose sur le découpage de l’organisation par grandes fonctions (la production, le commercial...). Le nombre de fonctions différentes dépend des besoins de l’entreprise.
+- Il s’agit donc de fonctions opérationnelles et le dirigeant ou la direction générale en assurent la coordination.
+
+
+#### LA STRUCTURE FONCTIONNELLE
+![08 - organigramme](img/organisation/08-organigramme.jpg?raw=true)
+
+- La structure fonctionnelle repose sur le découpage de l’organisation par grandes fonctions (la production, le commercial...). Le nombre de fonctions différentes dépend des besoins de l’entreprise.
+- Il s’agit donc de fonctions opérationnelles et le dirigeant ou la direction générale en assurent la coordination.
+- Presque en mode horizontal
+
+![09 - structure fonctionnelle](img/organisation/09-structure-fonctionnelle.jpg?raw=true)
+
+La structure fonctionnelle est adaptée à un environnement stable et pour des entreprises de taille limitée et peu diversiﬁées.
+
+#### LA STRUCTURE DIVISIONNELLE
+![10 - structure divisionnelle](img/organisation/10-structure-divisionnelle.jpg?raw=true)
+
+La structure divisionnelle opère un découpage de l’entreprise en unités autonomes spécialisées en fonction des domaines d’activités stratégiques. Elle repose en général sur la distinction d’activités, de familles de produits, ou encore de marchés.
+- structure divergente : on découpe selon les domaines d'activités, spécialisation d'activités
+
+![11 - tableau structure divisionnelle](img/organisation/11-tableau-structure-divisionnelle.jpg?raw=true)
+
+Cette structure répond au contexte de diversiﬁcation des activités, des produits et des marchés.
+
+#### LA STRUCTURE MATRICIELLE
+![12 - structure matricielle](img/organisation/12-structure-matricielle.jpg?raw=true)
+
+La structure matricielle est une structure plus complexe. Elle repose sur deux critères conjoints de segmentation des activités de type fonctions / produits, ou produits / régions, par exemple. La structure matricielle induit une double, voire une triple hiérarchie pour les subordonnés.
+- Relations hiérarchiques multiples mais complémentaires
+- Adaptation plus flexible à la complexité en fonction des tâches à effectuer
+- Répartition des pouvoirs de décision
+- Croisement de compétences autour des domaines d’activité clefs du système
+
+![13 - tableau structure matricielle](img/organisation/13-tableau-structure-matricielle.jpg?raw=true)
+
+Grandes entreprises opérant sur plusieurs marchés ou projets
+- décloisoinement : moins dans silos
+- absence d'unité commandement : prise de décision plus complexe et la communication quand c'est décentralisé
+
+#### AUTRES FORME
+
+![14 - autres formes](img/organisation/14-autres-formes.jpg?raw=true)
+
+- Il existe d’autres formes de structures. Les entreprises tendent à adopter des structures nouvelles, plus souples et comportant moins de niveaux hiérarchiques. Elles développent aussi, sous la forme de réseaux, des coopérations entre firmes.
+- Structure linéaire ou classique (petites entreprises traditionnelles): simplicité et concentration des pouvoirs.
+- Des entreprises qui essaient de repondre aux changements
+
+#### SELON MINTZBERG
+
+![15 - MINTZBERG](img/organisation/15-mintzberg-6-parties-de-base.jpg?raw=true)
+
+Selon Mintzberg, toutes les organisations (et donc toutes les entreprises) sont composées de six parties de base
+
+- Un centre opérationnel : les opérateurs qui effectuent le travail de base de production des biens et des services ;
+- Un sommet stratégique : les hauts dirigeants qui définissent la stratégie, les grandes orientations de l’organisation ;
+- Une ligne hiérarchique : la courroie de transmission entre le centre opérationnel et le sommet stratégique ;
+- Le support logistique : les services qui assurent des fonctions qui ne concourent pas directement à la production mais qui appuient et aident les autres ;
+- La technostructure : les analystes qui planifient, organisent et contrôlent mais sans autorité formelle ;
+- Une idéologie : les éléments culturels, comme des croyances, des valeurs de traditions, des comportements, partagés par les membres de l’organisation.
+
+**7 configurations structurelles** - PAS BESOIN DE SAVOIR
+1. L’organisation entrepreneuriale ou structure simple :
+- Se caractérise par une structure peu élaborée. Le principal mécanisme de coordination est la supervision directe. La partie clef de l’organisation est le sommet stratégique, d’où la tendance à la centralisation.
+- Elle correspond à des entreprises de petite taille, jeunes, à la technologie peu sophistiquée et à des environnements dynamiques.
+2. L’organisation ou bureaucratie mécaniste :
+- Correspond aux principes classiques du management. La partie clef de l’organisation est la technostructure. Cette conﬁguration met l’accent sur la division du travail. La coordination s’appuie principalement sur la standardisation des procédés de travail.
+- La centralisation est très forte, ainsi que les mécanismes de contrôle. Cette conﬁguration est propre aux organisations âgées, de grande taille et aux environnements stables
+3. L’organisation ou structure divionnalisée :
+- Dans laquelle la ligne hiérarchique est la partie clef de l’organisation. La coordination repose principalement sur la standardisation des résultats et le contrôle des performances des différentes unités.
+- Cette organisation est marquée par une décentralisation verticale. Elle se retrouve pour des organisations âgées, de grande taille et dont les marchés sont diversiﬁés avec des technologies distinctes.
+4. L’organisation ou bureaucratie professionnelle :
+- A pour partie-clef le centre opérationnel. Le principal mode de coordination est la standardisation des qualiﬁcations. Cette organisation est marquée par la décentralisation horizontale et verticale.
+- Elle est adaptée à des entreprises d’âge et de taille variables, aux technologies non sophistiquées et à des environnements complexes, mais stables.
+5. L’organisation innovatrice ou adhocratie :
+- Est une structure ﬂuide, apparue récemment, et qui respecte les principes classiques de management. L’ajustement mutuel est le principal mode de coordination, car la standardisation n’est pas possible. Les fonctions de support jouent un rôle clef, même si elles sont moins bien délimitées dans ce type de structure.
+- Cette conﬁguration correspond à des entreprises jeunes et de petite taille, dont la technologie est sophistiquée et l’environnement complexe et dynamique.
+- « Adhocratie » est un néologisme (provenant du terme latin ad hoc) utilisé pour désigner une configuration d'organisation qui mobilise, dans un contexte d'environnements instables et complexes, des compétences pluridisciplinaires et transversales, pour mener à bien des missions précises
+6. L’organisation missionnaire :
+- A pour partie-clef de l’organisation, l’idéologie. La standardisation des normes est le principal mode de coordination. L’organisation est formée de petites unités décentralisées, mais qui sont soumises à un contrôle normatif.
+- Dans cette configuration l’idéologie définit les normes et croyances qui vont standardiser les comportements et assurer une forte coordination.
+7. L’organisation politique :
+- Peut dominer certaines organisations, conduisant aux conﬂits et à un manque d’ordre. L’organisation ne peut alors plus être décrite sous forme de structure et il n’est pas possible d’identiﬁer un mécanisme de coordination ou une partie-clef. Le pouvoir s’exerce de façon informelle.
+- C’est une organisation où les jeux de pouvoir entre les individus dominent le fonctionnement de l’organisation. Il s’agit d’une organisation en crise où le sens de la mission est perdu au profit des jeux de pouvoir. L’intérêt personnel des membres prend le pas sur tout autre considération.
+
+#### HOLACRATIE - QOQA
+"Mais en fait, c'est quoi l'Holacratie?"
+- Pour la faire courte, le principal changement consiste à ne plus représenter une entreprise comme un organigramme avec des gens qui sont chefs-cheffes d'autres gens, mais une concentration de cercles (par exemple Communication), qui regroupent des rôles (par exemple rédaction d'articles de blog) qui sont attribués à des personnes (par exemple, votre serviteur).
+- Cela parait anodin, mais cela change beaucoup de choses au moment de prendre des décisions: en gros, vous ne décidez pas des projets à mener parce que un chef vous l'a demandé, mais parce vous pensez que cela va être bénéfique pour QoQa.
+
+# ORGANISATION 2
+
+#### L'ENTREPRISE
+L’entreprise qui a pour vocation de produire des biens et des richesses, est aujourd’hui une organisation sociale qui doit intégrer des mutations fondamentales d’ordre :
+- économique (mondialisation)
+- managérial (gouvernance d’entreprise)
+- environnemental (développement dura
+
+Les entreprises sont classées selon trois critères : Les effectifs, Le chiffre d’affaires, Le total de son bilan. Ces trois critères permettent de classifier par taille les entreprises
+
+#### LES ENTREPRISES
+- Les micro-entreprises
+- Les petites et moyennes entreprises (PME)
+- Les entreprises de tailles intermédiaires (ETI)
+- Les grandes entreprises
+
+**Société mère**
+- La notion de société mère s’inscrit dans le cadre de la constitution d’un groupe d’entreprises.
+- Ces entreprises dépendent d’un centre de décision ultime : la société mère ou tête du groupe.
+- Elle a comme caractéristiques :
+ - d’avoir au moins une filiale
+ - de n’être contrôlée, directement ou indirectement, par aucune autre entreprise.
+
+**Filiale** : La filiale est une société dont le capital social est contrôlé par la société mère à plus de 50 %. Le seuil de 50 % permet d’avoir la majorité absolue.
+
+**Participation** : Une participation pour une société résulte du fait de détenir, dans une autre société, une fraction du capital social comprise entre 10 % et moins de 50 %.
+
+**Holding** : La holding company qui signifie «société de soutien», est le terme utilisé pour désigner une société purement financière. Elle présente les caractéristiques suivantes :
+- Une produit ni biens, ni services
+- est composée des titres d’une autre société
+- gère le portefeuille de titres qu’elle contrôle
+
+**En Suisse, les quatre formes les plus courantes pour les entreprises sont:**
+1. L’entreprise individuelle (à ne pas confondre avec la société simple) est fondée simplement par une seule personne physique et ne requiert pas de formalités particulières, hormis une inscription à une caisse de compensation et pour un chiffre d'affaires annuel à partir de CHF 100'000.-, une inscription au registre du commerce. Ainsi, l'activité démarre rapidement. En revanche, l'entrepreneur-e assume d'éventuelles dettes de son entreprise avec sa fortune personnelle.
+2. La société en nom collectif (SNC) est une société de personnes composée d'au moins deux personnes physiques et n'a pas de personnalité juridique propre. Ses associés assument ainsi personnellement et de manière solidaire les dettes de la société. La société en nom collectif est constituée par la signature d'un contrat entre les associés et son inscription au registre du commerce est obligatoire.
+3. La société anonyme (SA) est une société de capitaux jouissant de sa propre personnalité juridique (personne morale). Le capital-actions de la société doit être de CHF 100'000.- minimum. La responsabilité des actionnaires est limitée à leur participation au capital. La société doit pouvoir être représentée par une personne domiciliée en Suisse. Il peut s'agir d'un membre du conseil d'administration ou d'un directeur. La société est créée par devant notaire et son inscription au registre du commerce est obligatoire et constitutive.
+4. La société à responsabilité limitée (Sàrl) offre des avantages similaires à la société anonyme (SA). Le capital de la société doit être de CHF 20'000.- minimum. La société est créée par devant notaire et son inscription au registre du commerce est obligatoire et constitutive.
+
+- La conception de la structure d’organisation de l’entreprise doit donc permettre de coordonner l’ensemble des moyens humains et matériels pour réaliser les tâches de l’entreprise.
+- Elle sera formalisée par une représentation graphique, l’organigramme, qui représente schématiquement l’architecture générale de management de l’entreprise.
+- L’entreprise, pour produire des biens ou des services, doit avoir une structure adaptée à ses objectifs.
+-  Il conditionne la création d’une certaine culture d’entreprise
+- L’organigramme est une expression graphique de la structure de management d’une entreprise qui donne deux types d’informations :
+ - Les responsabilités suivant l’axe horizontal
+ - Les rattachements hiérarchiques suivant l’axe vertical (liens de subordination)
+
+ ![16 - structure organigramme](img/organisation/16-strucutre-orga.jpg?raw=true)
+
+**Les quatre grandes formes de structure sont les suivantes :**
+1. La structure fonctionnelle : simple ; comporte deux niveaux hiérarchiques principaux :
+- Le niveau direction :N
+- Le niveau département (ligne opérationnelle) : N-1
+
+![17 - structure fonctionnelle simple](img/organisation/17-structure-fonctionnelle-simple.jpg?raw=true)
+
+- staff and line ; des responsables de ligne de métier, qui exercent un rôle hiérarchique direct.
+- comporte deux niveaux hiérarchiques principaux :
+ - Le niveau direction: N
+ - Le niveau département (ligne opérationnelle) : N-1
+
+Les experts détachés (staff) ou état-major sont rattachés à la direction générale.
+
+![18](img/organisation/18.jpg?raw=true)
+
+2. La structure divisionnelle comporte trois niveaux hiérarchiques principaux :
+- le niveau direction générale : N
+- le niveau division: N-1
+- le niveau département : N-2
+
+Chaque département peut-être organisé en services (N-3) et en groupes (N-4).
+
+![19 - structure divisionnelle](img/organisation/19-structure-divisionnelle.jpg?raw=true)
+
+3. La structure par projet : Répondre efficacement aux besoins des projets, en permettant à la direction générale de coordonner simultanément plusieurs projets (charges discontinues) et de procéder à des arbitrages de priorité entre eux. Cette structure, très « réactive », favorise la communication (montante et descendante) entre les clients, la direction générale et les chefs de projet. Le chef de projet, dans ce type de structure, est la personne clé qui dispose, sous son autorité, de tous les moyens humains et matériels pour conduire le projet. On retrouve cette organisation dans le bâtiment, l’informatique et pour toute réalisation ayant un caractère unique et exceptionnel.
+
+Comporte deux niveaux hiérarchiques principaux :
+- le niveau direction générale : N
+- le niveau chef de projet (département) : N-1.
+- les autres responsables, qui dépendent fonctionnellement et hiérarchiquement du chef de projet, sont organisés en service de niveau N-2
+
+![20 - structure par projets](img/organisation/20-structure-projet.jpg?raw=true)
+
+4. La structure matricielle associe, pour réaliser des projets complexes, deux types de structure :
+- la structure fonctionnelle (axe métier), garante des ressources techniques et humaines
+- la structure par projet (axe projet)
+- La structure matricielle se décompose en deux niveaux hiérarchiques principaux :
+ - la direction générale de niveau N
+ - l’axe fonctionnel (ou axe métier) et l’axe projet de niveau N-1
+
+ ![21 - structure matricielle](img/organisation/21-structure-matricielle.jpg?raw=true)
+
+5. L’adhocratie est une structure d’organisation fluide qui répond à une demande spécifique.
+- ne peut pas avoir une représentation graphique « normalisée ».
+- Les experts, qui la composent, temporairement, sont issus, eux, d’une structure « normalisée ».
+- s’oppose à la bureaucratie et aux organisations de routine, est créée pour un projet unique ou une innovation complexe, elle repose sur la connaissance et la créativité.
+- Elle est caractérisée par le regroupement:
+ - de personnels hautement qualifiés
+ - de compétences multidisciplinaires
+ - le caractère provisoire de l’entité créée
+ - le mode informel de la circulation des informations
+ - un processus de décision flexible
+
+![22 - structure adhocratie](img/organisation/22-structure-adhocratie.jpg?raw=true)
+
+![23 - resume](img/organisation/23-resume.jpg?raw=true)
+
+#### NORMALISATION
+- La norme ISO 9000 représente une famille de normes reconnue sur le plan mondial, pour la mise en valeur de la qualité. Elle constitue une référence internationale concernant les exigences de management de la qualité, dans les relation interentreprises.
+- Les huit principes de management :
+• Principe n° 1 : écoute client.
+• Principe n° 2 : leadership.
+• Principe n° 3 : implication du personnel.
+• Principe n° 4 : approche processus.
+• Principe n° 5 : management par approche système.
+• Principe n° 6 : amélioration continue.
+• Principe n° 7 : approche factuelle pour la prise de décision.
+• Principe n°8 : relations mutuellement bénéfiques avec les fournisseurs.
+
+#### RSE
+- Responsabilité sociale de l’entreprise - RSE
+- Induit un changement de perspective de l’entre prise vis- à-vis de son environnement, en passant d’une approche actionnariale à la prise en compte des attentes de l’ensemble de ses parties prenantes
+-  Perçue comme une contrainte et une difficulté supplémentaire OU une opportunité créatrice de valeur permettant de se positionner sur un marché
+
+#### JETI
+- Jeunes entreprises technologiques innovantes
+ - le niveau d’éducation du personnel
+ - l’investissement en R&D
+ - le secteur industriel de l’entreprise
+ - Autonomes, progressives, modèle de Silicon Valley
+ - Incertitude, instabilité, difficulté à définir la valeur
+
+#### EXO
+Créer votre entreprise du futur. Se baser sur ce qui existe et développer.
+- Nom, forme juridique
+- Concept, valeur (s), stratégie sur le marché, produits/services
+- Ressources humaines – compétences clés de l’entreprise
+- Organisation / structure / leadership
+- Faites votre pitch et convainquez-nous!
