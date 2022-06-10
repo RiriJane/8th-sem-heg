@@ -25,7 +25,7 @@ Examen :
   - 1 rapport écrit (maximum 10 pages): Délai le 03.06.2022
   - 1 présentation orale de 20 minutes par équipe: 01.06.2022 / 03.06.2022
 
-![Planning ITIL](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/img/info/planning_ITIL.jpg)
+![Planning ITIL](img/info/planning_ITIL.jpg?raw=true)
 
 - examen final : 50%
   - individuel, oral
@@ -35,6 +35,7 @@ Examen :
 1. [Management](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#1-management)
 2. [Délégation](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#2-d%C3%A9l%C3%A9gation)
 3. [Innovation managériale](https://github.com/RiriJane/8th-sem-heg/blob/master/614-1_Management/614-1_Management.md#innovation-manag%C3%A9riale)
+4. 
 
 ## PRESENTATION ITIL 4
 - Former une équipe
@@ -87,10 +88,10 @@ Examen :
 #### HISTORIQUE DE MANAGEMENT
 
 5. ecole décisionnelle
-- management verticial et horizontal
+    - management verticial et horizontal
 
 6. ecole systémique
-- se concentre sur l'interaction
+    - se concentre sur l'interaction
 
 
 #### ON NE NAIT PAS MANGER, ON LE DEVIENT
@@ -171,20 +172,20 @@ Examen :
 
 #### PREPARER LA DELEGATION
 1. Qui, Quoi, Comment
-- définir les tâches qui seront déléguées
-- sélectionner des tâches qu'on peut accomplir seul en focntion du charge de travail et compétences
-- trier les autres tâches, à déléguer aux autres, en fonction de :
-  - la facilité de réalisation
-  - la compétence nécessaire
-  - la faire réaliser à un intervenant externe
-- ne pas déléguer des tâches pénibles (c'est démotivant)
+    - définir les tâches qui seront déléguées
+    - sélectionner des tâches qu'on peut accomplir seul en focntion du charge de travail et compétences
+    - trier les autres tâches, à déléguer aux autres, en fonction de :
+      - la facilité de réalisation
+      - la compétence nécessaire
+      - la faire réaliser à un intervenant externe
+    - ne pas déléguer des tâches pénibles (c'est démotivant)
 2. Choisir la personne à qui déléguer
-- connaître les compétences des collaborateurs, leur charge de travail, leur motivation
-- reprendre la liste des tâches à déléguer et analyser les profils des collègues
-- matrice de compétences
+    - connaître les compétences des collaborateurs, leur charge de travail, leur motivation
+    - reprendre la liste des tâches à déléguer et analyser les profils des collègues
+    - matrice de compétences
 3. Fixer des objectifs
-- définir la mission et les objectifs à atteindre
-- utiliser le SMART
+    - définir la mission et les objectifs à atteindre
+    - utiliser le SMART
 
 ![méthode smart](img/delegation/m%C3%A9thode-smart.jpg?raw=true)
 
@@ -292,6 +293,7 @@ Une question ouverte énonçant un problème pour un utilisateur clé spécifiqu
 ![3 outils](img/innovation-manageriale/3-outils.jpg)
 
 1. **User journey**
+
 ![user journey](img/innovation-manageriale/user-journey.jpg?raw=true)
 
 
@@ -308,20 +310,20 @@ Une question ouverte énonçant un problème pour un utilisateur clé spécifiqu
 Parce que vous voulez comprendre l'expérience de votre utilisateur clé dans son ensemble, et pas seulement la partie qui intéresse directement votre entreprise/projet.
 
 2. **Les observations**
-- il faut : observer les comportements, les raccouris, le langage non-verbal, les émotions, être empathique et essayer de comprendre ce qui se passe pour l’utilisateur
-- ne pas : interagir avec l’utilisateur, juger, essayer de résoudre quelque chose maintenant….
+    - il faut : observer les comportements, les raccouris, le langage non-verbal, les émotions, être empathique et essayer de comprendre ce qui se passe pour l’utilisateur
+    - ne pas : interagir avec l’utilisateur, juger, essayer de résoudre quelque chose maintenant….
 3. Les interviews
-- Planifier du temps (60 minutes) et choisir un lieu neutre
-- Préparer un script et le pratiquer
-- Mettre un effort sur l’ouverture pour la création d’un lien de confiance
-- Demander seulement des questions ouvertes
-- Vous voulez des histoires des expériences passées ou présentes
-- Vous ne voulez pas de déclarations générales à des questions générales
-- NE PAS DEMANDER à l’utilisateur des solutions potentielles ou futures
-- Utiliser et réutiliser les 5 pourquoi
-- Aller jusqu’aux émotions
-- Préférer un papier et un crayon plutôt qu’un écran
-- Proposer l’option d’ajouter quelque chose à la fin
+    - Planifier du temps (60 minutes) et choisir un lieu neutre
+    - Préparer un script et le pratiquer
+    - Mettre un effort sur l’ouverture pour la création d’un lien de confiance
+    - Demander seulement des questions ouvertes
+    - Vous voulez des histoires des expériences passées ou présentes
+    - Vous ne voulez pas de déclarations générales à des questions générales
+    - NE PAS DEMANDER à l’utilisateur des solutions potentielles ou futures
+    - Utiliser et réutiliser les 5 pourquoi
+    - Aller jusqu’aux émotions
+    - Préférer un papier et un crayon plutôt qu’un écran
+    - Proposer l’option d’ajouter quelque chose à la fin
 
 #### LE PRINCIPE DES 5 POURQUOI
 ![Les 5 principes de pourquoi](img/innovation-manageriale/5-principes-pourquoi.jpg?raw=true)
@@ -332,25 +334,25 @@ Chaque réponse à un « pourquoi ? » sert pour construire la question suiva
 #### EXEMPLES
 Exemple : “J’ai pris du retard sur la création de mon site web.”
 
-1) Pourquoi j’ai pris du retard sur la création de mon site web ?
+1. Pourquoi j’ai pris du retard sur la création de mon site web ?
 
-“Parce que je suis débordé et que j’ai beaucoup de projets en cours.”  
+    “Parce que je suis débordé et que j’ai beaucoup de projets en cours.”  
 
-2) Pourquoi j’ai beaucoup de projets en cours ?
+2. Pourquoi j’ai beaucoup de projets en cours ?
 
-“Parce que beaucoup de personnes sont venues me voir pour me demander de l’aide.” 
+    “Parce que beaucoup de personnes sont venues me voir pour me demander de l’aide.” 
 
-3) Pourquoi beaucoup de personnes sont venues me voir pour me demander de l’aide ?
+3. Pourquoi beaucoup de personnes sont venues me voir pour me demander de l’aide ?
 
-“Parce que je leur dis souvent oui quand elles me demandent de l’aide.”
+    “Parce que je leur dis souvent oui quand elles me demandent de l’aide.”
 
-4) Pourquoi je leur dis souvent oui ?
+4. Pourquoi je leur dis souvent oui ?
 
-“Parce que j’ai du mal à leur dire non.”
+    “Parce que j’ai du mal à leur dire non.”
 
-5) Pourquoi j’ai du mal à leur dire non ?
+5. Pourquoi j’ai du mal à leur dire non ?
 
-“Parce que j’ai peur de vexer les personnes qui me demandent de l’aide.”
+    “Parce que j’ai peur de vexer les personnes qui me demandent de l’aide.”
 
 #### PREPARER LE SCRIPT POUR L'INTERVIEW
 - Définir qui interviewer (utilisateur clé ou périphérique)
@@ -807,46 +809,42 @@ langage et de nos perceptions.
 
 #### INTELLIGENCE EMOTIONNELLE (QE) - DANIEL GOLEMAN
 1. **La conscience de soi**
+    - Etre conscient de ses propres sentiments au fur et à mesure de leur apparition.
+    - Capacité d’autoréflexion même dans la tempête des émotions.
+    - Etre conscient à la fois de notre humeur du moment et de nos pensées et comportements relatifs à cette humeur.
+    - La capacité à reconnaître et à comprendre ses humeurs, ses émotions et ses pulsions, ainsi que leurs effets sur les autres.
+
 > «Connais-toi toi-même»
-
-
- - Etre conscient de ses propres sentiments au fur et à mesure de leur apparition.
-- Capacité d’autoréflexion même dans la tempête des émotions.
-- Etre conscient à la fois de notre humeur du moment et de nos pensées et comportements relatifs à cette humeur.
-- La capacité à reconnaître et à comprendre ses humeurs, ses émotions et ses pulsions, ainsi que leurs effets sur les autres.
 
 Signes distinctifs : Confiance en soi, Évaluation réaliste de soi, Sens de l'humour auto-dépréciatif
 
 2. **La maîtrise de soi** : La capacité de contrôler ou de réorienter les impulsions et les humeurs perturbatrices. La propension à suspendre son
 jugement - à réfléchir avant d'agir.
-
-- Le but est un équilibre émotionnel.
-- Contenir ses émotions négatives est la clé du bien-être affectif.
-- L’art de s’apaiser.
-- Désamorcer sa colère.
+    - Le but est un équilibre émotionnel.
+    - Contenir ses émotions négatives est la clé du bien-être affectif.
+    - L’art de s’apaiser.
+    - Désamorcer sa colère.
 
 Signes distinctifs : Digne de confiance et intègre, Aisance dans l'ambiguïté, Ouverture au changement
 
 3. **La motivation** : Une passion pour le travail pour des raisons qui vont au-delà de l'argent ou du statut. Une propension à poursuivre ses objectifs avec énergie et persévérance.
-
-- Une motivation positive, savoir se motiver soi-même.
-- Etre optimiste
-- Il est possible d’apprendre à être optimiste et confiant dans l’avenir.
+    - Une motivation positive, savoir se motiver soi-même.
+    - Etre optimiste
+    - Il est possible d’apprendre à être optimiste et confiant dans l’avenir.
 
 4. **L’empathie** : La capacité à comprendre la composition émotionnelle des autres personnes. Capacité à traiter les gens en fonction de leurs réactions émotionnelles.
-
-- Capacité de comprendre ce que ressentent les autres
-- Les émotions se traduisent rarement en paroles
-- Connaître les émotions des autres, c’est avant tout déchiffrer les signes non-verbaux.
+    - Capacité de comprendre ce que ressentent les autres
+    - Les émotions se traduisent rarement en paroles
+    - Connaître les émotions des autres, c’est avant tout déchiffrer les signes non-verbaux.
 
 Signes distinctifs : Expertise dans le développement et le maintien des talents, Sensibilité interculturelle, Service au client et aux consommateurs
 
 5. **La maîtrise des relations humaines** : Aptitude à gérer les relations et à créer des réseaux capacité à trouver un terrain d'entente et à établir des rapports
-- Les compétences sociales
-- Savoir exprimer ses émotions
-- Habilité à minimiser, exagérer, substituer
-- Les émotions se transmettent d’un individu à un autre
-- Les indicateurs des compétences sociales comprennent l'efficacité dans la conduite du changement, le pouvoir de persuasion, la création d'expertise et le leadership des équipes.
+    - Les compétences sociales
+    - Savoir exprimer ses émotions
+    - Habilité à minimiser, exagérer, substituer
+    - Les émotions se transmettent d’un individu à un autre
+    - Les indicateurs des compétences sociales comprennent l'efficacité dans la conduite du changement, le pouvoir de persuasion, la création d'expertise et le leadership des équipes.
 
 Signes distinctifs : Efficacité dans la conduite du changement, Capacité de persuasion, Expertise dans la constitution et la direction d'équipes
 
@@ -1311,6 +1309,7 @@ Le fonctionnement de ce type d’organisation repose sur quatre éléments :
 2. Une définition précise des tâches et des compétences de chacun
 3. Un accès aux fonctions lui aussi soumis à des règles et lié à une compétence
 4. Une formalisation suffisante, les règles devant être écrites et connues de tous
+
 **A. Marshall (aspect économique) appelle «organisation» un système social où l’activité économique se déroule de manière autonome**
 - Marshall économiste britannique (1924).
 - O. Williamson: L’unité de base de l’analyse économique doit être la transaction, qu’elle soit externe (l’entreprise sur son marché) ou interne (au sein de la firme).
@@ -1370,6 +1369,7 @@ L’efficacité organisationnelle peut être décrite à l’aide de quatre comp
 Chacune de ces dimensions peut faire l’objet d’indicateurs, permettant ainsi de disposer d’une grille d’analyse complète.
 
 **Les parties prenantes**
+
 Toute organisation a donc à résoudre la question de sa relation avec les différents partenaires, en choisissant ceux des objectifs qu’elle cherche à satisfaire, en distribuant des «résultats» aux différents groupes de partenaires, et en assurant un certain équilibre entre ces «demandes» à travers le temps.
 
 ![02 - tableau efficacité organisationnelle](img/organisation/02-tableau-efficacite-orga.jpg?raw=true)
@@ -1395,27 +1395,27 @@ Toute organisation a donc à résoudre la question de sa relation avec les diff�
 ![05 - structure organisation](img/organisation/05-structure-orga.jpg?raw=true)
 
 1. La spécialisation
-- Quand une entreprise grandit et réunit plusieurs salariés, se pose la question de la répartition des tâches à accomplir et donc de la division du travail.
-- La division du travail est horizontale ou verticale
-  - La division horizontale du travail correspond à la spécialisation des tâches des salariés de niveau hiérarchique équivalent. Elle est utilisée pour augmenter la productivité du travail.
-  - La division verticale du travail correspond à la spécialisation des tâches entre des salariés de niveaux hiérarchiques différents. Elle résulte d’une séparation entre la réalisation du travail et son administration. Elle introduit donc des relations d’autorité au sein de l’entreprise.
-- La spécialisation concerne également les choix de découpage des activités de l’entreprise qui conduisent à l’adoption de structures-types différentes. Certaines entreprises s’organisent autour de fonctions et donc leurs différents services sont spécialisés dans la production, le commercial...
-- D’autres critères de spécialisation peuvent être choisis par les entreprises, comme des critères géographiques.
-- La spécialisation s’explique par la volonté d’augmenter l’expertise des services et par des choix relatifs à la taille des unités. Le degré de différenciation d’une entreprise est d’autant plus élevé que le nombre de services spéciﬁques augmente.
+   - Quand une entreprise grandit et réunit plusieurs salariés, se pose la question de la répartition des tâches à accomplir et donc de la division du travail.
+   - La division du travail est horizontale ou verticale
+      - La division horizontale du travail correspond à la spécialisation des tâches des salariés de niveau hiérarchique équivalent. Elle est utilisée pour augmenter la productivité du travail.
+      - La division verticale du travail correspond à la spécialisation des tâches entre des salariés de niveaux hiérarchiques différents. Elle résulte d’une séparation entre la réalisation du travail et son administration. Elle introduit donc des relations d’autorité au sein de l’entreprise.
+   - La spécialisation concerne également les choix de découpage des activités de l’entreprise qui conduisent à l’adoption de structures-types différentes. Certaines entreprises s’organisent autour de fonctions et donc leurs différents services sont spécialisés dans la production, le commercial...
+   - D’autres critères de spécialisation peuvent être choisis par les entreprises, comme des critères géographiques.
+   - La spécialisation s’explique par la volonté d’augmenter l’expertise des services et par des choix relatifs à la taille des unités. Le degré de différenciation d’une entreprise est d’autant plus élevé que le nombre de services spéciﬁques augmente.
 
 2. La coordination
-- Parallèlement à la spécialisation des salariés et des services, l’entreprise doit rechercher la cohérence de l’ensemble de ses éléments, c’est-à-dire une bonne coordination.
-- Il s’agit de mécanismes formels permettant l’intégration de l’entreprise. La hiérarchie est le principal mode de coordination.
-- Néanmoins, les entreprises mettent aussi en place des dispositifs de coordination, ou mécanismes de liaison, comme les réunions, les comités ou encore le recours à des agents intégrateurs de type chef de projet.
+    - Parallèlement à la spécialisation des salariés et des services, l’entreprise doit rechercher la cohérence de l’ensemble de ses éléments, c’est-à-dire une bonne coordination.
+    - Il s’agit de mécanismes formels permettant l’intégration de l’entreprise. La hiérarchie est le principal mode de coordination.
+    - Néanmoins, les entreprises mettent aussi en place des dispositifs de coordination, ou mécanismes de liaison, comme les réunions, les comités ou encore le recours à des agents intégrateurs de type chef de projet.
 
 ![06 - trois modes de coordination principaux](img/organisation/06-3-modes-coor-princip.jpg?raw=true)
 
 3. La formalisation
-- La formalisation permet la standardisation des processus de travail. Les structures des entreprises sont plus ou moins formalisées; les structures mécanistes, rigides, s’opposent ainsi aux structures organiques plus souples et peu formalisées.
-- Il existe trois principaux moyens de formalisation en entreprise :
- - La formalisation des postes concerne la spéciﬁcation précise d’un poste de travail (description précise des phases du travail du titulaire du poste, de leur ordre et de leur durée)
- - La formalisation des ﬂux de travail porte sur le travail à effectuer et la façon de le faire (par exemple les partitions des musiciens)
- - La formalisation par le règlement consiste à créer des règles valables pour toutes les actions  précisant ce qu’il faut faire, quand, où, par qui et ce, quel que soit le poste occupé ou le ﬂux de travail (les entreprises peuvent rassembler ces règles dans un manuel de procédures)
+    - La formalisation permet la standardisation des processus de travail. Les structures des entreprises sont plus ou moins formalisées; les structures mécanistes, rigides, s’opposent ainsi aux structures organiques plus souples et peu formalisées.
+    - Il existe trois principaux moyens de formalisation en entreprise :
+       - La formalisation des postes concerne la spéciﬁcation précise d’un poste de travail (description précise des phases du travail du titulaire du poste, de leur ordre et de leur durée)
+       - La formalisation des ﬂux de travail porte sur le travail à effectuer et la façon de le faire (par exemple les partitions des musiciens)
+       - La formalisation par le règlement consiste à créer des règles valables pour toutes les actions  précisant ce qu’il faut faire, quand, où, par qui et ce, quel que soit le poste occupé ou le ﬂux de travail (les entreprises peuvent rassembler ces règles dans un manuel de procédures)
 
 Les structures des entreprises ne sont pas ﬁgées. Elles résultent de l’histoire et de la croissance de l’entreprise. Plusieurs facteurs influencent les structures organisationnelles:
 
@@ -1487,27 +1487,27 @@ Selon Mintzberg, toutes les organisations (et donc toutes les entreprises) sont 
 
 **7 configurations structurelles** - PAS BESOIN DE SAVOIR
 1. L’organisation entrepreneuriale ou structure simple :
-- Se caractérise par une structure peu élaborée. Le principal mécanisme de coordination est la supervision directe. La partie clef de l’organisation est le sommet stratégique, d’où la tendance à la centralisation.
-- Elle correspond à des entreprises de petite taille, jeunes, à la technologie peu sophistiquée et à des environnements dynamiques.
+    - Se caractérise par une structure peu élaborée. Le principal mécanisme de coordination est la supervision directe. La partie clef de l’organisation est le sommet stratégique, d’où la tendance à la centralisation.
+    - Elle correspond à des entreprises de petite taille, jeunes, à la technologie peu sophistiquée et à des environnements dynamiques.
 2. L’organisation ou bureaucratie mécaniste :
-- Correspond aux principes classiques du management. La partie clef de l’organisation est la technostructure. Cette conﬁguration met l’accent sur la division du travail. La coordination s’appuie principalement sur la standardisation des procédés de travail.
-- La centralisation est très forte, ainsi que les mécanismes de contrôle. Cette conﬁguration est propre aux organisations âgées, de grande taille et aux environnements stables
+    - Correspond aux principes classiques du management. La partie clef de l’organisation est la technostructure. Cette conﬁguration met l’accent sur la division du travail. La coordination s’appuie principalement sur la standardisation des procédés de travail.
+    - La centralisation est très forte, ainsi que les mécanismes de contrôle. Cette conﬁguration est propre aux organisations âgées, de grande taille et aux environnements stables
 3. L’organisation ou structure divionnalisée :
-- Dans laquelle la ligne hiérarchique est la partie clef de l’organisation. La coordination repose principalement sur la standardisation des résultats et le contrôle des performances des différentes unités.
-- Cette organisation est marquée par une décentralisation verticale. Elle se retrouve pour des organisations âgées, de grande taille et dont les marchés sont diversiﬁés avec des technologies distinctes.
+    - Dans laquelle la ligne hiérarchique est la partie clef de l’organisation. La coordination repose principalement sur la standardisation des résultats et le contrôle des performances des différentes unités.
+    - Cette organisation est marquée par une décentralisation verticale. Elle se retrouve pour des organisations âgées, de grande taille et dont les marchés sont diversiﬁés avec des technologies distinctes.
 4. L’organisation ou bureaucratie professionnelle :
-- A pour partie-clef le centre opérationnel. Le principal mode de coordination est la standardisation des qualiﬁcations. Cette organisation est marquée par la décentralisation horizontale et verticale.
-- Elle est adaptée à des entreprises d’âge et de taille variables, aux technologies non sophistiquées et à des environnements complexes, mais stables.
+    - A pour partie-clef le centre opérationnel. Le principal mode de coordination est la standardisation des qualiﬁcations. Cette organisation est marquée par la décentralisation horizontale et verticale.
+    - Elle est adaptée à des entreprises d’âge et de taille variables, aux technologies non sophistiquées et à des environnements complexes, mais stables.
 5. L’organisation innovatrice ou adhocratie :
-- Est une structure ﬂuide, apparue récemment, et qui respecte les principes classiques de management. L’ajustement mutuel est le principal mode de coordination, car la standardisation n’est pas possible. Les fonctions de support jouent un rôle clef, même si elles sont moins bien délimitées dans ce type de structure.
-- Cette conﬁguration correspond à des entreprises jeunes et de petite taille, dont la technologie est sophistiquée et l’environnement complexe et dynamique.
-- « Adhocratie » est un néologisme (provenant du terme latin ad hoc) utilisé pour désigner une configuration d'organisation qui mobilise, dans un contexte d'environnements instables et complexes, des compétences pluridisciplinaires et transversales, pour mener à bien des missions précises
+    - Est une structure ﬂuide, apparue récemment, et qui respecte les principes classiques de management. L’ajustement mutuel est le principal mode de coordination, car la standardisation n’est pas possible. Les fonctions de support jouent un rôle clef, même si elles sont moins bien délimitées dans ce type de structure.
+    - Cette conﬁguration correspond à des entreprises jeunes et de petite taille, dont la technologie est sophistiquée et l’environnement complexe et dynamique.
+    - « Adhocratie » est un néologisme (provenant du terme latin ad hoc) utilisé pour désigner une configuration d'organisation qui mobilise, dans un contexte d'environnements instables et complexes, des compétences pluridisciplinaires et transversales, pour mener à bien des missions précises
 6. L’organisation missionnaire :
-- A pour partie-clef de l’organisation, l’idéologie. La standardisation des normes est le principal mode de coordination. L’organisation est formée de petites unités décentralisées, mais qui sont soumises à un contrôle normatif.
-- Dans cette configuration l’idéologie définit les normes et croyances qui vont standardiser les comportements et assurer une forte coordination.
+    - A pour partie-clef de l’organisation, l’idéologie. La standardisation des normes est le principal mode de coordination. L’organisation est formée de petites unités décentralisées, mais qui sont soumises à un contrôle normatif.
+    - Dans cette configuration l’idéologie définit les normes et croyances qui vont standardiser les comportements et assurer une forte coordination.
 7. L’organisation politique :
-- Peut dominer certaines organisations, conduisant aux conﬂits et à un manque d’ordre. L’organisation ne peut alors plus être décrite sous forme de structure et il n’est pas possible d’identiﬁer un mécanisme de coordination ou une partie-clef. Le pouvoir s’exerce de façon informelle.
-- C’est une organisation où les jeux de pouvoir entre les individus dominent le fonctionnement de l’organisation. Il s’agit d’une organisation en crise où le sens de la mission est perdu au profit des jeux de pouvoir. L’intérêt personnel des membres prend le pas sur tout autre considération.
+    - Peut dominer certaines organisations, conduisant aux conﬂits et à un manque d’ordre. L’organisation ne peut alors plus être décrite sous forme de structure et il n’est pas possible d’identiﬁer un mécanisme de coordination ou une partie-clef. Le pouvoir s’exerce de façon informelle.
+    - C’est une organisation où les jeux de pouvoir entre les individus dominent le fonctionnement de l’organisation. Il s’agit d’une organisation en crise où le sens de la mission est perdu au profit des jeux de pouvoir. L’intérêt personnel des membres prend le pas sur tout autre considération.
 
 #### HOLACRATIE - QOQA
 "Mais en fait, c'est quoi l'Holacratie?"
@@ -1564,8 +1564,8 @@ Les entreprises sont classées selon trois critères : Les effectifs, Le chiffre
 
 **Les quatre grandes formes de structure sont les suivantes :**
 1. La structure fonctionnelle : simple ; comporte deux niveaux hiérarchiques principaux :
-- Le niveau direction :N
-- Le niveau département (ligne opérationnelle) : N-1
+    - Le niveau direction :N
+    - Le niveau département (ligne opérationnelle) : N-1
 
 ![17 - structure fonctionnelle simple](img/organisation/17-structure-fonctionnelle-simple.jpg?raw=true)
 
@@ -1579,9 +1579,9 @@ Les experts détachés (staff) ou état-major sont rattachés à la direction g�
 ![18](img/organisation/18.jpg?raw=true)
 
 2. La structure divisionnelle comporte trois niveaux hiérarchiques principaux :
-- le niveau direction générale : N
-- le niveau division: N-1
-- le niveau département : N-2
+    - le niveau direction générale : N
+    - le niveau division: N-1
+    - le niveau département : N-2
 
 Chaque département peut-être organisé en services (N-3) et en groupes (N-4).
 
@@ -1597,24 +1597,24 @@ Comporte deux niveaux hiérarchiques principaux :
 ![20 - structure par projets](img/organisation/20-structure-projet.jpg?raw=true)
 
 4. La structure matricielle associe, pour réaliser des projets complexes, deux types de structure :
-- la structure fonctionnelle (axe métier), garante des ressources techniques et humaines
-- la structure par projet (axe projet)
-- La structure matricielle se décompose en deux niveaux hiérarchiques principaux :
- - la direction générale de niveau N
- - l’axe fonctionnel (ou axe métier) et l’axe projet de niveau N-1
+    - la structure fonctionnelle (axe métier), garante des ressources techniques et humaines
+    - la structure par projet (axe projet)
+    - La structure matricielle se décompose en deux niveaux hiérarchiques principaux :
+       - la direction générale de niveau N
+       - l’axe fonctionnel (ou axe métier) et l’axe projet de niveau N-1
 
  ![21 - structure matricielle](img/organisation/21-structure-matricielle.jpg?raw=true)
 
 5. L’adhocratie est une structure d’organisation fluide qui répond à une demande spécifique.
-- ne peut pas avoir une représentation graphique « normalisée ».
-- Les experts, qui la composent, temporairement, sont issus, eux, d’une structure « normalisée ».
-- s’oppose à la bureaucratie et aux organisations de routine, est créée pour un projet unique ou une innovation complexe, elle repose sur la connaissance et la créativité.
-- Elle est caractérisée par le regroupement:
- - de personnels hautement qualifiés
- - de compétences multidisciplinaires
- - le caractère provisoire de l’entité créée
- - le mode informel de la circulation des informations
- - un processus de décision flexible
+    - ne peut pas avoir une représentation graphique « normalisée ».
+    - Les experts, qui la composent, temporairement, sont issus, eux, d’une structure « normalisée ».
+    - s’oppose à la bureaucratie et aux organisations de routine, est créée pour un projet unique ou une innovation complexe, elle repose sur la connaissance et la créativité.
+    - Elle est caractérisée par le regroupement:
+       - de personnels hautement qualifiés
+       - de compétences multidisciplinaires
+       - le caractère provisoire de l’entité créée
+       - le mode informel de la circulation des informations
+       - un processus de décision flexible
 
 ![22 - structure adhocratie](img/organisation/22-structure-adhocratie.jpg?raw=true)
 
@@ -1623,14 +1623,14 @@ Comporte deux niveaux hiérarchiques principaux :
 #### NORMALISATION
 - La norme ISO 9000 représente une famille de normes reconnue sur le plan mondial, pour la mise en valeur de la qualité. Elle constitue une référence internationale concernant les exigences de management de la qualité, dans les relation interentreprises.
 - Les huit principes de management :
-• Principe n° 1 : écoute client.
-• Principe n° 2 : leadership.
-• Principe n° 3 : implication du personnel.
-• Principe n° 4 : approche processus.
-• Principe n° 5 : management par approche système.
-• Principe n° 6 : amélioration continue.
-• Principe n° 7 : approche factuelle pour la prise de décision.
-• Principe n°8 : relations mutuellement bénéfiques avec les fournisseurs.
+- Principe n° 1 : écoute client.
+  - Principe n° 2 : leadership.
+  - Principe n° 3 : implication du personnel.
+  - Principe n° 4 : approche processus.
+  - Principe n° 5 : management par approche système.
+  - Principe n° 6 : amélioration continue.
+  - Principe n° 7 : approche factuelle pour la prise de décision.
+  - Principe n°8 : relations mutuellement bénéfiques avec les fournisseurs.
 
 #### RSE
 - Responsabilité sociale de l’entreprise - RSE
