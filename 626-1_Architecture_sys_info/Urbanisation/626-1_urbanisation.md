@@ -808,3 +808,296 @@ Urbaniser le SI permet de :
 - intégrer des solutions hétérogènes (progiciels, des éléments de différentes plates-formes, etc.).
 - faire interagir le SI et avec d’autres SI (interopérabilité)
 - pouvoir remplacer certaines parties du SI (interchangeabilité) sans mettre en péril ni perturber l'ensemble du SI.
+
+# 05 mai 2022
+
+Dans le slide concept, elle a ajouté les données référentielle qui se trouve dans la slide 18, 19
+
+donnée référentielle :
+- donner des définitions sur les données pour éviter le malentendu, il faut clarifier, eclaircir les données
+
+# 19 mai 2022 - Couche applicative
+![01 - couche applicative](img/couche-applicative/01-couche-applicative.jpg?raw=true)
+
+Exam : expliquer les couches, à quoi ca sert et comment on l'utiliser ?
+
+#### OBJECTIFS - COUCHE APPLICATIVE
+La couche applicative répond à la question "Comment ?" sans tenir compte des acteurs et de l'organisation.
+
+La couche applicative a pour objectif de décrire les applications existantes, les fonctionnalités qu'elles implémentent, leur structuration en services (leur modules), et les échanges inter-applications.Il y a 2 temporeallité différentes : soit pour une application existante ou pour une future applications
+
+La couche applicative permet aussi de spécifier de nouvelles applications et leur intégration avec les applications existantes.
+
+La couche applicative établit le lien avec la couche fonctionnelle via les fonctionnalités.
+
+#### LES CONCEPTS
+- Application
+- Service applicatif
+- Base de données logique
+
+#### APPLICATION
+![02 - notation application](img/couche-applicative/02-notation-application.jpg?raw=true)
+
+- Un ensemble de composants logiciels qui constituent un tout cohérent au regard de leur déploiement, de leurs fonctionnalités et des techniques informatiques utilisées.
+
+**Convention de nommage :** un nom significatif des fonctionnalités. Eviter toute référence à une technologie.  
+
+#### SERVICE APPLICATIF
+![03 - notation service application](img/couche-applicative/03-notation-service-app.jpg?raw=true)
+
+Un service applicatif  est une unité de traitement cohérent qui coordonne un ensemble de messages entrants et sortants, dans le but de réaliser une ou plusieurs fonctionnalités.
+C’est l’élément le plus atomique de l’architecture applicative.
+
+Le service applicatif peut être utilisé pour structurer l'application en composants fonctionnels et en composants techniques selon une architecture orientée services (SOA).
+
+Ici on privilégie le découpage fonctionnel.
+
+Quand il y a une fonctionnalité utilisée plusieurs fois, on fait un service qui est réutilisable.
+
+On code à un seul endroit, à un seul module. Avantage : pas besoin de recoder
+
+**Convention de nommage :** un nom significatif de la couverture fonctionnelle portée par l'application. Toute référence à une technologie est à éviter sinon à proscrire.
+
+#### DIFFERENCE ENTRE SERVICE APPLICATIF ET APPLICATION
+La différence essentielle est que le service n'est pas déployable indépendamment de l'application qui le définit. Le service application peut être utilisé par une autre application = **réutilisable**.
+
+#### SOUS-APPLICATION ET SOUS-SERVICE APPLICATIF
+Sous-application : L’application peut être décomposée en sous-applications dédiées à un périmètre fonctionnel sous-ensemble du périmètre couvert par l’application de plus haut niveau, afin d’obtenir un regroupement cohérent de fonctionnalités.
+
+Sous-service applicatifs : Une application ou une sous-application peut être décomposée en services applicatifs et selon le même principe, un service peut être décomposé en sous-services applicatifs dédiés à un périmètre fonctionnel sous-ensemble du périmètre couvert par le service.
+
+Par exemple, odoo, erp, sap, etc.
+
+#### BASE DE DONNEES LOGIQUE
+![04 - notation bdd](img/couche-applicative/04-notation-bdd.jpg?raw=true)
+
+Un ensemble de données organisées indépendamment de son support physique (fichier, structure XML, base relationnelle,…).
+
+Sa structure peut être décrite de manière logique via un modèle de données.
+
+La modélisation des données ne sera pas abordée dans ce cours.
+Cependant, on s'intéresse ici à l'identification des grandes ensembles de données ayant un intérêt pour le domaine fonctionnel étudié.
+En particulier les données référentielles
+
+Comme les données référentielles mais on peut aller plus en détails
+
+**Convention de nommage :** un nom significatif de la nature des informations contenues. Eviter toute référence au support physique.
+
+#### LES CARTES DE LA COUCHE APPLICATIVE
+
+Sur la couche applicatif, on fait 3 cartes différentes(de plus général au plus particulier)
+
+- Diagramme d'environnement d'application
+- Arbre applicatif
+- Diagramme d'architecture applicative interne
+
+#### DIAGRAMME D'ENVIRONNEMENT D'APPLICATION
+
+![05 - diagramme d'environnement d'application](img/couche-applicative/05-diagramme-environnement-app.jpg?raw=true)
+
+Un diagramme d'environnement d'application est centré sur une seule application.
+
+Il est utilisé pour replacer l’application dans son environnement sans prendre en considération son architecture interne (sous-applications, services applicatifs).
+
+Il représente toutes les interactions de l’application décrite avec les autres applications.
+
+Ce diagramme est composé de l'application qu'il décrit ainsi que : des applications et acteurs qui échangent des flux d'information des messages qui décrivent les flux d'information échangés.
+
+Comme le processus de métiers. on regarde tous ce qui rentre et tous ce qui sort.
+
+Ne pas oublier de mettre la nature de l'information (label). La nature des messages sont des noms et non pas des verbes.
+
+#### ARBRE APPLICATIF
+
+![06 - arbre applicatif](img/couche-applicative/06-arbre-app.jpg?raw=true)
+
+Un arbre applicatif est un diagramme centré sur une seule application.
+Il est permet une représentation synthétique et hiérarchique de la décomposition d’une application en :
+- sous-applications
+- et en services applicatifs mettant en œuvre les fonctionnalités (au niveau le plus bas).
+C’est une vue statique, qui permet potentiellement d’identifier les fonctionnalités fournies par chacun des sous-applications ou des services.
+Il peut être composé de :
+- sous-applications
+- services applicatifs
+- fonctionnalités
+
+Une app n'a pas forcement des sous-app. On trouve les fonctionnalités on le trouve dans les cartes fonctionnelles(couche fonctionnelle).
+
+![07 - couche app](img/couche-applicative/07-couche-app.jpg?raw=true)
+
+#### DIAGRAMME D'ARCHITECURE APPLICATIVE INTERNE
+Un diagramme d'architecture applicative interne est centré sur une seule application. Il est utilisé pour décrire le fonctionnement interne de l’application. On s'interesse à comment l'app fonctionne
+
+Les objets qui apparaissent dans ce diagramme sont :
+- les sous-applications
+- les services applicatifs définis et utilisés
+- les bases de données logiques lues et mises à jour
+- les messages qui représentent des flux de données internes entre composants
+
+Un service applicatif est défini au sein d'une et une seule application.
+En revanche, il peut être utilisé par plusieurs autres applications.
+
+Recommandations :
+- Positionner les services définis dans l'application décrite
+- Positionner les services utilisés à l'extérieur de l'application décrite
+- L'application qui définit un service qui est utilisé doit se retrouver dans le diagramme d'environnement de l'application
+
+![08 - diagramme d'architecture applicative interne](img/couche-applicative/08-diagramme-arch-app-interne.jpg?raw=true)
+
+#### REGLES DE MODELISATION
+**[RM11]** Un service applicatif doit être défini par une seule application.
+
+**[RM12]** Un service applicatif doit être utilisé par une ou plusieurs  applications.
+
+**[RM13]** Chaque base de données logique doit être décrite par un modèle de données qui lui est rattaché.
+
+**[RM14]** Complétude et cohérence des flux d'information entre le diagramme d'environnement d'application et le diagramme d'architecture applicative interne
+Il faut vérifier la complétude et la cohérence des flux de message par rapport à l'application  :
+- Tous les flux en entrée de l'application doivent être déclencheur d'au moins un traitement (sous-application ou service applicatif)
+- Tous les flux en sortie doivent être produits par au moins un traitement (sous-application ou service applicatif)  
+
+En revanche, un traitement peut produire un résultat intermédiaire qui déclenchera une autre traitement.
+
+#### PRINCIPES D'URBANISATION
+**[PU5]** Une architecture orientée services
+Lors de la conception d'une nouvelle application, sa structuration doit s'inscrire dans la démarche SOA.
+
+**[PU6]** Unicité de la localisation d'une informationUne information doit être gérée en un point unique du système informatique.
+
+Il peut exister des copies des informations pour assurer l'archivage, certains recoupements en temps différé ou d'autres raisons. Ces copies sont destinées à des fins de consultation et non à des fins opérationnelles.
+
+**[PU7]** Unicité de l'implémentation d'une fonctionnalité Une fonctionnalité est implémentée par une seule application ou un seul service applicatif.
+
+**[PU8]** Réutilisation des services applicatifsNe pas dupliquer les composants informatiques.
+
+**Corollaire**
+
+Corollaire des principes d'urbanisation [PU2] et [PU4] (couche fonctionnelle) et du [PU7] (couche applicative) :  
+
+**Une fonctionnalité doit être implémentée par une seule application ou un seul service applicatif.**
+
+![09](img/couche-applicative/09.jpg?raw=true)
+
+#### CARTOGRAPHIE LA COUCHE APPLICATIVE
+1. Cartographie de la future solution informatique (la cible)
+2. Cartographie de l'existant
+
+Contexte : une nouvelle application est à concevoir et à intégrer dans un système informatique existant.
+
+Pré requis : avoir les besoins de la couche métier et de la couche fonctionnelle c'est-à-dire:
+- les diagrammes de processus organisationnels
+- la carte de capacité fonctionnelle
+
+1ère étape : Décrire les flux d'information entrants et sortants de l'application (exigences envers les interfaces)
+Il s'agit de produire le diagramme d'environnement d'application de la future application
+
+Responsable : Architecte solution avec l'appui de l'analyste fonctionnel
+
+2ème étape : A partir des fonctionnalités, structurer la future application en sous-applications et/ou services applicatifs
+Les fonctionnalités identifiées dans la carte capacitaire fonctionnelle sont, si nécessaires, complétées ou affinées.
+
+Réutiliser les services applicatifs déjà existants (selon le principe d'urbanisation PU3)
+
+Cette étape permet de produire l'arbre applicatif de la future application
+
+Responsable : Architecte solution avec l'appui de l'analyste fonctionnel
+
+3ème étape : Décrire le fonctionnement de la future application
+Décrire les services définis et identifier les services utilisés.
+
+Décrire les bases de données logiques de la future application.
+
+Cette étape permet de produire le diagramme d'architecture applicative interne de la future application
+
+Responsable : Architecte solution
+
+#### CARTOGRAPHIER L'EXISTANT
+Contexte : cartographier les applications existantes d'un domaine donné.
+
+Pré requis : aucun. C'est-à-dire que la cartographie de l'existant peut commencer par la couche applicative.
+
+1ère étape : recenser et identifier les applications existantes
+Positionner les applications existantes dans une carte capacitaire applicative selon un découpage fonctionnelle que l'on affinera au fur et à mesure.
+
+Responsable : Conseiller en SI ou AMOA.
+
+2ème étape : pour chaque application importante, établir :
+- un diagramme d'environnement d'application
+- un arbre applicatif et découvrir les fonctionnalités de l'application
+- un diagramme d'architecture applicative interne qu'il faudra mettre en cohérence avec les autres diagrammes.
+
+
+3ème étape : construire en parallèle les cartes de capacité fonctionnelle et applicative
+En fonction des diagrammes applicatifs élaborés, afin de garantir la cohérence de l'ensemble.
+
+Responsable : Architecte solution avec l'appui de l'analyste fonctionnel
+
+# COUCHE INFRASTRUCTURE TECHNIQUE
+
+![01 - couche IT](img/couche-it/01-couche-it.jpg?raw=true)
+
+#### OBJECTIFS
+La couche IT répond à la question "Avec quoi ?" sans tenir compte des acteurs et de l'organisation.
+
+La couche IT a pour objectif d'identifier et de décrire les ressources matérielles (serveurs, postes de travail,…), les réseaux qui relient les machines où sont installés les applications, leurs services applicatifs et les bases de données.
+
+La couche IT permet aussi de suivre le déploiement des applications et des services applicatifs sur les différents sites de l'entreprise.
+
+La couche IT est décrite par les architectes système et leur permet d'analyser l'architecture technique dans le but de planifier des actions d'optimisation et de rationalisation des ressources matérielles.
+
+#### LES CONCEPTS
+- Site
+- Serveur
+- Réseau
+- Base de données (physique)
+- Poste de travail
+
+#### SITE
+![02 - notation site](img/couche-it/02-notation-site.jpg?raw=true)
+
+Un site est un lieu géographique où est implantée l'entreprise. Les sites peuvent être des sites-types tels que le siège, l'agence, l'usine, ou des lieux géographiques précis comme l'agence de Genève, l'usine de Nyon, …
+
+
+
+**Convention de nommage** : un nom significatif du lieu géographique et si possible du type de site.
+
+#### SERVEUR
+![03 - notation serveur](img/couche-it/03-notation-serveur.jpg?raw=true)
+
+Un serveur est une ressource informatique matérielle sur laquelle des applications et des services applicatifs peuvent s'exécuter et qui fournit des moyens de stockage d'information (bases de données, système de gestion de fichiers,…)
+
+#### RESEAU
+![04 - notation reseau](img/couche-it/04-notation-reseau.jpg?raw=true)
+
+Un réseau est un système d'ordinateurs géographiquement éloignés les uns des autres, interconnectés par des télécommunications, généralement permanentes.
+
+#### BASE DE DONNEES PHYSIQUE
+![05 - notation base de données](img/couche-it/05-notation-bdd.jpg?raw=true)
+
+Une base de données (physique) représente le support physique (fichier, …) d'une base de données logique.
+Dans le contexte d'une infrastructure technique, il faut préciser le type de SGBD ou de support physique.
+
+#### POSTE DE TRAVAIL
+![06 - notation poste de travail](img/couche-it/06-notation-poste-de-travail.jpg?raw=true)
+
+Un poste de travail est une ressource informatique matérielle permettant à un utilisateur final d'exécuter des applications.
+
+#### LA CARTE DE LA COUCHE IT
+- Diagramme d'infrastructure technique
+
+Un diagramme d'infrastructure technique est la représentation graphique de l'infrastructure technique.
+
+Les objets qui apparaissent dans ce diagramme sont :
+- les sites
+- les serveurs
+- les réseaux
+- les bases de données
+- les postes de travail
+- les applications et leurs services applicatifs
+- les connexions entre ces objets
+
+![07 - carte it](img/couche-it/07-carte-it.jpg?raw=true)
+
+**[RM15]** Chaque application doit être hébergée soit sur un serveur soit sur un poste de travail.
+**[RM16]** Chaque base de données physique doit être hébergée sur un serveur.
+**[RM17]** Les accès entre applications et base de données sont spécifiés dans le diagramme d'architecture applicative interne, et pas dans le diagramme d'infrastructure technique
