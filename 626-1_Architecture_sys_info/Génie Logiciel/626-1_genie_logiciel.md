@@ -8,20 +8,35 @@ Examen final : on peut nous demander d'expliquer une architecture, les patterns,
 # CONTENTS
 1. [Lecture note 1](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#lecture-note-1---architecting-systems)
     - [Designing the high level architecture](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#designing-the-high-level-architecture)
+      - [Vue d'ensemble : Architecting steps](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#vue-densemble--architecting-steps)
     - [QA Tactics](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#qa--tactics)
     - [Performance Tactics](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#performance-tactics)
     - [Availability Tactics](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#availability-tactics)
+    - [Modifiability Tactics](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#pourquoi-la-modifiabilite-est-elle-un-probleme--dependances)
     - [Software Architecture](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#software-architecture)
     - [Design principles](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#design-principles)
     - [Architectural Pattern](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#architectural-patttern)
     - [Model-View-Controller](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#model-view-controller)
     - [Publish-Subscribe](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#publish-subscribe)
     - [Facade](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#facade)
+    - [Facade et proxy](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#nouvelle-architecture--facade-et-proxy)
+      - [Layers](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#layers)
     - [Qu'est-ce que nous modélisons ?](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#quest-ce-que-nous-modelisons-)
+      - [Software Components](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#software-components)
+          - [Components vs Objects vs Modules](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#components-vs-objects-vs-modules)
+          - [Component Interfaces](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#component-interfaces)
+          - [Compatible Interfaces](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#compatible-interfaces)
+          - [Software Connectors](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#software-connectors)
+          - [Connector roles](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#connector-roles)
     - [View and viewpoints](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#view-and-viewpoints)
+    - [Use Case Scenarios](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#use-case-scenarios)
 2. [Lecture note 2](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#lecture-note-2)
     - [Quality Attribute with REST](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#quality-attribute-with-rest)
+      - [Statelessness](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#statelessness)
     - [Resource Pattern](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#resource-pattern)
+      - [Request acknowledge](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#request-acknowledge)
+        -[Poll](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#requestacknowledgepoll)
+        - [Callback](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#requestacknowledgecallback)
     - [Collection Pattern](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#collection-pattern)
     - [Reminder Atom](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#reminder-atom---minimal-uml-model)
     - [Pattern : Data Transfer Objects](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#pattern--data-transfer-objects)
@@ -45,6 +60,7 @@ Examen final : on peut nous demander d'expliquer une architecture, les patterns,
     - [PubSubHub Pattern](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#pubsubhub-pattern)
     - [Java Thread](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#java-thread)
     - [CQRS in action](https://github.com/RiriJane/8th-sem-heg/blob/main/626-1_Architecture_sys_info/G%C3%A9nie%20Logiciel/626-1_genie_logiciel.md#cqrs-in-action)
+
 
 # LECTURE NOTE 1 - ARCHITECTING SYSTEMS
 
@@ -1376,3 +1392,263 @@ Dans la démo CQRS, on a un write service qui vient écrire les livres dans un f
 PubSubHub : lorsqu'on utilise le reader précédemment mentionné, le writer est bloqué est vice-versa. On ajoute donc un service hub par lequel tout passe/où tous les services sont enregistrés, et tout fonctionne de façon asynchrone.
 
 On peut avoir, par exemple en Java, plusieurs processus qui tournent en même temps, soit sur une machine, soit plusieurs. On utilise dans tous les cas le multithreading, et on associe chaque service/tâche à un thread. On peut implémenter une classe de thread, soit on étend l'interface Thread/Runnable. Supposons qu'on ait deux URLs. On peut appeler deux threads différents pour effectuer les requêtes qui sont alors synchrones. Pour ce faire, on implémenterait un thread spécifique aux clients (clientThread).
+
+# LECTURE NOTE 9
+
+## RAPPEL
+Le prof fait un rappel de ce qu'on a vu :
+- design patterns
+- resource patterns
+- collection patterns
+- resource composition
+
+On a des NFR (et QA) qu'on va utiliser des tactics pour créer des high level architecture. Puis on utilise les design patterns pour créer des low level architecture.
+
+Pour les ressources patterns sont des patterns pour traiter des ressources. On a vu callback, poll, timeout, circuit breaker. On utilise ces patterns quand on a arrive pas à atteindre les ressources.
+
+Pour le collection pattern, il fait un rappel des 4 couches(Service, transport, Business logic, ...). On utilise le DTO car on ne veut pas transferer toute la partie d'un objet mais juste des parties significatives.
+
+Pour la ressource composition, on a discuté le SOA et microservice. Pour le NFR, on l'utilise pour le scalabilité. Il donne l'exemple de faire une nouvelle application (inscription des étudiants), on crée un modèle de donnée puis un crée un design basé sur les données. Avec le SOA et microservice, on crée le design basé sur les services, sur les fonctionnalités et non pas sur les données. Le problème c'est que si on crée des masters et slaves puis on crée des services basé sur le modèle des données et que s'il y a un changement dans quelques tables, cela va impacter d'autres services. Les NFR importants pour les microservices sont l'adaptabilité et scalabilité.
+
+Le pattern CQRS est utilisé pour séparer le read et write avec des différents base de données. Le problème c'est qu'il y a pas la meme permission qu'on donne au read et au write. CQRS est un pattern de microservice.
+
+Le event sourcing est utilisé pour faire un log de tous les événements de write. Il donne l'exemple de book sale. Il enregistre la séquence des événements. On a donc plusieurs read services.
+
+Le pubsubhub. C'est encore le CQRS, on sépare le write et read service. On utilise hub pour que le write et read n'ont pas besoin d'être asynchrone. Le hub est pub/sub pattern. Maintenant, il y a un problème car il y a beaucoup de write service.
+
+## SAGA PATTERN
+#### CONCURRENT UPDATE DISTRIBUTED ENVIRONEMENTS
+
+![01](img/lecture9/01-concurrent-update-distributed-environement.jpg?raw=true)
+
+**Problem :** quand 2 ou plusieurs services executés en concurrence, ça pourrait ne pas fonctionner ou produire des inconsistences.
+
+**Solution** :
+1. séparer les mis-à-jour - régler le service de mise à jour sur la plus petite partie du modèle pour se conformer à ACID (Atomicité, consistence, isolation, durabilité)
+2. Utilisez une résolution de conflit optimiste
+
+Mais : que se passe-t-il s'il y a des incohérences irrécupérables ?
+
+#### 2PC
+
+![02 - 2 pc](img/lecture9/02-2pc.jpg?raw=true)
+
+
+**Les problèmes :**
+
+- 2 phases commit (la validation en phases) ne s'adapte pas bien
+ - Nécessité de maintenir un lock sur les ressources (un service) lors des transactions (inadapté aux microservices)
+ - S'il y a une panne : beaucoup de messages
+ - Coordinateur : point de défaillance unique
+ - Les fournisseurs de microservices commerciaux n'implémentent généralement pas le protocole PC
+- Par conséquent, nous ne pouvons pas utiliser de mécanismes de transaction distribués pour les microservices
+ - En effet nous devons nous conformer aux QA : indépendance & déployabilité
+
+**Problem :** Comment annuler des opérations qui ont échoué parmi un ensemble de microservices sans transactions distribuées ?
+
+**Solution :** Implementer des transactions coordonnées avec des transactions compensatoires.Tous les microservices de commande (écriture) implémentent : Une transaction ACID isolée à mettre à jour, Une transaction compensatoire pour « défaire » le travail si nécessaire. S'il y a un problème avec les microservices, on doit annuler tous les Opérations
+- Si un microservice échoue, il lui sera demandé de "défaire" son travail
+
+**Contrainte :** il ne doit y avoir aucune contrainte d'ordre parmi les transactions
+
+**IMPLEMENTATION**
+
+- Un « Saga Execution Component » (SEC) coordonne l'exécution des microservices qui implémentent les transactions (architecture de type orchestration)
+- Tous les débuts et fins de transaction sont enregistrés
+ - Le journal doit être stocké en toute sécurité car il sera la base de la transaction des compensation
+- Si un microservice échoue, tous les microservices sont nécessaires pour annuler le travailler
+
+![03 - Saga Exec](img/lecture9/03-saga-exec.jpg?raw=true)
+- Pour implementer le saga, on doit utiliser sage executer ??
+
+![04 - Saga Exec ok](img/lecture9/04-saga-exec-ok.jpg?raw=true)
+
+![05 - Saga Exec ko](img/lecture9/05-saga-exec-ko.jpg?raw=true)
+- Si le troisieme pas ok, on doit faire une compensation
+
+![06 - Saga exec compensation](img/lecture9/06-saga-exec-compensation.jpg?raw=true)
+- On doit annuler tous les opérations et on fait une requête de compensation. Ca retourne à l'étape originale comme si rien ne s'est pasé.
+- Note : quand on crée une architecture, on se pose d'abord la question sur le NFR. Plus de performance ? Plus d'adaptabilité ? Plus de scalabilité ? Ca coûte.
+
+**PROBLEME D'IMPLEMENTATION**
+
+- Le coordinateur d'exécution de Saga : Lance les sous-transactions, Lance les opérations de compensation en cas de panne, Gère le journal de ce qui s'est passé dans la saga
+- Que se passe-t-il si la transaction de compensation échoue ? Nous devons pouvoir le réessayer autant que nécessaire. Ces transactions doivent être idempotentes.
+- Et si la SEC échoue ? Il est redémarré et la compensation est relancée à condition que le log soit disponible.
+
+![07 - note](img/lecture9/07-note.jpg?raw=true)
+
+**RESUME**
+
+- Soit toutes les transactions ont réussi, soit la transaction de compensation a conduit à un état cohérent proche de l'état d'origine. Par exemple, si un service est amené à envoyer un mail après la mise à jour, son mail ne pourra pas être supprimé. Alors l'état cohérent n'est pas l'état d'origine.
+- État sûr :
+ - Toute transaction validée ou
+ - Certaines transactions ont échoué mais toutes les transactions de compensation sont exécutées en toute sécurité
+
+ **EXEMPLE : STUDENT MANAGEMENT SYSTEM**
+
+ Le nouveau système permettra à l'administration de la gestion des étudiants de gérer l'inscription des étudiants à l'institut. Ce faisant, ils doivent vérifier les résultats des examens d'entrée requis. Ensuite, les administrateurs peuvent inscrire les étudiants aux cours. Lors du traitement de l'inscription d'un étudiant, ils doivent vérifier que l'étudiant a suivi avec succès les cours prérequis. Après avoir terminé un cours, l'étudiant sera automatiquement inscrit à la prochaine session d'examens. Toutefois, cela pourrait être modifié si l'étudiant décide de passer l'examen à une autre session. Avec ce système, tout prof peut voir les résultats de l'examen de n'importe quel étudiant de son cours ou de tout autre cours et comparer les résultats avec des moyennes de tous les étudiants. Enfin, les administrateurs peuvent modifier le log des résultats à tous les examens pour un étudiant donné ou tous les étudiants et les faire imprimer.
+
+**Comment faire pour l'implementation ?**
+
+Concevoir l'interaction qu'un utilisateur typique aurait avec le système envisagé :
+- Concevoir les cas d'utilisation : l'interaction nous aidera à trouver les services dont nous avons besoin
+- Concevoir un modèle de domaine si nécessaire
+- Pour chaque cas d'utilisation, identifiez les microservices requis. Si l'évolutivité (scalabilité) est un problème, séparez les services d'écriture et de lecture (CQRS).
+
+![08 - use cases](img/lecture9/08-use-cases.jpg?raw=true)
+
+![09](img/lecture9/09.jpg?raw=true)
+
+![10 - microservices](img/lecture9/10-microservices.jpg?raw=true)
+
+![11- distributed transaction](img/lecture9/11-distributed-transaction.jpg?raw=true)
+
+![12](img/lecture9/12.jpg?raw=true)
+
+![13](img/lecture9/13.jpg?raw=true)
+
+Notes Cyril : Le dernier cas de figure, c'est quand il y a plusieurs services write : supposons que l’on souhaite réserver un vol : on appelle par exemple un event de réservation d'hôtel mais que l'event de réservation de vol ne fonctionne pas (problème de serveur, de code, etc.), on aimerait tout annuler. Que fait-on ? Il existe une option dite 2PC (two-phases commit) : si le service dit qu'il est prêt pour le commit, il l'effectue. Ce principe crée des logs pour les services pendant la transaction avec d'autres services et il y a un SPOF qui ne scale pas bien. On utilise donc l'option de SAGA : s'il y a un problème avec un seul service, on exécute une compensation sur les autres et retourne à l'état original. L’une des contraintes pour implémenter SAGA est qu’il ne doit pas y avoir de hiérarchisation des transactions. En résumé, soit tout réussit, soit on revient à l’état original sans concession.
+
+# DOCKER
+
+![01 - running microservices](img/lecture10/01-running-microservices.jpg?raw=true)
+
+Les microservices doivent être indépendants et indépendamment déployables et évolutifs. Un bon moyen d'obtenir ces avantages consiste à exécuter des microservices sur leur propre serveur. Un serveur par microservice ?
+- Les VM pourraient-elles être la solution ? Beaucoup trop lourd !
+
+**Container**
+
+![02](img/lecture10/02.jpg?raw=true)
+
+Un container est une unité logicielle standard qui regroupe le code et toutes ses dépendances afin que l'application s'exécute rapidement et de manière fiable d'un environnement informatique à un autre. Une image du container Docker est un package logiciel léger, autonome et exécutable qui inclut tout ce qui est nécessaire pour exécuter une application : code, runtime, outils système, bibliothèques système et paramètres.
+
+**CELA MET EN OEUVRE LA VISION**
+
+![03](img/lecture10/03.jpg?raw=true)
+
+**VM - CONTAINER**
+- VM - Virtualisation du matériel
+ - Chaque machine virtuelle pourrait exécuter son propre système d'exploitation
+ - Chaque VM a sa propre copie de l'OS et du logiciel d'application (lourd)
+- Conteneur - Virtualisation du système d'exploitation
+ - Chaque conteneur s'exécute sur le même système d'exploitation
+ - Chaque conteneur a sa propre copie du logiciel d'application
+
+![04](img/lecture10/04.jpg?raw=true)
+
+**DOCKER CONTAINER SIZE**
+
+Deux conteneurs démarrés à partir de la même image partagent 100 % des données en lecture seule, tandis que deux conteneurs avec des images différentes qui ont des couches en commun partagent ces couches communes. L'exécution de plusieurs instances de la même image est légère.
+
+[https://docs.docker.com/storage/storagedriver/]
+
+**LAYERED VIEW OF THE DOCKER ENGINE**
+
+- Daemon : gère le conteneur
+- Client (CLI) : interface en ligne de commande pour parler au daemon
+- API REST : interface pour interagir avec le daemon
+
+![05](img/lecture10/05.jpg?raw=true)
+
+**DOCKER MACHINE**
+
+Docker utilise les fonctionnalités de gestion des machines virtuelles de l'hôte pour exécuter un moteur Docker.
+
+![06](img/lecture10/06.jpg?raw=true)
+
+![07](img/lecture10/07.jpg?raw=true)
+
+**DOCKER HUB**
+
+Répo publique fourni par Docker pour partager des images de conteneur (privées ou publiques)
+- Contient des images standard pour de nombreux outils courants tels que Tomcat
+- Pour créer une image, partez d'une image standard et personnalisez-la
+
+![08](img/lecture10/08.jpg?raw=true)
+
+**LANCER UNE IMAGE**
+
+![runing image](img/lecture10/running-image.jpg?raw=true)
+
+Pour charger une image dans un conteneur, elle doit être extraite d'un registre
+
+```
+> docker run flags imageName:version
+```
+
+- Récupérez l'image dans le registre local, si elle n'est pas trouvée, accédez au Docker Hub, chargez-la dans un container et exécutez le container
+- les flags sont utilisés pour ajouter des paramètres supplémentaires, comme les canaux de communication
+
+Exemple Tomcat : https://hub.docker.com/_/tomcat
+
+**COMMUNIQUER AVEC LE CONTAINER**
+
+![09](img/lecture10/09.jpg?raw=true)
+
+Puisqu'une image s'exécute sur une machine Docker, le localhost et Docker sont des machines logiquement différentes.
+- L'adresse IP de la machine Docker et celle de l'hôte local sont différentes
+
+**LISTING THE MACHINES FROM CLI**
+
+![10](img/lecture10/10.jpg?raw=true)
+
+**PROBLEME SECURITY**
+Par défaut, l'application Web du gestionnaire Tomcat doit être lancée à partir de la même machine que l'instance Tomcat. Celui-ci doit être modifié.
+• Le paramètre est dans : ``` \webapps\manager\META-INF\context.xm ```
+
+Commenter cette section :
+```
+<Context privileged="true" antiResourceLocking="false">
+<!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
+<Manager
+sessionAttributeValueClassNameFilter="java\.lang\.(?:Boolean|Integer|Long|Number|String)
+|org\.apache\.catalina\.filters\.CsrfPreventionFilter\$LruCache(?:\$1)?|java\.util\.(?:Linked)?H
+ashMap"/>
+</Context>
+```
+
+**COMMENT COMMUNIQUER AVEC TOMCAT DANS UN CONTAINER**
+
+![11](img/lecture10/11.jpg?raw=true)
+
+Le port que Tomcat écoute est défini dans server.xml (Connector).
+• Il en sera alors de même dans les images dupliquées.
+• Comment communiquer avec chaque image Tomcat ?
+
+**SOLUTION : MAPPAGE DE PORTS**
+
+![12](img/lecture10/12.jpg?raw=true)
+
+**PERSONALISATION D'UNE IMAGE**
+
+Nous aimerions exécuter une image avec Tomcat et toutes les bibliothèques et fichiers de configuration afin de pouvoir télécharger des microservices REST dans plusieurs conteneurs. La solution :
+1. Obtenez une image Tomcat standard
+2. Ajoutez les bibliothèques requises (Jersey)
+3. Définissez l'utilisateur et le mot de passe du gestionnaire (tomcat-users.xml)
+4. Modifiez le fichier context.xml pour permettre à l'application de gestion d'être lancée à partir d'une machine distante
+
+Créez un fichier de script - DockerFile - pour envoyer des commandes à Docker afin de créer une image. Celui-ci contient :
+- L'image de base
+- Les librairies et fichiers de configuration à ajouter
+- Les applications à installer
+
+```
+> docker build -t imagename .
+```
+
+- imagename : nom de l'image stockée dans le registre local
+- . : Parce que tous les fichiers requis sont situés dans le même répertoire que le script (moyen le plus simple)
+
+![13](img/lecture10/13.jpg?raw=true)
+
+![14](img/lecture10/14.jpg?raw=true)
+
+![15](img/lecture10/15.jpg?raw=true)
+
+![16](img/lecture10/16.jpg?raw=true)
+
+![17](img/lecture10/17.jpg?raw=true)
+
+![18](img/lecture10/18.jpg?raw=true)
